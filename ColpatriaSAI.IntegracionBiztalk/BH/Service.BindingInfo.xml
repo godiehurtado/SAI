@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BindingInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Assembly="Microsoft.BizTalk.Adapter.Wcf.Consuming, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Version="3.5.1.0">
+  <Timestamp>2011-11-22T09:31:29.2068691-05:00</Timestamp>
+  <SendPortCollection>
+    <SendPort Name="WcfSendPort_Service_ServiceSoap" IsStatic="true" IsTwoWay="true" BindingOption="0">
+      <Description>service "Service" port "ServiceSoap"</Description>
+      <TransmitPipeline Name="Microsoft.BizTalk.DefaultPipelines.PassThruTransmit" FullyQualifiedName="Microsoft.BizTalk.DefaultPipelines.PassThruTransmit, Microsoft.BizTalk.DefaultPipelines, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Type="2" />
+      <PrimaryTransport>
+        <Address>http://pru-sweb01.uinversion.colpatria.com:3066/Service.asmx</Address>
+        <TransportType Name="WCF-BasicHttp" Capabilities="899" ConfigurationClsid="467c1a52-373f-4f09-9008-27af6b985f14" />
+        <TransportTypeData>&lt;CustomProps&gt;
+  &lt;MaxReceivedMessageSize vt="3"&gt;65536&lt;/MaxReceivedMessageSize&gt;
+  &lt;MessageEncoding vt="8"&gt;Text&lt;/MessageEncoding&gt;
+  &lt;TextEncoding vt="8"&gt;utf-8&lt;/TextEncoding&gt;
+  &lt;SecurityMode vt="8"&gt;None&lt;/SecurityMode&gt;
+  &lt;MessageClientCredentialType vt="8"&gt;UserName&lt;/MessageClientCredentialType&gt;
+  &lt;AlgorithmSuite vt="8"&gt;Basic256&lt;/AlgorithmSuite&gt;
+  &lt;TransportClientCredentialType vt="8"&gt;None&lt;/TransportClientCredentialType&gt;
+  &lt;UseSSO vt="11"&gt;0&lt;/UseSSO&gt;
+  &lt;ProxyToUse vt="8"&gt;Default&lt;/ProxyToUse&gt;
+  &lt;StaticAction vt="8"&gt;&amp;lt;BtsActionMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&amp;gt;
+  &amp;lt;Operation Name="WSContractsByMemberMPP" Action="http://BeyondHealth/WebServices/WSContractsByMemberMPP" /&amp;gt;
+  &amp;lt;Operation Name="WSMembersByContractCodeMPP" Action="http://BeyondHealth/WebServices/WSMembersByContractCodeMPP" /&amp;gt;
+  &amp;lt;Operation Name="WSMembersByContractApplicationCodeMPP" Action="http://BeyondHealth/WebServices/WSMembersByContractApplicationCodeMPP" /&amp;gt;
+  &amp;lt;Operation Name="WSMemberInformationByContractCodeMPP" Action="http://BeyondHealth/WebServices/WSMemberInformationByContractCodeMPP" /&amp;gt;
+  &amp;lt;Operation Name="WSMemberInformationByContractApplicationCodeMPP" Action="http://BeyondHealth/WebServices/WSMemberInformationByContractApplicationCodeMPP" /&amp;gt;
+  &amp;lt;Operation Name="WSCollectiveContractsByIntermediaryMPP" Action="http://BeyondHealth/WebServices/WSCollectiveContractsByIntermediaryMPP" /&amp;gt;
+  &amp;lt;Operation Name="WSSearchSubContractsMPP" Action="http://BeyondHealth/WebServices/WSSearchSubContractsMPP" /&amp;gt;
+  &amp;lt;Operation Name="WSSubContractsByCollectiveContractMPP" Action="http://BeyondHealth/WebServices/WSSubContractsByCollectiveContractMPP" /&amp;gt;
+  &amp;lt;Operation Name="WSContractByMemberPOS" Action="http://BeyondHealth/WebServices/WSContractByMemberPOS" /&amp;gt;
+  &amp;lt;Operation Name="WSMembersByContractCodePOS" Action="http://BeyondHealth/WebServices/WSMembersByContractCodePOS" /&amp;gt;
+  &amp;lt;Operation Name="WSMemberInformationByContractCodePOS" Action="http://BeyondHealth/WebServices/WSMemberInformationByContractCodePOS" /&amp;gt;
+  &amp;lt;Operation Name="WSCollectiveContractsByEmployerMPP" Action="http://BeyondHealth/WebServices/WSCollectiveContractsByEmployerMPP" /&amp;gt;
+  &amp;lt;Operation Name="WSMembersByEmployerPOS" Action="http://BeyondHealth/WebServices/WSMembersByEmployerPOS" /&amp;gt;
+  &amp;lt;Operation Name="WSFindContractByCodeMPP" Action="http://BeyondHealth/WebServices/WSFindContractByCodeMPP" /&amp;gt;
+  &amp;lt;Operation Name="WSContractAccountStateHeaderMPP" Action="http://BeyondHealth/WebServices/WSContractAccountStateHeaderMPP" /&amp;gt;
+  &amp;lt;Operation Name="WSContractAccountStateDetailsMPP" Action="http://BeyondHealth/WebServices/WSContractAccountStateDetailsMPP" /&amp;gt;
+  &amp;lt;Operation Name="WSContractAccountStateFooterMPP" Action="http://BeyondHealth/WebServices/WSContractAccountStateFooterMPP" /&amp;gt;
+  &amp;lt;Operation Name="WSIPSCapitaInformation" Action="http://BeyondHealth/WebServices/WSIPSCapitaInformation" /&amp;gt;
+  &amp;lt;Operation Name="WSInvoiceInformationMPP" Action="http://BeyondHealth/WebServices/WSInvoiceInformationMPP" /&amp;gt;
+  &amp;lt;Operation Name="WSInvoiceInformationDetailMPP" Action="http://BeyondHealth/WebServices/WSInvoiceInformationDetailMPP" /&amp;gt;
+  &amp;lt;Operation Name="WSContractYearsByClientMPP" Action="http://BeyondHealth/WebServices/WSContractYearsByClientMPP" /&amp;gt;
+  &amp;lt;Operation Name="WSContractsByYearMPP" Action="http://BeyondHealth/WebServices/WSContractsByYearMPP" /&amp;gt;
+  &amp;lt;Operation Name="WSRetentionCertificateByContractMPP" Action="http://BeyondHealth/WebServices/WSRetentionCertificateByContractMPP" /&amp;gt;
+  &amp;lt;Operation Name="WSRetentionCertificateByContractDetailMPP" Action="http://BeyondHealth/WebServices/WSRetentionCertificateByContractDetailMPP" /&amp;gt;
+  &amp;lt;Operation Name="WSFindContractsByMemberDocumentMPP" Action="http://BeyondHealth/WebServices/WSFindContractsByMemberDocumentMPP" /&amp;gt;
+  &amp;lt;Operation Name="WSContractYearsByContractMPP" Action="http://BeyondHealth/WebServices/WSContractYearsByContractMPP" /&amp;gt;
+  &amp;lt;Operation Name="WSPaymentYearsByMemberPOS" Action="http://BeyondHealth/WebServices/WSPaymentYearsByMemberPOS" /&amp;gt;
+  &amp;lt;Operation Name="WSEmployersByMemberPOS" Action="http://BeyondHealth/WebServices/WSEmployersByMemberPOS" /&amp;gt;
+  &amp;lt;Operation Name="WSPaymentYearsByEmployerMemberPOS" Action="http://BeyondHealth/WebServices/WSPaymentYearsByEmployerMemberPOS" /&amp;gt;
+  &amp;lt;Operation Name="WSPaymentCertificateHeaderPOS" Action="http://BeyondHealth/WebServices/WSPaymentCertificateHeaderPOS" /&amp;gt;
+  &amp;lt;Operation Name="WSPaymentCertificateDetailForUPCPOS" Action="http://BeyondHealth/WebServices/WSPaymentCertificateDetailForUPCPOS" /&amp;gt;
+  &amp;lt;Operation Name="WSPaymentCertificateDetailPOS" Action="http://BeyondHealth/WebServices/WSPaymentCertificateDetailPOS" /&amp;gt;
+  &amp;lt;Operation Name="WSNoveltyOrNoteDetailMPP" Action="http://BeyondHealth/WebServices/WSNoveltyOrNoteDetailMPP" /&amp;gt;
+  &amp;lt;Operation Name="WSPersonOrInstitutionExists" Action="http://BeyondHealth/WebServices/WSPersonOrInstitutionExists" /&amp;gt;
+  &amp;lt;Operation Name="WSPortfolioBalanceByMemberDocumentAndProduct" Action="http://BeyondHealth/WebServices/WSPortfolioBalanceByMemberDocumentAndProduct" /&amp;gt;
+  &amp;lt;Operation Name="WSIncentivesAdministrationSystem" Action="http://BeyondHealth/WebServices/WSIncentivesAdministrationSystem" /&amp;gt;
+&amp;lt;/BtsActionMapping&amp;gt;&lt;/StaticAction&gt;
+  &lt;InboundBodyLocation vt="8"&gt;UseBodyElement&lt;/InboundBodyLocation&gt;
+  &lt;InboundNodeEncoding vt="8"&gt;Xml&lt;/InboundNodeEncoding&gt;
+  &lt;OutboundBodyLocation vt="8"&gt;UseBodyElement&lt;/OutboundBodyLocation&gt;
+  &lt;OutboundXmlTemplate vt="8"&gt;&amp;lt;bts-msg-body xmlns="http://www.microsoft.com/schemas/bts2007" encoding="xml"/&amp;gt;&lt;/OutboundXmlTemplate&gt;
+  &lt;PropagateFaultMessage vt="11"&gt;-1&lt;/PropagateFaultMessage&gt;
+  &lt;OpenTimeout vt="8"&gt;00:01:00&lt;/OpenTimeout&gt;
+  &lt;SendTimeout vt="8"&gt;00:01:00&lt;/SendTimeout&gt;
+  &lt;CloseTimeout vt="8"&gt;00:01:00&lt;/CloseTimeout&gt;
+&lt;/CustomProps&gt;</TransportTypeData>
+        <RetryCount>3</RetryCount>
+        <RetryInterval>5</RetryInterval>
+        <ServiceWindowEnabled>false</ServiceWindowEnabled>
+        <FromTime>2000-01-01T00:00:00</FromTime>
+        <ToTime>2000-01-01T23:59:59</ToTime>
+        <Primary>true</Primary>
+        <OrderedDelivery>false</OrderedDelivery>
+        <DeliveryNotification>1</DeliveryNotification>
+        <SendHandler xsi:nil="true" />
+      </PrimaryTransport>
+      <ReceivePipeline Name="Microsoft.BizTalk.DefaultPipelines.XMLReceive" FullyQualifiedName="Microsoft.BizTalk.DefaultPipelines.XMLReceive, Microsoft.BizTalk.DefaultPipelines, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Type="1" />
+      <ReceivePipelineData xsi:nil="true" />
+      <Tracking>0</Tracking>
+      <Filter />
+      <OrderedDelivery>false</OrderedDelivery>
+      <Priority>5</Priority>
+      <StopSendingOnFailure>false</StopSendingOnFailure>
+      <RouteFailedMessage>false</RouteFailedMessage>
+      <ApplicationName xsi:nil="true" />
+    </SendPort>
+    <SendPort Name="WcfSendPort_Service_ServiceSoap12" IsStatic="true" IsTwoWay="true" BindingOption="0">
+      <Description>service "Service" port "ServiceSoap12"</Description>
+      <TransmitPipeline Name="Microsoft.BizTalk.DefaultPipelines.PassThruTransmit" FullyQualifiedName="Microsoft.BizTalk.DefaultPipelines.PassThruTransmit, Microsoft.BizTalk.DefaultPipelines, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Type="2" />
+      <PrimaryTransport>
+        <Address>http://pru-sweb01.uinversion.colpatria.com:3066/Service.asmx</Address>
+        <TransportType Name="WCF-Custom" Capabilities="907" ConfigurationClsid="af081f69-38ca-4d5b-87df-f0344b12557a" />
+        <TransportTypeData>&lt;CustomProps&gt;
+  &lt;BindingType vt="8"&gt;customBinding&lt;/BindingType&gt;
+  &lt;BindingConfiguration vt="8"&gt;&amp;lt;binding name="ServiceSoap12"&amp;gt;&amp;lt;textMessageEncoding maxReadPoolSize="64" maxWritePoolSize="16" messageVersion="Soap12" writeEncoding="utf-8"&amp;gt;&amp;lt;readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384" maxBytesPerRead="4096" maxNameTableCharCount="16384" /&amp;gt;&amp;lt;/textMessageEncoding&amp;gt;&amp;lt;httpTransport manualAddressing="false" maxBufferPoolSize="524288" maxReceivedMessageSize="65536" allowCookies="false" authenticationScheme="Anonymous" bypassProxyOnLocal="false" decompressionEnabled="true" hostNameComparisonMode="StrongWildcard" keepAliveEnabled="true" maxBufferSize="65536" proxyAuthenticationScheme="Anonymous" realm="" transferMode="Buffered" unsafeConnectionNtlmAuthentication="false" useDefaultWebProxy="true" /&amp;gt;&amp;lt;/binding&amp;gt;&lt;/BindingConfiguration&gt;
+  &lt;StaticAction vt="8"&gt;&amp;lt;BtsActionMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&amp;gt;
+  &amp;lt;Operation Name="WSContractsByMemberMPP" Action="http://BeyondHealth/WebServices/WSContractsByMemberMPP" /&amp;gt;
+  &amp;lt;Operation Name="WSMembersByContractCodeMPP" Action="http://BeyondHealth/WebServices/WSMembersByContractCodeMPP" /&amp;gt;
+  &amp;lt;Operation Name="WSMembersByContractApplicationCodeMPP" Action="http://BeyondHealth/WebServices/WSMembersByContractApplicationCodeMPP" /&amp;gt;
+  &amp;lt;Operation Name="WSMemberInformationByContractCodeMPP" Action="http://BeyondHealth/WebServices/WSMemberInformationByContractCodeMPP" /&amp;gt;
+  &amp;lt;Operation Name="WSMemberInformationByContractApplicationCodeMPP" Action="http://BeyondHealth/WebServices/WSMemberInformationByContractApplicationCodeMPP" /&amp;gt;
+  &amp;lt;Operation Name="WSCollectiveContractsByIntermediaryMPP" Action="http://BeyondHealth/WebServices/WSCollectiveContractsByIntermediaryMPP" /&amp;gt;
+  &amp;lt;Operation Name="WSSearchSubContractsMPP" Action="http://BeyondHealth/WebServices/WSSearchSubContractsMPP" /&amp;gt;
+  &amp;lt;Operation Name="WSSubContractsByCollectiveContractMPP" Action="http://BeyondHealth/WebServices/WSSubContractsByCollectiveContractMPP" /&amp;gt;
+  &amp;lt;Operation Name="WSContractByMemberPOS" Action="http://BeyondHealth/WebServices/WSContractByMemberPOS" /&amp;gt;
+  &amp;lt;Operation Name="WSMembersByContractCodePOS" Action="http://BeyondHealth/WebServices/WSMembersByContractCodePOS" /&amp;gt;
+  &amp;lt;Operation Name="WSMemberInformationByContractCodePOS" Action="http://BeyondHealth/WebServices/WSMemberInformationByContractCodePOS" /&amp;gt;
+  &amp;lt;Operation Name="WSCollectiveContractsByEmployerMPP" Action="http://BeyondHealth/WebServices/WSCollectiveContractsByEmployerMPP" /&amp;gt;
+  &amp;lt;Operation Name="WSMembersByEmployerPOS" Action="http://BeyondHealth/WebServices/WSMembersByEmployerPOS" /&amp;gt;
+  &amp;lt;Operation Name="WSFindContractByCodeMPP" Action="http://BeyondHealth/WebServices/WSFindContractByCodeMPP" /&amp;gt;
+  &amp;lt;Operation Name="WSContractAccountStateHeaderMPP" Action="http://BeyondHealth/WebServices/WSContractAccountStateHeaderMPP" /&amp;gt;
+  &amp;lt;Operation Name="WSContractAccountStateDetailsMPP" Action="http://BeyondHealth/WebServices/WSContractAccountStateDetailsMPP" /&amp;gt;
+  &amp;lt;Operation Name="WSContractAccountStateFooterMPP" Action="http://BeyondHealth/WebServices/WSContractAccountStateFooterMPP" /&amp;gt;
+  &amp;lt;Operation Name="WSIPSCapitaInformation" Action="http://BeyondHealth/WebServices/WSIPSCapitaInformation" /&amp;gt;
+  &amp;lt;Operation Name="WSInvoiceInformationMPP" Action="http://BeyondHealth/WebServices/WSInvoiceInformationMPP" /&amp;gt;
+  &amp;lt;Operation Name="WSInvoiceInformationDetailMPP" Action="http://BeyondHealth/WebServices/WSInvoiceInformationDetailMPP" /&amp;gt;
+  &amp;lt;Operation Name="WSContractYearsByClientMPP" Action="http://BeyondHealth/WebServices/WSContractYearsByClientMPP" /&amp;gt;
+  &amp;lt;Operation Name="WSContractsByYearMPP" Action="http://BeyondHealth/WebServices/WSContractsByYearMPP" /&amp;gt;
+  &amp;lt;Operation Name="WSRetentionCertificateByContractMPP" Action="http://BeyondHealth/WebServices/WSRetentionCertificateByContractMPP" /&amp;gt;
+  &amp;lt;Operation Name="WSRetentionCertificateByContractDetailMPP" Action="http://BeyondHealth/WebServices/WSRetentionCertificateByContractDetailMPP" /&amp;gt;
+  &amp;lt;Operation Name="WSFindContractsByMemberDocumentMPP" Action="http://BeyondHealth/WebServices/WSFindContractsByMemberDocumentMPP" /&amp;gt;
+  &amp;lt;Operation Name="WSContractYearsByContractMPP" Action="http://BeyondHealth/WebServices/WSContractYearsByContractMPP" /&amp;gt;
+  &amp;lt;Operation Name="WSPaymentYearsByMemberPOS" Action="http://BeyondHealth/WebServices/WSPaymentYearsByMemberPOS" /&amp;gt;
+  &amp;lt;Operation Name="WSEmployersByMemberPOS" Action="http://BeyondHealth/WebServices/WSEmployersByMemberPOS" /&amp;gt;
+  &amp;lt;Operation Name="WSPaymentYearsByEmployerMemberPOS" Action="http://BeyondHealth/WebServices/WSPaymentYearsByEmployerMemberPOS" /&amp;gt;
+  &amp;lt;Operation Name="WSPaymentCertificateHeaderPOS" Action="http://BeyondHealth/WebServices/WSPaymentCertificateHeaderPOS" /&amp;gt;
+  &amp;lt;Operation Name="WSPaymentCertificateDetailForUPCPOS" Action="http://BeyondHealth/WebServices/WSPaymentCertificateDetailForUPCPOS" /&amp;gt;
+  &amp;lt;Operation Name="WSPaymentCertificateDetailPOS" Action="http://BeyondHealth/WebServices/WSPaymentCertificateDetailPOS" /&amp;gt;
+  &amp;lt;Operation Name="WSNoveltyOrNoteDetailMPP" Action="http://BeyondHealth/WebServices/WSNoveltyOrNoteDetailMPP" /&amp;gt;
+  &amp;lt;Operation Name="WSPersonOrInstitutionExists" Action="http://BeyondHealth/WebServices/WSPersonOrInstitutionExists" /&amp;gt;
+  &amp;lt;Operation Name="WSPortfolioBalanceByMemberDocumentAndProduct" Action="http://BeyondHealth/WebServices/WSPortfolioBalanceByMemberDocumentAndProduct" /&amp;gt;
+  &amp;lt;Operation Name="WSIncentivesAdministrationSystem" Action="http://BeyondHealth/WebServices/WSIncentivesAdministrationSystem" /&amp;gt;
+&amp;lt;/BtsActionMapping&amp;gt;&lt;/StaticAction&gt;
+  &lt;UseSSO vt="11"&gt;0&lt;/UseSSO&gt;
+  &lt;InboundBodyLocation vt="8"&gt;UseBodyElement&lt;/InboundBodyLocation&gt;
+  &lt;InboundNodeEncoding vt="8"&gt;Xml&lt;/InboundNodeEncoding&gt;
+  &lt;OutboundBodyLocation vt="8"&gt;UseBodyElement&lt;/OutboundBodyLocation&gt;
+  &lt;OutboundXmlTemplate vt="8"&gt;&amp;lt;bts-msg-body xmlns="http://www.microsoft.com/schemas/bts2007" encoding="xml"/&amp;gt;&lt;/OutboundXmlTemplate&gt;
+  &lt;PropagateFaultMessage vt="11"&gt;-1&lt;/PropagateFaultMessage&gt;
+  &lt;EnableTransaction vt="11"&gt;0&lt;/EnableTransaction&gt;
+  &lt;IsolationLevel vt="8"&gt;Serializable&lt;/IsolationLevel&gt;
+  &lt;Identity vt="8" /&gt;
+&lt;/CustomProps&gt;</TransportTypeData>
+        <RetryCount>3</RetryCount>
+        <RetryInterval>5</RetryInterval>
+        <ServiceWindowEnabled>false</ServiceWindowEnabled>
+        <FromTime>2000-01-01T00:00:00</FromTime>
+        <ToTime>2000-01-01T23:59:59</ToTime>
+        <Primary>true</Primary>
+        <OrderedDelivery>false</OrderedDelivery>
+        <DeliveryNotification>1</DeliveryNotification>
+        <SendHandler xsi:nil="true" />
+      </PrimaryTransport>
+      <ReceivePipeline Name="Microsoft.BizTalk.DefaultPipelines.XMLReceive" FullyQualifiedName="Microsoft.BizTalk.DefaultPipelines.XMLReceive, Microsoft.BizTalk.DefaultPipelines, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Type="1" />
+      <ReceivePipelineData xsi:nil="true" />
+      <Tracking>0</Tracking>
+      <Filter />
+      <OrderedDelivery>false</OrderedDelivery>
+      <Priority>5</Priority>
+      <StopSendingOnFailure>false</StopSendingOnFailure>
+      <RouteFailedMessage>false</RouteFailedMessage>
+      <ApplicationName xsi:nil="true" />
+    </SendPort>
+  </SendPortCollection>
+</BindingInfo>

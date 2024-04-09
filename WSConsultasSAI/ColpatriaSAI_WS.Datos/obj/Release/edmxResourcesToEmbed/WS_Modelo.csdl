@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="WSModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="SAI_WSEntityConnection" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="ObtenerExtractoAsesor" ReturnType="Collection(WSModel.ExtractoAsesor)">
+      <Parameter Name="clave" Mode="In" Type="String" />
+      <Parameter Name="anio" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="ObtenerExtractoPremiosAsesor" ReturnType="Collection(WSModel.PremioAsesor)">
+      <Parameter Name="clave" Mode="In" Type="String" />
+      <Parameter Name="anio" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="ObtenerExtractoDetalladoPremiosAsesor" ReturnType="Collection(WSModel.ExtractoDetallePremioAsesor)">
+      <Parameter Name="clave" Mode="In" Type="String" />
+      <Parameter Name="anio" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="ObtenerExtractoSiniestralidadAutosAsesor" ReturnType="Collection(WSModel.SiniestralidadAutosAsesor)">
+      <Parameter Name="clave" Mode="In" Type="String" />
+      <Parameter Name="anio" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="ObtenerExtractoPersistenciaCapitalizacionAsesor" ReturnType="Collection(WSModel.PersistenciaCapitalizacionAsesor)">
+      <Parameter Name="clave" Mode="In" Type="String" />
+      <Parameter Name="anio" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="ObtenerExtractoPersistenciaVidaAsesor" ReturnType="Collection(WSModel.PersistenciaVidaAsesor)">
+      <Parameter Name="clave" Mode="In" Type="String" />
+      <Parameter Name="anio" Mode="In" Type="Int32" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="ExtractoAsesor">
+    <Property Type="Int32" Name="idCompania" Nullable="true" />
+    <Property Type="String" Name="compania" Nullable="true" MaxLength="250" />
+    <Property Type="Int32" Name="idRamo" Nullable="true" />
+    <Property Type="String" Name="ramo" Nullable="true" MaxLength="250" />
+    <Property Type="String" Name="medida" Nullable="true" MaxLength="250" />
+    <Property Type="String" Name="mes" Nullable="true" MaxLength="250" />
+    <Property Type="Double" Name="valorAnioAnterior" Nullable="true" />
+    <Property Type="Double" Name="valorAnioActual" Nullable="true" />
+    <Property Type="Double" Name="porcentajeCrecimiento" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="PremioAsesor">
+    <Property Type="Int32" Name="codigoPremio" Nullable="true" />
+    <Property Type="String" Name="premio" Nullable="true" MaxLength="250" />
+    <Property Type="String" Name="gano" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="descripcionPremioGanado" Nullable="true" MaxLength="250" />
+    <Property Type="DateTime" Name="fechaCierrePremio" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="ExtractoDetallePremioAsesor">
+    <Property Type="Int32" Name="codigoPremio" Nullable="true" />
+    <Property Type="String" Name="premio" Nullable="true" MaxLength="250" />
+    <Property Type="String" Name="gano" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="descripcionPremioGanado" Nullable="true" MaxLength="250" />
+    <Property Type="DateTime" Name="fechaCierrePremio" Nullable="true" />
+    <Property Type="String" Name="condicion" Nullable="true" MaxLength="250" />
+    <Property Type="String" Name="meta" Nullable="true" MaxLength="250" />
+    <Property Type="Double" Name="ejecutado" Nullable="true" />
+    <Property Type="Double" Name="faltante" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="SiniestralidadAutosAsesor">
+    <Property Type="Double" Name="primasDevengar" Nullable="true" />
+    <Property Type="Double" Name="sinIncurrir" Nullable="true" />
+    <Property Type="Double" Name="porcentajeSinIncurrir" Nullable="true" />
+    <Property Type="Double" Name="colquinesDescontar" Nullable="true" />
+    <Property Type="Int32" Name="mes" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="PersistenciaCapitalizacionAsesor">
+    <Property Type="Double" Name="minimo" Nullable="true" />
+    <Property Type="String" Name="mesAcumulada" Nullable="true" MaxLength="250" />
+    <Property Type="Double" Name="porcentajePeriodo" Nullable="true" />
+    <Property Type="Double" Name="colquinesDescontar" Nullable="true" />
+    <Property Type="String" Name="plazo" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="mesPeriodo" Nullable="true" MaxLength="250" />
+    <Property Type="Double" Name="acumulada" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="PersistenciaVidaAsesor">
+    <Property Type="Double" Name="minimo" Nullable="true" />
+    <Property Type="String" Name="mes" Nullable="true" MaxLength="250" />
+    <Property Type="Double" Name="porcentaje" Nullable="true" />
+    <Property Type="Double" Name="colquinesDescontar" Nullable="true" />
+    <Property Type="String" Name="tipoPersistencia" Nullable="true" MaxLength="250" />
+  </ComplexType>
+</Schema>

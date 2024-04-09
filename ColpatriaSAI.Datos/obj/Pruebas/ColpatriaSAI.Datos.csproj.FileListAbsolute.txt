@@ -1,0 +1,16 @@
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.Datos\bin\Pruebas\ColpatriaSAI.Datos.dll.config
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.Datos\bin\Pruebas\ColpatriaSAI.Datos.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.Datos\bin\Pruebas\ColpatriaSAI.Datos.pdb
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.Datos\bin\Pruebas\ColpatriaSAI.Negocio.Entidades.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.Datos\bin\Pruebas\ColpatriaSAI.Negocio.Entidades.pdb
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.Datos\obj\Pruebas\ColpatriaSAI.Datos.csprojResolveAssemblyReference.cache
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.Datos\obj\Pruebas\ColpatriaSAI.Datos.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.Datos\obj\Pruebas\ColpatriaSAI.Datos.pdb
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.Datos\bin\Pruebas\ColpatriaSAI.Datos.dll.config
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.Datos\bin\Pruebas\ColpatriaSAI.Datos.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.Datos\bin\Pruebas\ColpatriaSAI.Datos.pdb
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.Datos\bin\Pruebas\ColpatriaSAI.Negocio.Entidades.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.Datos\bin\Pruebas\ColpatriaSAI.Negocio.Entidades.pdb
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.Datos\obj\Pruebas\ColpatriaSAI.Datos.csprojResolveAssemblyReference.cache
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.Datos\obj\Pruebas\ColpatriaSAI.Datos.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.Datos\obj\Pruebas\ColpatriaSAI.Datos.pdb

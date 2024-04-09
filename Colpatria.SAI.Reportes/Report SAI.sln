@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "ColpatriaSAI.Reportes", "ColpatriaSAI.Reportes.rptproj", "{5BDE9B05-822B-4E58-B7A2-0647268F4690}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BDE9B05-822B-4E58-B7A2-0647268F4690}.Debug|Default.ActiveCfg = Debug
+		{5BDE9B05-822B-4E58-B7A2-0647268F4690}.Debug|Default.Build.0 = DebugLocal
+		{5BDE9B05-822B-4E58-B7A2-0647268F4690}.Debug|Default.Deploy.0 = DebugLocal
+		{5BDE9B05-822B-4E58-B7A2-0647268F4690}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{5BDE9B05-822B-4E58-B7A2-0647268F4690}.DebugLocal|Default.Build.0 = DebugLocal
+		{5BDE9B05-822B-4E58-B7A2-0647268F4690}.DebugLocal|Default.Deploy.0 = DebugLocal
+		{5BDE9B05-822B-4E58-B7A2-0647268F4690}.Release|Default.ActiveCfg = Release
+		{5BDE9B05-822B-4E58-B7A2-0647268F4690}.Release|Default.Build.0 = Release
+		{5BDE9B05-822B-4E58-B7A2-0647268F4690}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

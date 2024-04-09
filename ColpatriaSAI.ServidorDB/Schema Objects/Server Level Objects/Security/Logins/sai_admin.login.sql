@@ -1,0 +1,1 @@
+﻿CREATE LOGIN sai_admin WITH PASSWORD = '|qwzzzolxtmoqibllQkicbdfmsFT7_&#$!~<nxD<bhhqyacf'

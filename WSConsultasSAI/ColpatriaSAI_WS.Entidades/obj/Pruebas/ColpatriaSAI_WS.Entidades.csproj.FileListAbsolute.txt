@@ -1,0 +1,8 @@
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\WSConsultasSAI\ColpatriaSAI_WS.Entidades\bin\Pruebas\ColpatriaSAI_WS.Entidades.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\WSConsultasSAI\ColpatriaSAI_WS.Entidades\bin\Pruebas\ColpatriaSAI_WS.Entidades.pdb
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\WSConsultasSAI\ColpatriaSAI_WS.Entidades\obj\Pruebas\ColpatriaSAI_WS.Entidades.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\WSConsultasSAI\ColpatriaSAI_WS.Entidades\obj\Pruebas\ColpatriaSAI_WS.Entidades.pdb
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\WSConsultasSAI\ColpatriaSAI_WS.Entidades\bin\Pruebas\ColpatriaSAI_WS.Entidades.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\WSConsultasSAI\ColpatriaSAI_WS.Entidades\bin\Pruebas\ColpatriaSAI_WS.Entidades.pdb
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\WSConsultasSAI\ColpatriaSAI_WS.Entidades\obj\Pruebas\ColpatriaSAI_WS.Entidades.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\WSConsultasSAI\ColpatriaSAI_WS.Entidades\obj\Pruebas\ColpatriaSAI_WS.Entidades.pdb

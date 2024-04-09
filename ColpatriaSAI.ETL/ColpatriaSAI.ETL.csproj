@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{28D4E711-D3E4-4914-8987-56BE7399B70B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ColpatriaSAI.ETL</RootNamespace>
+    <AssemblyName>ColpatriaSAI.ETL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Pruebas|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Pruebas\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\ColpatriaSAI.ETL.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;c:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;c:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SAI_Integration\ARP_Negocios.dtsx" />
+    <None Include="SAI_Integration\ARP_Productos.dtsx" />
+    <None Include="SAI_Integration\ARP_Recaudos.dtsx" />
+    <None Include="SAI_Integration\BH_Negocios.dtsx" />
+    <None Include="SAI_Integration\CAPI_Negocios.dtsx" />
+    <None Include="SAI_Integration\CAPI_Productos.dtsx" />
+    <None Include="SAI_Integration\CAPI_recaudo.dtsx" />
+    <None Include="SAI_Integration\CargarExcepciones.dtsx" />
+    <None Include="SAI_Integration\CODC01.dtsx" />
+    <None Include="SAI_Integration\COMJJEOMultijer.dtsx" />
+    <None Include="SAI_Integration\COMXXXF.dtsx" />
+    <None Include="SAI_Integration\CRM.dtsx" />
+    <None Include="SAI_Integration\EMERMEDICA_Negocios.dtsx" />
+    <None Include="SAI_Integration\EMERMEDICA_Recaudo.dtsx" />
+    <None Include="SAI_Integration\EXPORTARLOG_ERRORES.dtsx" />
+    <None Include="SAI_Integration\GENERALES_Negocios.dtsx" />
+    <None Include="SAI_Integration\GENERALES_Recaudo.dtsx" />
+    <None Include="SAI_Integration\NOM231.dtsx" />
+    <None Include="SAI_Integration\NOM301O.dtsx" />
+    <None Include="SAI_Integration\Portal.dtsx" />
+    <None Include="SAI_Integration\PRECALCULOS.dtsx" />
+    <None Include="SAI_Integration\PreIntegracion.dtsx" />
+    <None Include="SAI_Integration\Recaudos_SIG.dtsx" />
+    <None Include="SAI_Integration\Reporte_ConsolidadoporTipoMedida.dtsx" />
+    <None Include="SAI_Integration\Reporte_LiquidacionFranquicias.dtsx" />
+    <None Include="SAI_Integration\Reportes_Neg_Rec.dtsx" />
+    <None Include="SAI_Integration\Reporte_ColquinesMinimos.dtsx" />
+    <None Include="SAI_Integration\Reporte_ColquinesSegmento.dtsx" />
+    <None Include="SAI_Integration\Reporte_InformeFabrica.dtsx" />
+    <None Include="SAI_Integration\Reporte_IngresosAsesor.dtsx" />
+    <None Include="SAI_Integration\Reporte_NegociosAsesor.dtsx" />
+    <None Include="SAI_Integration\Reporte_NegociosAsesorCierre.dtsx" />
+    <None Include="SAI_Integration\Reporte_NegociosConsolidado.dtsx" />
+    <None Include="SAI_Integration\Reporte_NegociosporSegmentoIntermediario.dtsx" />
+    <None Include="SAI_Integration\Reporte_PresupuestoEjecucion.dtsx" />
+    <None Include="SAI_Integration\Reporte_PresupuestoEjecucionVistaCRM.dtsx" />
+    <None Include="SAI_Integration\Reporte_RecaudosAsesorCierre.dtsx" />
+    <None Include="SAI_Integration\Reporte_RecaudosColquinesAsesor.dtsx" />
+    <None Include="SAI_Integration\Reporte_RamosAsesor.dtsx" />
+    <None Include="SAI_Integration\Reporte_RecaudosporSegmentoIntermediario.dtsx" />
+    <None Include="SAI_Integration\SAI.ds" />
+    <None Include="SAI_Integration\SAI_Integration.database" />
+    <None Include="SAI_Integration\SAI_Integration.dtproj" />
+    <None Include="SAI_Integration\SALUDBH_Recaudo.dtsx" />
+    <None Include="SAI_Integration\SALUD_EMERMEDICA.dtsx" />
+    <None Include="SAI_Integration\SALUD_Productos.dtsx" />
+    <None Include="SAI_Integration\Siniestralidad.dtsx" />
+    <None Include="SAI_Integration\SISEVIDA_Productos.dtsx" />
+    <None Include="SAI_Integration\SISE_Productos.dtsx" />
+    <None Include="SAI_Integration\VIDA_Negocios.dtsx" />
+    <None Include="SAI_Integration\VIDA_Recaudo.dtsx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SAI_Integration.sln" />
+    <Content Include="SAI_Integration\DataSource.dtsConfig" />
+    <Content Include="SAI_Integration\ReportesPro.dtsConfig" />
+    <Content Include="SAI_Integration\ReportesPru.dtsConfig" />
+    <Content Include="SAI_Integration\SAI_Integration.dtproj.user" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

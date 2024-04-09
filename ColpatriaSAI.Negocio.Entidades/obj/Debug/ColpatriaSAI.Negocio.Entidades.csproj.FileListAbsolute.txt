@@ -1,0 +1,64 @@
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Entidades\bin\Debug\ColpatriaSAI.Negocio.Entidades.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Entidades\bin\Debug\ColpatriaSAI.Negocio.Entidades.pdb
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Entidades\obj\Debug\ColpatriaSAI.Negocio.Entidades.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Entidades\obj\Debug\ColpatriaSAI.Negocio.Entidades.pdb
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Entidades\obj\Debug\ColpatriaSAI.Negocio.Entidades.csprojResolveAssemblyReference.cache
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Entidades\bin\Debug\ColpatriaSAI.Negocio.Entidades.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Entidades\bin\Debug\ColpatriaSAI.Negocio.Entidades.pdb
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Entidades\obj\Debug\ColpatriaSAI.Negocio.Entidades.csprojResolveAssemblyReference.cache
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Entidades\obj\Debug\ColpatriaSAI.Negocio.Entidades.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Entidades\obj\Debug\ColpatriaSAI.Negocio.Entidades.pdb
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.Negocio.Entidades\bin\Debug\ColpatriaSAI.Negocio.Entidades.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.Negocio.Entidades\bin\Debug\ColpatriaSAI.Negocio.Entidades.pdb
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.Negocio.Entidades\obj\Debug\ColpatriaSAI.Negocio.Entidades.csprojResolveAssemblyReference.cache
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.Negocio.Entidades\obj\Debug\ColpatriaSAI.Negocio.Entidades.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.Negocio.Entidades\obj\Debug\ColpatriaSAI.Negocio.Entidades.pdb
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.Negocio.Entidades\bin\Debug\ColpatriaSAI.Negocio.Entidades.dll
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.Negocio.Entidades\bin\Debug\ColpatriaSAI.Negocio.Entidades.pdb
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.Negocio.Entidades\obj\Debug\ColpatriaSAI.Negocio.Entidades.csprojResolveAssemblyReference.cache
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.Negocio.Entidades\obj\Debug\ColpatriaSAI.Negocio.Entidades.dll
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.Negocio.Entidades\obj\Debug\ColpatriaSAI.Negocio.Entidades.pdb
+d:\datos\Users\caalbarracinm\Desktop\Principal-Desarrollo\ColpatriaSAI.Negocio.Entidades\bin\Debug\ColpatriaSAI.Negocio.Entidades.dll
+d:\datos\Users\caalbarracinm\Desktop\Principal-Desarrollo\ColpatriaSAI.Negocio.Entidades\bin\Debug\ColpatriaSAI.Negocio.Entidades.pdb
+d:\datos\Users\caalbarracinm\Desktop\Principal-Desarrollo\ColpatriaSAI.Negocio.Entidades\obj\Debug\ColpatriaSAI.Negocio.Entidades.dll
+d:\datos\Users\caalbarracinm\Desktop\Principal-Desarrollo\ColpatriaSAI.Negocio.Entidades\obj\Debug\ColpatriaSAI.Negocio.Entidades.pdb
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Entidades\bin\Debug\ColpatriaSAI.Negocio.Entidades.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Entidades\bin\Debug\ColpatriaSAI.Negocio.Entidades.pdb
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Entidades\obj\Debug\ColpatriaSAI.Negocio.Entidades.csprojAssemblyReference.cache
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Entidades\obj\Debug\ColpatriaSAI.Negocio.Entidades.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Entidades\obj\Debug\ColpatriaSAI.Negocio.Entidades.pdb
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Entidades\bin\Debug\ColpatriaSAI.Negocio.Entidades.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Entidades\bin\Debug\ColpatriaSAI.Negocio.Entidades.pdb
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Entidades\obj\Debug\ColpatriaSAI.Negocio.Entidades.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Entidades\obj\Debug\ColpatriaSAI.Negocio.Entidades.pdb
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Entidades\bin\Debug\ColpatriaSAI.Negocio.Entidades.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Entidades\bin\Debug\ColpatriaSAI.Negocio.Entidades.pdb
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Entidades\obj\Debug\ColpatriaSAI.Negocio.Entidades.csprojAssemblyReference.cache
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Entidades\obj\Debug\ColpatriaSAI.Negocio.Entidades.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Entidades\obj\Debug\ColpatriaSAI.Negocio.Entidades.pdb
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\ColpatriaSAI.Negocio.Entidades\bin\Debug\ColpatriaSAI.Negocio.Entidades.dll
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\ColpatriaSAI.Negocio.Entidades\bin\Debug\ColpatriaSAI.Negocio.Entidades.pdb
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\ColpatriaSAI.Negocio.Entidades\obj\Debug\ColpatriaSAI.Negocio.Entidades.csprojAssemblyReference.cache
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\ColpatriaSAI.Negocio.Entidades\obj\Debug\ColpatriaSAI.Negocio.Entidades.dll
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\ColpatriaSAI.Negocio.Entidades\obj\Debug\ColpatriaSAI.Negocio.Entidades.pdb
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\ColpatriaSAI.Negocio.Entidades\bin\Debug\ColpatriaSAI.Negocio.Entidades.dll
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\ColpatriaSAI.Negocio.Entidades\bin\Debug\ColpatriaSAI.Negocio.Entidades.pdb
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\ColpatriaSAI.Negocio.Entidades\obj\Debug\ColpatriaSAI.Negocio.Entidades.csproj.CoreCompileInputs.cache
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\ColpatriaSAI.Negocio.Entidades\obj\Debug\ColpatriaSAI.Negocio.Entidades.dll
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\ColpatriaSAI.Negocio.Entidades\obj\Debug\ColpatriaSAI.Negocio.Entidades.pdb
+E:\Datos\SAI\ColpatriaSAI.Negocio.Entidades\bin\Debug\ColpatriaSAI.Negocio.Entidades.dll
+E:\Datos\SAI\ColpatriaSAI.Negocio.Entidades\bin\Debug\ColpatriaSAI.Negocio.Entidades.pdb
+E:\Datos\SAI\ColpatriaSAI.Negocio.Entidades\obj\Debug\ColpatriaSAI.Negocio.Entidades.csproj.CoreCompileInputs.cache
+E:\Datos\SAI\ColpatriaSAI.Negocio.Entidades\obj\Debug\ColpatriaSAI.Negocio.Entidades.dll
+E:\Datos\SAI\ColpatriaSAI.Negocio.Entidades\obj\Debug\ColpatriaSAI.Negocio.Entidades.pdb
+E:\SAI Debug\SAI\ColpatriaSAI.Negocio.Entidades\bin\Debug\ColpatriaSAI.Negocio.Entidades.dll
+E:\SAI Debug\SAI\ColpatriaSAI.Negocio.Entidades\bin\Debug\ColpatriaSAI.Negocio.Entidades.pdb
+E:\SAI Debug\SAI\ColpatriaSAI.Negocio.Entidades\obj\Debug\ColpatriaSAI.Negocio.Entidades.csproj.CoreCompileInputs.cache
+E:\SAI Debug\SAI\ColpatriaSAI.Negocio.Entidades\obj\Debug\ColpatriaSAI.Negocio.Entidades.dll
+E:\SAI Debug\SAI\ColpatriaSAI.Negocio.Entidades\obj\Debug\ColpatriaSAI.Negocio.Entidades.pdb
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.Negocio.Entidades\bin\Debug\ColpatriaSAI.Negocio.Entidades.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.Negocio.Entidades\bin\Debug\ColpatriaSAI.Negocio.Entidades.pdb
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.Negocio.Entidades\obj\Debug\ColpatriaSAI.Negocio.Entidades.csproj.CoreCompileInputs.cache
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.Negocio.Entidades\obj\Debug\ColpatriaSAI.Negocio.Entidades.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.Negocio.Entidades\obj\Debug\ColpatriaSAI.Negocio.Entidades.pdb
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.Negocio.Entidades\obj\Debug\ColpatriaSAI.Negocio.Entidades.csproj.AssemblyReference.cache

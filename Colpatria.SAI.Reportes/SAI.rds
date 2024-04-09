@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>SAI</Name>
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=PRO-SQL01\PROD2008;Initial Catalog=SAI</ConnectString>
+    <Prompt>Specify a user name and password for data source SAI.</Prompt>
+  </ConnectionProperties>
+  <DataSourceID>9bb9476d-c85e-4d1d-9d08-009a34c892a3</DataSourceID>
+</RptDataSource>

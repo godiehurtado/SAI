@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="WSModelStoreContainer" CdmEntityContainer="SAI_WSEntityConnection">
+    <FunctionImportMapping FunctionImportName="ObtenerExtractoAsesor" FunctionName="WSModel.Store.consultaExtractoAsesor">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="WSModel.ExtractoAsesor">
+          <ScalarProperty Name="idCompania" ColumnName="idCompania" />
+          <ScalarProperty Name="compania" ColumnName="compania" />
+          <ScalarProperty Name="idRamo" ColumnName="idRamo" />
+          <ScalarProperty Name="ramo" ColumnName="ramo" />
+          <ScalarProperty Name="medida" ColumnName="medida" />
+          <ScalarProperty Name="mes" ColumnName="mes" />
+          <ScalarProperty Name="valorAnioAnterior" ColumnName="valorAnioAnterior" />
+          <ScalarProperty Name="valorAnioActual" ColumnName="valorAnioActual" />
+          <ScalarProperty Name="porcentajeCrecimiento" ColumnName="porcentajeCrecimiento" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="ObtenerExtractoPremiosAsesor" FunctionName="WSModel.Store.consultaExtractoPremiosAsesor">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="WSModel.PremioAsesor">
+          <ScalarProperty Name="codigoPremio" ColumnName="codigoPremio" />
+          <ScalarProperty Name="premio" ColumnName="premio" />
+          <ScalarProperty Name="gano" ColumnName="gano" />
+          <ScalarProperty Name="descripcionPremioGanado" ColumnName="descripcionPremioGanado" />
+          <ScalarProperty Name="fechaCierrePremio" ColumnName="fechaCierrePremio" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="ObtenerExtractoDetalladoPremiosAsesor" FunctionName="WSModel.Store.consultaExtractoDetalladoPremiosAsesor">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="WSModel.ExtractoDetallePremioAsesor">
+          <ScalarProperty Name="codigoPremio" ColumnName="codigoPremio" />
+          <ScalarProperty Name="premio" ColumnName="premio" />
+          <ScalarProperty Name="gano" ColumnName="gano" />
+          <ScalarProperty Name="descripcionPremioGanado" ColumnName="descripcionPremioGanado" />
+          <ScalarProperty Name="fechaCierrePremio" ColumnName="fechaCierrePremio" />
+          <ScalarProperty Name="condicion" ColumnName="condicion" />
+          <ScalarProperty Name="meta" ColumnName="meta" />
+          <ScalarProperty Name="ejecutado" ColumnName="ejecutado" />
+          <ScalarProperty Name="faltante" ColumnName="faltante" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="ObtenerExtractoSiniestralidadAutosAsesor" FunctionName="WSModel.Store.consultaExtractoSiniestralidadAutosAsesor">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="WSModel.SiniestralidadAutosAsesor">
+          <ScalarProperty Name="primasDevengar" ColumnName="primasDevengar" />
+          <ScalarProperty Name="sinIncurrir" ColumnName="sinIncurrir" />
+          <ScalarProperty Name="porcentajeSinIncurrir" ColumnName="porcentajeSinIncurrir" />
+          <ScalarProperty Name="colquinesDescontar" ColumnName="colquinesDescontar" />
+          <ScalarProperty Name="mes" ColumnName="mes" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="ObtenerExtractoPersistenciaCapitalizacionAsesor" FunctionName="WSModel.Store.consultaExtractoPersistenciaCapitalizacionAsesor">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="WSModel.PersistenciaCapitalizacionAsesor">
+          <ScalarProperty Name="minimo" ColumnName="minimo" />
+          <ScalarProperty Name="colquinesDescontar" ColumnName="colquinesDescontar" />
+          <ScalarProperty Name="plazo" ColumnName="plazo" />
+          <ScalarProperty Name="mesPeriodo" ColumnName="mesPeriodo" />
+          <ScalarProperty Name="acumulada" ColumnName="acumulada" />
+          <ScalarProperty Name="mesAcumulada" ColumnName="mesAcumulada" />
+          <ScalarProperty Name="porcentajePeriodo" ColumnName="porcentajePeriodo" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="ObtenerExtractoPersistenciaVidaAsesor" FunctionName="WSModel.Store.consultaExtractoPersistenciaVidaAsesor">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="WSModel.PersistenciaVidaAsesor">
+          <ScalarProperty Name="minimo" ColumnName="minimo" />
+          <ScalarProperty Name="mes" ColumnName="mes" />
+          <ScalarProperty Name="porcentaje" ColumnName="porcentaje" />
+          <ScalarProperty Name="colquinesDescontar" ColumnName="colquinesDescontar" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,8 @@
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.IntegracionBiztalk\bin\Release\BizTalkSai Project.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.IntegracionBiztalk\bin\Release\BizTalkSai Project.pdb
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.IntegracionBiztalk\obj\Release\BizTalkSai Project.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.IntegracionBiztalk\obj\Release\BizTalkSai Project.pdb
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.IntegracionBiztalk\bin\Release\BizTalkSai Project.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.IntegracionBiztalk\bin\Release\BizTalkSai Project.pdb
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.IntegracionBiztalk\obj\Release\BizTalkSai Project.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.IntegracionBiztalk\obj\Release\BizTalkSai Project.pdb

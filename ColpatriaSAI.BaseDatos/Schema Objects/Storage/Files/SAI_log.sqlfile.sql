@@ -1,0 +1,5 @@
+﻿ALTER DATABASE [$(DatabaseName)]
+    ADD LOG FILE (NAME = [SAI_log], FILENAME = 'F:\SqlLog2008\SAI_1.ldf', SIZE = 19198144 KB, MAXSIZE = 2097152 MB, FILEGROWTH = 10 %);
+
+
+

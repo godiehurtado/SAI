@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo se usa en el proceso de publicación y empaquetado del proyecto web. Para personalizar el comportamiento de este proceso,
+edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 para obtener más información. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\service publish</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/ColpatriaSAI_WS.Datos.dll">
+      <publishTime>04/20/2020 17:06:23</publishTime>
+    </File>
+    <File Include="bin/ColpatriaSAI_WS.Datos.dll.config">
+      <publishTime>04/12/2020 18:59:18</publishTime>
+    </File>
+    <File Include="bin/ColpatriaSAI_WS.Datos.pdb">
+      <publishTime>04/20/2020 17:06:23</publishTime>
+    </File>
+    <File Include="bin/ColpatriaSAI_WS.Entidades.dll">
+      <publishTime>04/20/2020 17:06:23</publishTime>
+    </File>
+    <File Include="bin/ColpatriaSAI_WS.Entidades.pdb">
+      <publishTime>04/20/2020 17:06:23</publishTime>
+    </File>
+    <File Include="bin/ColpatriaSAI_WS.Servicios.dll">
+      <publishTime>04/23/2020 12:29:40</publishTime>
+    </File>
+    <File Include="bin/ColpatriaSAI_WS.Servicios.pdb">
+      <publishTime>04/23/2020 12:29:40</publishTime>
+    </File>
+    <File Include="bin/log4net.dll">
+      <publishTime>04/12/2020 18:59:18</publishTime>
+    </File>
+    <File Include="bin/UI.Colpatria.Utilities.dll">
+      <publishTime>04/12/2020 18:59:18</publishTime>
+    </File>
+    <File Include="bin/UI.Colpatria.WCF.dll">
+      <publishTime>04/12/2020 18:59:18</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>04/20/2020 17:06:24</publishTime>
+    </File>
+    <File Include="WSConsultasSAI.svc">
+      <publishTime>04/12/2020 18:59:18</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,35 @@
+﻿CREATE TABLE [dbo].[Participantetemp] (
+    [ZonaCodigo]                        NVARCHAR (250) NULL,
+    [ZonaNombre]                        NVARCHAR (250) NULL,
+    [LocalidadCodigo]                   NVARCHAR (250) NULL,
+    [LocalidadNombre]                   NVARCHAR (250) NULL,
+    [CompaniaCodigo]                    NVARCHAR (250) NULL,
+    [CompaniaNombre]                    NVARCHAR (250) NULL,
+    [clave]                             NVARCHAR (250) NULL,
+    [codigoProductor]                   NVARCHAR (250) NULL,
+    [tipoDocumento]                     NVARCHAR (250) NULL,
+    [numeroDocumento]                   NVARCHAR (250) NULL,
+    [nombre]                            NVARCHAR (250) NULL,
+    [apellidos]                         NVARCHAR (250) NULL,
+    [email]                             NVARCHAR (250) NULL,
+    [telefono]                          NVARCHAR (250) NULL,
+    [direccion]                         NVARCHAR (250) NULL,
+    [canal]                             NVARCHAR (250) NULL,
+    [categoria]                         NVARCHAR (250) NULL,
+    [fechaIngreso]                      NVARCHAR (250) NULL,
+    [fechaRetiro]                       NVARCHAR (250) NULL,
+    [fechaNacimiento]                   NVARCHAR (250) NULL,
+    [ingresosMinimos]                   NVARCHAR (250) NULL,
+    [segmento]                          NVARCHAR (250) NULL,
+    [estado]                            NVARCHAR (250) NULL,
+    [nivel]                             NVARCHAR (250) NULL,
+    [codigoDirector]                    NVARCHAR (250) NULL,
+    [nombreDirector]                    NVARCHAR (250) NULL,
+    [codigoGerentedeOficina/Subgerente] NVARCHAR (250) NULL,
+    [nombreGerentedeOficina/Subgerente] NVARCHAR (250) NULL,
+    [codigoGerenteRegional]             NVARCHAR (250) NULL,
+    [nombreGerenteRegional]             NVARCHAR (250) NULL
+);
+
+
+

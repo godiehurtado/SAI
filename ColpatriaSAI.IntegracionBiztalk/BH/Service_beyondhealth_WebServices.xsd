@@ -1,0 +1,979 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:tns="http://BeyondHealth/WebServices" elementFormDefault="qualified" targetNamespace="http://BeyondHealth/WebServices" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <!--Warning: Schema changed to permit compilation in BizTalk project.-->
+  <xs:element name="WSContractsByMemberMPP">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="strDocumentType" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="strDocument" type="xs:string" />
+        <xs:element minOccurs="1" maxOccurs="1" name="booIncludeOldContracts" type="xs:boolean" />
+        <xs:element minOccurs="0" maxOccurs="1" name="numProduct" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSContractsByMemberMPPResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="WSContractsByMemberMPPResult">
+          <xs:complexType>
+            <xs:sequence>
+              <!--Warning: Changed <xs:element ref="xs:schema" xmlns:xs="http://www.w3.org/2001/XMLSchema" /> to <xs:any xmlns:xs="http://www.w3.org/2001/XMLSchema" /> to permit compilation.-->
+              <xs:any />
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSMembersByContractCodeMPP">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="strContractCode" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="numProduct" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSMembersByContractCodeMPPResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="WSMembersByContractCodeMPPResult">
+          <xs:complexType>
+            <xs:sequence>
+              <!--Warning: Changed <xs:element ref="xs:schema" xmlns:xs="http://www.w3.org/2001/XMLSchema" /> to <xs:any xmlns:xs="http://www.w3.org/2001/XMLSchema" /> to permit compilation.-->
+              <xs:any />
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSMembersByContractApplicationCodeMPP">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="strContractApplicationCode" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSMembersByContractApplicationCodeMPPResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="WSMembersByContractApplicationCodeMPPResult">
+          <xs:complexType>
+            <xs:sequence>
+              <!--Warning: Changed <xs:element ref="xs:schema" xmlns:xs="http://www.w3.org/2001/XMLSchema" /> to <xs:any xmlns:xs="http://www.w3.org/2001/XMLSchema" /> to permit compilation.-->
+              <xs:any />
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSMemberInformationByContractCodeMPP">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="strContractCode" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="strDocumentType" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="strDocument" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="numProduct" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSMemberInformationByContractCodeMPPResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="WSMemberInformationByContractCodeMPPResult" type="tns:ServiceMPPMember" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="ServiceMPPMember">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="IdentificationType" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="IdentificationNumber" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="FirstName" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="MiddleName" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="LastName" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="MotherName" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="BirthDate" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Age" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Gender" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="RelationShip" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CivilState" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="City" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="EPS" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="StartDate" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="EndDate" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="PlanType" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="PaymentFrecuency" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ResetDate" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="AntiquityDate" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Id" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="MobilePhone" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="EMail" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CorrespondenceAddress" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CityCorrespondenceAddress" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ResidenceAddress" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CityResidenceAddress" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="WorkAddress" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CityWorkAddress" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ResidencePhone" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="WorkPhone" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="WSMemberInformationByContractApplicationCodeMPP">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="strContractApplicationCode" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="strDocumentType" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="strDocument" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSMemberInformationByContractApplicationCodeMPPResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="WSMemberInformationByContractApplicationCodeMPPResult" type="tns:ServiceMPPMember" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSCollectiveContractsByIntermediaryMPP">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="strIdentificationType" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="strIdentificationNumber" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="strCollectiveType" type="xs:string" />
+        <xs:element minOccurs="1" maxOccurs="1" name="booIsValid" type="xs:boolean" />
+        <xs:element minOccurs="0" maxOccurs="1" name="numProduct" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSCollectiveContractsByIntermediaryMPPResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="WSCollectiveContractsByIntermediaryMPPResult">
+          <xs:complexType>
+            <xs:sequence>
+              <!--Warning: Changed <xs:element ref="xs:schema" xmlns:xs="http://www.w3.org/2001/XMLSchema" /> to <xs:any xmlns:xs="http://www.w3.org/2001/XMLSchema" /> to permit compilation.-->
+              <xs:any />
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSSearchSubContractsMPP">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="strCollectiveType" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="strKey" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="strLastName" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="strFirstName" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="strIdentificationType" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="strIdentificationNumber" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="strContractCode" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="strFatherContractCode" type="xs:string" />
+        <xs:element minOccurs="1" maxOccurs="1" name="booIsValid" type="xs:boolean" />
+        <xs:element minOccurs="0" maxOccurs="1" name="numProduct" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSSearchSubContractsMPPResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="WSSearchSubContractsMPPResult">
+          <xs:complexType>
+            <xs:sequence>
+              <!--Warning: Changed <xs:element ref="xs:schema" xmlns:xs="http://www.w3.org/2001/XMLSchema" /> to <xs:any xmlns:xs="http://www.w3.org/2001/XMLSchema" /> to permit compilation.-->
+              <xs:any />
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSSubContractsByCollectiveContractMPP">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="strCollectiveType" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="strContractCode" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="numProduct" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSSubContractsByCollectiveContractMPPResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="WSSubContractsByCollectiveContractMPPResult">
+          <xs:complexType>
+            <xs:sequence>
+              <!--Warning: Changed <xs:element ref="xs:schema" xmlns:xs="http://www.w3.org/2001/XMLSchema" /> to <xs:any xmlns:xs="http://www.w3.org/2001/XMLSchema" /> to permit compilation.-->
+              <xs:any />
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSContractByMemberPOS">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="strDocumentType" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="strDocument" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSContractByMemberPOSResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="WSContractByMemberPOSResult" type="tns:ServicePOSContractBE" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="ServicePOSContractBE">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="Id" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ContractCode" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="EstablishmentDate" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="StartDate" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="EndDate" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="WSMembersByContractCodePOS">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="strContractCode" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSMembersByContractCodePOSResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="WSMembersByContractCodePOSResult">
+          <xs:complexType>
+            <xs:sequence>
+              <!--Warning: Changed <xs:element ref="xs:schema" xmlns:xs="http://www.w3.org/2001/XMLSchema" /> to <xs:any xmlns:xs="http://www.w3.org/2001/XMLSchema" /> to permit compilation.-->
+              <xs:any />
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSMemberInformationByContractCodePOS">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="strContractCode" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="strDocumentType" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="strDocument" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSMemberInformationByContractCodePOSResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="WSMemberInformationByContractCodePOSResult" type="tns:ServicePOSMemberBE" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="ServicePOSMemberBE">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="IdentificationType" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="IdentificationNumber" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="FirstName" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="MiddleName" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="LastName" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="MotherName" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="BirthDate" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="BirthDateInDateTimeFormat" type="xs:dateTime" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Age" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Gender" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="RelationShip" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CivilState" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="City" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="MIPS" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="OIPS" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="StartDate" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="EndDate" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="AccumulatedWeeks" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="PayRange" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="BDUAState" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="UserType" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="EmployerCode" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="EmployerIdentificationNumber" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="EmployerName" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="EmployerIdentificationNumber2" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="EmployerName2" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="EmployerIdentificationNumber3" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="EmployerName3" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ReceiveType" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ValidJob" type="xs:boolean" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ReceiveState" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ContractState" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ModeratedQuotaValue" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ServicePeriod" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="MemberCode" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="WSCollectiveContractsByEmployerMPP">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="strDocumentType" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="strDocument" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSCollectiveContractsByEmployerMPPResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="WSCollectiveContractsByEmployerMPPResult">
+          <xs:complexType>
+            <xs:sequence>
+              <!--Warning: Changed <xs:element ref="xs:schema" xmlns:xs="http://www.w3.org/2001/XMLSchema" /> to <xs:any xmlns:xs="http://www.w3.org/2001/XMLSchema" /> to permit compilation.-->
+              <xs:any />
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSMembersByEmployerPOS">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="strDocumentType" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="strDocument" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSMembersByEmployerPOSResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="WSMembersByEmployerPOSResult">
+          <xs:complexType>
+            <xs:sequence>
+              <!--Warning: Changed <xs:element ref="xs:schema" xmlns:xs="http://www.w3.org/2001/XMLSchema" /> to <xs:any xmlns:xs="http://www.w3.org/2001/XMLSchema" /> to permit compilation.-->
+              <xs:any />
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSFindContractByCodeMPP">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="strContractType" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="strContractCode" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="numProduct" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSFindContractByCodeMPPResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="WSFindContractByCodeMPPResult" type="tns:ServiceMPPContractBE" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="ServiceMPPContractBE">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="Id" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ContractCode" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="EstablishmentDate" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="StartDate" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="WSContractAccountStateHeaderMPP">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="strContractType" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="strContractCode" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSContractAccountStateHeaderMPPResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="WSContractAccountStateHeaderMPPResult" type="tns:ServiceContractAccountStateMPPBE" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="ServiceContractAccountStateMPPBE">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="LastInvoiceDate" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ContractCode" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="State" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Intemediate" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="IntermediateKey" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="AffiliationContractOwnerName" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="PaymentFrecuency" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="EstablishmentDate" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="StartDate" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="RenewalDate" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TotalDiscount" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="WSContractAccountStateDetailsMPP">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="strContractCode" type="xs:string" />
+        <xs:element minOccurs="1" maxOccurs="1" name="datInitialDate" type="xs:dateTime" />
+        <xs:element minOccurs="1" maxOccurs="1" name="datFinalDate" type="xs:dateTime" />
+        <xs:element minOccurs="1" maxOccurs="1" name="numProductId" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSContractAccountStateDetailsMPPResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="WSContractAccountStateDetailsMPPResult">
+          <xs:complexType>
+            <xs:sequence>
+              <!--Warning: Changed <xs:element ref="xs:schema" xmlns:xs="http://www.w3.org/2001/XMLSchema" /> to <xs:any xmlns:xs="http://www.w3.org/2001/XMLSchema" /> to permit compilation.-->
+              <xs:any />
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSContractAccountStateFooterMPP">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="strContractCode" type="xs:string" />
+        <xs:element minOccurs="1" maxOccurs="1" name="datInitialDate" type="xs:dateTime" />
+        <xs:element minOccurs="1" maxOccurs="1" name="datFinalDate" type="xs:dateTime" />
+        <xs:element minOccurs="1" maxOccurs="1" name="numProductId" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSContractAccountStateFooterMPPResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="WSContractAccountStateFooterMPPResult">
+          <xs:complexType>
+            <xs:sequence>
+              <!--Warning: Changed <xs:element ref="xs:schema" xmlns:xs="http://www.w3.org/2001/XMLSchema" /> to <xs:any xmlns:xs="http://www.w3.org/2001/XMLSchema" /> to permit compilation.-->
+              <xs:any />
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSIPSCapitaInformation">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="strDocumentType" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="strDocument" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSIPSCapitaInformationResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" name="WSIPSCapitaInformationResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSInvoiceInformationMPP">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="strDocumentType" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="strDocument" type="xs:string" />
+        <xs:element minOccurs="1" maxOccurs="1" name="booLastInvoice" type="xs:boolean" />
+        <xs:element minOccurs="0" maxOccurs="1" name="strContractCode" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSInvoiceInformationMPPResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="WSInvoiceInformationMPPResult" type="tns:ServiceInvoiceInformation" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="ServiceInvoiceInformation">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="IdentificationType" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="IdentificationNumber" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="FirstName" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Plan" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="MiddleName" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="LastName" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="MotherName" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ContractNumber" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="IssueDate" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="InvoiceCode" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CheckDate" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="StartDate" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="EndDate" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="InvoicePeriod" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ContractType" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="UserNumber" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="PaymentMethod" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="PaymentFrecuency" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="LastCollectDate" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="LastCollectValue" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="LastCollectState" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ValidityDate" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="PositiveBalance" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="NegativeBalance" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="SubTotalValue" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="NetTotalValue" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TaxValue" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TaxPercentage" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TotalInvoiceValue" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="LastInvoiceBalance" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TotalPayValue" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TotalPayValueText" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CommercialDirectorName" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CommercialDirectorPhone" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="IntermediateName" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="IntermediatePhone" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="InvoiceDatabaseCode" type="xs:int" />
+      <xs:element minOccurs="1" maxOccurs="1" name="AffiliationContractCode" type="xs:int" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ContractPhone" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="WSInvoiceInformationDetailMPP">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="strInvoiceCode" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSInvoiceInformationDetailMPPResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="WSInvoiceInformationDetailMPPResult">
+          <xs:complexType>
+            <xs:sequence>
+              <!--Warning: Changed <xs:element ref="xs:schema" xmlns:xs="http://www.w3.org/2001/XMLSchema" /> to <xs:any xmlns:xs="http://www.w3.org/2001/XMLSchema" /> to permit compilation.-->
+              <xs:any />
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSContractYearsByClientMPP">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="strDocumentType" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="strDocument" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSContractYearsByClientMPPResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="WSContractYearsByClientMPPResult">
+          <xs:complexType>
+            <xs:sequence>
+              <!--Warning: Changed <xs:element ref="xs:schema" xmlns:xs="http://www.w3.org/2001/XMLSchema" /> to <xs:any xmlns:xs="http://www.w3.org/2001/XMLSchema" /> to permit compilation.-->
+              <xs:any />
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSContractsByYearMPP">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="strDocumentType" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="strDocument" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="strYear" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSContractsByYearMPPResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="WSContractsByYearMPPResult">
+          <xs:complexType>
+            <xs:sequence>
+              <!--Warning: Changed <xs:element ref="xs:schema" xmlns:xs="http://www.w3.org/2001/XMLSchema" /> to <xs:any xmlns:xs="http://www.w3.org/2001/XMLSchema" /> to permit compilation.-->
+              <xs:any />
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSRetentionCertificateByContractMPP">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="strContractType" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="strContractCode" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="strYear" type="xs:string" />
+        <xs:element minOccurs="1" maxOccurs="1" name="percent" type="xs:decimal" />
+        <xs:element minOccurs="1" maxOccurs="1" name="boolIsIntermediary" type="xs:boolean" />
+        <xs:element minOccurs="1" maxOccurs="1" name="numIdentificationType" type="xs:int" />
+        <xs:element minOccurs="0" maxOccurs="1" name="strIdentificationNumber" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="numProduct" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSRetentionCertificateByContractMPPResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="WSRetentionCertificateByContractMPPResult" type="tns:ServiceRetentionCertificateBE" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="ServiceRetentionCertificateBE">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="Year" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="IdentificationType" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="IdentificationNumber" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="SubName" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="SubIdentificationType" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="SubIdentificationNumber" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="AnnuityPayment" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="AnnuityPaymentText" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ContractCode" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="CTY_CNAME" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="BRA_CAPPLICATIONCODE" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="INT_CKEY" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="INT_CINTERMEDIARY_NAME" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="INT_CINTERMEDIARY_NAME1" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="PFR_CDESCRIPTION" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="MEMBER" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="REL_CDESCRIPTION" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="StartDate" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="EndDate" type="xs:string" />
+      <xs:element minOccurs="1" maxOccurs="1" name="QUOTAADMON" type="xs:decimal" />
+      <xs:element minOccurs="1" maxOccurs="1" name="QUOTAINSCR" type="xs:decimal" />
+      <xs:element minOccurs="1" maxOccurs="1" name="ANNUITYVALUE" type="xs:decimal" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ANNUITYVALUEText" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="LETTER_GENERATION_DAY" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="LETTER_GENERATION_MONTH" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="LETTER_GENERATION_YEAR" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="LETTER_ANNUITYCONTRACTVALUE" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="EMPLOYER_NAME" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="ITY_CSHORTNAME" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="WSRetentionCertificateByContractDetailMPP">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="strContractType" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="strContractCode" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="strYear" type="xs:string" />
+        <xs:element minOccurs="1" maxOccurs="1" name="boolIsIntermediary" type="xs:boolean" />
+        <xs:element minOccurs="1" maxOccurs="1" name="numIdentificationType" type="xs:int" />
+        <xs:element minOccurs="0" maxOccurs="1" name="strIdentificationNumber" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="numProduct" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSRetentionCertificateByContractDetailMPPResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="WSRetentionCertificateByContractDetailMPPResult">
+          <xs:complexType>
+            <xs:sequence>
+              <!--Warning: Changed <xs:element ref="xs:schema" xmlns:xs="http://www.w3.org/2001/XMLSchema" /> to <xs:any xmlns:xs="http://www.w3.org/2001/XMLSchema" /> to permit compilation.-->
+              <xs:any />
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSFindContractsByMemberDocumentMPP">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="strDocumentType" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="strDocument" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="strInterDocumentType" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="strInterDocument" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="numProduct" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSFindContractsByMemberDocumentMPPResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="WSFindContractsByMemberDocumentMPPResult">
+          <xs:complexType>
+            <xs:sequence>
+              <!--Warning: Changed <xs:element ref="xs:schema" xmlns:xs="http://www.w3.org/2001/XMLSchema" /> to <xs:any xmlns:xs="http://www.w3.org/2001/XMLSchema" /> to permit compilation.-->
+              <xs:any />
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSContractYearsByContractMPP">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="strContractCode" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSContractYearsByContractMPPResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="WSContractYearsByContractMPPResult">
+          <xs:complexType>
+            <xs:sequence>
+              <!--Warning: Changed <xs:element ref="xs:schema" xmlns:xs="http://www.w3.org/2001/XMLSchema" /> to <xs:any xmlns:xs="http://www.w3.org/2001/XMLSchema" /> to permit compilation.-->
+              <xs:any />
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSPaymentYearsByMemberPOS">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="strDocumentType" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="strDocument" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="strPaymentType" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSPaymentYearsByMemberPOSResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="WSPaymentYearsByMemberPOSResult">
+          <xs:complexType>
+            <xs:sequence>
+              <!--Warning: Changed <xs:element ref="xs:schema" xmlns:xs="http://www.w3.org/2001/XMLSchema" /> to <xs:any xmlns:xs="http://www.w3.org/2001/XMLSchema" /> to permit compilation.-->
+              <xs:any />
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSEmployersByMemberPOS">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="strDocumentType" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="strDocument" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSEmployersByMemberPOSResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="WSEmployersByMemberPOSResult">
+          <xs:complexType>
+            <xs:sequence>
+              <!--Warning: Changed <xs:element ref="xs:schema" xmlns:xs="http://www.w3.org/2001/XMLSchema" /> to <xs:any xmlns:xs="http://www.w3.org/2001/XMLSchema" /> to permit compilation.-->
+              <xs:any />
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSPaymentYearsByEmployerMemberPOS">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="strMemberDocumentType" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="strMemberDocument" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="strEmployerDocumentType" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="strEmployerDocument" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSPaymentYearsByEmployerMemberPOSResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="WSPaymentYearsByEmployerMemberPOSResult">
+          <xs:complexType>
+            <xs:sequence>
+              <!--Warning: Changed <xs:element ref="xs:schema" xmlns:xs="http://www.w3.org/2001/XMLSchema" /> to <xs:any xmlns:xs="http://www.w3.org/2001/XMLSchema" /> to permit compilation.-->
+              <xs:any />
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSPaymentCertificateHeaderPOS">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="strDocumentType" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="strDocument" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="strPaymentType" type="xs:string" />
+        <xs:element minOccurs="1" maxOccurs="1" name="datInitialDate" type="xs:dateTime" />
+        <xs:element minOccurs="1" maxOccurs="1" name="datFinalDate" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSPaymentCertificateHeaderPOSResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="WSPaymentCertificateHeaderPOSResult" type="tns:ServiceCertificateBE" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="ServiceCertificateBE">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="Year" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="Name" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="IdentificationType" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="IdentificationNumber" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TotalValue" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="TotalValueText" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="WSPaymentCertificateDetailForUPCPOS">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="strDocumentType" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="strDocument" type="xs:string" />
+        <xs:element minOccurs="1" maxOccurs="1" name="datInitialDate" type="xs:dateTime" />
+        <xs:element minOccurs="1" maxOccurs="1" name="datFinalDate" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSPaymentCertificateDetailForUPCPOSResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="WSPaymentCertificateDetailForUPCPOSResult">
+          <xs:complexType>
+            <xs:sequence>
+              <!--Warning: Changed <xs:element ref="xs:schema" xmlns:xs="http://www.w3.org/2001/XMLSchema" /> to <xs:any xmlns:xs="http://www.w3.org/2001/XMLSchema" /> to permit compilation.-->
+              <xs:any />
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSPaymentCertificateDetailPOS">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="strDocumentType" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="strDocument" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="strPaymentType" type="xs:string" />
+        <xs:element minOccurs="1" maxOccurs="1" name="datInitialDate" type="xs:dateTime" />
+        <xs:element minOccurs="1" maxOccurs="1" name="datFinalDate" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSPaymentCertificateDetailPOSResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="WSPaymentCertificateDetailPOSResult">
+          <xs:complexType>
+            <xs:sequence>
+              <!--Warning: Changed <xs:element ref="xs:schema" xmlns:xs="http://www.w3.org/2001/XMLSchema" /> to <xs:any xmlns:xs="http://www.w3.org/2001/XMLSchema" /> to permit compilation.-->
+              <xs:any />
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSNoveltyOrNoteDetailMPP">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="strContractType" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="strDataType" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="strContractCode" type="xs:string" />
+        <xs:element minOccurs="1" maxOccurs="1" name="datInitialDate" type="xs:dateTime" />
+        <xs:element minOccurs="1" maxOccurs="1" name="datFinalDate" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSNoveltyOrNoteDetailMPPResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="WSNoveltyOrNoteDetailMPPResult">
+          <xs:complexType>
+            <xs:sequence>
+              <!--Warning: Changed <xs:element ref="xs:schema" xmlns:xs="http://www.w3.org/2001/XMLSchema" /> to <xs:any xmlns:xs="http://www.w3.org/2001/XMLSchema" /> to permit compilation.-->
+              <xs:any />
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSPersonOrInstitutionExists">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="strDocumentType" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="strDocument" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSPersonOrInstitutionExistsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" name="WSPersonOrInstitutionExistsResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSPortfolioBalanceByMemberDocumentAndProduct">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="strDocumentType" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="strDocument" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="numProduct" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSPortfolioBalanceByMemberDocumentAndProductResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="WSPortfolioBalanceByMemberDocumentAndProductResult">
+          <xs:complexType>
+            <xs:sequence>
+              <!--Warning: Changed <xs:element ref="xs:schema" xmlns:xs="http://www.w3.org/2001/XMLSchema" /> to <xs:any xmlns:xs="http://www.w3.org/2001/XMLSchema" /> to permit compilation.-->
+              <xs:any />
+              <xs:any />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSIncentivesAdministrationSystem">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="1" name="datInitialDate" type="xs:dateTime" />
+        <xs:element minOccurs="1" maxOccurs="1" name="datEndingDate" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WSIncentivesAdministrationSystemResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="WSIncentivesAdministrationSystemResult" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

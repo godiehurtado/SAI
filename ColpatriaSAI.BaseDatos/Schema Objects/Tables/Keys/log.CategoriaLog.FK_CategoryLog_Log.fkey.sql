@@ -1,0 +1,3 @@
+﻿ALTER TABLE [log].[CategoriaLog]
+    ADD CONSTRAINT [FK_CategoryLog_Log] FOREIGN KEY ([LogID]) REFERENCES [log].[Log] ([LogID]) ON DELETE NO ACTION ON UPDATE NO ACTION;
+

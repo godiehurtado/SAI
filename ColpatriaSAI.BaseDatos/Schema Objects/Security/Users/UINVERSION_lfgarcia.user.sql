@@ -1,0 +1,1 @@
+﻿CREATE USER [UINVERSION\lfgarcia] FOR LOGIN [UINVERSION\lfgarcia];

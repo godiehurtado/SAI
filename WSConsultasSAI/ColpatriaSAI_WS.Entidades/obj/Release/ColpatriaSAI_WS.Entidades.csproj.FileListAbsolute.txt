@@ -1,0 +1,10 @@
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\WSConsultasSAI\ColpatriaSAI_WS.Entidades\bin\Release\ColpatriaSAI_WS.Entidades.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\WSConsultasSAI\ColpatriaSAI_WS.Entidades\bin\Release\ColpatriaSAI_WS.Entidades.pdb
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\WSConsultasSAI\ColpatriaSAI_WS.Entidades\obj\Release\ColpatriaSAI_WS.Entidades.csprojAssemblyReference.cache
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\WSConsultasSAI\ColpatriaSAI_WS.Entidades\obj\Release\ColpatriaSAI_WS.Entidades.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\WSConsultasSAI\ColpatriaSAI_WS.Entidades\obj\Release\ColpatriaSAI_WS.Entidades.pdb
+d:\DATOS\users\caalbarracinm\Source\Repos\SAI\WSConsultasSAI\ColpatriaSAI_WS.Entidades\bin\Release\ColpatriaSAI_WS.Entidades.dll
+d:\DATOS\users\caalbarracinm\Source\Repos\SAI\WSConsultasSAI\ColpatriaSAI_WS.Entidades\bin\Release\ColpatriaSAI_WS.Entidades.pdb
+d:\DATOS\users\caalbarracinm\Source\Repos\SAI\WSConsultasSAI\ColpatriaSAI_WS.Entidades\obj\Release\ColpatriaSAI_WS.Entidades.csprojAssemblyReference.cache
+d:\DATOS\users\caalbarracinm\Source\Repos\SAI\WSConsultasSAI\ColpatriaSAI_WS.Entidades\obj\Release\ColpatriaSAI_WS.Entidades.dll
+d:\DATOS\users\caalbarracinm\Source\Repos\SAI\WSConsultasSAI\ColpatriaSAI_WS.Entidades\obj\Release\ColpatriaSAI_WS.Entidades.pdb

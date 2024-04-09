@@ -1,0 +1,10 @@
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\MvcMembership\bin\Pruebas\MvcMembership.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\MvcMembership\bin\Pruebas\MvcMembership.pdb
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\MvcMembership\obj\Pruebas\MvcMembership.csprojResolveAssemblyReference.cache
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\MvcMembership\obj\Pruebas\MvcMembership.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\MvcMembership\obj\Pruebas\MvcMembership.pdb
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\MvcMembership\bin\Pruebas\MvcMembership.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\MvcMembership\bin\Pruebas\MvcMembership.pdb
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\MvcMembership\obj\Pruebas\MvcMembership.csprojResolveAssemblyReference.cache
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\MvcMembership\obj\Pruebas\MvcMembership.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\MvcMembership\obj\Pruebas\MvcMembership.pdb

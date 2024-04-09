@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="WSModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="WSModelStoreContainer" />
+  <Function Name="consultaExtractoAsesor" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="clave" Type="nvarchar" Mode="In" />
+    <Parameter Name="anio" Type="int" Mode="In" />
+  </Function>
+  <Function Name="consultaExtractoDetalladoPremiosAsesor" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="clave" Type="nvarchar" Mode="In" />
+    <Parameter Name="anio" Type="int" Mode="In" />
+  </Function>
+  <Function Name="consultaExtractoPersistenciaCapitalizacionAsesor" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="clave" Type="nvarchar" Mode="In" />
+    <Parameter Name="anio" Type="int" Mode="In" />
+  </Function>
+  <Function Name="consultaExtractoPersistenciaVidaAsesor" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="clave" Type="nvarchar" Mode="In" />
+    <Parameter Name="anio" Type="int" Mode="In" />
+  </Function>
+  <Function Name="consultaExtractoPremiosAsesor" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="clave" Type="nvarchar" Mode="In" />
+    <Parameter Name="anio" Type="int" Mode="In" />
+  </Function>
+  <Function Name="consultaExtractoSiniestralidadAutosAsesor" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="clave" Type="nvarchar" Mode="In" />
+    <Parameter Name="anio" Type="int" Mode="In" />
+  </Function>
+</Schema>

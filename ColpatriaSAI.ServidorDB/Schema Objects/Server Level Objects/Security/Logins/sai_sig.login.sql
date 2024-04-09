@@ -1,0 +1,1 @@
+﻿CREATE LOGIN sai_sig WITH PASSWORD = 'zwhShifiexhaZqV0{|mAwlgOmsFT7_&#$!~<|i&vu,1fi$nf'

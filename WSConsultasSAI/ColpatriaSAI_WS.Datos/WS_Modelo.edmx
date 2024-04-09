@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="WSModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="WSModelStoreContainer" />
+        <Function Name="consultaExtractoAsesor" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="clave" Type="nvarchar" Mode="In" />
+          <Parameter Name="anio" Type="int" Mode="In" />
+        </Function>
+        <Function Name="consultaExtractoDetalladoPremiosAsesor" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="clave" Type="nvarchar" Mode="In" />
+          <Parameter Name="anio" Type="int" Mode="In" />
+        </Function>
+        <Function Name="consultaExtractoPersistenciaCapitalizacionAsesor" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="clave" Type="nvarchar" Mode="In" />
+          <Parameter Name="anio" Type="int" Mode="In" />
+        </Function>
+        <Function Name="consultaExtractoPersistenciaVidaAsesor" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="clave" Type="nvarchar" Mode="In" />
+          <Parameter Name="anio" Type="int" Mode="In" />
+        </Function>
+        <Function Name="consultaExtractoPremiosAsesor" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="clave" Type="nvarchar" Mode="In" />
+          <Parameter Name="anio" Type="int" Mode="In" />
+        </Function>
+        <Function Name="consultaExtractoSiniestralidadAutosAsesor" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="clave" Type="nvarchar" Mode="In" />
+          <Parameter Name="anio" Type="int" Mode="In" />
+        </Function>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="WSModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="SAI_WSEntityConnection" annotation:LazyLoadingEnabled="true" >
+          <FunctionImport Name="ObtenerExtractoAsesor" ReturnType="Collection(WSModel.ExtractoAsesor)">
+            <Parameter Name="clave" Mode="In" Type="String" />
+            <Parameter Name="anio" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="ObtenerExtractoPremiosAsesor" ReturnType="Collection(WSModel.PremioAsesor)">
+            <Parameter Name="clave" Mode="In" Type="String" />
+            <Parameter Name="anio" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="ObtenerExtractoDetalladoPremiosAsesor" ReturnType="Collection(WSModel.ExtractoDetallePremioAsesor)">
+            <Parameter Name="clave" Mode="In" Type="String" />
+            <Parameter Name="anio" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="ObtenerExtractoSiniestralidadAutosAsesor" ReturnType="Collection(WSModel.SiniestralidadAutosAsesor)">
+            <Parameter Name="clave" Mode="In" Type="String" />
+            <Parameter Name="anio" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="ObtenerExtractoPersistenciaCapitalizacionAsesor" ReturnType="Collection(WSModel.PersistenciaCapitalizacionAsesor)">
+            <Parameter Name="clave" Mode="In" Type="String" />
+            <Parameter Name="anio" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="ObtenerExtractoPersistenciaVidaAsesor" ReturnType="Collection(WSModel.PersistenciaVidaAsesor)">
+            <Parameter Name="clave" Mode="In" Type="String" />
+            <Parameter Name="anio" Mode="In" Type="Int32" />
+          </FunctionImport>
+        </EntityContainer>
+        <ComplexType Name="ExtractoAsesor">
+          <Property Type="Int32" Name="idCompania" Nullable="true" />
+          <Property Type="String" Name="compania" Nullable="true" MaxLength="250" />
+          <Property Type="Int32" Name="idRamo" Nullable="true" />
+          <Property Type="String" Name="ramo" Nullable="true" MaxLength="250" />
+          <Property Type="String" Name="medida" Nullable="true" MaxLength="250" />
+          <Property Type="String" Name="mes" Nullable="true" MaxLength="250" />
+          <Property Type="Double" Name="valorAnioAnterior" Nullable="true" />
+          <Property Type="Double" Name="valorAnioActual" Nullable="true" />
+          <Property Type="Double" Name="porcentajeCrecimiento" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="PremioAsesor">
+          <Property Type="Int32" Name="codigoPremio" Nullable="true" />
+          <Property Type="String" Name="premio" Nullable="true" MaxLength="250" />
+          <Property Type="String" Name="gano" Nullable="true" MaxLength="10" />
+          <Property Type="String" Name="descripcionPremioGanado" Nullable="true" MaxLength="250" />
+          <Property Type="DateTime" Name="fechaCierrePremio" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="ExtractoDetallePremioAsesor">
+          <Property Type="Int32" Name="codigoPremio" Nullable="true" />
+          <Property Type="String" Name="premio" Nullable="true" MaxLength="250" />
+          <Property Type="String" Name="gano" Nullable="true" MaxLength="10" />
+          <Property Type="String" Name="descripcionPremioGanado" Nullable="true" MaxLength="250" />
+          <Property Type="DateTime" Name="fechaCierrePremio" Nullable="true" />
+          <Property Type="String" Name="condicion" Nullable="true" MaxLength="250" />
+          <Property Type="String" Name="meta" Nullable="true" MaxLength="250" />
+          <Property Type="Double" Name="ejecutado" Nullable="true" />
+          <Property Type="Double" Name="faltante" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="SiniestralidadAutosAsesor">
+          <Property Type="Double" Name="primasDevengar" Nullable="true" />
+          <Property Type="Double" Name="sinIncurrir" Nullable="true" />
+          <Property Type="Double" Name="porcentajeSinIncurrir" Nullable="true" />
+          <Property Type="Double" Name="colquinesDescontar" Nullable="true" />
+          <Property Type="Int32" Name="mes" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="PersistenciaCapitalizacionAsesor">
+          <Property Type="Double" Name="minimo" Nullable="true" />
+          <Property Type="String" Name="mesAcumulada" Nullable="true" MaxLength="250" />
+          <Property Type="Double" Name="porcentajePeriodo" Nullable="true" />
+          <Property Type="Double" Name="colquinesDescontar" Nullable="true" />
+          <Property Type="String" Name="plazo" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="mesPeriodo" Nullable="true" MaxLength="250" />
+          <Property Type="Double" Name="acumulada" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="PersistenciaVidaAsesor">
+          <Property Type="Double" Name="minimo" Nullable="true" />
+          <Property Type="String" Name="mes" Nullable="true" MaxLength="250" />
+          <Property Type="Double" Name="porcentaje" Nullable="true" />
+          <Property Type="Double" Name="colquinesDescontar" Nullable="true" />
+          <Property Type="String" Name="tipoPersistencia" Nullable="true" MaxLength="250" />
+        </ComplexType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="WSModelStoreContainer" CdmEntityContainer="SAI_WSEntityConnection" >
+          <FunctionImportMapping FunctionImportName="ObtenerExtractoAsesor" FunctionName="WSModel.Store.consultaExtractoAsesor">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="WSModel.ExtractoAsesor">
+                <ScalarProperty Name="idCompania" ColumnName="idCompania" />
+                <ScalarProperty Name="compania" ColumnName="compania" />
+                <ScalarProperty Name="idRamo" ColumnName="idRamo" />
+                <ScalarProperty Name="ramo" ColumnName="ramo" />
+                <ScalarProperty Name="medida" ColumnName="medida" />
+                <ScalarProperty Name="mes" ColumnName="mes" />
+                <ScalarProperty Name="valorAnioAnterior" ColumnName="valorAnioAnterior" />
+                <ScalarProperty Name="valorAnioActual" ColumnName="valorAnioActual" />
+                <ScalarProperty Name="porcentajeCrecimiento" ColumnName="porcentajeCrecimiento" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="ObtenerExtractoPremiosAsesor" FunctionName="WSModel.Store.consultaExtractoPremiosAsesor">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="WSModel.PremioAsesor">
+                <ScalarProperty Name="codigoPremio" ColumnName="codigoPremio" />
+                <ScalarProperty Name="premio" ColumnName="premio" />
+                <ScalarProperty Name="gano" ColumnName="gano" />
+                <ScalarProperty Name="descripcionPremioGanado" ColumnName="descripcionPremioGanado" />
+                <ScalarProperty Name="fechaCierrePremio" ColumnName="fechaCierrePremio" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="ObtenerExtractoDetalladoPremiosAsesor" FunctionName="WSModel.Store.consultaExtractoDetalladoPremiosAsesor">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="WSModel.ExtractoDetallePremioAsesor">
+                <ScalarProperty Name="codigoPremio" ColumnName="codigoPremio" />
+                <ScalarProperty Name="premio" ColumnName="premio" />
+                <ScalarProperty Name="gano" ColumnName="gano" />
+                <ScalarProperty Name="descripcionPremioGanado" ColumnName="descripcionPremioGanado" />
+                <ScalarProperty Name="fechaCierrePremio" ColumnName="fechaCierrePremio" />
+                <ScalarProperty Name="condicion" ColumnName="condicion" />
+                <ScalarProperty Name="meta" ColumnName="meta" />
+                <ScalarProperty Name="ejecutado" ColumnName="ejecutado" />
+                <ScalarProperty Name="faltante" ColumnName="faltante" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="ObtenerExtractoSiniestralidadAutosAsesor" FunctionName="WSModel.Store.consultaExtractoSiniestralidadAutosAsesor">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="WSModel.SiniestralidadAutosAsesor">
+                <ScalarProperty Name="primasDevengar" ColumnName="primasDevengar" />
+                <ScalarProperty Name="sinIncurrir" ColumnName="sinIncurrir" />
+                <ScalarProperty Name="porcentajeSinIncurrir" ColumnName="porcentajeSinIncurrir" />
+                <ScalarProperty Name="colquinesDescontar" ColumnName="colquinesDescontar" />
+                <ScalarProperty Name="mes" ColumnName="mes" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="ObtenerExtractoPersistenciaCapitalizacionAsesor" FunctionName="WSModel.Store.consultaExtractoPersistenciaCapitalizacionAsesor">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="WSModel.PersistenciaCapitalizacionAsesor">
+                <ScalarProperty Name="minimo" ColumnName="minimo" />
+                <ScalarProperty Name="colquinesDescontar" ColumnName="colquinesDescontar" />
+                <ScalarProperty Name="plazo" ColumnName="plazo" />
+                <ScalarProperty Name="mesPeriodo" ColumnName="mesPeriodo" />
+                <ScalarProperty Name="acumulada" ColumnName="acumulada" />
+                <ScalarProperty Name="mesAcumulada" ColumnName="mesAcumulada" />
+                <ScalarProperty Name="porcentajePeriodo" ColumnName="porcentajePeriodo" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="ObtenerExtractoPersistenciaVidaAsesor" FunctionName="WSModel.Store.consultaExtractoPersistenciaVidaAsesor">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="WSModel.PersistenciaVidaAsesor">
+                <ScalarProperty Name="minimo" ColumnName="minimo" />
+                <ScalarProperty Name="mes" ColumnName="mes" />
+                <ScalarProperty Name="porcentaje" ColumnName="porcentaje" />
+                <ScalarProperty Name="colquinesDescontar" ColumnName="colquinesDescontar" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="False" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram Name="WS_Modelo" >
+      </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>

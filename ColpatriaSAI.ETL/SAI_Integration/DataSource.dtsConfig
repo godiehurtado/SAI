@@ -1,0 +1,376 @@
+<?xml version="1.0"?>
+<DTSConfiguration>
+  <DTSConfigurationHeading>
+    <DTSConfigurationFileInfo GeneratedBy="UINVERSION\jfrojasm" GeneratedFromPackageName="CAPI_Negocios" GeneratedFromPackageID="{F414CB2F-B07F-4D12-83A1-2DEDE6E7068F}" GeneratedDate="1/12/2012 2:33:53 PM"/>
+  </DTSConfigurationHeading>
+
+  <!-- Parametros Generales -->
+
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::dataFlowLocalErrorName].Properties[Value]" ValueType="String">
+    <ConfiguredValue>LogErrores.txt</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::flatFileLocalErrorName].Properties[Value]" ValueType="String">
+    <ConfiguredValue>LogArchivoPlano.txt</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[FTP SAI].Properties[ServerPassword]" ValueType="String">
+    <ConfiguredValue>SAI2012</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[FTP SAI].Properties[ServerName]" ValueType="String">
+		<ConfiguredValue>PRO-FTPUI</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[FTP SAI].Properties[ServerUserName]" ValueType="String">
+		<ConfiguredValue>ftpsai</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::InitialCatalog].Properties[Value]" ValueType="String">
+    <ConfiguredValue>SAI</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::PasswordServerSQL].Properties[Value]" ValueType="String">
+    <ConfiguredValue>7kYWAZj7No-aN7S</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::ServerName].Properties[Value]" ValueType="String">
+    <ConfiguredValue>PRO-SQL01\PROD2008</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::UserName].Properties[Value]" ValueType="String">
+    <ConfiguredValue>sai_admin</ConfiguredValue>
+  </Configuration>
+  
+  <!-- SAI CRM -->
+  
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[SAI CRM].Properties[ConnectionString]" ValueType="String">
+	<ConfiguredValue>Data Source=DES-SQLUI01\DESARROLLO2008;User ID=sai_crm;Initial Catalog=UICOLPATRIA_STAGING_CRM;Provider=SQLNCLI.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-PRECALCULOS-{05b84a0d-0ded-4b10-b6bc-6c28ee83f3c8}SAI CRM;</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[SAI CRM].Properties[InitialCatalog]" ValueType="String">
+	<ConfiguredValue>UICOLPATRIA_STAGING_CRM</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[SAI CRM].Properties[Password]" ValueType="String">
+	<ConfiguredValue>SAICrmDESA</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[SAI CRM].Properties[ServerName]" ValueType="String">
+	<ConfiguredValue>DES-SQLUI01\DESARROLLO2008</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[SAI CRM].Properties[UserName]" ValueType="String">
+	<ConfiguredValue>sai_crm</ConfiguredValue>
+  </Configuration>
+
+  <!-- CAPI -->
+
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::fileNameCAPI].Properties[Value]" ValueType="String">
+    <ConfiguredValue>GNCSPF00</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::filePathCAPI].Properties[Value]" ValueType="String">
+    <ConfiguredValue>F:\Archivos SAI\Archivos FTP\CAPI\</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::LocalErrorPathCAPI].Properties[Value]" ValueType="String">
+    <ConfiguredValue>F:\Archivos SAI\LogErroresSAI\CAPI\</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package\FTP GNCSPF00.Variables[SAI::RemotePathNCAPI].Properties[Value]" ValueType="String">
+    <ConfiguredValue>/GNCSPF00</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::fileNameGPCSPF00].Properties[Value]" ValueType="String">
+    <ConfiguredValue>GPCSPF00</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package\FTP GPCSPF00.Variables[SAI::RemotePathPCAPI].Properties[Value]" ValueType="String">
+    <ConfiguredValue>/GPCSPF00</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::fileNameGRCSPF00].Properties[Value]" ValueType="String">
+    <ConfiguredValue>GRCSPF00</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package\FTP GRCSPF00.Variables[SAI::RemotePathRCAPI].Properties[Value]" ValueType="String">
+    <ConfiguredValue>/GRCSPF00</ConfiguredValue>
+  </Configuration>
+
+  <!-- SISE GENERALES -->
+
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::fileNamePGEN].Properties[Value]" ValueType="String">
+    <ConfiguredValue>ProductosGenerales.txt</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::filePathGEN].Properties[Value]" ValueType="String">
+    <ConfiguredValue>F:\Archivos SAI\Archivos FTP\SISE\GENERALES\</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package\FTP Productos GENERALES.Variables[SAI::RemotePathPGEN].Properties[Value]" ValueType="String">
+    <ConfiguredValue>/ProductosGenerales.txt</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::fileNameRGenerales].Properties[Value]" ValueType="String">
+    <ConfiguredValue>RecaudosGenerales.txt</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package\FTP Recaudos Generales.Variables[SAI::RemotePathRGEN].Properties[Value]" ValueType="String">
+    <ConfiguredValue>/RecaudosGenerales.txt</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::fileNameGEN].Properties[Value]" ValueType="String">
+    <ConfiguredValue>NegociosGenerales.txt</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::LocalErrorPathGEN].Properties[Value]" ValueType="String">
+    <ConfiguredValue>F:\Archivos SAI\LogErroresSAI\SISE\GENERALES\</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package\FTP NegociosGenerales.Variables[SAI::RemotePathNGEN].Properties[Value]" ValueType="String">
+    <ConfiguredValue>/NegociosGenerales.txt</ConfiguredValue>
+  </Configuration>
+
+  <!-- VIDA -->
+
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::fileNameRVIDA].Properties[Value]" ValueType="String">
+    <ConfiguredValue>RecaudosVida.txt</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::filePathVIDA].Properties[Value]" ValueType="String">
+    <ConfiguredValue>F:\Archivos SAI\Archivos FTP\SISE\VIDA\</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package\FTP Recaudos Vida.Variables[SAI::RemotePathRVIDA].Properties[Value]" ValueType="String">
+    <ConfiguredValue>/RecaudosVida.txt</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::fileNameVIDA].Properties[Value]" ValueType="String">
+    <ConfiguredValue>NegociosVida.txt</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::LocalErrorPathVIDA].Properties[Value]" ValueType="String">
+    <ConfiguredValue>F:\Archivos SAI\LogErroresSAI\SISE\VIDA\</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package\FTP NegociosVida.Variables[SAI::RemotePathNVIDA].Properties[Value]" ValueType="String">
+    <ConfiguredValue>/NegociosVida.txt</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::fileNamePVIDA].Properties[Value]" ValueType="String">
+    <ConfiguredValue>productosvida.txt</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package\FTP Productos VIDA.Variables[User::RemotePathPVIDA].Properties[Value]" ValueType="String">
+    <ConfiguredValue>/ProductosVida.txt</ConfiguredValue>
+  </Configuration>
+
+  <!-- BH -->
+
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::fileNamePBH].Properties[Value]" ValueType="String">
+    <ConfiguredValue>SAIProduct.txt</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::filePathBH].Properties[Value]" ValueType="String">
+    <ConfiguredValue>F:\Archivos SAI\Archivos FTP\BH\</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package\FTP SaiProduct.Variables[SAI::RemotePathPBH].Properties[Value]" ValueType="String">
+    <ConfiguredValue>/SAIProduct.txt</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::fileNameRBH].Properties[Value]" ValueType="String">
+    <ConfiguredValue>SAICollect.txt</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package\FTP SAICollect.Variables[SAI::RemotePathRBH].Properties[Value]" ValueType="String">
+    <ConfiguredValue>/SAICollect.txt</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::fileNameBH].Properties[Value]" ValueType="String">
+    <ConfiguredValue>SAIBusiness.txt</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::LocalErrorPathBH].Properties[Value]" ValueType="String">
+    <ConfiguredValue>F:\Archivos SAI\LogErroresSAI\BH\</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package\FTP SaiBusiness.Variables[SAI::RemotePathNBH].Properties[Value]" ValueType="String">
+    <ConfiguredValue>/SAIBusiness.txt</ConfiguredValue>
+  </Configuration>
+
+  <!-- EMERMEDICA -->
+
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::fileNameREMER].Properties[Value]" ValueType="String">
+    <ConfiguredValue>SAIRECAUEMER.TXT</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::filePathEMER].Properties[Value]" ValueType="String">
+    <ConfiguredValue>F:\Archivos SAI\Archivos FTP\EMERMEDICA\</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package\FTP Recaudos Generales.Variables[SAI::RemotePathREMER].Properties[Value]" ValueType="String">
+    <ConfiguredValue>/SAIRECAUEMER.txt</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::fileNameEMERMEDICA].Properties[Value]" ValueType="String">
+    <ConfiguredValue>SAINEGOEMER.TXT</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::LocalErrorPathEMERMEDICA].Properties[Value]" ValueType="String">
+    <ConfiguredValue>F:\Archivos SAI\LogErroresSAI\EMERMEDICA\</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package\FTP EMERMEDICA.Variables[SAI::RemotePathNEMER].Properties[Value]" ValueType="String">
+    <ConfiguredValue>/SAINEGOEMER.txt</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::fileNamePEMERMEDICA].Properties[Value]" ValueType="String">
+    <ConfiguredValue>SAIPRODUEMER.TXT</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package\FTP SALUD EMERMEDICA.Variables[SAI::RemotePathPEMER].Properties[Value]" ValueType="String">
+    <ConfiguredValue>/SAIPRODUEMER.txt</ConfiguredValue>
+  </Configuration>
+
+  <!-- ARP -->
+
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::filePathARP].Properties[Value]" ValueType="String">
+    <ConfiguredValue>F:\Archivos SAI\Archivos FTP\ARP\</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::LocalErrorPathARP].Properties[Value]" ValueType="String">
+    <ConfiguredValue>F:\Archivos SAI\LogErroresSAI\ARP\</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::fileNameNARP].Properties[Value]" ValueType="String">
+    <ConfiguredValue>ANCSPF00</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package\FTP ANCSPF00.Variables[SAI::RemotePathNARP].Properties[Value]" ValueType="String">
+    <ConfiguredValue>/ANCSPF00</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::fileNamePARP].Properties[Value]" ValueType="String">
+    <ConfiguredValue>AASAIpF0.csv</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package\FTP APCSPF00.Variables[SAI::RemotePathPARP].Properties[Value]" ValueType="String">
+    <ConfiguredValue>/AASAIpF0</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::fileNameRARP].Properties[Value]" ValueType="String">
+    <ConfiguredValue>ARCSPF00</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package\FTP ARCSPF00.Variables[SAI::RemotePathRARP].Properties[Value]" ValueType="String">
+    <ConfiguredValue>/ARCSPF00</ConfiguredValue>
+  </Configuration>
+
+  <!-- SINIESTRALIDAD -->
+
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::fileNameSINIEST].Properties[Value]" ValueType="String">
+    <ConfiguredValue>ArchivoSai</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::filePathSINIEST].Properties[Value]" ValueType="String">
+    <ConfiguredValue>F:\Archivos SAI\Archivos FTP\OTROS\</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package\FTP Siniestralidad.Variables[SAI::RemotePathSINIEST].Properties[Value]" ValueType="String">
+    <ConfiguredValue>/ArchivoSai</ConfiguredValue>
+  </Configuration>
+
+  <!-- EXCEPCIONES -->
+
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::fileNameExcep].Properties[Value]" ValueType="String">
+	<ConfiguredValue>Excepciones.csv</ConfiguredValue>
+  </Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::filePathExcep].Properties[Value]" ValueType="String">
+  <ConfiguredValue>F:\Archivos SAI\Archivos FTP\OTROS\</ConfiguredValue>
+	</Configuration>
+
+  <!-- COMJJEO -->
+
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::fileNameCOMJJEO].Properties[Value]" ValueType="String">
+    <ConfiguredValue>COMJJEO</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::filePathCOMJJEO].Properties[Value]" ValueType="String">
+    <ConfiguredValue>F:\Archivos SAI\Archivos FTP\OTROS\</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package\FTP COMJJEO.Variables[SAI::RemotePathCOMJJEO].Properties[Value]" ValueType="String">
+    <ConfiguredValue>/COMJJEO</ConfiguredValue>
+  </Configuration>
+
+  <!-- NOM301O -->
+
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::fileNameNOM301O].Properties[Value]" ValueType="String">
+    <ConfiguredValue>NOM301O</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::filePathNOM301O].Properties[Value]" ValueType="String">
+    <ConfiguredValue>F:\Archivos SAI\Archivos FTP\OTROS\</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package\FTP NOM301O.Variables[SAI::RemotePathNOM301O].Properties[Value]" ValueType="String">
+    <ConfiguredValue>/NOM301O</ConfiguredValue>
+  </Configuration>
+
+  <!-- NOM231 -->
+
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::fileNameNOM231].Properties[Value]" ValueType="String">
+    <ConfiguredValue>NOM235O</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::filePathNOM231].Properties[Value]" ValueType="String">
+    <ConfiguredValue>F:\Archivos SAI\Archivos FTP\OTROS\</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package\FTP NOM231.Variables[SAI::RemotePathNOM231].Properties[Value]" ValueType="String">
+    <ConfiguredValue>/NOM235O</ConfiguredValue>
+  </Configuration>
+
+  <!-- COMXXX -->
+  
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::LocalFileCOMXXX].Properties[Value]" ValueType="String">
+    <ConfiguredValue>F:\Archivos SAI\Archivos FTP\OTROS\COMXXXF.txt</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::RemotePathCOMXXX].Properties[Value]" ValueType="String">
+    <ConfiguredValue>/SalidaSAI</ConfiguredValue>
+  </Configuration>
+
+  <!-- LOG DE ERRORES -->
+
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::fileNameLogErrorNegocio].Properties[Value]" ValueType="String">
+    <ConfiguredValue>LogErroresNegocio</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::fileNameLogErrorRecaudo].Properties[Value]" ValueType="String">
+    <ConfiguredValue>LogErroresRecaudo</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::filePathLogErrorNegocio].Properties[Value]" ValueType="String">
+    <ConfiguredValue>F:\Archivos SAI\LogErroresSAI\</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::filePathLogErrorRecaudo].Properties[Value]" ValueType="String">
+    <ConfiguredValue>F:\Archivos SAI\LogErroresSAI\</ConfiguredValue>
+  </Configuration>
+
+  <!-- CODC01 -->
+
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::fileNameCODC01].Properties[Value]" ValueType="String">
+    <ConfiguredValue>CODC01O</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::filePathCODC01].Properties[Value]" ValueType="String">
+    <ConfiguredValue>F:\Archivos SAI\Archivos FTP\OTROS\</ConfiguredValue>
+  </Configuration>
+
+	<!-- Reportes Negocios Recaudos -->
+  
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::NombreArchivoNegocio].Properties[Value]" ValueType="String">
+		<ConfiguredValue>Negocios_</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::NombreArchivoRecaudo].Properties[Value]" ValueType="String">
+		<ConfiguredValue>Recaudos_</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::RemotePathNegocios].Properties[Value]" ValueType="String">
+		<ConfiguredValue>/SalidaSAI/Negocios</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::RemotePathRecaudos].Properties[Value]" ValueType="String">
+		<ConfiguredValue>/SalidaSAI/Recaudos</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::RutaArchivosNegocio].Properties[Value]" ValueType="String">
+		<ConfiguredValue>F:\Archivos SAI\Archivos FTP\Negocios\</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::RutaArchivosRecaudo].Properties[Value]" ValueType="String">
+		<ConfiguredValue>F:\Archivos SAI\Archivos FTP\Recaudos\</ConfiguredValue>
+	</Configuration>
+
+	<!-- PORTAL -->
+  
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::portalExtractoBoletinVentas].Properties[Value]" ValueType="String">
+		<ConfiguredValue>portalExtractoBoletinVentas.csv</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::portalExtractoDetalleEjecutado].Properties[Value]" ValueType="String">
+		<ConfiguredValue>portalExtractoDetalleEjecutado.csv</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::portalExtractoIngresos].Properties[Value]" ValueType="String">
+		<ConfiguredValue>portalExtractoIngresos.csv</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::portalExtractoPremiosEjecutado].Properties[Value]" ValueType="String">
+		<ConfiguredValue>portalExtractoPremiosEjecutado.csv</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::portalExtractoSiniestralidad].Properties[Value]" ValueType="String">
+		<ConfiguredValue>portalExtractoSiniestralidad.csv</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::portalPersistenciaAcumuladaCAPI].Properties[Value]" ValueType="String">
+		<ConfiguredValue>portalPersistenciaAcumuladaCAPI.csv</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::portalPersistenciaPonderadaVIDA].Properties[Value]" ValueType="String">
+		<ConfiguredValue>portalPersistenciaPonderadaVIDA.csv</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::portalPersistenciaPreventivaCAPI].Properties[Value]" ValueType="String">
+		<ConfiguredValue>portalPersistenciaPreventivaCAPI.csv</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::portalPonderadaAcumuladaVIDA].Properties[Value]" ValueType="String">
+		<ConfiguredValue>portalPonderadaAcumuladaVIDA.csv</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::portalTotalProduccion].Properties[Value]" ValueType="String">
+		<ConfiguredValue>portalTotalProduccion.csv</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::RutaPortal].Properties[Value]" ValueType="String">
+		<ConfiguredValue>F:\Archivos SAI\Archivos FTP\OTROS\PORTAL\</ConfiguredValue>
+	</Configuration>
+
+	<!-- Reportes_Franquicias -->
+  
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::NombreArchivoLiquidacionFranquicias].Properties[Value]" ValueType="String">
+		<ConfiguredValue>Liquidacion_</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::RemotePathLiquidacionFranquicias].Properties[Value]" ValueType="String">
+		<ConfiguredValue>/SalidaSAI/LiquidacionFranquicias</ConfiguredValue>
+	</Configuration>
+	<Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::RutaArchivosLiquidacionFranquicias].Properties[Value]" ValueType="String">
+		<ConfiguredValue>F:\Archivos SAI\Archivos FTP\Franquicias\</ConfiguredValue>
+	</Configuration>
+
+</DTSConfiguration>

@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9D757B5E-15AE-41D5-9586-370F6766EC78}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Colpatria.SAI.Reportes</RootNamespace>
+    <AssemblyName>Colpatria.SAI.Reportes</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Pruebas|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Pruebas\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\Colpatria.SAI.Reportes.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;c:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;c:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ColpatriaSAI.Reportes.rptproj" />
+    <None Include="ColquinesxSegmento.rdl" />
+    <None Include="ConsolidadoMesMeta.rdl" />
+    <None Include="DataSource1.rds" />
+    <None Include="ExtraccionAsesor.rdl" />
+    <None Include="InformeProductividad.rdl" />
+    <None Include="LogErroresMultijerarquia.rdl" />
+    <None Include="LogSegmentacion.rdl" />
+    <None Include="PersistenciaCAPIAcumuladaEjecutivo.rdl" />
+    <None Include="PersistenciaCAPIPeriodoEjecutivo.rdl" />
+    <None Include="PersistenciaVIDADetalle.rdl" />
+    <None Include="PersistenciaVIDAEjecutivo.rdl" />
+    <None Include="ReportAnticipoFranquicia.rdl" />
+    <None Include="ReporteAjustesManualEjecucion.rdl" />
+    <None Include="ReporteAnticipoFranquicia.rdl" />
+    <None Include="ReporteColquinesConsolidadoRamo.rdl" />
+    <None Include="ReporteColquinesxRecaudo.rdl" />
+    <None Include="ReporteCompania.rdl" />
+    <None Include="ReporteConsolidadoMesEjecutivo.rdl" />
+    <None Include="ReporteConsolidadoporTipoMedida.rdl" />
+    <None Include="ReporteConsolidadoxMes.rdl" />
+    <None Include="ReporteContratacion.rdl" />
+    <None Include="ReporteDetalleContratacion.rdl" />
+    <None Include="ReporteDetallePagosFranquicia.rdl" />
+    <None Include="ReporteErroresCargue.rdl" />
+    <None Include="ReporteExcepcionesJerarquia.rdl" />
+    <None Include="ReporteInformeFabrica.rdl" />
+    <None Include="ReporteIngresosxAsesor.rdl" />
+    <None Include="ReportEjecutivo.rdl" />
+    <None Include="ReporteJerarquiaDetalle.rdl" />
+    <None Include="ReporteLiquidacionConcursoxAsesor.rdl" />
+    <None Include="ReporteLiquidacionConcursoxNodo.rdl" />
+    <None Include="ReporteLiquidacionFranquicias.rdl" />
+    <None Include="ReporteLiquidacionParticipaciones.rdl" />
+    <None Include="ReporteLiquidacionReglaDetalladoEjecutivo.rdl" />
+    <None Include="ReporteLiquidacionReglaGeneral.rdl" />
+    <None Include="ReporteLiquidacionReglaGeneralDetallado.rdl" />
+    <None Include="ReporteLiquidacionReglaGeneralEjecutivo.rdl" />
+    <None Include="ReporteLogAuditoria.rdl" />
+    <None Include="ReporteLogDiario.rdl" />
+    <None Include="ReporteLogErroresNegocio.rdl" />
+    <None Include="ReporteLogErroresCargue.rdl" />
+    <None Include="ReporteLogErroresRecaudo.rdl" />
+    <None Include="ReporteLogIntegracion.rdl" />
+    <None Include="ReporteLogValidacionSISE.rdl" />
+    <None Include="ReporteMetasJerarquiaComercial.rdl" />
+    <None Include="ReporteNegocio.rdl" />
+    <None Include="ReporteNegocioCierre.rdl" />
+    <None Include="ReporteNegocioConsolidado.rdl" />
+    <None Include="ReportePagos.rdl" />
+    <None Include="ReportePagosAnuales.rdl" />
+    <None Include="ReportePagosContratacion.rdl" />
+    <None Include="ReporteParamFranquicia.rdl" />
+    <None Include="ReportePersistenciaCAPI.rdl" />
+    <None Include="ReportePersistenciadeCAPIAcumulada.rdl" />
+    <None Include="ReportePersistenciadeCAPIDetalle.rdl" />
+    <None Include="ReportePersistenciadeCAPIPeriodo.rdl" />
+    <None Include="ReportePersistenciaVIDA.rdl" />
+    <None Include="ReportePresupuesto.rdl" />
+    <None Include="ReporteRamosAsesor.rdl" />
+    <None Include="ReporteRanking.rdl" />
+    <None Include="ReporteRecaudos.rdl" />
+    <None Include="ReporteRecaudosCierre.rdl" />
+    <None Include="ReporteResumenConcurso.rdl" />
+    <None Include="ReporteSiniestralidad.rdl" />
+    <None Include="ReporteSiniestralidadAcumulada.rdl" />
+    <None Include="ReporteTotalColquines.rdl" />
+    <None Include="ReporteTotalComisionesxNodo.rdl" />
+    <None Include="ReporteTotalEjecutadoxNodo.rdl" />
+    <None Include="ReporteTotalEjecutadoxNodoExcepciones.rdl" />
+    <None Include="ReportexEjecucionIntegracion.rdl" />
+    <None Include="ReportexErrorIntegracion.rdl" />
+    <None Include="ReportLiqFranquicias.rdl" />
+    <None Include="ReportPagosFranq.rdl" />
+    <None Include="ReportPresupuestoEjecucionCanal.rdl" />
+    <None Include="RPT_ConsolidadoSIG_SAI.rdl" />
+    <None Include="RPT_Diferencia_SAI_SIG.rdl" />
+    <None Include="RPT_Diferencia_SIG_SAI.rdl" />
+    <None Include="RPT_saiVssig.rdl" />
+    <None Include="SAI.rds" />
+    <None Include="SAIdifSIG.rds" />
+    <None Include="SiniestralidadAcumuladaEjecutivo.rdl" />
+    <None Include="SiniestralidadEjecutivo.rdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ColpatriaSAI.Reportes.rptproj.user" />
+    <Content Include="Report SAI.sln" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

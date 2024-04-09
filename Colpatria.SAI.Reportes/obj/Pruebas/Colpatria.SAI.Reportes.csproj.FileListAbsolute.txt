@@ -1,0 +1,8 @@
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\Colpatria.SAI.Reportes\bin\Pruebas\Colpatria.SAI.Reportes.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\Colpatria.SAI.Reportes\bin\Pruebas\Colpatria.SAI.Reportes.pdb
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\Colpatria.SAI.Reportes\obj\Pruebas\Colpatria.SAI.Reportes.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\Colpatria.SAI.Reportes\obj\Pruebas\Colpatria.SAI.Reportes.pdb
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\Colpatria.SAI.Reportes\bin\Pruebas\Colpatria.SAI.Reportes.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\Colpatria.SAI.Reportes\bin\Pruebas\Colpatria.SAI.Reportes.pdb
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\Colpatria.SAI.Reportes\obj\Pruebas\Colpatria.SAI.Reportes.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\Colpatria.SAI.Reportes\obj\Pruebas\Colpatria.SAI.Reportes.pdb

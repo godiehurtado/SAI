@@ -1,0 +1,1 @@
+﻿CREATE LOGIN sai_portal WITH PASSWORD = 'TjfbUqz+kzrUvQad`d|1hA1MmsFT7_&#$!~<i6rgiv8g gu{'

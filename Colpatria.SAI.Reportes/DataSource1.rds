@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>DataSource1</Name>
+  <ConnectionProperties>
+    <Extension>OLEDB</Extension>
+    <ConnectString>Provider=Sybase.ASEOLEDBProvider;Data Source=sisepraix;OLE DB Services=-1;Initial Catalog=generales;Extended ErrorInfo=True;EnableSPColumnTypes=False</ConnectString>
+    <Prompt>Specify a user name and password for data source DataSource1.</Prompt>
+  </ConnectionProperties>
+  <DataSourceID>b77e3dc8-dbaf-441b-9406-b8a13fe8ba8b</DataSourceID>
+</RptDataSource>

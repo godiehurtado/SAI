@@ -1,0 +1,42 @@
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\Colpatria.SAI.Reportes\bin\Debug\Colpatria.SAI.Reportes.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\Colpatria.SAI.Reportes\bin\Debug\Colpatria.SAI.Reportes.pdb
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\Colpatria.SAI.Reportes\obj\Debug\Colpatria.SAI.Reportes.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\Colpatria.SAI.Reportes\obj\Debug\Colpatria.SAI.Reportes.pdb
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\Colpatria.SAI.Reportes\bin\Debug\Colpatria.SAI.Reportes.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\Colpatria.SAI.Reportes\bin\Debug\Colpatria.SAI.Reportes.pdb
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\Colpatria.SAI.Reportes\obj\Debug\Colpatria.SAI.Reportes.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\Colpatria.SAI.Reportes\obj\Debug\Colpatria.SAI.Reportes.pdb
+E:\caalbarracinm\Principal-Desarrollo\Colpatria.SAI.Reportes\bin\Debug\Colpatria.SAI.Reportes.dll
+E:\caalbarracinm\Principal-Desarrollo\Colpatria.SAI.Reportes\bin\Debug\Colpatria.SAI.Reportes.pdb
+E:\caalbarracinm\Principal-Desarrollo\Colpatria.SAI.Reportes\obj\Debug\Colpatria.SAI.Reportes.dll
+E:\caalbarracinm\Principal-Desarrollo\Colpatria.SAI.Reportes\obj\Debug\Colpatria.SAI.Reportes.pdb
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\Colpatria.SAI.Reportes\bin\Debug\Colpatria.SAI.Reportes.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\Colpatria.SAI.Reportes\bin\Debug\Colpatria.SAI.Reportes.pdb
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\Colpatria.SAI.Reportes\obj\Debug\Colpatria.SAI.Reportes.csprojAssemblyReference.cache
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\Colpatria.SAI.Reportes\obj\Debug\Colpatria.SAI.Reportes.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\Colpatria.SAI.Reportes\obj\Debug\Colpatria.SAI.Reportes.pdb
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\Colpatria.SAI.Reportes\bin\Debug\Colpatria.SAI.Reportes.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\Colpatria.SAI.Reportes\bin\Debug\Colpatria.SAI.Reportes.pdb
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\Colpatria.SAI.Reportes\obj\Debug\Colpatria.SAI.Reportes.csprojAssemblyReference.cache
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\Colpatria.SAI.Reportes\obj\Debug\Colpatria.SAI.Reportes.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\Colpatria.SAI.Reportes\obj\Debug\Colpatria.SAI.Reportes.pdb
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\Colpatria.SAI.Reportes\bin\Debug\Colpatria.SAI.Reportes.dll
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\Colpatria.SAI.Reportes\bin\Debug\Colpatria.SAI.Reportes.pdb
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\Colpatria.SAI.Reportes\obj\Debug\Colpatria.SAI.Reportes.csprojAssemblyReference.cache
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\Colpatria.SAI.Reportes\obj\Debug\Colpatria.SAI.Reportes.dll
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\Colpatria.SAI.Reportes\obj\Debug\Colpatria.SAI.Reportes.pdb
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\Colpatria.SAI.Reportes\bin\Debug\Colpatria.SAI.Reportes.dll
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\Colpatria.SAI.Reportes\bin\Debug\Colpatria.SAI.Reportes.pdb
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\Colpatria.SAI.Reportes\obj\Debug\Colpatria.SAI.Reportes.csproj.CoreCompileInputs.cache
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\Colpatria.SAI.Reportes\obj\Debug\Colpatria.SAI.Reportes.dll
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\Colpatria.SAI.Reportes\obj\Debug\Colpatria.SAI.Reportes.pdb
+E:\Datos\SAI\Colpatria.SAI.Reportes\bin\Debug\Colpatria.SAI.Reportes.dll
+E:\Datos\SAI\Colpatria.SAI.Reportes\bin\Debug\Colpatria.SAI.Reportes.pdb
+E:\Datos\SAI\Colpatria.SAI.Reportes\obj\Debug\Colpatria.SAI.Reportes.csproj.CoreCompileInputs.cache
+E:\Datos\SAI\Colpatria.SAI.Reportes\obj\Debug\Colpatria.SAI.Reportes.dll
+E:\Datos\SAI\Colpatria.SAI.Reportes\obj\Debug\Colpatria.SAI.Reportes.pdb
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\Colpatria.SAI.Reportes\bin\Debug\Colpatria.SAI.Reportes.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\Colpatria.SAI.Reportes\bin\Debug\Colpatria.SAI.Reportes.pdb
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\Colpatria.SAI.Reportes\obj\Debug\Colpatria.SAI.Reportes.csproj.CoreCompileInputs.cache
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\Colpatria.SAI.Reportes\obj\Debug\Colpatria.SAI.Reportes.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\Colpatria.SAI.Reportes\obj\Debug\Colpatria.SAI.Reportes.pdb

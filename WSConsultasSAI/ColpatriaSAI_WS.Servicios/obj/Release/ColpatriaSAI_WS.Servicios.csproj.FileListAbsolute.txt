@@ -1,0 +1,46 @@
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\WSConsultasSAI\ColpatriaSAI_WS.Servicios\bin\ColpatriaSAI_WS.Servicios.dll.config
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\WSConsultasSAI\ColpatriaSAI_WS.Servicios\bin\ColpatriaSAI_WS.Servicios.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\WSConsultasSAI\ColpatriaSAI_WS.Servicios\bin\ColpatriaSAI_WS.Servicios.pdb
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\WSConsultasSAI\ColpatriaSAI_WS.Servicios\bin\ColpatriaSAI_WS.Datos.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\WSConsultasSAI\ColpatriaSAI_WS.Servicios\bin\ColpatriaSAI_WS.Entidades.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\WSConsultasSAI\ColpatriaSAI_WS.Servicios\bin\log4net.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\WSConsultasSAI\ColpatriaSAI_WS.Servicios\bin\UI.Colpatria.Utilities.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\WSConsultasSAI\ColpatriaSAI_WS.Servicios\bin\UI.Colpatria.WCF.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\WSConsultasSAI\ColpatriaSAI_WS.Servicios\bin\ColpatriaSAI_WS.Datos.pdb
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\WSConsultasSAI\ColpatriaSAI_WS.Servicios\bin\ColpatriaSAI_WS.Datos.dll.config
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\WSConsultasSAI\ColpatriaSAI_WS.Servicios\bin\ColpatriaSAI_WS.Entidades.pdb
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\WSConsultasSAI\ColpatriaSAI_WS.Servicios\obj\Release\ColpatriaSAI_WS.Servicios.csprojAssemblyReference.cache
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\WSConsultasSAI\ColpatriaSAI_WS.Servicios\obj\Release\ColpatriaSAI_WS.Servicios.csproj.CopyComplete
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\WSConsultasSAI\ColpatriaSAI_WS.Servicios\obj\Release\ColpatriaSAI_WS.Servicios.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\WSConsultasSAI\ColpatriaSAI_WS.Servicios\obj\Release\ColpatriaSAI_WS.Servicios.pdb
+d:\DATOS\users\caalbarracinm\Source\Repos\SAI\WSConsultasSAI\ColpatriaSAI_WS.Servicios\bin\ColpatriaSAI_WS.Servicios.dll.config
+d:\DATOS\users\caalbarracinm\Source\Repos\SAI\WSConsultasSAI\ColpatriaSAI_WS.Servicios\bin\ColpatriaSAI_WS.Servicios.dll
+d:\DATOS\users\caalbarracinm\Source\Repos\SAI\WSConsultasSAI\ColpatriaSAI_WS.Servicios\bin\ColpatriaSAI_WS.Servicios.pdb
+d:\DATOS\users\caalbarracinm\Source\Repos\SAI\WSConsultasSAI\ColpatriaSAI_WS.Servicios\bin\ColpatriaSAI_WS.Datos.dll
+d:\DATOS\users\caalbarracinm\Source\Repos\SAI\WSConsultasSAI\ColpatriaSAI_WS.Servicios\bin\ColpatriaSAI_WS.Entidades.dll
+d:\DATOS\users\caalbarracinm\Source\Repos\SAI\WSConsultasSAI\ColpatriaSAI_WS.Servicios\bin\log4net.dll
+d:\DATOS\users\caalbarracinm\Source\Repos\SAI\WSConsultasSAI\ColpatriaSAI_WS.Servicios\bin\UI.Colpatria.Utilities.dll
+d:\DATOS\users\caalbarracinm\Source\Repos\SAI\WSConsultasSAI\ColpatriaSAI_WS.Servicios\bin\UI.Colpatria.WCF.dll
+d:\DATOS\users\caalbarracinm\Source\Repos\SAI\WSConsultasSAI\ColpatriaSAI_WS.Servicios\bin\ColpatriaSAI_WS.Datos.pdb
+d:\DATOS\users\caalbarracinm\Source\Repos\SAI\WSConsultasSAI\ColpatriaSAI_WS.Servicios\bin\ColpatriaSAI_WS.Datos.dll.config
+d:\DATOS\users\caalbarracinm\Source\Repos\SAI\WSConsultasSAI\ColpatriaSAI_WS.Servicios\bin\ColpatriaSAI_WS.Entidades.pdb
+d:\DATOS\users\caalbarracinm\Source\Repos\SAI\WSConsultasSAI\ColpatriaSAI_WS.Servicios\obj\Release\ColpatriaSAI_WS.Servicios.csprojAssemblyReference.cache
+d:\DATOS\users\caalbarracinm\Source\Repos\SAI\WSConsultasSAI\ColpatriaSAI_WS.Servicios\obj\Release\ColpatriaSAI_WS.Servicios.csproj.CopyComplete
+d:\DATOS\users\caalbarracinm\Source\Repos\SAI\WSConsultasSAI\ColpatriaSAI_WS.Servicios\obj\Release\ColpatriaSAI_WS.Servicios.dll
+d:\DATOS\users\caalbarracinm\Source\Repos\SAI\WSConsultasSAI\ColpatriaSAI_WS.Servicios\obj\Release\ColpatriaSAI_WS.Servicios.pdb
+E:\SAI Debug\SAI\WSConsultasSAI\ColpatriaSAI_WS.Servicios\bin\ColpatriaSAI_WS.Servicios.dll.config
+E:\SAI Debug\SAI\WSConsultasSAI\ColpatriaSAI_WS.Servicios\bin\ColpatriaSAI_WS.Servicios.dll
+E:\SAI Debug\SAI\WSConsultasSAI\ColpatriaSAI_WS.Servicios\bin\ColpatriaSAI_WS.Servicios.pdb
+E:\SAI Debug\SAI\WSConsultasSAI\ColpatriaSAI_WS.Servicios\bin\ColpatriaSAI_WS.Datos.dll
+E:\SAI Debug\SAI\WSConsultasSAI\ColpatriaSAI_WS.Servicios\bin\ColpatriaSAI_WS.Entidades.dll
+E:\SAI Debug\SAI\WSConsultasSAI\ColpatriaSAI_WS.Servicios\bin\log4net.dll
+E:\SAI Debug\SAI\WSConsultasSAI\ColpatriaSAI_WS.Servicios\bin\UI.Colpatria.Utilities.dll
+E:\SAI Debug\SAI\WSConsultasSAI\ColpatriaSAI_WS.Servicios\bin\UI.Colpatria.WCF.dll
+E:\SAI Debug\SAI\WSConsultasSAI\ColpatriaSAI_WS.Servicios\bin\ColpatriaSAI_WS.Datos.pdb
+E:\SAI Debug\SAI\WSConsultasSAI\ColpatriaSAI_WS.Servicios\bin\ColpatriaSAI_WS.Datos.dll.config
+E:\SAI Debug\SAI\WSConsultasSAI\ColpatriaSAI_WS.Servicios\bin\ColpatriaSAI_WS.Entidades.pdb
+E:\SAI Debug\SAI\WSConsultasSAI\ColpatriaSAI_WS.Servicios\obj\Release\ColpatriaSAI_WS.Servicios.csproj.AssemblyReference.cache
+E:\SAI Debug\SAI\WSConsultasSAI\ColpatriaSAI_WS.Servicios\obj\Release\ColpatriaSAI_WS.Servicios.csproj.CoreCompileInputs.cache
+E:\SAI Debug\SAI\WSConsultasSAI\ColpatriaSAI_WS.Servicios\obj\Release\ColpatriaSAI_WS.Servicios.csproj.CopyComplete
+E:\SAI Debug\SAI\WSConsultasSAI\ColpatriaSAI_WS.Servicios\obj\Release\ColpatriaSAI_WS.Servicios.dll
+E:\SAI Debug\SAI\WSConsultasSAI\ColpatriaSAI_WS.Servicios\obj\Release\ColpatriaSAI_WS.Servicios.pdb

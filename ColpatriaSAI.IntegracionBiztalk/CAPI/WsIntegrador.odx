@@ -1,0 +1,645 @@
+﻿#if __DESIGNER_DATA
+#error Do not define __DESIGNER_DATA.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<om:MetaModel MajorVersion="1" MinorVersion="3" Core="2b131234-7959-458d-834f-2dc0769ce683" ScheduleModel="66366196-361d-448d-976f-cab5e87496d2" xmlns:om="http://schemas.microsoft.com/BizTalk/2003/DesignerData">
+    <om:Element Type="Module" OID="8aab5011-f3c9-4cf7-a586-458bb8a9a498" LowerBound="1.1" HigherBound="137.1">
+        <om:Property Name="ReportToAnalyst" Value="True" />
+        <om:Property Name="Name" Value="BizTalkSai_Project.CAPI" />
+        <om:Property Name="Signal" Value="False" />
+        <om:Element Type="PortType" OID="e0ede05e-0b6e-4610-806e-aa5aeb218baa" ParentLink="Module_PortType" LowerBound="52.1" HigherBound="79.1">
+            <om:Property Name="Synchronous" Value="True" />
+            <om:Property Name="TypeModifier" Value="Internal" />
+            <om:Property Name="ReportToAnalyst" Value="True" />
+            <om:Property Name="AnalystComments" Value="&lt;wsdl:portType name=&quot;WsIntegradorSoap&quot;/&gt;&#xD;&#xA;" />
+            <om:Property Name="Name" Value="WsIntegradorSoap" />
+            <om:Property Name="Signal" Value="False" />
+            <om:Element Type="OperationDeclaration" OID="c35cba57-d6d5-437a-898b-e8d651904f1a" ParentLink="PortType_OperationDeclaration" LowerBound="54.1" HigherBound="58.1">
+                <om:Property Name="OperationType" Value="RequestResponse" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="AnalystComments" Value="&lt;wsdl:operation name=&quot;AIX_WEB&quot;/&gt;&#xD;&#xA;" />
+                <om:Property Name="Name" Value="AIX_WEB" />
+                <om:Property Name="Signal" Value="False" />
+                <om:Element Type="MessageRef" OID="4985ec28-ee83-4b36-a715-5b3277804733" ParentLink="OperationDeclaration_RequestMessageRef" LowerBound="56.13" HigherBound="56.26">
+                    <om:Property Name="Ref" Value="BizTalkSai_Project.CAPI.AIX_WEBSoapIn" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="AnalystComments" Value="&lt;wsdl:input message=&quot;http://tempuri.org/:AIX_WEBSoapIn&quot;/&gt;&#xD;&#xA;" />
+                    <om:Property Name="Name" Value="Request" />
+                    <om:Property Name="Signal" Value="False" />
+                </om:Element>
+                <om:Element Type="MessageRef" OID="1cc81813-b1ff-470c-9022-c204de7f264d" ParentLink="OperationDeclaration_ResponseMessageRef" LowerBound="56.28" HigherBound="56.42">
+                    <om:Property Name="Ref" Value="BizTalkSai_Project.CAPI.AIX_WEBSoapOut" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="AnalystComments" Value="&lt;wsdl:output message=&quot;http://tempuri.org/:AIX_WEBSoapOut&quot;/&gt;&#xD;&#xA;" />
+                    <om:Property Name="Name" Value="Response" />
+                    <om:Property Name="Signal" Value="False" />
+                </om:Element>
+            </om:Element>
+            <om:Element Type="OperationDeclaration" OID="0d5a45a1-f846-47eb-adf5-3951511abb1a" ParentLink="PortType_OperationDeclaration" LowerBound="58.1" HigherBound="62.1">
+                <om:Property Name="OperationType" Value="RequestResponse" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="AnalystComments" Value="&lt;wsdl:operation name=&quot;AIX&quot;/&gt;&#xD;&#xA;" />
+                <om:Property Name="Name" Value="AIX" />
+                <om:Property Name="Signal" Value="False" />
+                <om:Element Type="MessageRef" OID="eeb4fe37-1e36-437e-99ed-892d9f97b017" ParentLink="OperationDeclaration_RequestMessageRef" LowerBound="60.13" HigherBound="60.22">
+                    <om:Property Name="Ref" Value="BizTalkSai_Project.CAPI.AIXSoapIn" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="AnalystComments" Value="&lt;wsdl:input message=&quot;http://tempuri.org/:AIXSoapIn&quot;/&gt;&#xD;&#xA;" />
+                    <om:Property Name="Name" Value="Request" />
+                    <om:Property Name="Signal" Value="False" />
+                </om:Element>
+                <om:Element Type="MessageRef" OID="2c4bd33a-b663-48ac-8c92-42bc567cba2e" ParentLink="OperationDeclaration_ResponseMessageRef" LowerBound="60.24" HigherBound="60.34">
+                    <om:Property Name="Ref" Value="BizTalkSai_Project.CAPI.AIXSoapOut" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="AnalystComments" Value="&lt;wsdl:output message=&quot;http://tempuri.org/:AIXSoapOut&quot;/&gt;&#xD;&#xA;" />
+                    <om:Property Name="Name" Value="Response" />
+                    <om:Property Name="Signal" Value="False" />
+                </om:Element>
+            </om:Element>
+            <om:Element Type="OperationDeclaration" OID="359c6006-e19d-4c82-acb0-81e613266021" ParentLink="PortType_OperationDeclaration" LowerBound="62.1" HigherBound="66.1">
+                <om:Property Name="OperationType" Value="RequestResponse" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="AnalystComments" Value="&lt;wsdl:operation name=&quot;XML_AIX_WEB&quot;/&gt;&#xD;&#xA;" />
+                <om:Property Name="Name" Value="XML_AIX_WEB" />
+                <om:Property Name="Signal" Value="False" />
+                <om:Element Type="MessageRef" OID="62d7b91f-9d40-4c56-9859-d9ece93da350" ParentLink="OperationDeclaration_RequestMessageRef" LowerBound="64.13" HigherBound="64.30">
+                    <om:Property Name="Ref" Value="BizTalkSai_Project.CAPI.XML_AIX_WEBSoapIn" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="AnalystComments" Value="&lt;wsdl:input message=&quot;http://tempuri.org/:XML_AIX_WEBSoapIn&quot;/&gt;&#xD;&#xA;" />
+                    <om:Property Name="Name" Value="Request" />
+                    <om:Property Name="Signal" Value="False" />
+                </om:Element>
+                <om:Element Type="MessageRef" OID="abdcb128-014d-4d15-a002-8d1b4c9a8f20" ParentLink="OperationDeclaration_ResponseMessageRef" LowerBound="64.32" HigherBound="64.50">
+                    <om:Property Name="Ref" Value="BizTalkSai_Project.CAPI.XML_AIX_WEBSoapOut" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="AnalystComments" Value="&lt;wsdl:output message=&quot;http://tempuri.org/:XML_AIX_WEBSoapOut&quot;/&gt;&#xD;&#xA;" />
+                    <om:Property Name="Name" Value="Response" />
+                    <om:Property Name="Signal" Value="False" />
+                </om:Element>
+            </om:Element>
+            <om:Element Type="OperationDeclaration" OID="211c4e67-0b4d-4dcc-ada3-e46ff78edad9" ParentLink="PortType_OperationDeclaration" LowerBound="66.1" HigherBound="70.1">
+                <om:Property Name="OperationType" Value="RequestResponse" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="AnalystComments" Value="&lt;wsdl:operation name=&quot;AS4&quot;/&gt;&#xD;&#xA;" />
+                <om:Property Name="Name" Value="AS4" />
+                <om:Property Name="Signal" Value="False" />
+                <om:Element Type="MessageRef" OID="d3be3a8c-13e9-4866-b149-1e92d7157a0f" ParentLink="OperationDeclaration_RequestMessageRef" LowerBound="68.13" HigherBound="68.22">
+                    <om:Property Name="Ref" Value="BizTalkSai_Project.CAPI.AS4SoapIn" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="AnalystComments" Value="&lt;wsdl:input message=&quot;http://tempuri.org/:AS4SoapIn&quot;/&gt;&#xD;&#xA;" />
+                    <om:Property Name="Name" Value="Request" />
+                    <om:Property Name="Signal" Value="False" />
+                </om:Element>
+                <om:Element Type="MessageRef" OID="887b55e9-b9d0-4e2d-a074-9b89ba021d98" ParentLink="OperationDeclaration_ResponseMessageRef" LowerBound="68.24" HigherBound="68.34">
+                    <om:Property Name="Ref" Value="BizTalkSai_Project.CAPI.AS4SoapOut" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="AnalystComments" Value="&lt;wsdl:output message=&quot;http://tempuri.org/:AS4SoapOut&quot;/&gt;&#xD;&#xA;" />
+                    <om:Property Name="Name" Value="Response" />
+                    <om:Property Name="Signal" Value="False" />
+                </om:Element>
+            </om:Element>
+            <om:Element Type="OperationDeclaration" OID="241b328f-49cb-40fb-be31-72d467a76ba9" ParentLink="PortType_OperationDeclaration" LowerBound="70.1" HigherBound="74.1">
+                <om:Property Name="OperationType" Value="RequestResponse" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="AnalystComments" Value="&lt;wsdl:operation name=&quot;XML_AS4&quot;/&gt;&#xD;&#xA;" />
+                <om:Property Name="Name" Value="XML_AS4" />
+                <om:Property Name="Signal" Value="False" />
+                <om:Element Type="MessageRef" OID="0899cdc8-d4a6-4bba-9174-5f6f002f807d" ParentLink="OperationDeclaration_RequestMessageRef" LowerBound="72.13" HigherBound="72.26">
+                    <om:Property Name="Ref" Value="BizTalkSai_Project.CAPI.XML_AS4SoapIn" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="AnalystComments" Value="&lt;wsdl:input message=&quot;http://tempuri.org/:XML_AS4SoapIn&quot;/&gt;&#xD;&#xA;" />
+                    <om:Property Name="Name" Value="Request" />
+                    <om:Property Name="Signal" Value="False" />
+                </om:Element>
+                <om:Element Type="MessageRef" OID="6f83506d-11f6-4d3d-a581-381cc3673e08" ParentLink="OperationDeclaration_ResponseMessageRef" LowerBound="72.28" HigherBound="72.42">
+                    <om:Property Name="Ref" Value="BizTalkSai_Project.CAPI.XML_AS4SoapOut" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="AnalystComments" Value="&lt;wsdl:output message=&quot;http://tempuri.org/:XML_AS4SoapOut&quot;/&gt;&#xD;&#xA;" />
+                    <om:Property Name="Name" Value="Response" />
+                    <om:Property Name="Signal" Value="False" />
+                </om:Element>
+            </om:Element>
+            <om:Element Type="OperationDeclaration" OID="ab1be6da-354f-4f9a-bb80-6ee1c5627126" ParentLink="PortType_OperationDeclaration" LowerBound="74.1" HigherBound="78.1">
+                <om:Property Name="OperationType" Value="RequestResponse" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="AnalystComments" Value="&lt;wsdl:operation name=&quot;SQL&quot;/&gt;&#xD;&#xA;" />
+                <om:Property Name="Name" Value="SQL" />
+                <om:Property Name="Signal" Value="False" />
+                <om:Element Type="MessageRef" OID="16fa3c96-8a3b-4884-b0d6-e62ef54d34b5" ParentLink="OperationDeclaration_RequestMessageRef" LowerBound="76.13" HigherBound="76.22">
+                    <om:Property Name="Ref" Value="BizTalkSai_Project.CAPI.SQLSoapIn" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="AnalystComments" Value="&lt;wsdl:input message=&quot;http://tempuri.org/:SQLSoapIn&quot;/&gt;&#xD;&#xA;" />
+                    <om:Property Name="Name" Value="Request" />
+                    <om:Property Name="Signal" Value="False" />
+                </om:Element>
+                <om:Element Type="MessageRef" OID="606e4aab-313f-4ede-a080-c8e3f6bef80c" ParentLink="OperationDeclaration_ResponseMessageRef" LowerBound="76.24" HigherBound="76.34">
+                    <om:Property Name="Ref" Value="BizTalkSai_Project.CAPI.SQLSoapOut" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="AnalystComments" Value="&lt;wsdl:output message=&quot;http://tempuri.org/:SQLSoapOut&quot;/&gt;&#xD;&#xA;" />
+                    <om:Property Name="Name" Value="Response" />
+                    <om:Property Name="Signal" Value="False" />
+                </om:Element>
+            </om:Element>
+        </om:Element>
+        <om:Element Type="PortType" OID="7ed57811-c360-47d9-8cc0-a0f29de00271" ParentLink="Module_PortType" LowerBound="79.1" HigherBound="86.1">
+            <om:Property Name="Synchronous" Value="False" />
+            <om:Property Name="TypeModifier" Value="Internal" />
+            <om:Property Name="ReportToAnalyst" Value="True" />
+            <om:Property Name="Name" Value="PortType_1" />
+            <om:Property Name="Signal" Value="False" />
+            <om:Element Type="OperationDeclaration" OID="797c089f-1f60-46b5-9efa-1e52870db563" ParentLink="PortType_OperationDeclaration" LowerBound="81.1" HigherBound="85.1">
+                <om:Property Name="OperationType" Value="OneWay" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="Operation_1" />
+                <om:Property Name="Signal" Value="False" />
+                <om:Element Type="MessageRef" OID="c2848f44-032c-48a3-bd55-b2ccd5c10e2a" ParentLink="OperationDeclaration_RequestMessageRef" LowerBound="83.13" HigherBound="83.22">
+                    <om:Property Name="Ref" Value="BizTalkSai_Project.CAPI.AS4SoapIn" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="Request" />
+                    <om:Property Name="Signal" Value="False" />
+                </om:Element>
+            </om:Element>
+        </om:Element>
+        <om:Element Type="PortType" OID="877e5a87-3ec9-4539-a4b4-c12b6bd36879" ParentLink="Module_PortType" LowerBound="86.1" HigherBound="93.1">
+            <om:Property Name="Synchronous" Value="False" />
+            <om:Property Name="TypeModifier" Value="Internal" />
+            <om:Property Name="ReportToAnalyst" Value="True" />
+            <om:Property Name="Name" Value="PortType_2" />
+            <om:Property Name="Signal" Value="False" />
+            <om:Element Type="OperationDeclaration" OID="f92baad7-acd2-4100-9be2-199b901ac728" ParentLink="PortType_OperationDeclaration" LowerBound="88.1" HigherBound="92.1">
+                <om:Property Name="OperationType" Value="OneWay" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="Operation_1" />
+                <om:Property Name="Signal" Value="False" />
+                <om:Element Type="MessageRef" OID="66e17bf9-d433-4820-8ea4-033ba4ebb16b" ParentLink="OperationDeclaration_RequestMessageRef" LowerBound="90.13" HigherBound="90.23">
+                    <om:Property Name="Ref" Value="BizTalkSai_Project.CAPI.AS4SoapOut" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="Request" />
+                    <om:Property Name="Signal" Value="False" />
+                </om:Element>
+            </om:Element>
+        </om:Element>
+        <om:Element Type="MultipartMessageType" OID="078ae773-4910-46f6-ba91-0600235623a1" ParentLink="Module_MessageType" LowerBound="4.1" HigherBound="8.1">
+            <om:Property Name="TypeModifier" Value="Internal" />
+            <om:Property Name="ReportToAnalyst" Value="True" />
+            <om:Property Name="AnalystComments" Value="&lt;wsdl:message name=&quot;AIX_WEBSoapIn&quot;/&gt;&#xD;&#xA;" />
+            <om:Property Name="Name" Value="AIX_WEBSoapIn" />
+            <om:Property Name="Signal" Value="False" />
+            <om:Element Type="PartDeclaration" OID="0a231164-dfc6-457d-93e0-7490e86aaa61" ParentLink="MultipartMessageType_PartDeclaration" LowerBound="6.1" HigherBound="7.1">
+                <om:Property Name="ClassName" Value="BizTalkSai_Project.CAPI.WsIntegrador_tempuri_org.AIX_WEB" />
+                <om:Property Name="IsBodyPart" Value="True" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="AnalystComments" Value="&lt;wsdl:part name=&quot;parameters&quot;/&gt;&#xD;&#xA;" />
+                <om:Property Name="Name" Value="parameters" />
+                <om:Property Name="Signal" Value="False" />
+            </om:Element>
+        </om:Element>
+        <om:Element Type="MultipartMessageType" OID="f044853a-3922-4ee5-8f40-18c4a073e4a8" ParentLink="Module_MessageType" LowerBound="8.1" HigherBound="12.1">
+            <om:Property Name="TypeModifier" Value="Internal" />
+            <om:Property Name="ReportToAnalyst" Value="True" />
+            <om:Property Name="AnalystComments" Value="&lt;wsdl:message name=&quot;AIX_WEBSoapOut&quot;/&gt;&#xD;&#xA;" />
+            <om:Property Name="Name" Value="AIX_WEBSoapOut" />
+            <om:Property Name="Signal" Value="False" />
+            <om:Element Type="PartDeclaration" OID="ef210b41-02d4-46da-b00d-ad87be9b6fd2" ParentLink="MultipartMessageType_PartDeclaration" LowerBound="10.1" HigherBound="11.1">
+                <om:Property Name="ClassName" Value="BizTalkSai_Project.CAPI.WsIntegrador_tempuri_org.AIX_WEBResponse" />
+                <om:Property Name="IsBodyPart" Value="True" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="AnalystComments" Value="&lt;wsdl:part name=&quot;parameters&quot;/&gt;&#xD;&#xA;" />
+                <om:Property Name="Name" Value="parameters" />
+                <om:Property Name="Signal" Value="False" />
+            </om:Element>
+        </om:Element>
+        <om:Element Type="MultipartMessageType" OID="17826460-7f53-41e4-a5c5-e6567a3397b3" ParentLink="Module_MessageType" LowerBound="12.1" HigherBound="16.1">
+            <om:Property Name="TypeModifier" Value="Internal" />
+            <om:Property Name="ReportToAnalyst" Value="True" />
+            <om:Property Name="AnalystComments" Value="&lt;wsdl:message name=&quot;AIXSoapIn&quot;/&gt;&#xD;&#xA;" />
+            <om:Property Name="Name" Value="AIXSoapIn" />
+            <om:Property Name="Signal" Value="False" />
+            <om:Element Type="PartDeclaration" OID="0083a454-f2cf-4df5-8331-7fe456040c57" ParentLink="MultipartMessageType_PartDeclaration" LowerBound="14.1" HigherBound="15.1">
+                <om:Property Name="ClassName" Value="BizTalkSai_Project.CAPI.WsIntegrador_tempuri_org.AIX" />
+                <om:Property Name="IsBodyPart" Value="True" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="AnalystComments" Value="&lt;wsdl:part name=&quot;parameters&quot;/&gt;&#xD;&#xA;" />
+                <om:Property Name="Name" Value="parameters" />
+                <om:Property Name="Signal" Value="False" />
+            </om:Element>
+        </om:Element>
+        <om:Element Type="MultipartMessageType" OID="a6b7379b-d65b-449d-bff5-187d798cd422" ParentLink="Module_MessageType" LowerBound="16.1" HigherBound="20.1">
+            <om:Property Name="TypeModifier" Value="Internal" />
+            <om:Property Name="ReportToAnalyst" Value="True" />
+            <om:Property Name="AnalystComments" Value="&lt;wsdl:message name=&quot;AIXSoapOut&quot;/&gt;&#xD;&#xA;" />
+            <om:Property Name="Name" Value="AIXSoapOut" />
+            <om:Property Name="Signal" Value="False" />
+            <om:Element Type="PartDeclaration" OID="2d88eb92-7d60-4fcb-a9f1-72b0ac5efc7f" ParentLink="MultipartMessageType_PartDeclaration" LowerBound="18.1" HigherBound="19.1">
+                <om:Property Name="ClassName" Value="BizTalkSai_Project.CAPI.WsIntegrador_tempuri_org.AIXResponse" />
+                <om:Property Name="IsBodyPart" Value="True" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="AnalystComments" Value="&lt;wsdl:part name=&quot;parameters&quot;/&gt;&#xD;&#xA;" />
+                <om:Property Name="Name" Value="parameters" />
+                <om:Property Name="Signal" Value="False" />
+            </om:Element>
+        </om:Element>
+        <om:Element Type="MultipartMessageType" OID="a13fe868-2aaf-478e-b614-840d2b1d3a25" ParentLink="Module_MessageType" LowerBound="20.1" HigherBound="24.1">
+            <om:Property Name="TypeModifier" Value="Internal" />
+            <om:Property Name="ReportToAnalyst" Value="True" />
+            <om:Property Name="AnalystComments" Value="&lt;wsdl:message name=&quot;XML_AIX_WEBSoapIn&quot;/&gt;&#xD;&#xA;" />
+            <om:Property Name="Name" Value="XML_AIX_WEBSoapIn" />
+            <om:Property Name="Signal" Value="False" />
+            <om:Element Type="PartDeclaration" OID="bc6cda5b-a099-412b-911f-e1d1de69a791" ParentLink="MultipartMessageType_PartDeclaration" LowerBound="22.1" HigherBound="23.1">
+                <om:Property Name="ClassName" Value="BizTalkSai_Project.CAPI.WsIntegrador_tempuri_org.XML_AIX_WEB" />
+                <om:Property Name="IsBodyPart" Value="True" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="AnalystComments" Value="&lt;wsdl:part name=&quot;parameters&quot;/&gt;&#xD;&#xA;" />
+                <om:Property Name="Name" Value="parameters" />
+                <om:Property Name="Signal" Value="False" />
+            </om:Element>
+        </om:Element>
+        <om:Element Type="MultipartMessageType" OID="4c0130af-aaba-4543-be96-d7eaf568b601" ParentLink="Module_MessageType" LowerBound="24.1" HigherBound="28.1">
+            <om:Property Name="TypeModifier" Value="Internal" />
+            <om:Property Name="ReportToAnalyst" Value="True" />
+            <om:Property Name="AnalystComments" Value="&lt;wsdl:message name=&quot;XML_AIX_WEBSoapOut&quot;/&gt;&#xD;&#xA;" />
+            <om:Property Name="Name" Value="XML_AIX_WEBSoapOut" />
+            <om:Property Name="Signal" Value="False" />
+            <om:Element Type="PartDeclaration" OID="734b176f-88ed-4572-89ee-1b037ad3a5a8" ParentLink="MultipartMessageType_PartDeclaration" LowerBound="26.1" HigherBound="27.1">
+                <om:Property Name="ClassName" Value="BizTalkSai_Project.CAPI.WsIntegrador_tempuri_org.XML_AIX_WEBResponse" />
+                <om:Property Name="IsBodyPart" Value="True" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="AnalystComments" Value="&lt;wsdl:part name=&quot;parameters&quot;/&gt;&#xD;&#xA;" />
+                <om:Property Name="Name" Value="parameters" />
+                <om:Property Name="Signal" Value="False" />
+            </om:Element>
+        </om:Element>
+        <om:Element Type="MultipartMessageType" OID="4c0adf04-cdd5-4b4c-ae28-b8688206accb" ParentLink="Module_MessageType" LowerBound="28.1" HigherBound="32.1">
+            <om:Property Name="TypeModifier" Value="Internal" />
+            <om:Property Name="ReportToAnalyst" Value="True" />
+            <om:Property Name="AnalystComments" Value="&lt;wsdl:message name=&quot;AS4SoapIn&quot;/&gt;&#xD;&#xA;" />
+            <om:Property Name="Name" Value="AS4SoapIn" />
+            <om:Property Name="Signal" Value="False" />
+            <om:Element Type="PartDeclaration" OID="7fb0a896-a9d9-4ee0-9956-524842c27318" ParentLink="MultipartMessageType_PartDeclaration" LowerBound="30.1" HigherBound="31.1">
+                <om:Property Name="ClassName" Value="BizTalkSai_Project.CAPI.WsIntegrador_tempuri_org.AS4" />
+                <om:Property Name="IsBodyPart" Value="True" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="AnalystComments" Value="&lt;wsdl:part name=&quot;parameters&quot;/&gt;&#xD;&#xA;" />
+                <om:Property Name="Name" Value="parameters" />
+                <om:Property Name="Signal" Value="False" />
+            </om:Element>
+        </om:Element>
+        <om:Element Type="MultipartMessageType" OID="9bfa901d-cdff-46b2-b054-2b8cbec5a5c3" ParentLink="Module_MessageType" LowerBound="32.1" HigherBound="36.1">
+            <om:Property Name="TypeModifier" Value="Internal" />
+            <om:Property Name="ReportToAnalyst" Value="True" />
+            <om:Property Name="AnalystComments" Value="&lt;wsdl:message name=&quot;AS4SoapOut&quot;/&gt;&#xD;&#xA;" />
+            <om:Property Name="Name" Value="AS4SoapOut" />
+            <om:Property Name="Signal" Value="False" />
+            <om:Element Type="PartDeclaration" OID="ad757d23-55fa-4713-a661-fe25749f2d59" ParentLink="MultipartMessageType_PartDeclaration" LowerBound="34.1" HigherBound="35.1">
+                <om:Property Name="ClassName" Value="BizTalkSai_Project.CAPI.WsIntegrador_tempuri_org.AS4Response" />
+                <om:Property Name="IsBodyPart" Value="True" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="AnalystComments" Value="&lt;wsdl:part name=&quot;parameters&quot;/&gt;&#xD;&#xA;" />
+                <om:Property Name="Name" Value="parameters" />
+                <om:Property Name="Signal" Value="False" />
+            </om:Element>
+        </om:Element>
+        <om:Element Type="MultipartMessageType" OID="0dfe089a-c641-4ba8-bef2-8fbe8b31aa6e" ParentLink="Module_MessageType" LowerBound="36.1" HigherBound="40.1">
+            <om:Property Name="TypeModifier" Value="Internal" />
+            <om:Property Name="ReportToAnalyst" Value="True" />
+            <om:Property Name="AnalystComments" Value="&lt;wsdl:message name=&quot;XML_AS4SoapIn&quot;/&gt;&#xD;&#xA;" />
+            <om:Property Name="Name" Value="XML_AS4SoapIn" />
+            <om:Property Name="Signal" Value="False" />
+            <om:Element Type="PartDeclaration" OID="e6598163-0fb8-4761-9587-74ead9565f7a" ParentLink="MultipartMessageType_PartDeclaration" LowerBound="38.1" HigherBound="39.1">
+                <om:Property Name="ClassName" Value="BizTalkSai_Project.CAPI.WsIntegrador_tempuri_org.XML_AS4" />
+                <om:Property Name="IsBodyPart" Value="True" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="AnalystComments" Value="&lt;wsdl:part name=&quot;parameters&quot;/&gt;&#xD;&#xA;" />
+                <om:Property Name="Name" Value="parameters" />
+                <om:Property Name="Signal" Value="False" />
+            </om:Element>
+        </om:Element>
+        <om:Element Type="MultipartMessageType" OID="6e8a467c-60d6-436b-aadb-7ccc0b689a1d" ParentLink="Module_MessageType" LowerBound="40.1" HigherBound="44.1">
+            <om:Property Name="TypeModifier" Value="Internal" />
+            <om:Property Name="ReportToAnalyst" Value="True" />
+            <om:Property Name="AnalystComments" Value="&lt;wsdl:message name=&quot;XML_AS4SoapOut&quot;/&gt;&#xD;&#xA;" />
+            <om:Property Name="Name" Value="XML_AS4SoapOut" />
+            <om:Property Name="Signal" Value="False" />
+            <om:Element Type="PartDeclaration" OID="f45a504c-35e8-4a80-a5b2-f22b50d9f69a" ParentLink="MultipartMessageType_PartDeclaration" LowerBound="42.1" HigherBound="43.1">
+                <om:Property Name="ClassName" Value="BizTalkSai_Project.CAPI.WsIntegrador_tempuri_org.XML_AS4Response" />
+                <om:Property Name="IsBodyPart" Value="True" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="AnalystComments" Value="&lt;wsdl:part name=&quot;parameters&quot;/&gt;&#xD;&#xA;" />
+                <om:Property Name="Name" Value="parameters" />
+                <om:Property Name="Signal" Value="False" />
+            </om:Element>
+        </om:Element>
+        <om:Element Type="MultipartMessageType" OID="01e2955e-c105-41d6-8bdb-3a10324df7d4" ParentLink="Module_MessageType" LowerBound="44.1" HigherBound="48.1">
+            <om:Property Name="TypeModifier" Value="Internal" />
+            <om:Property Name="ReportToAnalyst" Value="True" />
+            <om:Property Name="AnalystComments" Value="&lt;wsdl:message name=&quot;SQLSoapIn&quot;/&gt;&#xD;&#xA;" />
+            <om:Property Name="Name" Value="SQLSoapIn" />
+            <om:Property Name="Signal" Value="False" />
+            <om:Element Type="PartDeclaration" OID="6b0a96ec-e728-4b09-8837-002d4697a01d" ParentLink="MultipartMessageType_PartDeclaration" LowerBound="46.1" HigherBound="47.1">
+                <om:Property Name="ClassName" Value="BizTalkSai_Project.CAPI.WsIntegrador_tempuri_org.SQL" />
+                <om:Property Name="IsBodyPart" Value="True" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="AnalystComments" Value="&lt;wsdl:part name=&quot;parameters&quot;/&gt;&#xD;&#xA;" />
+                <om:Property Name="Name" Value="parameters" />
+                <om:Property Name="Signal" Value="False" />
+            </om:Element>
+        </om:Element>
+        <om:Element Type="MultipartMessageType" OID="05c8fcbf-c174-4dac-b350-6ab3241e58a9" ParentLink="Module_MessageType" LowerBound="48.1" HigherBound="52.1">
+            <om:Property Name="TypeModifier" Value="Internal" />
+            <om:Property Name="ReportToAnalyst" Value="True" />
+            <om:Property Name="AnalystComments" Value="&lt;wsdl:message name=&quot;SQLSoapOut&quot;/&gt;&#xD;&#xA;" />
+            <om:Property Name="Name" Value="SQLSoapOut" />
+            <om:Property Name="Signal" Value="False" />
+            <om:Element Type="PartDeclaration" OID="77be1cdc-981b-4fd7-b8ff-6d76729cfb20" ParentLink="MultipartMessageType_PartDeclaration" LowerBound="50.1" HigherBound="51.1">
+                <om:Property Name="ClassName" Value="BizTalkSai_Project.CAPI.WsIntegrador_tempuri_org.SQLResponse" />
+                <om:Property Name="IsBodyPart" Value="True" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="AnalystComments" Value="&lt;wsdl:part name=&quot;parameters&quot;/&gt;&#xD;&#xA;" />
+                <om:Property Name="Name" Value="parameters" />
+                <om:Property Name="Signal" Value="False" />
+            </om:Element>
+        </om:Element>
+        <om:Element Type="ServiceDeclaration" OID="6e1441c8-81af-42b6-88cd-1071d4f4531c" ParentLink="Module_ServiceDeclaration" LowerBound="93.1" HigherBound="136.1">
+            <om:Property Name="InitializedTransactionType" Value="False" />
+            <om:Property Name="IsInvokable" Value="False" />
+            <om:Property Name="TypeModifier" Value="Internal" />
+            <om:Property Name="ReportToAnalyst" Value="True" />
+            <om:Property Name="AnalystComments" Value="&lt;wsdl:service name=&quot;WsIntegrador&quot;/&gt;&#xD;&#xA;" />
+            <om:Property Name="Name" Value="WsIntegradorClient" />
+            <om:Property Name="Signal" Value="False" />
+            <om:Element Type="MessageDeclaration" OID="56a7dcee-e021-482e-afc0-3a412d6794df" ParentLink="ServiceDeclaration_MessageDeclaration" LowerBound="102.1" HigherBound="103.1">
+                <om:Property Name="Type" Value="BizTalkSai_Project.CAPI.AS4SoapIn" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="WsRequestAS4" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+            <om:Element Type="MessageDeclaration" OID="0939d2b1-f4ed-4f34-aa32-452587f52145" ParentLink="ServiceDeclaration_MessageDeclaration" LowerBound="103.1" HigherBound="104.1">
+                <om:Property Name="Type" Value="BizTalkSai_Project.CAPI.AS4SoapOut" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="WsResponseAS4" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+            <om:Element Type="ServiceBody" OID="c7276191-23e4-42af-a379-d9b0321a5363" ParentLink="ServiceDeclaration_ServiceBody">
+                <om:Property Name="Signal" Value="False" />
+                <om:Element Type="Receive" OID="9bd9f2f7-0946-412f-94da-c0bf0450c2a8" ParentLink="ServiceBody_Statement" LowerBound="106.1" HigherBound="108.1">
+                    <om:Property Name="Activate" Value="True" />
+                    <om:Property Name="PortName" Value="AS4_IN" />
+                    <om:Property Name="MessageName" Value="WsRequestAS4" />
+                    <om:Property Name="OperationName" Value="Operation_1" />
+                    <om:Property Name="OperationMessageName" Value="Request" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="Receive xml in" />
+                    <om:Property Name="Signal" Value="True" />
+                </om:Element>
+                <om:Element Type="Scope" OID="07ea286f-1407-47b3-807d-eaad578b4f6d" ParentLink="ServiceBody_Statement" LowerBound="108.1" HigherBound="134.1">
+                    <om:Property Name="InitializedTransactionType" Value="True" />
+                    <om:Property Name="IsSynchronized" Value="False" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="Scope AS4" />
+                    <om:Property Name="Signal" Value="True" />
+                    <om:Element Type="Send" OID="8c96311b-adc7-42f1-b5ac-0b7094d0c4cc" ParentLink="ComplexStatement_Statement" LowerBound="113.1" HigherBound="115.1">
+                        <om:Property Name="PortName" Value="WsIntegrador" />
+                        <om:Property Name="MessageName" Value="WsRequestAS4" />
+                        <om:Property Name="OperationName" Value="AS4" />
+                        <om:Property Name="OperationMessageName" Value="Request" />
+                        <om:Property Name="ReportToAnalyst" Value="True" />
+                        <om:Property Name="Name" Value="Send AS4" />
+                        <om:Property Name="Signal" Value="True" />
+                    </om:Element>
+                    <om:Element Type="VariableAssignment" OID="fad0287d-eecd-473c-827d-daeb8264d1ad" ParentLink="ComplexStatement_Statement" LowerBound="115.1" HigherBound="117.1">
+                        <om:Property Name="Expression" Value="System.Diagnostics.Trace.WriteLine(&quot;Inicia llamado a AS4&quot;);" />
+                        <om:Property Name="ReportToAnalyst" Value="True" />
+                        <om:Property Name="Name" Value="Mensaje Error Servicio" />
+                        <om:Property Name="Signal" Value="False" />
+                    </om:Element>
+                    <om:Element Type="Receive" OID="f94c2e56-4982-4c06-8eff-9bfd282b2e70" ParentLink="ComplexStatement_Statement" LowerBound="117.1" HigherBound="119.1">
+                        <om:Property Name="Activate" Value="False" />
+                        <om:Property Name="PortName" Value="WsIntegrador" />
+                        <om:Property Name="MessageName" Value="WsResponseAS4" />
+                        <om:Property Name="OperationName" Value="AS4" />
+                        <om:Property Name="OperationMessageName" Value="Response" />
+                        <om:Property Name="ReportToAnalyst" Value="True" />
+                        <om:Property Name="Name" Value="Receive AS4" />
+                        <om:Property Name="Signal" Value="True" />
+                    </om:Element>
+                    <om:Element Type="Send" OID="60eadeab-4fb8-4be1-bd76-578006a129c1" ParentLink="ComplexStatement_Statement" LowerBound="119.1" HigherBound="121.1">
+                        <om:Property Name="PortName" Value="AS4_OUT" />
+                        <om:Property Name="MessageName" Value="WsResponseAS4" />
+                        <om:Property Name="OperationName" Value="Operation_1" />
+                        <om:Property Name="OperationMessageName" Value="Request" />
+                        <om:Property Name="ReportToAnalyst" Value="True" />
+                        <om:Property Name="Name" Value="Send xml out" />
+                        <om:Property Name="Signal" Value="True" />
+                    </om:Element>
+                    <om:Element Type="Catch" OID="91c1f62f-3476-446a-99ad-411a4b40e282" ParentLink="Scope_Catch" LowerBound="124.1" HigherBound="132.1">
+                        <om:Property Name="ExceptionName" Value="ex" />
+                        <om:Property Name="ExceptionType" Value="System.Exception" />
+                        <om:Property Name="IsFaultMessage" Value="False" />
+                        <om:Property Name="ReportToAnalyst" Value="True" />
+                        <om:Property Name="Name" Value="Respuesta AS4" />
+                        <om:Property Name="Signal" Value="True" />
+                        <om:Element Type="VariableAssignment" OID="ac537c0c-50f8-43b5-95fe-6e8499c01700" ParentLink="Catch_Statement" LowerBound="127.1" HigherBound="129.1">
+                            <om:Property Name="Expression" Value="System.Diagnostics.Trace.WriteLine(&quot;Respuesta AS4&quot;);" />
+                            <om:Property Name="ReportToAnalyst" Value="True" />
+                            <om:Property Name="Name" Value="Respuesta AS4" />
+                            <om:Property Name="Signal" Value="False" />
+                        </om:Element>
+                        <om:Element Type="Terminate" OID="5e2c082e-7e39-4633-a51c-3f3eae31c787" ParentLink="Catch_Statement" LowerBound="129.1" HigherBound="131.1">
+                            <om:Property Name="ErrorMessage" Value="&quot;Fin de la orquestacion Crear Orden con Error &quot; + ex.Message;" />
+                            <om:Property Name="ReportToAnalyst" Value="True" />
+                            <om:Property Name="Name" Value="Terminate" />
+                            <om:Property Name="Signal" Value="False" />
+                        </om:Element>
+                    </om:Element>
+                </om:Element>
+            </om:Element>
+            <om:Element Type="PortDeclaration" OID="077d78b5-ce16-4150-8c72-78e5bca1825b" ParentLink="ServiceDeclaration_PortDeclaration" LowerBound="96.1" HigherBound="98.1">
+                <om:Property Name="PortModifier" Value="Uses" />
+                <om:Property Name="Orientation" Value="Right" />
+                <om:Property Name="PortIndex" Value="-1" />
+                <om:Property Name="IsWebPort" Value="False" />
+                <om:Property Name="OrderedDelivery" Value="False" />
+                <om:Property Name="DeliveryNotification" Value="None" />
+                <om:Property Name="Type" Value="BizTalkSai_Project.CAPI.WsIntegradorSoap" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="WsIntegrador" />
+                <om:Property Name="Signal" Value="False" />
+                <om:Element Type="LogicalBindingAttribute" OID="155d5d9a-e0b9-4dde-a029-ff52891b6aac" ParentLink="PortDeclaration_CLRAttribute" LowerBound="96.1" HigherBound="97.1">
+                    <om:Property Name="Signal" Value="False" />
+                </om:Element>
+            </om:Element>
+            <om:Element Type="PortDeclaration" OID="be6a398f-9890-45a6-b5b6-d6db6bf50325" ParentLink="ServiceDeclaration_PortDeclaration" LowerBound="98.1" HigherBound="100.1">
+                <om:Property Name="PortModifier" Value="Uses" />
+                <om:Property Name="Orientation" Value="Left" />
+                <om:Property Name="PortIndex" Value="21" />
+                <om:Property Name="IsWebPort" Value="False" />
+                <om:Property Name="OrderedDelivery" Value="False" />
+                <om:Property Name="DeliveryNotification" Value="None" />
+                <om:Property Name="Type" Value="BizTalkSai_Project.CAPI.PortType_2" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="AS4_OUT" />
+                <om:Property Name="Signal" Value="False" />
+                <om:Element Type="LogicalBindingAttribute" OID="fa3e7f56-627b-4f24-9dda-b0e01cab9b39" ParentLink="PortDeclaration_CLRAttribute" LowerBound="98.1" HigherBound="99.1">
+                    <om:Property Name="Signal" Value="False" />
+                </om:Element>
+            </om:Element>
+            <om:Element Type="PortDeclaration" OID="5f7bd930-7410-49a5-bdc0-345c57435efa" ParentLink="ServiceDeclaration_PortDeclaration" LowerBound="100.1" HigherBound="102.1">
+                <om:Property Name="PortModifier" Value="Implements" />
+                <om:Property Name="Orientation" Value="Left" />
+                <om:Property Name="PortIndex" Value="0" />
+                <om:Property Name="IsWebPort" Value="False" />
+                <om:Property Name="OrderedDelivery" Value="False" />
+                <om:Property Name="DeliveryNotification" Value="None" />
+                <om:Property Name="Type" Value="BizTalkSai_Project.CAPI.PortType_1" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="AS4_IN" />
+                <om:Property Name="Signal" Value="False" />
+                <om:Element Type="LogicalBindingAttribute" OID="2c7ab883-4be8-469d-b6fa-ddba078d58ce" ParentLink="PortDeclaration_CLRAttribute" LowerBound="100.1" HigherBound="101.1">
+                    <om:Property Name="Signal" Value="False" />
+                </om:Element>
+            </om:Element>
+        </om:Element>
+    </om:Element>
+</om:MetaModel>
+#endif // __DESIGNER_DATA
+[Microsoft.XLANGs.BaseTypes.BPELExportable(false)]
+module BizTalkSai_Project.CAPI
+{
+    internal messagetype AIX_WEBSoapIn
+    {
+        body WsIntegrador_tempuri_org.AIX_WEB parameters;
+    };
+    internal messagetype AIX_WEBSoapOut
+    {
+        body WsIntegrador_tempuri_org.AIX_WEBResponse parameters;
+    };
+    internal messagetype AIXSoapIn
+    {
+        body WsIntegrador_tempuri_org.AIX parameters;
+    };
+    internal messagetype AIXSoapOut
+    {
+        body WsIntegrador_tempuri_org.AIXResponse parameters;
+    };
+    internal messagetype XML_AIX_WEBSoapIn
+    {
+        body WsIntegrador_tempuri_org.XML_AIX_WEB parameters;
+    };
+    internal messagetype XML_AIX_WEBSoapOut
+    {
+        body WsIntegrador_tempuri_org.XML_AIX_WEBResponse parameters;
+    };
+    internal messagetype AS4SoapIn
+    {
+        body WsIntegrador_tempuri_org.AS4 parameters;
+    };
+    internal messagetype AS4SoapOut
+    {
+        body WsIntegrador_tempuri_org.AS4Response parameters;
+    };
+    internal messagetype XML_AS4SoapIn
+    {
+        body WsIntegrador_tempuri_org.XML_AS4 parameters;
+    };
+    internal messagetype XML_AS4SoapOut
+    {
+        body WsIntegrador_tempuri_org.XML_AS4Response parameters;
+    };
+    internal messagetype SQLSoapIn
+    {
+        body WsIntegrador_tempuri_org.SQL parameters;
+    };
+    internal messagetype SQLSoapOut
+    {
+        body WsIntegrador_tempuri_org.SQLResponse parameters;
+    };
+    internal porttype WsIntegradorSoap
+    {
+        requestresponse AIX_WEB
+        {
+            AIX_WEBSoapIn, AIX_WEBSoapOut
+        };
+        requestresponse AIX
+        {
+            AIXSoapIn, AIXSoapOut
+        };
+        requestresponse XML_AIX_WEB
+        {
+            XML_AIX_WEBSoapIn, XML_AIX_WEBSoapOut
+        };
+        requestresponse AS4
+        {
+            AS4SoapIn, AS4SoapOut
+        };
+        requestresponse XML_AS4
+        {
+            XML_AS4SoapIn, XML_AS4SoapOut
+        };
+        requestresponse SQL
+        {
+            SQLSoapIn, SQLSoapOut
+        };
+    };
+    internal porttype PortType_1
+    {
+        oneway Operation_1
+        {
+            AS4SoapIn
+        };
+    };
+    internal porttype PortType_2
+    {
+        oneway Operation_1
+        {
+            AS4SoapOut
+        };
+    };
+    [Microsoft.XLANGs.BaseTypes.BPELExportable(false)]
+    internal service WsIntegradorClient
+    {
+        [Microsoft.XLANGs.BaseTypes.LogicalBinding()]
+        port uses WsIntegradorSoap WsIntegrador;
+        [Microsoft.XLANGs.BaseTypes.LogicalBinding()]
+        port uses PortType_2 AS4_OUT;
+        [Microsoft.XLANGs.BaseTypes.LogicalBinding()]
+        port implements PortType_1 AS4_IN;
+        message AS4SoapIn WsRequestAS4;
+        message AS4SoapOut WsResponseAS4;
+        body ()
+        {
+            [Microsoft.XLANGs.BaseTypes.DesignerPosition("9bd9f2f7-0946-412f-94da-c0bf0450c2a8")]
+            activate receive (AS4_IN.Operation_1, WsRequestAS4);
+            [Microsoft.XLANGs.BaseTypes.DesignerPosition("07ea286f-1407-47b3-807d-eaad578b4f6d")]
+            scope
+            {
+                body
+                {
+                    [Microsoft.XLANGs.BaseTypes.DesignerPosition("8c96311b-adc7-42f1-b5ac-0b7094d0c4cc")]
+                    send (WsIntegrador.AS4, WsRequestAS4);
+                    [Microsoft.XLANGs.BaseTypes.DesignerPosition("fad0287d-eecd-473c-827d-daeb8264d1ad")]
+                    System.Diagnostics.Trace.WriteLine("Inicia llamado a AS4");
+                    [Microsoft.XLANGs.BaseTypes.DesignerPosition("f94c2e56-4982-4c06-8eff-9bfd282b2e70")]
+                    receive (WsIntegrador.AS4, WsResponseAS4);
+                    [Microsoft.XLANGs.BaseTypes.DesignerPosition("60eadeab-4fb8-4be1-bd76-578006a129c1")]
+                    send (AS4_OUT.Operation_1, WsResponseAS4);
+                }
+                exceptions
+                {
+                    [Microsoft.XLANGs.BaseTypes.DesignerPosition("91c1f62f-3476-446a-99ad-411a4b40e282")]
+                    catch (System.Exception ex)
+                    {
+                        [Microsoft.XLANGs.BaseTypes.DesignerPosition("ac537c0c-50f8-43b5-95fe-6e8499c01700")]
+                        System.Diagnostics.Trace.WriteLine("Respuesta AS4");
+                        [Microsoft.XLANGs.BaseTypes.DesignerPosition("5e2c082e-7e39-4633-a51c-3f3eae31c787")]
+                        terminate "Fin de la orquestacion Crear Orden con Error " + ex.Message;;
+                    }
+                }
+            }
+        }
+    }
+}
+

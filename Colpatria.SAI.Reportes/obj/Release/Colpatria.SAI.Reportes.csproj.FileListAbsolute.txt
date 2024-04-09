@@ -1,0 +1,4 @@
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\Colpatria.SAI.Reportes\bin\Release\Colpatria.SAI.Reportes.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\Colpatria.SAI.Reportes\bin\Release\Colpatria.SAI.Reportes.pdb
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\Colpatria.SAI.Reportes\obj\Release\Colpatria.SAI.Reportes.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\Colpatria.SAI.Reportes\obj\Release\Colpatria.SAI.Reportes.pdb

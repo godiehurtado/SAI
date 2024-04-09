@@ -1,0 +1,156 @@
+﻿@model ColpatriaSAI.UI.MVC.Areas.Comisiones.Models.ViewModels.CalculoComisionViewModel
+@{
+    ViewBag.Title = "Cálculo Comisión Variable";
+    Layout = "~/Areas/Comisiones/Views/Shared/_comisionesLayoutPage.cshtml";
+    
+}
+<h2>
+    C&aacute;lculo Comisi&oacute;n</h2>
+<div class="container-fluid">
+    <div class="row">
+        @if (TempData["OperationSuccess"] != null && TempData["OperationSuccess"].ToString() == "True")
+        {
+            <label>
+                @TempData["SuccessMessage"]</label>
+        }
+        else
+        {
+            <label class="alert-danger">@TempData["ErrorMessage"]</label>
+        }
+
+        @if (TempData["FACT_PEND"] != null && TempData["FACT_PEND"].ToString() == "S")
+        { 
+            <script type="text/javascript">
+
+                $(document).ready(function () {
+                    console.log("1");
+                    $("#dialog-wait").dialog({
+                        resizable: false,
+                        height: "auto",
+                        width: 400,
+                        height: 250,
+                        modal: true,
+                        autoOpen: false,
+                        buttons: {}
+                    });
+                    console.log("2");
+                    $("#btnCalcular").hide();
+                    console.log("3");
+                    //Se muestra el mensaje
+                    $("#dialog-wait").dialog('open');
+                    var atributoDialog = $(".ui-dialog").attr('style') + "z-index: 100";
+                    $(".ui-dialog").attr('style', atributoDialog);
+                    console.log("4");
+                });
+
+
+               
+            </script>
+        }
+    </div>
+    
+        <div class="form-group">
+            <label class="col-lg-2 col-md-2 col-sm-2 col-xs-2 control-label" for="ModeloId">
+                Modelo</label>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                @Html.DropDownListFor(m => m.ModeloId, Model.Modelos, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.ModeloId)
+            </div>
+            <label class="col-lg-2 col-md-2 col-sm-2 col-xs-2 control-label" for="TipoLiquidacionId">
+                Tipo Liquidaci&oacute;n</label>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                @Html.DropDownListFor(m => m.TipoLiquidacionId, Model.TipoLiquidaciones, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.TipoLiquidacionId)
+            </div>
+        </div>
+            <div class="form-group">
+                <label class="col-lg-2  control-label">
+                   <span style="color:red">*</span> Fecha Periodo:
+                </label>
+                <div class="col-sm-4">
+                    @Html.TextBoxFor(model => model.FechaCorte, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.FechaCorte)
+                </div>
+            </div>
+  @*      <div class="form-group">
+            <label class="col-lg-2 col-md-2 col-sm-2 col-xs-2 control-label" for="Ahno">
+                Año</label>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                @Html.DropDownListFor(m => m.Anio, Model.Anios, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.Anio)
+            </div>
+            <label class="col-lg-2 col-md-2 col-sm-2 col-xs-2 control-label" for="Mes">
+                Mes</label>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                @Html.DropDownListFor(m => m.Mes, Model.Meses, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.Mes)
+            </div>
+        </div>*@
+        <div class="form-group" style="Clear:both">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-center">
+                <input type="submit" value="Calcular" id="btnCalcular"  onclick="calcular();" />
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-center">
+                <input type="button" value="Regresar" onclick="javascript:window.location = '@Url.Action("index", "inicio", new { area = "Comisiones" })'" />
+            </div>
+        </div>
+        
+    
+</div>
+<div id="dialog-wait" title="Proceso en Ejecución">
+    <p>
+        <span class="ui-icon ui-icon-clock" style="float: left; margin: 12px 12px 20px 0;">
+        </span>La Facturación se está generando, verfique la liquidación generada desde el Menú Historico Comisiones.</p>
+</div>
+@section AdditionalScripts{
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#dialog-wait").dialog({
+                resizable: false,
+                height: "auto",
+                width: 400,
+                height: 250,
+                modal: true,
+                autoOpen: false,
+                buttons: {}
+            });
+             $('#FechaCorte').datepicker({ dateFormat: 'dd/mm/yy' }).datepicker("setDate", new Date());
+        });
+
+        function calcular()
+        {
+            debugger;
+            //Se oculta el botón de calcular
+            $("#btnCalcular").hide();
+
+            //Se muestra el mensaje
+             $("#dialog-wait").dialog('open');
+            var atributoDialog = $(".ui-dialog").attr('style')  + "z-index: 100";
+            $(".ui-dialog").attr('style', atributoDialog);
+
+            //
+            var _modelId= $("#ModeloId").val(); 
+            var _anio= $("#Anio").val(); //
+            var _mes=$("#Mes").val();
+            var _tipoLiq = $("#TipoLiquidacionId").val();
+          //  var _usuario= 
+            var _FechaCorte=$("#FechaCorte").datepicker("getDate");
+          var year = _FechaCorte.getFullYear();
+          var month =_FechaCorte.getMonth()+1;
+          var day= _FechaCorte.getDate(); 
+
+            $.ajax({
+            type: 'POST',
+            url: '@Url.Action("levantarEtl", "AsyncCalculoComision")',
+            async: true,
+            timeout: 1000000,
+                data: { anio:year, mes:month,dia:day, tipoLiqId:_tipoLiq, modeloId:_modelId },
+                type: "POST",
+                }).done(function (res) {
+                    
+                });
+        }
+        
+    
+    </script>
+}

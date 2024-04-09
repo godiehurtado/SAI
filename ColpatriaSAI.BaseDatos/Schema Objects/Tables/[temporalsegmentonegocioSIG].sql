@@ -1,0 +1,21 @@
+
+
+CREATE TABLE [dbo].[temporalsegmentonegocioSIG](
+	[ID] [int] IDENTITY(1,1) NOT NULL,
+	[COMPANIA] [nvarchar](50) NULL,
+	[SEGMENTO] [int] NULL,
+	[VALORPRIMATOTAL] [nvarchar](1000) NULL,
+	[DESCRIPCION] [nvarchar](1000) NULL,
+	[FECHACREACION] [datetime] NOT NULL,
+ CONSTRAINT [PK_temporalsegmentonegocioSIG] PRIMARY KEY CLUSTERED 
+(
+	[ID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+ALTER TABLE [dbo].[temporalsegmentonegocioSIG] ADD  CONSTRAINT [DF_temporalsegmentonegocioSIG_FECHACREACION]  DEFAULT (getdate()) FOR [FECHACREACION]
+GO
+
+

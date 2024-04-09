@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<DTSConfiguration>
+  <DTSConfigurationHeading>
+    <DTSConfigurationFileInfo GeneratedBy="UINVERSION\dabautistal" GeneratedFromPackageName="Reporte_" GeneratedFromPackageID="{A8822B17-AA07-4008-AF13-F1BAF1ED0063}" GeneratedDate="21/06/2012 05:07:12 p.m."/>
+  </DTSConfigurationHeading>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[FTP SAI].Properties[ServerName]" ValueType="String">
+    <ConfiguredValue>PRO-FTPUI</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[FTP SAI].Properties[ServerPassword]" ValueType="String">
+    <ConfiguredValue>SAI2012</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[FTP SAI].Properties[ServerPort]" ValueType="Int32">
+    <ConfiguredValue>21</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[FTP SAI].Properties[ServerUserName]" ValueType="String">
+    <ConfiguredValue>ftpsai</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[SAI].Properties[InitialCatalog]" ValueType="String">
+    <ConfiguredValue>SAI</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[SAI].Properties[Password]" ValueType="String">
+    <ConfiguredValue>7kYWAZj7No-aN7S</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[SAI].Properties[ServerName]" ValueType="String">
+    <ConfiguredValue>PRO-SQL01\PROD2008</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Connections[SAI].Properties[UserName]" ValueType="String">
+    <ConfiguredValue>sai_admin</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::RutaReporte].Properties[Value]" ValueType="String">
+    <ConfiguredValue>F:\Archivos SAI\Archivos FTP\REPORTES\</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::RutaRemota].Properties[Value]" ValueType="String">
+    <ConfiguredValue>/ftpsai/SalidaSAI/Reportes</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::Extension].Properties[Value]" ValueType="String">
+    <ConfiguredValue>csv</ConfiguredValue>
+  </Configuration>
+  <!--Reporte_LiquidacionFranquicias.dtsx-->
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::Nombre_LiquidacionFranquicias].Properties[Value]" ValueType="String">
+    <ConfiguredValue>LiquidacionFranquicias</ConfiguredValue>
+  </Configuration>
+  <!--Reporte_NegociosAsesor.dtsx-->
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::Nombre_NegociosAsesor].Properties[Value]" ValueType="String">
+    <ConfiguredValue>NegociosAsesor</ConfiguredValue>
+  </Configuration>
+  <!--Reporte_NegociosAsesorCierre.dtsx-->
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::Nombre_NegociosAsesorCierre].Properties[Value]" ValueType="String">
+    <ConfiguredValue>NegociosAsesorCierre</ConfiguredValue>
+  </Configuration>
+  <!--Reporte_NegociosConsolidado.dtsx-->
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::Nombre_NegociosConsolidado].Properties[Value]" ValueType="String">
+    <ConfiguredValue>NegociosConsolidado</ConfiguredValue>
+  </Configuration>
+  <!--Reporte_RecaudosColquinesAsesor.dtsx-->
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::Nombre_RecaudosColquinesAsesor].Properties[Value]" ValueType="String">
+    <ConfiguredValue>RecaudosColquinesAsesor</ConfiguredValue>
+  </Configuration>
+  <!--Reporte_RecaudosAsesorCierre.dtsx-->
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::Nombre_RecaudosAsesorCierre].Properties[Value]" ValueType="String">
+    <ConfiguredValue>RecaudosAsesorCierre</ConfiguredValue>
+  </Configuration>
+  <!--Reporte_ColquinesSegmento.dtsx-->
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::Nombre_ColquinesSegmento].Properties[Value]" ValueType="String">
+    <ConfiguredValue>ColquinesSegmento</ConfiguredValue>
+  </Configuration>
+  <!--Reporte_ColquinesMinimos.dtsx-->
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::Nombre_ColquinesMinimos].Properties[Value]" ValueType="String">
+    <ConfiguredValue>ColquinesMinimos</ConfiguredValue>
+  </Configuration>
+  <!--Reporte_RamosAsesor.dtsx-->
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::Nombre_RamosAsesor].Properties[Value]" ValueType="String">
+    <ConfiguredValue>RamosAsesor</ConfiguredValue>
+  </Configuration>
+  <!--Reporte_IngresosAsesor.dtsx-->
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::Nombre_IngresosAsesor].Properties[Value]" ValueType="String">
+    <ConfiguredValue>IngresosAsesor</ConfiguredValue>
+  </Configuration>
+  <!--Reporte_InformeFabrica.dtsx-->
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::Nombre_InformeFabrica].Properties[Value]" ValueType="String">
+    <ConfiguredValue>InformeFabrica</ConfiguredValue>
+  </Configuration>
+  <!--Reporte_NegociosporSegmentoIntermediario.dtsx-->
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::Nombre_NegociosporSegmentoIntermediario].Properties[Value]" ValueType="String">
+    <ConfiguredValue>NegociosporSegmentoIntermediario</ConfiguredValue>
+  </Configuration>
+  <!--Reporte_RecaudosporSegmentoIntermediario.dtsx-->
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::Nombre_RecaudosporSegmentoIntermediario].Properties[Value]" ValueType="String">
+    <ConfiguredValue>RecaudosporSegmentoIntermediario</ConfiguredValue>
+  </Configuration>
+  <!--Reporte_PresupuestoEjecucionVistaCRM.dtsx-->
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::Nombre_PresupuestoEjecucionVistaCRM].Properties[Value]" ValueType="String">
+    <ConfiguredValue>PresupuestoEjecucionVistaCRM</ConfiguredValue>
+  </Configuration>
+  <!--Reporte_ConsolidadoporTipoMedida.dtsx-->
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[SAI::Nombre_ConsolidadoTipoMedida].Properties[Value]" ValueType="String">
+    <ConfiguredValue>Consolidado</ConfiguredValue>
+  </Configuration>
+</DTSConfiguration>

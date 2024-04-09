@@ -1,0 +1,3 @@
+﻿ALTER TABLE [dbo].[ETLRemota]
+    ADD CONSTRAINT [FK_ETLRemota_TipoETLRemota] FOREIGN KEY ([tipoETLRemota_id]) REFERENCES [dbo].[TipoETLRemota] ([id]) ON DELETE NO ACTION ON UPDATE NO ACTION;
+

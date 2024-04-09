@@ -1,0 +1,382 @@
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.UI.MVC.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.UI.MVC.pdb
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Negocio.Componentes.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Negocio.Entidades.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Seguridad.Encripcion.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Seguridad.Proveedores.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\Encrypt1_1.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\EPPlus.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\LinqToExcel.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\log4net.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\Microsoft.ReportViewer.Common.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\Microsoft.ReportViewer.WebForms.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\Microsoft.Web.Infrastructure.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\MVC Foolproof Validation.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\MvcMembership.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\PagedList.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\PagedList.Mvc.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\Remotion.Data.Linq.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\System.Data.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\System.Web.Abstractions.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\System.Web.ApplicationServices.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\System.Web.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\System.Web.Entity.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\System.Web.Extensions.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\System.Web.Helpers.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\System.Web.Routing.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\System.Web.Services.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\System.Web.WebPages.Deployment.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\System.Xml.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\WcfSamples.DynamicProxy.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Negocio.Validadores.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\Microsoft.Practices.ServiceLocation.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\Microsoft.Practices.Unity.Interception.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\Microsoft.Practices.Unity.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\Microsoft.SqlServer.DTSRuntimeWrap.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Negocio.Componentes.pdb
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Negocio.Entidades.pdb
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Seguridad.Encripcion.pdb
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Seguridad.Proveedores.pdb
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\MvcMembership.pdb
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\WcfSamples.DynamicProxy.pdb
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Datos.pdb
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\EPPlus.xml
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\Microsoft.ReportViewer.WebForms.xml
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Negocio.Validadores.pdb
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\obj\Debug\ColpatriaSAI.UI.MVC.csprojResolveAssemblyReference.cache
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\obj\Debug\RdlCompile.cache
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\obj\Debug\RdlCompile.compiled
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\obj\Debug\ColpatriaSAI.UI.MVC.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\obj\Debug\ColpatriaSAI.UI.MVC.pdb
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.UI.MVC.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.UI.MVC.pdb
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Negocio.Componentes.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Negocio.Entidades.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Seguridad.Encripcion.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Seguridad.Proveedores.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\Encrypt1_1.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\EPPlus.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\LinqToExcel.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\log4net.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\MVC Foolproof Validation.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\MvcMembership.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\PagedList.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\PagedList.Mvc.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\Remotion.Data.Linq.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\System.Data.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\System.Web.Abstractions.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\System.Web.ApplicationServices.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\System.Web.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\System.Web.Entity.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\System.Web.Extensions.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\System.Web.Helpers.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\System.Web.Routing.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\System.Web.Services.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\System.Xml.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\WcfSamples.DynamicProxy.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Negocio.Validadores.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\Microsoft.Practices.Unity.Interception.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\Microsoft.Practices.Unity.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\Microsoft.SqlServer.DTSRuntimeWrap.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Negocio.Componentes.pdb
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Negocio.Entidades.pdb
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Seguridad.Encripcion.pdb
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Seguridad.Proveedores.pdb
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\MvcMembership.pdb
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\WcfSamples.DynamicProxy.pdb
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Datos.pdb
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\EPPlus.xml
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\Microsoft.ReportViewer.WebForms.xml
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Negocio.Validadores.pdb
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\obj\Debug\ColpatriaSAI.UI.MVC.csprojResolveAssemblyReference.cache
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\obj\Debug\RdlCompile.cache
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\obj\Debug\RdlCompile.compiled
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\obj\Debug\ColpatriaSAI.UI.MVC.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.UI.MVC\obj\Debug\ColpatriaSAI.UI.MVC.pdb
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.UI.MVC.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.UI.MVC.pdb
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Negocio.Componentes.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Negocio.Entidades.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Seguridad.Encripcion.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Seguridad.Proveedores.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\Encrypt1_1.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\EPPlus.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\LinqToExcel.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\log4net.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\Microsoft.ReportViewer.Common.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\Microsoft.ReportViewer.WebForms.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\Microsoft.Web.Infrastructure.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\MVC Foolproof Validation.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\MvcMembership.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\PagedList.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\PagedList.Mvc.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\Remotion.Data.Linq.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\System.Data.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\System.Web.Abstractions.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\System.Web.ApplicationServices.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\System.Web.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\System.Web.Entity.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\System.Web.Extensions.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\System.Web.Helpers.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\System.Web.Routing.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\System.Web.Services.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\System.Web.WebPages.Deployment.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\System.Xml.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\WcfSamples.DynamicProxy.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Negocio.Validadores.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\Microsoft.Practices.ServiceLocation.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\Microsoft.Practices.Unity.Interception.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\Microsoft.Practices.Unity.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\Microsoft.SqlServer.DTSRuntimeWrap.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Negocio.Componentes.pdb
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Negocio.Entidades.pdb
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Seguridad.Encripcion.pdb
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Seguridad.Proveedores.pdb
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\MvcMembership.pdb
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\WcfSamples.DynamicProxy.pdb
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Datos.pdb
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\EPPlus.xml
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\Microsoft.ReportViewer.WebForms.xml
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Negocio.Validadores.pdb
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.UI.MVC\obj\Debug\ColpatriaSAI.UI.MVC.csprojResolveAssemblyReference.cache
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.UI.MVC\obj\Debug\RdlCompile.cache
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.UI.MVC\obj\Debug\RdlCompile.compiled
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.UI.MVC\obj\Debug\ColpatriaSAI.UI.MVC.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.UI.MVC\obj\Debug\ColpatriaSAI.UI.MVC.pdb
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.UI.MVC.dll
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.UI.MVC.pdb
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Negocio.Componentes.dll
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Negocio.Entidades.dll
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Seguridad.Encripcion.dll
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Seguridad.Proveedores.dll
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\Encrypt1_1.dll
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\EPPlus.dll
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\LinqToExcel.dll
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\log4net.dll
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\Microsoft.ReportViewer.Common.dll
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\Microsoft.ReportViewer.WebForms.dll
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\Microsoft.Web.Infrastructure.dll
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\MVC Foolproof Validation.dll
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\MvcMembership.dll
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\PagedList.dll
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\PagedList.Mvc.dll
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\Remotion.Data.Linq.dll
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\System.Data.dll
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\System.Web.Abstractions.dll
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\System.Web.ApplicationServices.dll
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\System.Web.dll
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\System.Web.Entity.dll
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\System.Web.Extensions.dll
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\System.Web.Helpers.dll
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\System.Web.Routing.dll
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\System.Web.Services.dll
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\System.Web.WebPages.Deployment.dll
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\System.Xml.dll
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\WcfSamples.DynamicProxy.dll
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Negocio.Validadores.dll
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\Microsoft.Practices.ServiceLocation.dll
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\Microsoft.Practices.Unity.Interception.dll
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\Microsoft.Practices.Unity.dll
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\Microsoft.SqlServer.DTSRuntimeWrap.dll
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Negocio.Componentes.pdb
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Negocio.Entidades.pdb
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Seguridad.Encripcion.pdb
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Seguridad.Proveedores.pdb
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\MvcMembership.pdb
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\WcfSamples.DynamicProxy.pdb
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Datos.pdb
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\EPPlus.xml
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\Microsoft.ReportViewer.WebForms.xml
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Negocio.Validadores.pdb
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.UI.MVC\obj\Debug\ColpatriaSAI.UI.MVC.csprojResolveAssemblyReference.cache
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.UI.MVC\obj\Debug\RdlCompile.cache
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.UI.MVC\obj\Debug\RdlCompile.compiled
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.UI.MVC\obj\Debug\ColpatriaSAI.UI.MVC.dll
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.UI.MVC\obj\Debug\ColpatriaSAI.UI.MVC.pdb
+d:\datos\Users\caalbarracinm\Desktop\Principal-Desarrollo\ColpatriaSAI.UI.MVC\obj\Debug\ColpatriaSAI.UI.MVC.csprojAssemblyReference.cache
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.UI.MVC.dll.config
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.UI.MVC.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.UI.MVC.pdb
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Negocio.Componentes.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Negocio.Entidades.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Seguridad.Encripcion.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Seguridad.Proveedores.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\Encrypt1_1.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\EPPlus.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\LinqToExcel.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\log4net.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\Microsoft.ReportViewer.Common.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\Microsoft.ReportViewer.WebForms.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\Microsoft.Web.Infrastructure.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\MVC Foolproof Validation.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\MvcMembership.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\PagedList.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\PagedList.Mvc.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\Remotion.Data.Linq.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\System.Data.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\System.Web.Abstractions.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\System.Web.ApplicationServices.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\System.Web.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\System.Web.Entity.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\System.Web.Extensions.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\System.Web.Helpers.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\System.Web.Mvc.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\System.Web.Routing.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\System.Web.Services.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\System.Web.WebPages.Deployment.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\System.Xml.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\WcfSamples.DynamicProxy.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\Microsoft.Practices.ServiceLocation.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Negocio.Validadores.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\Microsoft.Practices.Unity.Interception.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\Microsoft.Practices.Unity.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Negocio.Componentes.pdb
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Negocio.Entidades.pdb
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Seguridad.Encripcion.pdb
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Seguridad.Proveedores.pdb
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Seguridad.Proveedores.dll.config
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\MvcMembership.pdb
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\WcfSamples.DynamicProxy.pdb
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\EPPlus.xml
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\Microsoft.ReportViewer.WebForms.xml
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Negocio.Validadores.pdb
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\obj\Debug\ColpatriaSAI.UI.MVC.csprojAssemblyReference.cache
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\obj\Debug\ColpatriaSAI.UI.MVC.csproj.CopyComplete
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\obj\Debug\ColpatriaSAI.UI.MVC.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\obj\Debug\ColpatriaSAI.UI.MVC.pdb
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Negocio.Componentes.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Negocio.Entidades.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Seguridad.Encripcion.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Seguridad.Proveedores.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\Encrypt1_1.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\EPPlus.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\LinqToExcel.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\log4net.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\Microsoft.ReportViewer.Common.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\Microsoft.ReportViewer.DataVisualization.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\Microsoft.ReportViewer.WebForms.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\Microsoft.Web.Infrastructure.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\MVC Foolproof Validation.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\MvcMembership.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\PagedList.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\PagedList.Mvc.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\Remotion.Data.Linq.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\System.Data.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\System.Web.Abstractions.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\System.Web.ApplicationServices.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\System.Web.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\System.Web.Entity.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\System.Web.Extensions.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\System.Web.Helpers.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\System.Web.Mvc.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\System.Web.Razor.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\System.Web.Routing.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\System.Web.Services.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\System.Web.WebPages.Deployment.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\System.Web.WebPages.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\System.Web.WebPages.Razor.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\System.Xml.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\WcfSamples.DynamicProxy.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\Microsoft.Practices.ServiceLocation.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Negocio.Validadores.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\Microsoft.Practices.Unity.Interception.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\Microsoft.Practices.Unity.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Negocio.Componentes.pdb
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Negocio.Entidades.pdb
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Seguridad.Encripcion.pdb
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Seguridad.Proveedores.pdb
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Seguridad.Proveedores.dll.config
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\MvcMembership.pdb
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\WcfSamples.DynamicProxy.pdb
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\EPPlus.xml
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Negocio.Validadores.pdb
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\es\System.Web.Razor.resources.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\es\System.Web.WebPages.resources.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\es\System.Web.WebPages.Razor.resources.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\obj\Debug\ColpatriaSAI.UI.MVC.csprojAssemblyReference.cache
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\obj\Debug\RdlCompile.cache
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\obj\Debug\RdlCompile.compiled
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\obj\Debug\ColpatriaSAI.UI.MVC.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\obj\Debug\ColpatriaSAI.UI.MVC.pdb
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.UI.MVC.dll.config
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.UI.MVC.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.UI.MVC.pdb
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\obj\Debug\ColpatriaSAI.UI.MVC.csproj.CopyComplete
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.UI.MVC.dll.config
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.UI.MVC.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.UI.MVC.pdb
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Negocio.Componentes.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Negocio.Entidades.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Seguridad.Encripcion.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Seguridad.Proveedores.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\Encrypt1_1.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\EPPlus.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\LinqToExcel.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\log4net.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\Microsoft.ReportViewer.Common.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\Microsoft.ReportViewer.DataVisualization.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\Microsoft.ReportViewer.WebForms.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\Microsoft.Web.Infrastructure.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\MVC Foolproof Validation.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\MvcMembership.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\PagedList.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\PagedList.Mvc.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\Remotion.Data.Linq.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\System.Data.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\System.Web.Abstractions.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\System.Web.ApplicationServices.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\System.Web.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\System.Web.Entity.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\System.Web.Extensions.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\System.Web.Helpers.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\System.Web.Mvc.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\System.Web.Routing.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\System.Web.Services.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\System.Web.WebPages.Deployment.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\System.Web.WebPages.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\System.Web.WebPages.Razor.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\System.Xml.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\WcfSamples.DynamicProxy.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\Microsoft.Practices.ServiceLocation.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Negocio.Validadores.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\System.Web.Razor.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\Microsoft.Practices.Unity.Interception.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\Microsoft.Practices.Unity.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Negocio.Componentes.pdb
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Negocio.Entidades.pdb
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Seguridad.Encripcion.pdb
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Seguridad.Proveedores.pdb
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Seguridad.Proveedores.dll.config
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\MvcMembership.pdb
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\WcfSamples.DynamicProxy.pdb
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\EPPlus.xml
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\System.Web.WebPages.xml
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Negocio.Validadores.pdb
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\bin\System.Web.Razor.xml
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\obj\Debug\ColpatriaSAI.UI.MVC.csprojAssemblyReference.cache
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\obj\Debug\RdlCompile.cache
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\obj\Debug\RdlCompile.compiled
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\obj\Debug\ColpatriaSAI.UI.MVC.csproj.CopyComplete
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\obj\Debug\ColpatriaSAI.UI.MVC.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.UI.MVC\obj\Debug\ColpatriaSAI.UI.MVC.pdb

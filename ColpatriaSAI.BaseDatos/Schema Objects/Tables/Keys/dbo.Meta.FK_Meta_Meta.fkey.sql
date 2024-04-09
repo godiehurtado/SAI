@@ -1,0 +1,3 @@
+﻿ALTER TABLE [dbo].[Meta]
+    ADD CONSTRAINT [FK_Meta_Meta] FOREIGN KEY ([meta_id]) REFERENCES [dbo].[Meta] ([id]) ON DELETE NO ACTION ON UPDATE NO ACTION;
+

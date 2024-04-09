@@ -1,0 +1,16 @@
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\WSConsultasSAI\ColpatriaSAI_WS.Datos\bin\Pruebas\ColpatriaSAI_WS.Datos.dll.config
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\WSConsultasSAI\ColpatriaSAI_WS.Datos\bin\Pruebas\ColpatriaSAI_WS.Datos.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\WSConsultasSAI\ColpatriaSAI_WS.Datos\bin\Pruebas\ColpatriaSAI_WS.Datos.pdb
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\WSConsultasSAI\ColpatriaSAI_WS.Datos\bin\Pruebas\ColpatriaSAI_WS.Entidades.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\WSConsultasSAI\ColpatriaSAI_WS.Datos\bin\Pruebas\ColpatriaSAI_WS.Entidades.pdb
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\WSConsultasSAI\ColpatriaSAI_WS.Datos\obj\Pruebas\ColpatriaSAI_WS.Datos.csprojResolveAssemblyReference.cache
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\WSConsultasSAI\ColpatriaSAI_WS.Datos\obj\Pruebas\ColpatriaSAI_WS.Datos.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\WSConsultasSAI\ColpatriaSAI_WS.Datos\obj\Pruebas\ColpatriaSAI_WS.Datos.pdb
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\WSConsultasSAI\ColpatriaSAI_WS.Datos\bin\Pruebas\ColpatriaSAI_WS.Datos.dll.config
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\WSConsultasSAI\ColpatriaSAI_WS.Datos\bin\Pruebas\ColpatriaSAI_WS.Datos.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\WSConsultasSAI\ColpatriaSAI_WS.Datos\bin\Pruebas\ColpatriaSAI_WS.Datos.pdb
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\WSConsultasSAI\ColpatriaSAI_WS.Datos\bin\Pruebas\ColpatriaSAI_WS.Entidades.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\WSConsultasSAI\ColpatriaSAI_WS.Datos\bin\Pruebas\ColpatriaSAI_WS.Entidades.pdb
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\WSConsultasSAI\ColpatriaSAI_WS.Datos\obj\Pruebas\ColpatriaSAI_WS.Datos.csprojResolveAssemblyReference.cache
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\WSConsultasSAI\ColpatriaSAI_WS.Datos\obj\Pruebas\ColpatriaSAI_WS.Datos.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\WSConsultasSAI\ColpatriaSAI_WS.Datos\obj\Pruebas\ColpatriaSAI_WS.Datos.pdb

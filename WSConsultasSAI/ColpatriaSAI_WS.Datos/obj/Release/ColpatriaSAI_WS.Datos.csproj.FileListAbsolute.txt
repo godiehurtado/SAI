@@ -1,0 +1,28 @@
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\WSConsultasSAI\ColpatriaSAI_WS.Datos\bin\Release\ColpatriaSAI_WS.Datos.dll.config
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\WSConsultasSAI\ColpatriaSAI_WS.Datos\bin\Release\ColpatriaSAI_WS.Datos.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\WSConsultasSAI\ColpatriaSAI_WS.Datos\bin\Release\ColpatriaSAI_WS.Datos.pdb
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\WSConsultasSAI\ColpatriaSAI_WS.Datos\bin\Release\ColpatriaSAI_WS.Entidades.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\WSConsultasSAI\ColpatriaSAI_WS.Datos\bin\Release\ColpatriaSAI_WS.Entidades.pdb
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\WSConsultasSAI\ColpatriaSAI_WS.Datos\obj\Release\ColpatriaSAI_WS.Datos.csprojAssemblyReference.cache
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\WSConsultasSAI\ColpatriaSAI_WS.Datos\obj\Release\ColpatriaSAI_WS.Datos.csproj.CopyComplete
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\WSConsultasSAI\ColpatriaSAI_WS.Datos\obj\Release\ColpatriaSAI_WS.Datos.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\WSConsultasSAI\ColpatriaSAI_WS.Datos\obj\Release\ColpatriaSAI_WS.Datos.pdb
+d:\DATOS\users\caalbarracinm\Source\Repos\SAI\WSConsultasSAI\ColpatriaSAI_WS.Datos\bin\Release\ColpatriaSAI_WS.Datos.dll.config
+d:\DATOS\users\caalbarracinm\Source\Repos\SAI\WSConsultasSAI\ColpatriaSAI_WS.Datos\bin\Release\ColpatriaSAI_WS.Datos.dll
+d:\DATOS\users\caalbarracinm\Source\Repos\SAI\WSConsultasSAI\ColpatriaSAI_WS.Datos\bin\Release\ColpatriaSAI_WS.Datos.pdb
+d:\DATOS\users\caalbarracinm\Source\Repos\SAI\WSConsultasSAI\ColpatriaSAI_WS.Datos\bin\Release\ColpatriaSAI_WS.Entidades.dll
+d:\DATOS\users\caalbarracinm\Source\Repos\SAI\WSConsultasSAI\ColpatriaSAI_WS.Datos\bin\Release\ColpatriaSAI_WS.Entidades.pdb
+d:\DATOS\users\caalbarracinm\Source\Repos\SAI\WSConsultasSAI\ColpatriaSAI_WS.Datos\obj\Release\ColpatriaSAI_WS.Datos.csprojAssemblyReference.cache
+d:\DATOS\users\caalbarracinm\Source\Repos\SAI\WSConsultasSAI\ColpatriaSAI_WS.Datos\obj\Release\ColpatriaSAI_WS.Datos.csproj.CopyComplete
+d:\DATOS\users\caalbarracinm\Source\Repos\SAI\WSConsultasSAI\ColpatriaSAI_WS.Datos\obj\Release\ColpatriaSAI_WS.Datos.dll
+d:\DATOS\users\caalbarracinm\Source\Repos\SAI\WSConsultasSAI\ColpatriaSAI_WS.Datos\obj\Release\ColpatriaSAI_WS.Datos.pdb
+E:\SAI Debug\SAI\WSConsultasSAI\ColpatriaSAI_WS.Datos\bin\Release\ColpatriaSAI_WS.Datos.dll.config
+E:\SAI Debug\SAI\WSConsultasSAI\ColpatriaSAI_WS.Datos\bin\Release\ColpatriaSAI_WS.Datos.dll
+E:\SAI Debug\SAI\WSConsultasSAI\ColpatriaSAI_WS.Datos\bin\Release\ColpatriaSAI_WS.Datos.pdb
+E:\SAI Debug\SAI\WSConsultasSAI\ColpatriaSAI_WS.Datos\bin\Release\ColpatriaSAI_WS.Entidades.dll
+E:\SAI Debug\SAI\WSConsultasSAI\ColpatriaSAI_WS.Datos\bin\Release\ColpatriaSAI_WS.Entidades.pdb
+E:\SAI Debug\SAI\WSConsultasSAI\ColpatriaSAI_WS.Datos\obj\Release\ColpatriaSAI_WS.Datos.csproj.AssemblyReference.cache
+E:\SAI Debug\SAI\WSConsultasSAI\ColpatriaSAI_WS.Datos\obj\Release\ColpatriaSAI_WS.Datos.csproj.CoreCompileInputs.cache
+E:\SAI Debug\SAI\WSConsultasSAI\ColpatriaSAI_WS.Datos\obj\Release\ColpatriaSAI_WS.Datos.csproj.CopyComplete
+E:\SAI Debug\SAI\WSConsultasSAI\ColpatriaSAI_WS.Datos\obj\Release\ColpatriaSAI_WS.Datos.dll
+E:\SAI Debug\SAI\WSConsultasSAI\ColpatriaSAI_WS.Datos\obj\Release\ColpatriaSAI_WS.Datos.pdb

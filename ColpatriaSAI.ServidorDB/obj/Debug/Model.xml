@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataSchemaModel FileFormatVersion="1.2" SchemaVersion="2.4" DspName="Microsoft.Data.Tools.Schema.Sql.Sql100DatabaseSchemaProvider" CollationLcid="1033" CollationCaseSensitive="False" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+	<Header>
+		<CustomData Category="AnsiNulls">
+			<Metadata Name="AnsiNulls" Value="True" />
+		</CustomData>
+		<CustomData Category="QuotedIdentifier">
+			<Metadata Name="QuotedIdentifier" Value="True" />
+		</CustomData>
+		<CustomData Category="CompatibilityMode">
+			<Metadata Name="CompatibilityMode" Value="100" />
+		</CustomData>
+		<CustomData Category="Reference" Type="Assembly">
+			<Metadata Name="LogicalName" Value="ColpatriaSAI.ServidorDB.dll" />
+			<Metadata Name="FileName" Value="E:\USERS\DAHURTADOG\SOURCE\REPOS\SAI_2024\SAI\COLPATRIASAI.SERVIDORDB\OBJ\DEBUG\COLPATRIASAI.SERVIDORDB.DLL" />
+			<Metadata Name="AssemblyName" Value="ColpatriaSAI.ServidorDB" />
+			<Metadata Name="PermissionSet" Value="SAFE" />
+			<Metadata Name="Owner" Value="" />
+			<Metadata Name="GenerateSqlClrDdl" Value="True" />
+			<Metadata Name="IsVisible" Value="True" />
+			<Metadata Name="IsModelAware" Value="True" />
+			<Metadata Name="SkipCreationIfEmpty" Value="True" />
+			<Metadata Name="AssemblySymbolsName" Value="E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.ServidorDB\obj\Debug\ColpatriaSAI.ServidorDB.pdb" />
+		</CustomData>
+		<CustomData Category="SqlCmdVariables" Type="SqlCmdVariable" />
+	</Header>
+	<Model>
+		<Element Type="SqlDatabaseOptions">
+			<Property Name="Collation" Value="SQL_Latin1_General_CP1_CI_AS" />
+			<Property Name="IsAnsiNullDefaultOn" Value="True" />
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Property Name="IsAnsiWarningsOn" Value="True" />
+			<Property Name="IsArithAbortOn" Value="True" />
+			<Property Name="IsConcatNullYieldsNullOn" Value="True" />
+			<Property Name="IsTornPageProtectionOn" Value="False" />
+			<Property Name="IsFullTextEnabled" Value="True" />
+			<Property Name="PageVerifyMode" Value="3" />
+			<Relationship Name="DefaultFilegroup">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[PRIMARY]" />
+				</Entry>
+			</Relationship>
+		</Element>
+		<Element Type="SqlLogin" Name="[sai_admin]">
+			<Property Name="Password" Value="|qwzzzolxtmoqibllQkicbdfmsFT7_&amp;#$!~&lt;nxD&lt;bhhqyacf" />
+			<Annotation Type="GloballyScoped" />
+		</Element>
+		<Element Type="SqlLogin" Name="[sai_crm]">
+			<Property Name="Password" Value="CvwidV=@bfmsw,i{ystEun|jmsFT7_&amp;#$!~&lt;v{=bjtae._iw" />
+			<Annotation Type="GloballyScoped" />
+		</Element>
+		<Element Type="SqlLogin" Name="[sai_dbuser]">
+			<Property Name="Password" Value="fof{|yBsGv5,ypnn5&amp;uqy fbmsFT7_&amp;#$!~&lt;Ledhmp|_s^`v" />
+			<Annotation Type="GloballyScoped" />
+		</Element>
+		<Element Type="SqlLogin" Name="[sai_portal]">
+			<Property Name="Password" Value="TjfbUqz+kzrUvQad`d|1hA1MmsFT7_&amp;#$!~&lt;i6rgiv8g gu{" />
+			<Annotation Type="GloballyScoped" />
+		</Element>
+		<Element Type="SqlLogin" Name="[sai_sig]">
+			<Property Name="Password" Value="zwhShifiexhaZqV0{|mAwlgOmsFT7_&amp;#$!~&lt;|i&amp;vu,1fi$nf" />
+			<Annotation Type="GloballyScoped" />
+		</Element>
+	</Model>
+</DataSchemaModel>

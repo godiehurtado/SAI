@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="AIX_WEB">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="DataSource" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="Company" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="Aplication" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="DataBase" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="Parameters" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="IpRequest" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="User" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AIX_WEBResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="AIX_WEBResult" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AIX">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="DataSource" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="Company" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="Aplication" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="DataBase" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="Parameters" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="IpRequest" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="User" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AIXResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="AIXResult" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="XML_AIX_WEB">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="xml" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="XML_AIX_WEBResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="XML_AIX_WEBResult" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AS4">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="DataSource" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="Company" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="Program" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="Library" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="Parameters" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="IpRequest" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="User" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AS4Response">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="AS4Result" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="XML_AS4">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="Xml" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="XML_AS4Response">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="XML_AS4Result" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SQL">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="DataSource" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="Company" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="StoredProcedure" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="DataBase" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="Parameters" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="IpRequest" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="User" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SQLResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" name="SQLResult" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

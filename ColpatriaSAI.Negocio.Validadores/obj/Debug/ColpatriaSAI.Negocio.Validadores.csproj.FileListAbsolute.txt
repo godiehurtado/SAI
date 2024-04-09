@@ -1,0 +1,104 @@
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Validadores\bin\Debug\ColpatriaSAI.Negocio.Validadores.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Validadores\bin\Debug\ColpatriaSAI.Negocio.Validadores.pdb
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Validadores\bin\Debug\ColpatriaSAI.Negocio.Entidades.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Validadores\bin\Debug\ColpatriaSAI.Negocio.Entidades.pdb
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Validadores\obj\Debug\ColpatriaSAI.Negocio.Validadores.csprojResolveAssemblyReference.cache
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Validadores\obj\Debug\ColpatriaSAI.Negocio.Validadores.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Validadores\obj\Debug\ColpatriaSAI.Negocio.Validadores.pdb
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Validadores\bin\Debug\ColpatriaSAI.Negocio.Validadores.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Validadores\bin\Debug\ColpatriaSAI.Negocio.Validadores.pdb
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Validadores\bin\Debug\ColpatriaSAI.Negocio.Entidades.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Validadores\bin\Debug\ColpatriaSAI.Negocio.Entidades.pdb
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Validadores\obj\Debug\ColpatriaSAI.Negocio.Validadores.csprojResolveAssemblyReference.cache
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Validadores\obj\Debug\ColpatriaSAI.Negocio.Validadores.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Validadores\obj\Debug\ColpatriaSAI.Negocio.Validadores.pdb
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.Negocio.Validadores\bin\Debug\ColpatriaSAI.Negocio.Validadores.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.Negocio.Validadores\bin\Debug\ColpatriaSAI.Negocio.Validadores.pdb
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.Negocio.Validadores\bin\Debug\ColpatriaSAI.Negocio.Entidades.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.Negocio.Validadores\bin\Debug\ColpatriaSAI.Negocio.Entidades.pdb
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.Negocio.Validadores\obj\Debug\ColpatriaSAI.Negocio.Validadores.csprojResolveAssemblyReference.cache
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.Negocio.Validadores\obj\Debug\ColpatriaSAI.Negocio.Validadores.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.Negocio.Validadores\obj\Debug\ColpatriaSAI.Negocio.Validadores.pdb
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.Negocio.Validadores\bin\Debug\ColpatriaSAI.Negocio.Validadores.dll
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.Negocio.Validadores\bin\Debug\ColpatriaSAI.Negocio.Validadores.pdb
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.Negocio.Validadores\bin\Debug\ColpatriaSAI.Negocio.Entidades.dll
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.Negocio.Validadores\bin\Debug\ColpatriaSAI.Negocio.Entidades.pdb
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.Negocio.Validadores\obj\Debug\ColpatriaSAI.Negocio.Validadores.csprojResolveAssemblyReference.cache
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.Negocio.Validadores\obj\Debug\ColpatriaSAI.Negocio.Validadores.dll
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.Negocio.Validadores\obj\Debug\ColpatriaSAI.Negocio.Validadores.pdb
+d:\datos\Users\caalbarracinm\Desktop\Principal-Desarrollo\ColpatriaSAI.Negocio.Validadores\bin\Debug\ColpatriaSAI.Negocio.Validadores.dll
+d:\datos\Users\caalbarracinm\Desktop\Principal-Desarrollo\ColpatriaSAI.Negocio.Validadores\bin\Debug\ColpatriaSAI.Negocio.Validadores.pdb
+d:\datos\Users\caalbarracinm\Desktop\Principal-Desarrollo\ColpatriaSAI.Negocio.Validadores\bin\Debug\ColpatriaSAI.Negocio.Entidades.dll
+d:\datos\Users\caalbarracinm\Desktop\Principal-Desarrollo\ColpatriaSAI.Negocio.Validadores\bin\Debug\ColpatriaSAI.Negocio.Entidades.pdb
+d:\datos\Users\caalbarracinm\Desktop\Principal-Desarrollo\ColpatriaSAI.Negocio.Validadores\obj\Debug\ColpatriaSAI.Negocio.Validadores.csprojAssemblyReference.cache
+d:\datos\Users\caalbarracinm\Desktop\Principal-Desarrollo\ColpatriaSAI.Negocio.Validadores\obj\Debug\ColpatriaSAI.Negocio.Validadores.csproj.CopyComplete
+d:\datos\Users\caalbarracinm\Desktop\Principal-Desarrollo\ColpatriaSAI.Negocio.Validadores\obj\Debug\ColpatriaSAI.Negocio.Validadores.dll
+d:\datos\Users\caalbarracinm\Desktop\Principal-Desarrollo\ColpatriaSAI.Negocio.Validadores\obj\Debug\ColpatriaSAI.Negocio.Validadores.pdb
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Validadores\bin\Debug\ColpatriaSAI.Negocio.Validadores.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Validadores\bin\Debug\ColpatriaSAI.Negocio.Validadores.pdb
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Validadores\bin\Debug\ColpatriaSAI.Negocio.Entidades.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Validadores\bin\Debug\ColpatriaSAI.Negocio.Entidades.pdb
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Validadores\obj\Debug\ColpatriaSAI.Negocio.Validadores.csprojAssemblyReference.cache
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Validadores\obj\Debug\ColpatriaSAI.Negocio.Validadores.csproj.CopyComplete
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Validadores\obj\Debug\ColpatriaSAI.Negocio.Validadores.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Validadores\obj\Debug\ColpatriaSAI.Negocio.Validadores.pdb
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Validadores\bin\Debug\ColpatriaSAI.Negocio.Validadores.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Validadores\bin\Debug\ColpatriaSAI.Negocio.Validadores.pdb
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Validadores\bin\Debug\ColpatriaSAI.Negocio.Entidades.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Validadores\bin\Debug\ColpatriaSAI.Negocio.Entidades.pdb
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Validadores\obj\Debug\ColpatriaSAI.Negocio.Validadores.csprojAssemblyReference.cache
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Validadores\obj\Debug\ColpatriaSAI.Negocio.Validadores.csproj.CopyComplete
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Validadores\obj\Debug\ColpatriaSAI.Negocio.Validadores.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Validadores\obj\Debug\ColpatriaSAI.Negocio.Validadores.pdb
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Validadores\bin\Debug\ColpatriaSAI.Negocio.Validadores.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Validadores\bin\Debug\ColpatriaSAI.Negocio.Validadores.pdb
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Validadores\bin\Debug\ColpatriaSAI.Negocio.Entidades.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Validadores\bin\Debug\ColpatriaSAI.Negocio.Entidades.pdb
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Validadores\obj\Debug\ColpatriaSAI.Negocio.Validadores.csprojAssemblyReference.cache
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Validadores\obj\Debug\ColpatriaSAI.Negocio.Validadores.csproj.CopyComplete
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Validadores\obj\Debug\ColpatriaSAI.Negocio.Validadores.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Validadores\obj\Debug\ColpatriaSAI.Negocio.Validadores.pdb
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\ColpatriaSAI.Negocio.Validadores\bin\Debug\ColpatriaSAI.Negocio.Validadores.dll
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\ColpatriaSAI.Negocio.Validadores\bin\Debug\ColpatriaSAI.Negocio.Validadores.pdb
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\ColpatriaSAI.Negocio.Validadores\bin\Debug\ColpatriaSAI.Negocio.Entidades.dll
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\ColpatriaSAI.Negocio.Validadores\bin\Debug\ColpatriaSAI.Negocio.Entidades.pdb
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\ColpatriaSAI.Negocio.Validadores\obj\Debug\ColpatriaSAI.Negocio.Validadores.csprojAssemblyReference.cache
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\ColpatriaSAI.Negocio.Validadores\obj\Debug\ColpatriaSAI.Negocio.Validadores.csproj.CopyComplete
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\ColpatriaSAI.Negocio.Validadores\obj\Debug\ColpatriaSAI.Negocio.Validadores.dll
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\ColpatriaSAI.Negocio.Validadores\obj\Debug\ColpatriaSAI.Negocio.Validadores.pdb
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\ColpatriaSAI.Negocio.Validadores\bin\Debug\ColpatriaSAI.Negocio.Validadores.dll
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\ColpatriaSAI.Negocio.Validadores\bin\Debug\ColpatriaSAI.Negocio.Validadores.pdb
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\ColpatriaSAI.Negocio.Validadores\bin\Debug\ColpatriaSAI.Negocio.Entidades.dll
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\ColpatriaSAI.Negocio.Validadores\bin\Debug\ColpatriaSAI.Negocio.Entidades.pdb
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\ColpatriaSAI.Negocio.Validadores\obj\Debug\ColpatriaSAI.Negocio.Validadores.csprojAssemblyReference.cache
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\ColpatriaSAI.Negocio.Validadores\obj\Debug\ColpatriaSAI.Negocio.Validadores.csproj.CoreCompileInputs.cache
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\ColpatriaSAI.Negocio.Validadores\obj\Debug\ColpatriaSAI.Negocio.Validadores.csproj.CopyComplete
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\ColpatriaSAI.Negocio.Validadores\obj\Debug\ColpatriaSAI.Negocio.Validadores.dll
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\ColpatriaSAI.Negocio.Validadores\obj\Debug\ColpatriaSAI.Negocio.Validadores.pdb
+E:\Datos\SAI\ColpatriaSAI.Negocio.Validadores\bin\Debug\ColpatriaSAI.Negocio.Validadores.dll
+E:\Datos\SAI\ColpatriaSAI.Negocio.Validadores\bin\Debug\ColpatriaSAI.Negocio.Validadores.pdb
+E:\Datos\SAI\ColpatriaSAI.Negocio.Validadores\bin\Debug\ColpatriaSAI.Negocio.Entidades.dll
+E:\Datos\SAI\ColpatriaSAI.Negocio.Validadores\bin\Debug\ColpatriaSAI.Negocio.Entidades.pdb
+E:\Datos\SAI\ColpatriaSAI.Negocio.Validadores\obj\Debug\ColpatriaSAI.Negocio.Validadores.csprojAssemblyReference.cache
+E:\Datos\SAI\ColpatriaSAI.Negocio.Validadores\obj\Debug\ColpatriaSAI.Negocio.Validadores.csproj.CoreCompileInputs.cache
+E:\Datos\SAI\ColpatriaSAI.Negocio.Validadores\obj\Debug\ColpatriaSAI.Negocio.Validadores.csproj.CopyComplete
+E:\Datos\SAI\ColpatriaSAI.Negocio.Validadores\obj\Debug\ColpatriaSAI.Negocio.Validadores.dll
+E:\Datos\SAI\ColpatriaSAI.Negocio.Validadores\obj\Debug\ColpatriaSAI.Negocio.Validadores.pdb
+E:\SAI Debug\SAI\ColpatriaSAI.Negocio.Validadores\bin\Debug\ColpatriaSAI.Negocio.Validadores.dll
+E:\SAI Debug\SAI\ColpatriaSAI.Negocio.Validadores\bin\Debug\ColpatriaSAI.Negocio.Validadores.pdb
+E:\SAI Debug\SAI\ColpatriaSAI.Negocio.Validadores\bin\Debug\ColpatriaSAI.Negocio.Entidades.dll
+E:\SAI Debug\SAI\ColpatriaSAI.Negocio.Validadores\bin\Debug\ColpatriaSAI.Negocio.Entidades.pdb
+E:\SAI Debug\SAI\ColpatriaSAI.Negocio.Validadores\obj\Debug\ColpatriaSAI.Negocio.Validadores.csproj.AssemblyReference.cache
+E:\SAI Debug\SAI\ColpatriaSAI.Negocio.Validadores\obj\Debug\ColpatriaSAI.Negocio.Validadores.csproj.CoreCompileInputs.cache
+E:\SAI Debug\SAI\ColpatriaSAI.Negocio.Validadores\obj\Debug\ColpatriaSAI.Negocio.Validadores.csproj.CopyComplete
+E:\SAI Debug\SAI\ColpatriaSAI.Negocio.Validadores\obj\Debug\ColpatriaSAI.Negocio.Validadores.dll
+E:\SAI Debug\SAI\ColpatriaSAI.Negocio.Validadores\obj\Debug\ColpatriaSAI.Negocio.Validadores.pdb
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.Negocio.Validadores\bin\Debug\ColpatriaSAI.Negocio.Validadores.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.Negocio.Validadores\bin\Debug\ColpatriaSAI.Negocio.Validadores.pdb
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.Negocio.Validadores\bin\Debug\ColpatriaSAI.Negocio.Entidades.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.Negocio.Validadores\bin\Debug\ColpatriaSAI.Negocio.Entidades.pdb
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.Negocio.Validadores\obj\Debug\ColpatriaSAI.Negocio.Validadores.csproj.AssemblyReference.cache
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.Negocio.Validadores\obj\Debug\ColpatriaSAI.Negocio.Validadores.csproj.CoreCompileInputs.cache
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.Negocio.Validadores\obj\Debug\ColpatriaSAI.Negocio.Validadores.csproj.CopyComplete
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.Negocio.Validadores\obj\Debug\ColpatriaSAI.Negocio.Validadores.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.Negocio.Validadores\obj\Debug\ColpatriaSAI.Negocio.Validadores.pdb

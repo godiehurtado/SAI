@@ -1,0 +1,118 @@
+E:\SAI Debug\SAI\ColpatriaSAI.UI.MVC\obj\Debug\ColpatriaSAI.UI.MVC.csproj.AssemblyReference.cache
+E:\SAI Debug\SAI\ColpatriaSAI.UI.MVC\obj\Debug\ColpatriaSAI.UI.MVC.csproj.CoreCompileInputs.cache
+E:\SAI Debug\SAI\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.UI.MVC.dll.config
+E:\SAI Debug\SAI\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.UI.MVC.dll
+E:\SAI Debug\SAI\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.UI.MVC.pdb
+E:\SAI Debug\SAI\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Negocio.Componentes.dll
+E:\SAI Debug\SAI\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Negocio.Entidades.dll
+E:\SAI Debug\SAI\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Seguridad.Encripcion.dll
+E:\SAI Debug\SAI\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Seguridad.Proveedores.dll
+E:\SAI Debug\SAI\ColpatriaSAI.UI.MVC\bin\Encrypt1_1.dll
+E:\SAI Debug\SAI\ColpatriaSAI.UI.MVC\bin\EPPlus.dll
+E:\SAI Debug\SAI\ColpatriaSAI.UI.MVC\bin\LinqToExcel.dll
+E:\SAI Debug\SAI\ColpatriaSAI.UI.MVC\bin\log4net.dll
+E:\SAI Debug\SAI\ColpatriaSAI.UI.MVC\bin\Microsoft.ReportViewer.Common.dll
+E:\SAI Debug\SAI\ColpatriaSAI.UI.MVC\bin\Microsoft.ReportViewer.DataVisualization.dll
+E:\SAI Debug\SAI\ColpatriaSAI.UI.MVC\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+E:\SAI Debug\SAI\ColpatriaSAI.UI.MVC\bin\Microsoft.ReportViewer.WebForms.dll
+E:\SAI Debug\SAI\ColpatriaSAI.UI.MVC\bin\Microsoft.Web.Infrastructure.dll
+E:\SAI Debug\SAI\ColpatriaSAI.UI.MVC\bin\MVC Foolproof Validation.dll
+E:\SAI Debug\SAI\ColpatriaSAI.UI.MVC\bin\MvcMembership.dll
+E:\SAI Debug\SAI\ColpatriaSAI.UI.MVC\bin\PagedList.dll
+E:\SAI Debug\SAI\ColpatriaSAI.UI.MVC\bin\PagedList.Mvc.dll
+E:\SAI Debug\SAI\ColpatriaSAI.UI.MVC\bin\Remotion.Data.Linq.dll
+E:\SAI Debug\SAI\ColpatriaSAI.UI.MVC\bin\System.Data.dll
+E:\SAI Debug\SAI\ColpatriaSAI.UI.MVC\bin\System.Web.Abstractions.dll
+E:\SAI Debug\SAI\ColpatriaSAI.UI.MVC\bin\System.Web.ApplicationServices.dll
+E:\SAI Debug\SAI\ColpatriaSAI.UI.MVC\bin\System.Web.dll
+E:\SAI Debug\SAI\ColpatriaSAI.UI.MVC\bin\System.Web.Entity.dll
+E:\SAI Debug\SAI\ColpatriaSAI.UI.MVC\bin\System.Web.Extensions.dll
+E:\SAI Debug\SAI\ColpatriaSAI.UI.MVC\bin\System.Web.Helpers.dll
+E:\SAI Debug\SAI\ColpatriaSAI.UI.MVC\bin\System.Web.Mvc.dll
+E:\SAI Debug\SAI\ColpatriaSAI.UI.MVC\bin\System.Web.Razor.dll
+E:\SAI Debug\SAI\ColpatriaSAI.UI.MVC\bin\System.Web.Routing.dll
+E:\SAI Debug\SAI\ColpatriaSAI.UI.MVC\bin\System.Web.Services.dll
+E:\SAI Debug\SAI\ColpatriaSAI.UI.MVC\bin\System.Web.WebPages.Deployment.dll
+E:\SAI Debug\SAI\ColpatriaSAI.UI.MVC\bin\System.Web.WebPages.dll
+E:\SAI Debug\SAI\ColpatriaSAI.UI.MVC\bin\System.Xml.dll
+E:\SAI Debug\SAI\ColpatriaSAI.UI.MVC\bin\WcfSamples.DynamicProxy.dll
+E:\SAI Debug\SAI\ColpatriaSAI.UI.MVC\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+E:\SAI Debug\SAI\ColpatriaSAI.UI.MVC\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\SAI Debug\SAI\ColpatriaSAI.UI.MVC\bin\Microsoft.Practices.ServiceLocation.dll
+E:\SAI Debug\SAI\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Negocio.Validadores.dll
+E:\SAI Debug\SAI\ColpatriaSAI.UI.MVC\bin\Microsoft.Practices.Unity.Interception.dll
+E:\SAI Debug\SAI\ColpatriaSAI.UI.MVC\bin\Microsoft.Practices.Unity.dll
+E:\SAI Debug\SAI\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Negocio.Componentes.pdb
+E:\SAI Debug\SAI\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Negocio.Entidades.pdb
+E:\SAI Debug\SAI\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Seguridad.Encripcion.pdb
+E:\SAI Debug\SAI\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Seguridad.Proveedores.pdb
+E:\SAI Debug\SAI\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Seguridad.Proveedores.dll.config
+E:\SAI Debug\SAI\ColpatriaSAI.UI.MVC\bin\MvcMembership.pdb
+E:\SAI Debug\SAI\ColpatriaSAI.UI.MVC\bin\WcfSamples.DynamicProxy.pdb
+E:\SAI Debug\SAI\ColpatriaSAI.UI.MVC\bin\EPPlus.xml
+E:\SAI Debug\SAI\ColpatriaSAI.UI.MVC\bin\System.Web.Razor.xml
+E:\SAI Debug\SAI\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Negocio.Validadores.pdb
+E:\SAI Debug\SAI\ColpatriaSAI.UI.MVC\bin\es\System.Web.Razor.resources.dll
+E:\SAI Debug\SAI\ColpatriaSAI.UI.MVC\obj\Debug\ColpatriaSAI.UI.MVC.csproj.CopyComplete
+E:\SAI Debug\SAI\ColpatriaSAI.UI.MVC\obj\Debug\ColpatriaSAI.UI.MVC.dll
+E:\SAI Debug\SAI\ColpatriaSAI.UI.MVC\obj\Debug\ColpatriaSAI.UI.MVC.pdb
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.UI.MVC.dll.config
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.UI.MVC.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.UI.MVC.pdb
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Negocio.Componentes.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Negocio.Entidades.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Seguridad.Encripcion.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Seguridad.Proveedores.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.UI.MVC\bin\Encrypt1_1.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.UI.MVC\bin\EPPlus.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.UI.MVC\bin\LinqToExcel.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.UI.MVC\bin\log4net.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.UI.MVC\bin\Microsoft.ReportViewer.Common.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.UI.MVC\bin\Microsoft.ReportViewer.DataVisualization.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.UI.MVC\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.UI.MVC\bin\Microsoft.ReportViewer.WebForms.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.UI.MVC\bin\Microsoft.Web.Infrastructure.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.UI.MVC\bin\MVC Foolproof Validation.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.UI.MVC\bin\MvcMembership.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.UI.MVC\bin\PagedList.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.UI.MVC\bin\PagedList.Mvc.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.UI.MVC\bin\Remotion.Data.Linq.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.UI.MVC\bin\System.Data.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.UI.MVC\bin\System.Web.Abstractions.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.UI.MVC\bin\System.Web.ApplicationServices.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.UI.MVC\bin\System.Web.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.UI.MVC\bin\System.Web.Entity.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.UI.MVC\bin\System.Web.Extensions.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.UI.MVC\bin\System.Web.Helpers.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.UI.MVC\bin\System.Web.Mvc.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.UI.MVC\bin\System.Web.Razor.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.UI.MVC\bin\System.Web.Routing.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.UI.MVC\bin\System.Web.Services.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.UI.MVC\bin\System.Web.WebPages.Deployment.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.UI.MVC\bin\System.Web.WebPages.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.UI.MVC\bin\System.Xml.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.UI.MVC\bin\WcfSamples.DynamicProxy.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.UI.MVC\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.UI.MVC\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.UI.MVC\bin\Microsoft.Practices.ServiceLocation.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Negocio.Validadores.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.UI.MVC\bin\Microsoft.Practices.Unity.Interception.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.UI.MVC\bin\Microsoft.Practices.Unity.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Negocio.Componentes.pdb
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Negocio.Entidades.pdb
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Seguridad.Encripcion.pdb
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Seguridad.Proveedores.pdb
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Seguridad.Proveedores.dll.config
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.UI.MVC\bin\MvcMembership.pdb
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.UI.MVC\bin\WcfSamples.DynamicProxy.pdb
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.UI.MVC\bin\EPPlus.xml
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.UI.MVC\bin\ColpatriaSAI.Negocio.Validadores.pdb
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.UI.MVC\obj\Debug\ColpatriaSAI.UI.MVC.csproj.AssemblyReference.cache
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.UI.MVC\obj\Debug\ColpatriaSAI.UI.MVC.csproj.CoreCompileInputs.cache
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.UI.MVC\obj\Debug\ColpatriaSAI.UI.MVC.csproj.CopyComplete
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.UI.MVC\obj\Debug\ColpatriaSAI.UI.MVC.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.UI.MVC\obj\Debug\ColpatriaSAI.UI.MVC.pdb
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.UI.MVC\bin\System.Web.WebPages.Razor.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.UI.MVC\bin\System.Web.Razor.xml
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.UI.MVC\bin\es\System.Web.Razor.resources.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.UI.MVC\bin\es\System.Web.WebPages.Razor.resources.dll

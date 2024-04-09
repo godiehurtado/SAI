@@ -1,0 +1,68 @@
+E:\aftorresg\SAI\Principal-Desarrollo\DynamicProxyLibrary\src\bin\Debug\WcfSamples.DynamicProxy.dll
+E:\aftorresg\SAI\Principal-Desarrollo\DynamicProxyLibrary\src\bin\Debug\WcfSamples.DynamicProxy.pdb
+E:\aftorresg\SAI\Principal-Desarrollo\DynamicProxyLibrary\src\obj\Debug\WcfSamples.DynamicProxy.dll
+E:\aftorresg\SAI\Principal-Desarrollo\DynamicProxyLibrary\src\obj\Debug\WcfSamples.DynamicProxy.pdb
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\DynamicProxyLibrary\src\bin\Debug\WcfSamples.DynamicProxy.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\DynamicProxyLibrary\src\bin\Debug\WcfSamples.DynamicProxy.pdb
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\DynamicProxyLibrary\src\obj\Debug\WcfSamples.DynamicProxy.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\DynamicProxyLibrary\src\obj\Debug\WcfSamples.DynamicProxy.pdb
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\DynamicProxyLibrary\src\obj\Debug\DynamicProxyLibrary.csprojResolveAssemblyReference.cache
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\DynamicProxyLibrary\src\bin\Debug\WcfSamples.DynamicProxy.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\DynamicProxyLibrary\src\bin\Debug\WcfSamples.DynamicProxy.pdb
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\DynamicProxyLibrary\src\obj\Debug\DynamicProxyLibrary.csprojResolveAssemblyReference.cache
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\DynamicProxyLibrary\src\obj\Debug\WcfSamples.DynamicProxy.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\DynamicProxyLibrary\src\obj\Debug\WcfSamples.DynamicProxy.pdb
+E:\caalbarracinm\Principal-Desarrollo\DynamicProxyLibrary\src\bin\Debug\WcfSamples.DynamicProxy.dll
+E:\caalbarracinm\Principal-Desarrollo\DynamicProxyLibrary\src\bin\Debug\WcfSamples.DynamicProxy.pdb
+E:\caalbarracinm\Principal-Desarrollo\DynamicProxyLibrary\src\obj\Debug\DynamicProxyLibrary.csprojResolveAssemblyReference.cache
+E:\caalbarracinm\Principal-Desarrollo\DynamicProxyLibrary\src\obj\Debug\WcfSamples.DynamicProxy.dll
+E:\caalbarracinm\Principal-Desarrollo\DynamicProxyLibrary\src\obj\Debug\WcfSamples.DynamicProxy.pdb
+E:\rterans\Principal-Desarrollo\DynamicProxyLibrary\src\bin\Debug\WcfSamples.DynamicProxy.dll
+E:\rterans\Principal-Desarrollo\DynamicProxyLibrary\src\bin\Debug\WcfSamples.DynamicProxy.pdb
+E:\rterans\Principal-Desarrollo\DynamicProxyLibrary\src\obj\Debug\DynamicProxyLibrary.csprojResolveAssemblyReference.cache
+E:\rterans\Principal-Desarrollo\DynamicProxyLibrary\src\obj\Debug\WcfSamples.DynamicProxy.dll
+E:\rterans\Principal-Desarrollo\DynamicProxyLibrary\src\obj\Debug\WcfSamples.DynamicProxy.pdb
+d:\datos\Users\caalbarracinm\Desktop\Principal-Desarrollo\DynamicProxyLibrary\src\bin\Debug\WcfSamples.DynamicProxy.dll
+d:\datos\Users\caalbarracinm\Desktop\Principal-Desarrollo\DynamicProxyLibrary\src\bin\Debug\WcfSamples.DynamicProxy.pdb
+d:\datos\Users\caalbarracinm\Desktop\Principal-Desarrollo\DynamicProxyLibrary\src\obj\Debug\WcfSamples.DynamicProxy.dll
+d:\datos\Users\caalbarracinm\Desktop\Principal-Desarrollo\DynamicProxyLibrary\src\obj\Debug\WcfSamples.DynamicProxy.pdb
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\DynamicProxyLibrary\src\bin\Debug\WcfSamples.DynamicProxy.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\DynamicProxyLibrary\src\bin\Debug\WcfSamples.DynamicProxy.pdb
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\DynamicProxyLibrary\src\obj\Debug\DynamicProxyLibrary.csprojAssemblyReference.cache
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\DynamicProxyLibrary\src\obj\Debug\WcfSamples.DynamicProxy.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\DynamicProxyLibrary\src\obj\Debug\WcfSamples.DynamicProxy.pdb
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\DynamicProxyLibrary\src\bin\Debug\WcfSamples.DynamicProxy.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\DynamicProxyLibrary\src\bin\Debug\WcfSamples.DynamicProxy.pdb
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\DynamicProxyLibrary\src\obj\Debug\WcfSamples.DynamicProxy.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\DynamicProxyLibrary\src\obj\Debug\WcfSamples.DynamicProxy.pdb
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\DynamicProxyLibrary\src\bin\Debug\WcfSamples.DynamicProxy.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\DynamicProxyLibrary\src\bin\Debug\WcfSamples.DynamicProxy.pdb
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\DynamicProxyLibrary\src\obj\Debug\DynamicProxyLibrary.csprojAssemblyReference.cache
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\DynamicProxyLibrary\src\obj\Debug\WcfSamples.DynamicProxy.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\DynamicProxyLibrary\src\obj\Debug\WcfSamples.DynamicProxy.pdb
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\DynamicProxyLibrary\src\bin\Debug\WcfSamples.DynamicProxy.dll
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\DynamicProxyLibrary\src\bin\Debug\WcfSamples.DynamicProxy.pdb
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\DynamicProxyLibrary\src\obj\Debug\DynamicProxyLibrary.csprojAssemblyReference.cache
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\DynamicProxyLibrary\src\obj\Debug\WcfSamples.DynamicProxy.dll
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\DynamicProxyLibrary\src\obj\Debug\WcfSamples.DynamicProxy.pdb
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\DynamicProxyLibrary\src\bin\Debug\WcfSamples.DynamicProxy.dll
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\DynamicProxyLibrary\src\bin\Debug\WcfSamples.DynamicProxy.pdb
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\DynamicProxyLibrary\src\obj\Debug\DynamicProxyLibrary.csproj.CoreCompileInputs.cache
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\DynamicProxyLibrary\src\obj\Debug\WcfSamples.DynamicProxy.dll
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\DynamicProxyLibrary\src\obj\Debug\WcfSamples.DynamicProxy.pdb
+E:\Datos\SAI\DynamicProxyLibrary\src\bin\Debug\WcfSamples.DynamicProxy.dll
+E:\Datos\SAI\DynamicProxyLibrary\src\bin\Debug\WcfSamples.DynamicProxy.pdb
+E:\Datos\SAI\DynamicProxyLibrary\src\obj\Debug\DynamicProxyLibrary.csproj.CoreCompileInputs.cache
+E:\Datos\SAI\DynamicProxyLibrary\src\obj\Debug\WcfSamples.DynamicProxy.dll
+E:\Datos\SAI\DynamicProxyLibrary\src\obj\Debug\WcfSamples.DynamicProxy.pdb
+E:\SAI Debug\SAI\DynamicProxyLibrary\src\bin\Debug\WcfSamples.DynamicProxy.dll
+E:\SAI Debug\SAI\DynamicProxyLibrary\src\bin\Debug\WcfSamples.DynamicProxy.pdb
+E:\SAI Debug\SAI\DynamicProxyLibrary\src\obj\Debug\DynamicProxyLibrary.csproj.CoreCompileInputs.cache
+E:\SAI Debug\SAI\DynamicProxyLibrary\src\obj\Debug\WcfSamples.DynamicProxy.dll
+E:\SAI Debug\SAI\DynamicProxyLibrary\src\obj\Debug\WcfSamples.DynamicProxy.pdb
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\DynamicProxyLibrary\src\bin\Debug\WcfSamples.DynamicProxy.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\DynamicProxyLibrary\src\bin\Debug\WcfSamples.DynamicProxy.pdb
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\DynamicProxyLibrary\src\obj\Debug\DynamicProxyLibrary.csproj.AssemblyReference.cache
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\DynamicProxyLibrary\src\obj\Debug\DynamicProxyLibrary.csproj.CoreCompileInputs.cache
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\DynamicProxyLibrary\src\obj\Debug\WcfSamples.DynamicProxy.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\DynamicProxyLibrary\src\obj\Debug\WcfSamples.DynamicProxy.pdb

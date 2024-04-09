@@ -1,0 +1,45 @@
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\WSConsultasSAI\ColpatriaSAI_WS.Entidades\bin\Debug\ColpatriaSAI_WS.Entidades.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\WSConsultasSAI\ColpatriaSAI_WS.Entidades\bin\Debug\ColpatriaSAI_WS.Entidades.pdb
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\WSConsultasSAI\ColpatriaSAI_WS.Entidades\obj\Debug\ColpatriaSAI_WS.Entidades.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\WSConsultasSAI\ColpatriaSAI_WS.Entidades\obj\Debug\ColpatriaSAI_WS.Entidades.pdb
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\WSConsultasSAI\ColpatriaSAI_WS.Entidades\bin\Debug\ColpatriaSAI_WS.Entidades.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\WSConsultasSAI\ColpatriaSAI_WS.Entidades\bin\Debug\ColpatriaSAI_WS.Entidades.pdb
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\WSConsultasSAI\ColpatriaSAI_WS.Entidades\obj\Debug\ColpatriaSAI_WS.Entidades.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\WSConsultasSAI\ColpatriaSAI_WS.Entidades\obj\Debug\ColpatriaSAI_WS.Entidades.pdb
+E:\caalbarracinm\Principal-Desarrollo\WSConsultasSAI\ColpatriaSAI_WS.Entidades\bin\Debug\ColpatriaSAI_WS.Entidades.dll
+E:\caalbarracinm\Principal-Desarrollo\WSConsultasSAI\ColpatriaSAI_WS.Entidades\bin\Debug\ColpatriaSAI_WS.Entidades.pdb
+E:\caalbarracinm\Principal-Desarrollo\WSConsultasSAI\ColpatriaSAI_WS.Entidades\obj\Debug\ColpatriaSAI_WS.Entidades.dll
+E:\caalbarracinm\Principal-Desarrollo\WSConsultasSAI\ColpatriaSAI_WS.Entidades\obj\Debug\ColpatriaSAI_WS.Entidades.pdb
+d:\datos\Users\caalbarracinm\Desktop\Principal-Desarrollo\WSConsultasSAI\ColpatriaSAI_WS.Entidades\bin\Debug\ColpatriaSAI_WS.Entidades.dll
+d:\datos\Users\caalbarracinm\Desktop\Principal-Desarrollo\WSConsultasSAI\ColpatriaSAI_WS.Entidades\bin\Debug\ColpatriaSAI_WS.Entidades.pdb
+d:\datos\Users\caalbarracinm\Desktop\Principal-Desarrollo\WSConsultasSAI\ColpatriaSAI_WS.Entidades\obj\Debug\ColpatriaSAI_WS.Entidades.csprojAssemblyReference.cache
+d:\datos\Users\caalbarracinm\Desktop\Principal-Desarrollo\WSConsultasSAI\ColpatriaSAI_WS.Entidades\obj\Debug\ColpatriaSAI_WS.Entidades.dll
+d:\datos\Users\caalbarracinm\Desktop\Principal-Desarrollo\WSConsultasSAI\ColpatriaSAI_WS.Entidades\obj\Debug\ColpatriaSAI_WS.Entidades.pdb
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\WSConsultasSAI\ColpatriaSAI_WS.Entidades\bin\Debug\ColpatriaSAI_WS.Entidades.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\WSConsultasSAI\ColpatriaSAI_WS.Entidades\bin\Debug\ColpatriaSAI_WS.Entidades.pdb
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\WSConsultasSAI\ColpatriaSAI_WS.Entidades\obj\Debug\ColpatriaSAI_WS.Entidades.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\WSConsultasSAI\ColpatriaSAI_WS.Entidades\obj\Debug\ColpatriaSAI_WS.Entidades.pdb
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\WSConsultasSAI\ColpatriaSAI_WS.Entidades\bin\Debug\ColpatriaSAI_WS.Entidades.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\WSConsultasSAI\ColpatriaSAI_WS.Entidades\bin\Debug\ColpatriaSAI_WS.Entidades.pdb
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\WSConsultasSAI\ColpatriaSAI_WS.Entidades\obj\Debug\ColpatriaSAI_WS.Entidades.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\WSConsultasSAI\ColpatriaSAI_WS.Entidades\obj\Debug\ColpatriaSAI_WS.Entidades.pdb
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\WSConsultasSAI\ColpatriaSAI_WS.Entidades\bin\Debug\ColpatriaSAI_WS.Entidades.dll
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\WSConsultasSAI\ColpatriaSAI_WS.Entidades\bin\Debug\ColpatriaSAI_WS.Entidades.pdb
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\WSConsultasSAI\ColpatriaSAI_WS.Entidades\obj\Debug\ColpatriaSAI_WS.Entidades.csprojAssemblyReference.cache
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\WSConsultasSAI\ColpatriaSAI_WS.Entidades\obj\Debug\ColpatriaSAI_WS.Entidades.dll
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\WSConsultasSAI\ColpatriaSAI_WS.Entidades\obj\Debug\ColpatriaSAI_WS.Entidades.pdb
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\WSConsultasSAI\ColpatriaSAI_WS.Entidades\bin\Debug\ColpatriaSAI_WS.Entidades.dll
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\WSConsultasSAI\ColpatriaSAI_WS.Entidades\bin\Debug\ColpatriaSAI_WS.Entidades.pdb
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\WSConsultasSAI\ColpatriaSAI_WS.Entidades\obj\Debug\ColpatriaSAI_WS.Entidades.csproj.CoreCompileInputs.cache
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\WSConsultasSAI\ColpatriaSAI_WS.Entidades\obj\Debug\ColpatriaSAI_WS.Entidades.dll
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\WSConsultasSAI\ColpatriaSAI_WS.Entidades\obj\Debug\ColpatriaSAI_WS.Entidades.pdb
+E:\Datos\SAI\WSConsultasSAI\ColpatriaSAI_WS.Entidades\bin\Debug\ColpatriaSAI_WS.Entidades.dll
+E:\Datos\SAI\WSConsultasSAI\ColpatriaSAI_WS.Entidades\bin\Debug\ColpatriaSAI_WS.Entidades.pdb
+E:\Datos\SAI\WSConsultasSAI\ColpatriaSAI_WS.Entidades\obj\Debug\ColpatriaSAI_WS.Entidades.csproj.CoreCompileInputs.cache
+E:\Datos\SAI\WSConsultasSAI\ColpatriaSAI_WS.Entidades\obj\Debug\ColpatriaSAI_WS.Entidades.dll
+E:\Datos\SAI\WSConsultasSAI\ColpatriaSAI_WS.Entidades\obj\Debug\ColpatriaSAI_WS.Entidades.pdb
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\WSConsultasSAI\ColpatriaSAI_WS.Entidades\bin\Debug\ColpatriaSAI_WS.Entidades.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\WSConsultasSAI\ColpatriaSAI_WS.Entidades\bin\Debug\ColpatriaSAI_WS.Entidades.pdb
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\WSConsultasSAI\ColpatriaSAI_WS.Entidades\obj\Debug\ColpatriaSAI_WS.Entidades.csproj.CoreCompileInputs.cache
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\WSConsultasSAI\ColpatriaSAI_WS.Entidades\obj\Debug\ColpatriaSAI_WS.Entidades.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\WSConsultasSAI\ColpatriaSAI_WS.Entidades\obj\Debug\ColpatriaSAI_WS.Entidades.pdb

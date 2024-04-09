@@ -1,0 +1,1 @@
+﻿CREATE LOGIN sai_dbuser WITH PASSWORD = 'fof{|yBsGv5,ypnn5&uqy fbmsFT7_&#$!~<Ledhmp|_s^`v'

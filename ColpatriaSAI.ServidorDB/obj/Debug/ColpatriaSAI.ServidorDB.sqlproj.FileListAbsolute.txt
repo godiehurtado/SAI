@@ -1,0 +1,9 @@
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.ServidorDB\sql\debug\ColpatriaSAI.ServidorDB.dacpac
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.ServidorDB\sql\debug\ColpatriaSAI.ServidorDB.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.ServidorDB\sql\debug\ColpatriaSAI.ServidorDB.pdb
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.ServidorDB\obj\Debug\Model.xml
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.ServidorDB\obj\Debug\refactor.xml
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.ServidorDB\obj\Debug\postdeploy.sql
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.ServidorDB\obj\Debug\predeploy.sql
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.ServidorDB\obj\Debug\ColpatriaSAI.ServidorDB.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.ServidorDB\obj\Debug\ColpatriaSAI.ServidorDB.pdb

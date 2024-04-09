@@ -1,0 +1,39 @@
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\DynamicProxyLibrary\src\bin\Release\WcfSamples.DynamicProxy.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\DynamicProxyLibrary\src\bin\Release\WcfSamples.DynamicProxy.pdb
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\DynamicProxyLibrary\src\obj\Release\DynamicProxyLibrary.csprojAssemblyReference.cache
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\DynamicProxyLibrary\src\obj\Release\WcfSamples.DynamicProxy.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\DynamicProxyLibrary\src\obj\Release\WcfSamples.DynamicProxy.pdb
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\DynamicProxyLibrary\src\bin\Release\WcfSamples.DynamicProxy.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\DynamicProxyLibrary\src\bin\Release\WcfSamples.DynamicProxy.pdb
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\DynamicProxyLibrary\src\obj\Release\WcfSamples.DynamicProxy.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\DynamicProxyLibrary\src\obj\Release\WcfSamples.DynamicProxy.pdb
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\DynamicProxyLibrary\src\obj\Release\DynamicProxyLibrary.csprojAssemblyReference.cache
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\DynamicProxyLibrary\src\bin\Release\WcfSamples.DynamicProxy.dll
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\DynamicProxyLibrary\src\bin\Release\WcfSamples.DynamicProxy.pdb
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\DynamicProxyLibrary\src\obj\Release\DynamicProxyLibrary.csprojAssemblyReference.cache
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\DynamicProxyLibrary\src\obj\Release\WcfSamples.DynamicProxy.dll
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\DynamicProxyLibrary\src\obj\Release\WcfSamples.DynamicProxy.pdb
+d:\DATOS\users\caalbarracinm\Source\Repos\SAI\DynamicProxyLibrary\src\bin\Release\WcfSamples.DynamicProxy.dll
+d:\DATOS\users\caalbarracinm\Source\Repos\SAI\DynamicProxyLibrary\src\bin\Release\WcfSamples.DynamicProxy.pdb
+d:\DATOS\users\caalbarracinm\Source\Repos\SAI\DynamicProxyLibrary\src\obj\Release\DynamicProxyLibrary.csprojAssemblyReference.cache
+d:\DATOS\users\caalbarracinm\Source\Repos\SAI\DynamicProxyLibrary\src\obj\Release\WcfSamples.DynamicProxy.dll
+d:\DATOS\users\caalbarracinm\Source\Repos\SAI\DynamicProxyLibrary\src\obj\Release\WcfSamples.DynamicProxy.pdb
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\DynamicProxyLibrary\src\obj\Release\DynamicProxyLibrary.csproj.CoreCompileInputs.cache
+E:\Datos\SAI\DynamicProxyLibrary\src\bin\Release\WcfSamples.DynamicProxy.dll
+E:\Datos\SAI\DynamicProxyLibrary\src\bin\Release\WcfSamples.DynamicProxy.pdb
+E:\Datos\SAI\DynamicProxyLibrary\src\obj\Release\DynamicProxyLibrary.csprojAssemblyReference.cache
+E:\Datos\SAI\DynamicProxyLibrary\src\obj\Release\DynamicProxyLibrary.csproj.CoreCompileInputs.cache
+E:\Datos\SAI\DynamicProxyLibrary\src\obj\Release\WcfSamples.DynamicProxy.dll
+E:\Datos\SAI\DynamicProxyLibrary\src\obj\Release\WcfSamples.DynamicProxy.pdb
+E:\SAI Debug\SAI\DynamicProxyLibrary\src\bin\Release\WcfSamples.DynamicProxy.dll
+E:\SAI Debug\SAI\DynamicProxyLibrary\src\bin\Release\WcfSamples.DynamicProxy.pdb
+E:\SAI Debug\SAI\DynamicProxyLibrary\src\obj\Release\DynamicProxyLibrary.csproj.AssemblyReference.cache
+E:\SAI Debug\SAI\DynamicProxyLibrary\src\obj\Release\DynamicProxyLibrary.csproj.CoreCompileInputs.cache
+E:\SAI Debug\SAI\DynamicProxyLibrary\src\obj\Release\WcfSamples.DynamicProxy.dll
+E:\SAI Debug\SAI\DynamicProxyLibrary\src\obj\Release\WcfSamples.DynamicProxy.pdb
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\DynamicProxyLibrary\src\bin\Release\WcfSamples.DynamicProxy.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\DynamicProxyLibrary\src\bin\Release\WcfSamples.DynamicProxy.pdb
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\DynamicProxyLibrary\src\obj\Release\DynamicProxyLibrary.csproj.AssemblyReference.cache
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\DynamicProxyLibrary\src\obj\Release\DynamicProxyLibrary.csproj.CoreCompileInputs.cache
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\DynamicProxyLibrary\src\obj\Release\WcfSamples.DynamicProxy.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\DynamicProxyLibrary\src\obj\Release\WcfSamples.DynamicProxy.pdb

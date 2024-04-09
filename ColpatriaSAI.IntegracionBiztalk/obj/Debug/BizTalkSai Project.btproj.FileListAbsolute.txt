@@ -1,0 +1,12 @@
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.IntegracionBiztalk\bin\Debug\BizTalkSai Project.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.IntegracionBiztalk\bin\Debug\BizTalkSai Project.pdb
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.IntegracionBiztalk\obj\Debug\BizTalkSai Project.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.IntegracionBiztalk\obj\Debug\BizTalkSai Project.pdb
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.IntegracionBiztalk\bin\Debug\BizTalkSai Project.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.IntegracionBiztalk\bin\Debug\BizTalkSai Project.pdb
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.IntegracionBiztalk\obj\Debug\BizTalkSai Project.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.IntegracionBiztalk\obj\Debug\BizTalkSai Project.pdb
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.IntegracionBiztalk\bin\Debug\BizTalkSai Project.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.IntegracionBiztalk\bin\Debug\BizTalkSai Project.pdb
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.IntegracionBiztalk\obj\Debug\BizTalkSai Project.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.IntegracionBiztalk\obj\Debug\BizTalkSai Project.pdb

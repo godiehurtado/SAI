@@ -1,0 +1,552 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{99949B3F-BF12-4756-BD68-EBD05183ABA3}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EjecucionIntegracion</RootNamespace>
+    <AssemblyName>EjecucionIntegracion</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Pruebas|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Pruebas\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\EjecucionIntegracion.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;c:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;c:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.SqlServer.DTSRuntimeWrap, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>C:\Windows\assembly\GAC_32\Microsoft.SqlServer.DTSRuntimeWrap\10.0.0.0__89845dcd8080cc91\Microsoft.SqlServer.DTSRuntimeWrap.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EjecutarProceso.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service References\AdministracionSvc\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\LoggingSvc\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Service References\AdministracionSvc\Administracion.wsdl" />
+    <None Include="Service References\AdministracionSvc\Administracion.xsd" />
+    <None Include="Service References\AdministracionSvc\Administracion1.xsd" />
+    <None Include="Service References\AdministracionSvc\Administracion2.xsd" />
+    <None Include="Service References\AdministracionSvc\Administracion5.xsd" />
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.ActividadEconomica.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.Amparo.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.AnticipoFranquicia.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.AntiguedadxNivel.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.aspnet_Roles.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.Banco.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.BaseMoneda.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.BasexParticipante.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.Beneficiario.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.Canal.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.Categoria.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.Cliente.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.Cobertura.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.Combo.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.Compania.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.CompaniaxEtapa.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.Concurso.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.Condicion.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.CondicionAgrupada.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.Dashboard.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.DetalleLiquidacionEncabezado.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.DetallePagosFranquicia.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.DetallePagosRegla.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.DetallePartFranquicia.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.DetallePresupuesto.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.Ejecucion.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.EjecucionDetalle.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.EscalaNota.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.EstadoLiquidacion.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.EstadoParticipante.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.EstrategiaRegla.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.EtapaProducto.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.Excepcion.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.ExcepcionJerarquiaDetalle.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.FactorVariable.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.FactorxNota.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.FactorxNotaDetalle.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.GrupoEndoso.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.GrupoTipoEndoso.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.IngresoLocalidad.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.Jerarquia.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.JerarquiaDetalle.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.LineaNegocio.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.LiquiContratFactorParticipante.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.LiquidacionContratacion.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.LiquidacionFranquicia.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.LiquidacionMoneda.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.LiquidacionRegla.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.Localidad.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.LogIntegracion.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.LogIntegracionwsIntegrador.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.LogPresupuesto.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.MaestroMonedaxNegocio.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.Meta.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.MetaCompuesta.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.MetaxNodo.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.ModalidadPago.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.Modelo.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.ModeloxMeta.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.ModeloxNodo.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.Moneda.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.MonedaxNegocio.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.Negocio.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.Nivel.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.NodoArbol.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.NotificacionProceso.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.Operador.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.ParametrosApp.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.ParametrosPersistenciaVIDA.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.ParticipacionDirector.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.Participacione.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.ParticipacionFranquicia.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.Participante.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.ParticipanteConcurso.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.PeriodoCierre.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.PeriodoFactorxNota.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.PeriodoRegla.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.PersistenciaEsperada.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.Plan.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.PlanDetalle.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.Plazo.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.Premio.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.PremiosAnteriore.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.PremioxSubregla.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.Presupuesto.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.PresupuestoDetalle.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.Producto.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.ProductoCombo.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.ProductoConcurso.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.ProductoDetalle.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.ProductosMeta.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.Ramo.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.RamoDetalle.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.Red.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.Regla.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.SalarioMinimo.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.Segmento.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.SiniestralidadEsperada.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.SiteMap.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.SubRegla.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.tabla.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.TempList.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.TipoConcurso.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.TipoDocumento.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.TipoEndoso.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.TipoEscala.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.TipoJerarquia.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.TipoLocalidad.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.TipoMedida.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.TipoMeta.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.TipoPanel.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.TipoParticipante.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.TipoPremio.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.TipoRegla.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.TipoUnidadMedida.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.TipoVariable.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.TipoVehiculo.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.TopeMoneda.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.TopexEdad.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.UnidadMedida.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.UsuarioxSegmento.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.Variable.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.VistaDetalleLiquidacionReglaParticipante.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\AdministracionSvc\EjecucionIntegracion.AdministracionSvc.Zona.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\LoggingSvc\Logging.wsdl" />
+    <None Include="Service References\LoggingSvc\Logging.xsd" />
+    <None Include="Service References\LoggingSvc\Logging1.xsd" />
+    <None Include="Service References\LoggingSvc\Logging2.xsd" />
+    <None Include="Service References\LoggingSvc\Logging3.xsd" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\AdministracionSvc\" />
+    <WCFMetadataStorage Include="Service References\LoggingSvc\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\AdministracionSvc\Administracion.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\AdministracionSvc\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\AdministracionSvc\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\AdministracionSvc\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LoggingSvc\Logging.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LoggingSvc\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LoggingSvc\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LoggingSvc\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

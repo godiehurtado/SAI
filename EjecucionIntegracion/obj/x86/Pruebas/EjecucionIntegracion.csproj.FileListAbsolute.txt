@@ -1,0 +1,10 @@
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\EjecucionIntegracion\bin\x86\Pruebas\EjecucionIntegracion.exe.config
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\EjecucionIntegracion\bin\x86\Pruebas\EjecucionIntegracion.exe
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\EjecucionIntegracion\bin\x86\Pruebas\EjecucionIntegracion.pdb
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\EjecucionIntegracion\obj\x86\Pruebas\EjecucionIntegracion.exe
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\EjecucionIntegracion\obj\x86\Pruebas\EjecucionIntegracion.pdb
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\EjecucionIntegracion\bin\x86\Pruebas\EjecucionIntegracion.exe.config
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\EjecucionIntegracion\bin\x86\Pruebas\EjecucionIntegracion.exe
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\EjecucionIntegracion\bin\x86\Pruebas\EjecucionIntegracion.pdb
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\EjecucionIntegracion\obj\x86\Pruebas\EjecucionIntegracion.exe
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\EjecucionIntegracion\obj\x86\Pruebas\EjecucionIntegracion.pdb

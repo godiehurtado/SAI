@@ -1,0 +1,41 @@
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.ETL\bin\Debug\ColpatriaSAI.ETL.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.ETL\bin\Debug\ColpatriaSAI.ETL.pdb
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.ETL\obj\Debug\ColpatriaSAI.ETL.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.ETL\obj\Debug\ColpatriaSAI.ETL.pdb
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.ETL\bin\Debug\ColpatriaSAI.ETL.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.ETL\bin\Debug\ColpatriaSAI.ETL.pdb
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.ETL\obj\Debug\ColpatriaSAI.ETL.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.ETL\obj\Debug\ColpatriaSAI.ETL.pdb
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.ETL\bin\Debug\ColpatriaSAI.ETL.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.ETL\bin\Debug\ColpatriaSAI.ETL.pdb
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.ETL\obj\Debug\ColpatriaSAI.ETL.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.ETL\obj\Debug\ColpatriaSAI.ETL.pdb
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.ETL\bin\Debug\ColpatriaSAI.ETL.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.ETL\bin\Debug\ColpatriaSAI.ETL.pdb
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.ETL\obj\Debug\ColpatriaSAI.ETL.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.ETL\obj\Debug\ColpatriaSAI.ETL.pdb
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.ETL\bin\Debug\ColpatriaSAI.ETL.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.ETL\bin\Debug\ColpatriaSAI.ETL.pdb
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.ETL\obj\Debug\ColpatriaSAI.ETL.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.ETL\obj\Debug\ColpatriaSAI.ETL.pdb
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\ColpatriaSAI.ETL\bin\Debug\ColpatriaSAI.ETL.dll
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\ColpatriaSAI.ETL\bin\Debug\ColpatriaSAI.ETL.pdb
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\ColpatriaSAI.ETL\obj\Debug\ColpatriaSAI.ETL.csprojAssemblyReference.cache
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\ColpatriaSAI.ETL\obj\Debug\ColpatriaSAI.ETL.dll
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\ColpatriaSAI.ETL\obj\Debug\ColpatriaSAI.ETL.pdb
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\ColpatriaSAI.ETL\bin\Debug\ColpatriaSAI.ETL.dll
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\ColpatriaSAI.ETL\bin\Debug\ColpatriaSAI.ETL.pdb
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\ColpatriaSAI.ETL\obj\Debug\ColpatriaSAI.ETL.csproj.CoreCompileInputs.cache
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\ColpatriaSAI.ETL\obj\Debug\ColpatriaSAI.ETL.dll
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\ColpatriaSAI.ETL\obj\Debug\ColpatriaSAI.ETL.pdb
+E:\Datos\SAI\ColpatriaSAI.ETL\bin\Debug\ColpatriaSAI.ETL.dll
+E:\Datos\SAI\ColpatriaSAI.ETL\bin\Debug\ColpatriaSAI.ETL.pdb
+E:\Datos\SAI\ColpatriaSAI.ETL\obj\Debug\ColpatriaSAI.ETL.csprojAssemblyReference.cache
+E:\Datos\SAI\ColpatriaSAI.ETL\obj\Debug\ColpatriaSAI.ETL.csproj.CoreCompileInputs.cache
+E:\Datos\SAI\ColpatriaSAI.ETL\obj\Debug\ColpatriaSAI.ETL.dll
+E:\Datos\SAI\ColpatriaSAI.ETL\obj\Debug\ColpatriaSAI.ETL.pdb
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.ETL\bin\Debug\ColpatriaSAI.ETL.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.ETL\bin\Debug\ColpatriaSAI.ETL.pdb
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.ETL\obj\Debug\ColpatriaSAI.ETL.csproj.CoreCompileInputs.cache
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.ETL\obj\Debug\ColpatriaSAI.ETL.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.ETL\obj\Debug\ColpatriaSAI.ETL.pdb

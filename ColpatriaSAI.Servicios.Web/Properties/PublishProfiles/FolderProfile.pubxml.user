@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo se usa en el proceso de publicación y empaquetado del proyecto web. Para personalizar el comportamiento de este proceso,
+edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 para obtener más información. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>E:\SAI Debug\Publish Servicios</_PublishTargetUrl>
+    <History>True|2023-03-31T15:55:25.8688980Z;True|2021-08-28T21:16:34.3383993-05:00;True|2021-08-28T21:13:38.6456727-05:00;True|2021-08-28T20:50:52.5187487-05:00;True|2021-08-28T15:02:27.8417278-05:00;True|2021-08-24T11:43:44.9380957-05:00;True|2021-08-12T11:48:32.9329406-05:00;True|2021-08-10T14:06:09.3800494-05:00;True|2021-06-23T12:56:43.1305608-05:00;True|2021-06-17T13:17:56.5509498-05:00;True|2021-06-17T12:55:18.2295401-05:00;True|2021-06-09T14:49:11.0296159-05:00;True|2021-06-08T15:23:37.3129528-05:00;True|2021-06-08T08:51:29.1375996-05:00;True|2021-04-29T15:50:54.3244704-05:00;True|2021-04-22T12:10:52.3254811-05:00;True|2021-04-16T19:21:28.9411781-05:00;True|2021-04-13T10:12:45.3325826-05:00;True|2021-04-07T21:24:28.7987794-05:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Administracion.svc">
+      <publishTime>12/28/2022 22:34:38</publishTime>
+    </File>
+    <File Include="Autenticacion.svc">
+      <publishTime>12/28/2022 22:34:38</publishTime>
+    </File>
+    <File Include="bin/ColpatriaSAI.Datos.dll">
+      <publishTime>03/31/2023 10:55:12</publishTime>
+    </File>
+    <File Include="bin/ColpatriaSAI.Datos.dll.config">
+      <publishTime>12/28/2022 22:34:10</publishTime>
+    </File>
+    <File Include="bin/ColpatriaSAI.Datos.pdb">
+      <publishTime>03/31/2023 10:55:12</publishTime>
+    </File>
+    <File Include="bin/ColpatriaSAI.Negocio.Componentes.dll">
+      <publishTime>03/31/2023 10:55:14</publishTime>
+    </File>
+    <File Include="bin/ColpatriaSAI.Negocio.Componentes.pdb">
+      <publishTime>03/31/2023 10:55:14</publishTime>
+    </File>
+    <File Include="bin/ColpatriaSAI.Negocio.Entidades.dll">
+      <publishTime>03/31/2023 10:51:44</publishTime>
+    </File>
+    <File Include="bin/ColpatriaSAI.Negocio.Entidades.pdb">
+      <publishTime>03/31/2023 10:51:44</publishTime>
+    </File>
+    <File Include="bin/ColpatriaSAI.Negocio.Validadores.dll">
+      <publishTime>03/31/2023 10:51:45</publishTime>
+    </File>
+    <File Include="bin/ColpatriaSAI.Negocio.Validadores.pdb">
+      <publishTime>03/31/2023 10:51:45</publishTime>
+    </File>
+    <File Include="bin/ColpatriaSAI.Seguridad.Encripcion.dll">
+      <publishTime>03/31/2023 10:55:14</publishTime>
+    </File>
+    <File Include="bin/ColpatriaSAI.Seguridad.Encripcion.pdb">
+      <publishTime>03/31/2023 10:55:14</publishTime>
+    </File>
+    <File Include="bin/ColpatriaSAI.Seguridad.Proveedores.dll">
+      <publishTime>03/31/2023 10:55:15</publishTime>
+    </File>
+    <File Include="bin/ColpatriaSAI.Seguridad.Proveedores.dll.config">
+      <publishTime>12/28/2022 22:34:38</publishTime>
+    </File>
+    <File Include="bin/ColpatriaSAI.Seguridad.Proveedores.pdb">
+      <publishTime>03/31/2023 10:55:15</publishTime>
+    </File>
+    <File Include="bin/ColpatriaSAI.Seguridad.Proveedores.XmlSerializers.dll">
+      <publishTime>03/31/2023 10:55:16</publishTime>
+    </File>
+    <File Include="bin/ColpatriaSAI.Servicios.Web.dll">
+      <publishTime>03/31/2023 10:55:17</publishTime>
+    </File>
+    <File Include="bin/ColpatriaSAI.Servicios.Web.pdb">
+      <publishTime>03/31/2023 10:55:17</publishTime>
+    </File>
+    <File Include="bin/ColpatriaSAI.Servicios.Web.XmlSerializers.dll">
+      <publishTime>03/31/2023 10:55:17</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.Web.Infrastructure.resources.dll">
+      <publishTime>01/10/2011 11:11:12</publishTime>
+    </File>
+    <File Include="bin/es/System.Web.Mvc.resources.dll">
+      <publishTime>12/28/2022 22:34:38</publishTime>
+    </File>
+    <File Include="bin/es/System.Web.Razor.resources.dll">
+      <publishTime>12/28/2022 22:34:38</publishTime>
+    </File>
+    <File Include="bin/es/System.Web.WebPages.Deployment.resources.dll">
+      <publishTime>12/28/2022 22:34:38</publishTime>
+    </File>
+    <File Include="bin/es/System.Web.WebPages.Razor.resources.dll">
+      <publishTime>12/28/2022 22:34:38</publishTime>
+    </File>
+    <File Include="bin/es/System.Web.WebPages.resources.dll">
+      <publishTime>12/28/2022 22:34:38</publishTime>
+    </File>
+    <File Include="bin/LinqToExcel.dll">
+      <publishTime>12/28/2022 22:35:18</publishTime>
+    </File>
+    <File Include="bin/log4net.dll">
+      <publishTime>12/28/2022 22:35:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Common.dll">
+      <publishTime>12/28/2022 22:35:18</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Data.dll">
+      <publishTime>12/28/2022 22:35:18</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Logging.Database.dll">
+      <publishTime>12/28/2022 22:35:18</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Logging.dll">
+      <publishTime>12/28/2022 22:35:18</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.ServiceLocation.dll">
+      <publishTime>12/28/2022 22:35:18</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.Unity.dll">
+      <publishTime>12/28/2022 22:35:18</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.Unity.Interception.dll">
+      <publishTime>12/28/2022 22:35:18</publishTime>
+    </File>
+    <File Include="bin/Microsoft.SqlServer.ManagedDTS.dll">
+      <publishTime>03/25/2021 16:16:15</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/19/2012 10:59:52</publishTime>
+    </File>
+    <File Include="bin/Remotion.Data.Linq.dll">
+      <publishTime>12/28/2022 22:35:18</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>09/25/2014 16:41:52</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>08/01/2012 09:06:22</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>07/10/2012 12:03:34</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>07/10/2012 12:03:34</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>07/10/2012 12:03:34</publishTime>
+    </File>
+    <File Include="bin/WcfSamples.DynamicProxy.dll">
+      <publishTime>03/31/2023 10:51:43</publishTime>
+    </File>
+    <File Include="bin/WcfSamples.DynamicProxy.pdb">
+      <publishTime>03/31/2023 10:51:43</publishTime>
+    </File>
+    <File Include="bin/wsaccesscontrol_https_produccion.wsdl">
+      <publishTime>12/28/2022 22:34:44</publishTime>
+    </File>
+    <File Include="CalculosTalentosComision.svc">
+      <publishTime>12/28/2022 22:34:38</publishTime>
+    </File>
+    <File Include="Comisiones.svc">
+      <publishTime>12/28/2022 22:34:38</publishTime>
+    </File>
+    <File Include="ConsultasComisiones.svc">
+      <publishTime>12/28/2022 22:34:38</publishTime>
+    </File>
+    <File Include="EjecucionETLs.svc">
+      <publishTime>12/28/2022 22:34:38</publishTime>
+    </File>
+    <File Include="Logging.svc">
+      <publishTime>12/28/2022 22:34:38</publishTime>
+    </File>
+    <File Include="MembershipProvider.asmx">
+      <publishTime>12/28/2022 22:34:38</publishTime>
+    </File>
+    <File Include="ModeloComision.svc">
+      <publishTime>12/28/2022 22:34:38</publishTime>
+    </File>
+    <File Include="MvcSQLSitemapProvider.asmx">
+      <publishTime>12/28/2022 22:34:38</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>03/31/2023 10:55:19</publishTime>
+    </File>
+    <File Include="Reportes.svc">
+      <publishTime>12/28/2022 22:34:38</publishTime>
+    </File>
+    <File Include="RoleProvider.asmx">
+      <publishTime>12/28/2022 22:34:38</publishTime>
+    </File>
+    <File Include="UserAdministration.svc">
+      <publishTime>12/28/2022 22:34:38</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>03/31/2023 10:55:18</publishTime>
+    </File>
+    <File Include="wsaccesscontrol_https_produccion.wsdl">
+      <publishTime>12/28/2022 22:34:44</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

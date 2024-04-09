@@ -1,0 +1,314 @@
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Componentes.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Componentes.pdb
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Datos.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Entidades.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Validadores.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\LinqToExcel.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.Database.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\Remotion.Data.Linq.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\log4net.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.Unity.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Datos.pdb
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Entidades.pdb
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Validadores.pdb
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\obj\Debug\ColpatriaSAI.Negocio.Componentes.csprojResolveAssemblyReference.cache
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\obj\Debug\ColpatriaSAI.Negocio.Componentes.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\obj\Debug\ColpatriaSAI.Negocio.Componentes.pdb
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Componentes.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Componentes.pdb
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Datos.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Entidades.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Validadores.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\LinqToExcel.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.Database.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\Remotion.Data.Linq.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\log4net.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Datos.pdb
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Entidades.pdb
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Validadores.pdb
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\obj\Debug\ColpatriaSAI.Negocio.Componentes.csprojResolveAssemblyReference.cache
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\obj\Debug\ColpatriaSAI.Negocio.Componentes.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\obj\Debug\ColpatriaSAI.Negocio.Componentes.pdb
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Componentes.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Componentes.pdb
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Datos.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Entidades.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Validadores.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\LinqToExcel.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.Database.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\Remotion.Data.Linq.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\log4net.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.Unity.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Datos.pdb
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Entidades.pdb
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Validadores.pdb
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\obj\Debug\ColpatriaSAI.Negocio.Componentes.csprojResolveAssemblyReference.cache
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\obj\Debug\ColpatriaSAI.Negocio.Componentes.dll
+E:\caalbarracinm\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\obj\Debug\ColpatriaSAI.Negocio.Componentes.pdb
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Componentes.dll
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Componentes.pdb
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Datos.dll
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Entidades.dll
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Validadores.dll
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\LinqToExcel.dll
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.Database.dll
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\Remotion.Data.Linq.dll
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\log4net.dll
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.Unity.dll
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Datos.pdb
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Entidades.pdb
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Validadores.pdb
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\obj\Debug\ColpatriaSAI.Negocio.Componentes.csprojResolveAssemblyReference.cache
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\obj\Debug\ColpatriaSAI.Negocio.Componentes.dll
+E:\rterans\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\obj\Debug\ColpatriaSAI.Negocio.Componentes.pdb
+d:\datos\Users\caalbarracinm\Desktop\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Componentes.dll
+d:\datos\Users\caalbarracinm\Desktop\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Componentes.pdb
+d:\datos\Users\caalbarracinm\Desktop\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Datos.dll
+d:\datos\Users\caalbarracinm\Desktop\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Entidades.dll
+d:\datos\Users\caalbarracinm\Desktop\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Validadores.dll
+d:\datos\Users\caalbarracinm\Desktop\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\LinqToExcel.dll
+d:\datos\Users\caalbarracinm\Desktop\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+d:\datos\Users\caalbarracinm\Desktop\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+d:\datos\Users\caalbarracinm\Desktop\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.Database.dll
+d:\datos\Users\caalbarracinm\Desktop\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+d:\datos\Users\caalbarracinm\Desktop\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+d:\datos\Users\caalbarracinm\Desktop\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\Remotion.Data.Linq.dll
+d:\datos\Users\caalbarracinm\Desktop\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\System.Web.Mvc.dll
+d:\datos\Users\caalbarracinm\Desktop\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\log4net.dll
+d:\datos\Users\caalbarracinm\Desktop\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.Unity.dll
+d:\datos\Users\caalbarracinm\Desktop\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+d:\datos\Users\caalbarracinm\Desktop\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Datos.pdb
+d:\datos\Users\caalbarracinm\Desktop\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Datos.dll.config
+d:\datos\Users\caalbarracinm\Desktop\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Entidades.pdb
+d:\datos\Users\caalbarracinm\Desktop\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Validadores.pdb
+d:\datos\Users\caalbarracinm\Desktop\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\System.Web.Mvc.xml
+d:\datos\Users\caalbarracinm\Desktop\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\bin\Debug\es\System.Web.Mvc.resources.dll
+d:\datos\Users\caalbarracinm\Desktop\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\obj\Debug\ColpatriaSAI.Negocio.Componentes.csprojAssemblyReference.cache
+d:\datos\Users\caalbarracinm\Desktop\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\obj\Debug\ColpatriaSAI.Negocio.Componentes.csproj.CopyComplete
+d:\datos\Users\caalbarracinm\Desktop\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\obj\Debug\ColpatriaSAI.Negocio.Componentes.dll
+d:\datos\Users\caalbarracinm\Desktop\Principal-Desarrollo\ColpatriaSAI.Negocio.Componentes\obj\Debug\ColpatriaSAI.Negocio.Componentes.pdb
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Componentes.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Componentes.pdb
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Datos.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Entidades.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Validadores.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\LinqToExcel.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.Database.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\Remotion.Data.Linq.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\System.Web.Mvc.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\log4net.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.Unity.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Datos.pdb
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Datos.dll.config
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Entidades.pdb
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Validadores.pdb
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\System.Web.Mvc.xml
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\obj\Debug\ColpatriaSAI.Negocio.Componentes.csprojAssemblyReference.cache
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\obj\Debug\ColpatriaSAI.Negocio.Componentes.csproj.CopyComplete
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\obj\Debug\ColpatriaSAI.Negocio.Componentes.dll
+D:\SAI FUENTES 2020\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\obj\Debug\ColpatriaSAI.Negocio.Componentes.pdb
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Componentes.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Componentes.pdb
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Datos.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Entidades.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Validadores.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\LinqToExcel.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.Database.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\Remotion.Data.Linq.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\System.Web.Mvc.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\log4net.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.Unity.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Datos.pdb
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Datos.dll.config
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Entidades.pdb
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Validadores.pdb
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\System.Web.Mvc.xml
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\es\System.Web.Mvc.resources.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\obj\Debug\ColpatriaSAI.Negocio.Componentes.csprojAssemblyReference.cache
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\obj\Debug\ColpatriaSAI.Negocio.Componentes.csproj.CopyComplete
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\obj\Debug\ColpatriaSAI.Negocio.Componentes.dll
+d:\datos\Users\caalbarracinm\Desktop\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\obj\Debug\ColpatriaSAI.Negocio.Componentes.pdb
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Componentes.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Componentes.pdb
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Datos.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Entidades.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Validadores.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\LinqToExcel.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.Database.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\Remotion.Data.Linq.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\System.Web.Mvc.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\log4net.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Datos.pdb
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Datos.dll.config
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Entidades.pdb
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Validadores.pdb
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\bin\Debug\System.Web.Mvc.xml
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\obj\Debug\ColpatriaSAI.Negocio.Componentes.csprojAssemblyReference.cache
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\obj\Debug\ColpatriaSAI.Negocio.Componentes.csproj.CopyComplete
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\obj\Debug\ColpatriaSAI.Negocio.Componentes.dll
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\ColpatriaSAI.Negocio.Componentes\obj\Debug\ColpatriaSAI.Negocio.Componentes.pdb
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Componentes.dll
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Componentes.pdb
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Datos.dll
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Entidades.dll
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Validadores.dll
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\LinqToExcel.dll
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.Database.dll
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\Remotion.Data.Linq.dll
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\System.Web.Mvc.dll
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\log4net.dll
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.Unity.dll
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Datos.pdb
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Datos.dll.config
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Entidades.pdb
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Validadores.pdb
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\System.Web.Mvc.xml
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\es\System.Web.Mvc.resources.dll
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\ColpatriaSAI.Negocio.Componentes\obj\Debug\ColpatriaSAI.Negocio.Componentes.csprojAssemblyReference.cache
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\ColpatriaSAI.Negocio.Componentes\obj\Debug\ColpatriaSAI.Negocio.Componentes.csproj.CopyComplete
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\ColpatriaSAI.Negocio.Componentes\obj\Debug\ColpatriaSAI.Negocio.Componentes.dll
+d:\datos\Users\caalbarracinm\Desktop\SAI Fuentes Final\SAI\ColpatriaSAI.Negocio.Componentes\obj\Debug\ColpatriaSAI.Negocio.Componentes.pdb
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Componentes.dll
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Componentes.pdb
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Datos.dll
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Entidades.dll
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Validadores.dll
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\LinqToExcel.dll
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.Database.dll
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\Remotion.Data.Linq.dll
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\System.Web.Mvc.dll
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\log4net.dll
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.Unity.dll
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Datos.pdb
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Datos.dll.config
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Entidades.pdb
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Validadores.pdb
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\System.Web.Mvc.xml
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\es\System.Web.Mvc.resources.dll
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\ColpatriaSAI.Negocio.Componentes\obj\Debug\ColpatriaSAI.Negocio.Componentes.csprojAssemblyReference.cache
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\ColpatriaSAI.Negocio.Componentes\obj\Debug\ColpatriaSAI.Negocio.Componentes.csproj.CoreCompileInputs.cache
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\ColpatriaSAI.Negocio.Componentes\obj\Debug\ColpatriaSAI.Negocio.Componentes.csproj.CopyComplete
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\ColpatriaSAI.Negocio.Componentes\obj\Debug\ColpatriaSAI.Negocio.Componentes.dll
+d:\datos\Users\caalbarracinm\Source\Repos\SAI\ColpatriaSAI.Negocio.Componentes\obj\Debug\ColpatriaSAI.Negocio.Componentes.pdb
+E:\Datos\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Componentes.dll
+E:\Datos\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Componentes.pdb
+E:\Datos\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Datos.dll
+E:\Datos\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Entidades.dll
+E:\Datos\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Validadores.dll
+E:\Datos\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\LinqToExcel.dll
+E:\Datos\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\Datos\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\Datos\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.Database.dll
+E:\Datos\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+E:\Datos\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\Datos\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.SqlServer.ManagedDTS.dll
+E:\Datos\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\Remotion.Data.Linq.dll
+E:\Datos\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\log4net.dll
+E:\Datos\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.Unity.dll
+E:\Datos\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+E:\Datos\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Datos.pdb
+E:\Datos\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Datos.dll.config
+E:\Datos\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Entidades.pdb
+E:\Datos\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Validadores.pdb
+E:\Datos\SAI\ColpatriaSAI.Negocio.Componentes\obj\Debug\ColpatriaSAI.Negocio.Componentes.csprojAssemblyReference.cache
+E:\Datos\SAI\ColpatriaSAI.Negocio.Componentes\obj\Debug\ColpatriaSAI.Negocio.Componentes.csproj.CoreCompileInputs.cache
+E:\Datos\SAI\ColpatriaSAI.Negocio.Componentes\obj\Debug\ColpatriaSAI.Negocio.Componentes.csproj.CopyComplete
+E:\Datos\SAI\ColpatriaSAI.Negocio.Componentes\obj\Debug\ColpatriaSAI.Negocio.Componentes.dll
+E:\Datos\SAI\ColpatriaSAI.Negocio.Componentes\obj\Debug\ColpatriaSAI.Negocio.Componentes.pdb
+E:\SAI Debug\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Componentes.dll
+E:\SAI Debug\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Componentes.pdb
+E:\SAI Debug\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Datos.dll
+E:\SAI Debug\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Entidades.dll
+E:\SAI Debug\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Validadores.dll
+E:\SAI Debug\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\LinqToExcel.dll
+E:\SAI Debug\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\SAI Debug\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\SAI Debug\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.Database.dll
+E:\SAI Debug\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+E:\SAI Debug\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\SAI Debug\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\Remotion.Data.Linq.dll
+E:\SAI Debug\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\log4net.dll
+E:\SAI Debug\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.Unity.dll
+E:\SAI Debug\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+E:\SAI Debug\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Web.Infrastructure.dll
+E:\SAI Debug\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Datos.pdb
+E:\SAI Debug\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Datos.dll.config
+E:\SAI Debug\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Entidades.pdb
+E:\SAI Debug\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Validadores.pdb
+E:\SAI Debug\SAI\ColpatriaSAI.Negocio.Componentes\obj\Debug\ColpatriaSAI.Negocio.Componentes.csproj.AssemblyReference.cache
+E:\SAI Debug\SAI\ColpatriaSAI.Negocio.Componentes\obj\Debug\ColpatriaSAI.Negocio.Componentes.csproj.CoreCompileInputs.cache
+E:\SAI Debug\SAI\ColpatriaSAI.Negocio.Componentes\obj\Debug\ColpatriaSAI.Negocio.Componentes.csproj.CopyComplete
+E:\SAI Debug\SAI\ColpatriaSAI.Negocio.Componentes\obj\Debug\ColpatriaSAI.Negocio.Componentes.dll
+E:\SAI Debug\SAI\ColpatriaSAI.Negocio.Componentes\obj\Debug\ColpatriaSAI.Negocio.Componentes.pdb
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Componentes.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Componentes.pdb
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Datos.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Entidades.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Validadores.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\LinqToExcel.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.Database.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\Remotion.Data.Linq.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\log4net.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.Unity.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\Microsoft.Web.Infrastructure.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Datos.pdb
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Datos.dll.config
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Entidades.pdb
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.Negocio.Componentes\bin\Debug\ColpatriaSAI.Negocio.Validadores.pdb
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.Negocio.Componentes\obj\Debug\ColpatriaSAI.Negocio.Componentes.csproj.AssemblyReference.cache
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.Negocio.Componentes\obj\Debug\ColpatriaSAI.Negocio.Componentes.csproj.CoreCompileInputs.cache
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.Negocio.Componentes\obj\Debug\ColpatriaSAI.Negocio.Componentes.csproj.CopyComplete
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.Negocio.Componentes\obj\Debug\ColpatriaSAI.Negocio.Componentes.dll
+E:\Users\dahurtadog\source\repos\SAI_2024\SAI\ColpatriaSAI.Negocio.Componentes\obj\Debug\ColpatriaSAI.Negocio.Componentes.pdb

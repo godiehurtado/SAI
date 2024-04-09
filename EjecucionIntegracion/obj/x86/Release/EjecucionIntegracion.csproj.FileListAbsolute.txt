@@ -1,0 +1,6 @@
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\EjecucionIntegracion\bin\Release\EjecucionIntegracion.exe.config
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\EjecucionIntegracion\bin\Release\EjecucionIntegracion.exe
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\EjecucionIntegracion\bin\Release\EjecucionIntegracion.pdb
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\EjecucionIntegracion\obj\x86\Release\EjecucionIntegracion.csprojAssemblyReference.cache
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\EjecucionIntegracion\obj\x86\Release\EjecucionIntegracion.exe
+D:\Miau\COMPILADO CON CAMBIOS\COMPILADO CON CAMBIOS\Principal-Desarrollo - copia\EjecucionIntegracion\obj\x86\Release\EjecucionIntegracion.pdb

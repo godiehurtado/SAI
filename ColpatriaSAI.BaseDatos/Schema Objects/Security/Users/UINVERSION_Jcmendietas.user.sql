@@ -1,0 +1,2 @@
+﻿CREATE USER [UINVERSION\Jcmendietas] FOR LOGIN [UINVERSION\Jcmendietas];
+

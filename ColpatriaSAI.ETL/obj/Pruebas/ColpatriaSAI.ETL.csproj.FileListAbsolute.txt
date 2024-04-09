@@ -1,0 +1,8 @@
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.ETL\bin\Pruebas\ColpatriaSAI.ETL.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.ETL\bin\Pruebas\ColpatriaSAI.ETL.pdb
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.ETL\obj\Pruebas\ColpatriaSAI.ETL.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\ColpatriaSAI.ETL\obj\Pruebas\ColpatriaSAI.ETL.pdb
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.ETL\bin\Pruebas\ColpatriaSAI.ETL.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.ETL\bin\Pruebas\ColpatriaSAI.ETL.pdb
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.ETL\obj\Pruebas\ColpatriaSAI.ETL.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\ColpatriaSAI.ETL\obj\Pruebas\ColpatriaSAI.ETL.pdb

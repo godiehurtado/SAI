@@ -1,0 +1,255 @@
+﻿#if __DESIGNER_DATA
+#error Do not define __DESIGNER_DATA.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<om:MetaModel MajorVersion="1" MinorVersion="3" Core="2b131234-7959-458d-834f-2dc0769ce683" ScheduleModel="66366196-361d-448d-976f-cab5e87496d2" xmlns:om="http://schemas.microsoft.com/BizTalk/2003/DesignerData">
+    <om:Element Type="Module" OID="fcf402db-63af-473a-969d-0326ce9d0d06" LowerBound="1.1" HigherBound="62.1">
+        <om:Property Name="ReportToAnalyst" Value="True" />
+        <om:Property Name="Name" Value="BizTalkSai_Project" />
+        <om:Property Name="Signal" Value="False" />
+        <om:Element Type="PortType" OID="191f4b66-0626-4f40-bab5-d6f7c3d439f3" ParentLink="Module_PortType" LowerBound="4.1" HigherBound="11.1">
+            <om:Property Name="Synchronous" Value="False" />
+            <om:Property Name="TypeModifier" Value="Internal" />
+            <om:Property Name="ReportToAnalyst" Value="True" />
+            <om:Property Name="Name" Value="PortType_1" />
+            <om:Property Name="Signal" Value="False" />
+            <om:Element Type="OperationDeclaration" OID="522f6c55-d2c9-4d8f-847b-5f26d5706583" ParentLink="PortType_OperationDeclaration" LowerBound="6.1" HigherBound="10.1">
+                <om:Property Name="OperationType" Value="OneWay" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="Operation_1" />
+                <om:Property Name="Signal" Value="False" />
+                <om:Element Type="MessageRef" OID="187a512d-23d6-4a41-bfc8-a845b096cf2e" ParentLink="OperationDeclaration_RequestMessageRef" LowerBound="8.13" HigherBound="8.27">
+                    <om:Property Name="Ref" Value="BizTalkSai_Project.CAPI.SQLSoapIn" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="Request" />
+                    <om:Property Name="Signal" Value="False" />
+                </om:Element>
+            </om:Element>
+        </om:Element>
+        <om:Element Type="PortType" OID="634a6c3f-2fb8-456f-b9db-c9fc024646f7" ParentLink="Module_PortType" LowerBound="11.1" HigherBound="18.1">
+            <om:Property Name="Synchronous" Value="False" />
+            <om:Property Name="TypeModifier" Value="Internal" />
+            <om:Property Name="ReportToAnalyst" Value="True" />
+            <om:Property Name="Name" Value="PortType_2" />
+            <om:Property Name="Signal" Value="False" />
+            <om:Element Type="OperationDeclaration" OID="b9fda276-0420-441b-967a-d8feb5c3ec9b" ParentLink="PortType_OperationDeclaration" LowerBound="13.1" HigherBound="17.1">
+                <om:Property Name="OperationType" Value="OneWay" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="Operation_1" />
+                <om:Property Name="Signal" Value="False" />
+                <om:Element Type="MessageRef" OID="2af87903-a977-4d16-b2cc-8d5c2be79f73" ParentLink="OperationDeclaration_RequestMessageRef" LowerBound="15.13" HigherBound="15.28">
+                    <om:Property Name="Ref" Value="BizTalkSai_Project.CAPI.SQLSoapOut" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="Request" />
+                    <om:Property Name="Signal" Value="False" />
+                </om:Element>
+            </om:Element>
+        </om:Element>
+        <om:Element Type="ServiceDeclaration" OID="25adbe62-b042-4888-b3b9-c1ec92b65067" ParentLink="Module_ServiceDeclaration" LowerBound="18.1" HigherBound="61.1">
+            <om:Property Name="InitializedTransactionType" Value="False" />
+            <om:Property Name="IsInvokable" Value="False" />
+            <om:Property Name="TypeModifier" Value="Internal" />
+            <om:Property Name="ReportToAnalyst" Value="True" />
+            <om:Property Name="Name" Value="WsIntegradorSISE" />
+            <om:Property Name="Signal" Value="False" />
+            <om:Element Type="MessageDeclaration" OID="e4fd5332-6a96-4003-87e8-232f45558324" ParentLink="ServiceDeclaration_MessageDeclaration" LowerBound="27.1" HigherBound="28.1">
+                <om:Property Name="Type" Value="BizTalkSai_Project.CAPI.SQLSoapIn" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="WsRequestSQL" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+            <om:Element Type="MessageDeclaration" OID="78229e28-7eb7-4a22-b7e7-57ae85222f6e" ParentLink="ServiceDeclaration_MessageDeclaration" LowerBound="28.1" HigherBound="29.1">
+                <om:Property Name="Type" Value="BizTalkSai_Project.CAPI.SQLSoapOut" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="WsResponseSQL" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+            <om:Element Type="ServiceBody" OID="7fe21ded-6a3a-4902-9f05-24bacf9d2c58" ParentLink="ServiceDeclaration_ServiceBody">
+                <om:Property Name="Signal" Value="False" />
+                <om:Element Type="Receive" OID="20c5fabb-a126-4002-8640-9eb4f3eafb8b" ParentLink="ServiceBody_Statement" LowerBound="31.1" HigherBound="33.1">
+                    <om:Property Name="Activate" Value="True" />
+                    <om:Property Name="PortName" Value="SQL_IN" />
+                    <om:Property Name="MessageName" Value="WsRequestSQL" />
+                    <om:Property Name="OperationName" Value="Operation_1" />
+                    <om:Property Name="OperationMessageName" Value="Request" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="Receive xml in" />
+                    <om:Property Name="Signal" Value="True" />
+                </om:Element>
+                <om:Element Type="Scope" OID="e84d81e3-6586-4e39-83d3-c953f96cb31a" ParentLink="ServiceBody_Statement" LowerBound="33.1" HigherBound="59.1">
+                    <om:Property Name="InitializedTransactionType" Value="True" />
+                    <om:Property Name="IsSynchronized" Value="False" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="Scope SISE" />
+                    <om:Property Name="Signal" Value="True" />
+                    <om:Element Type="Send" OID="c5cae5a2-e032-4887-a5f0-b60b221c89ad" ParentLink="ComplexStatement_Statement" LowerBound="38.1" HigherBound="40.1">
+                        <om:Property Name="PortName" Value="SISE" />
+                        <om:Property Name="MessageName" Value="WsRequestSQL" />
+                        <om:Property Name="OperationName" Value="SQL" />
+                        <om:Property Name="OperationMessageName" Value="Request" />
+                        <om:Property Name="ReportToAnalyst" Value="True" />
+                        <om:Property Name="Name" Value="Send SQL" />
+                        <om:Property Name="Signal" Value="True" />
+                    </om:Element>
+                    <om:Element Type="VariableAssignment" OID="333fe7e5-1b38-469b-bb80-0d5bc6a75e70" ParentLink="ComplexStatement_Statement" LowerBound="40.1" HigherBound="42.1">
+                        <om:Property Name="Expression" Value="System.Diagnostics.Trace.WriteLine(&quot;Inicia llamado a SQL&quot;);" />
+                        <om:Property Name="ReportToAnalyst" Value="True" />
+                        <om:Property Name="Name" Value="Mensaje Error Servicio" />
+                        <om:Property Name="Signal" Value="True" />
+                    </om:Element>
+                    <om:Element Type="Receive" OID="3205e6b4-d71d-4b93-a631-bcaa072e5060" ParentLink="ComplexStatement_Statement" LowerBound="42.1" HigherBound="44.1">
+                        <om:Property Name="Activate" Value="False" />
+                        <om:Property Name="PortName" Value="SISE" />
+                        <om:Property Name="MessageName" Value="WsResponseSQL" />
+                        <om:Property Name="OperationName" Value="SQL" />
+                        <om:Property Name="OperationMessageName" Value="Response" />
+                        <om:Property Name="ReportToAnalyst" Value="True" />
+                        <om:Property Name="Name" Value="Receive SQL" />
+                        <om:Property Name="Signal" Value="True" />
+                    </om:Element>
+                    <om:Element Type="Send" OID="04a4791d-4f79-4a23-a72c-d269612c5cbb" ParentLink="ComplexStatement_Statement" LowerBound="44.1" HigherBound="46.1">
+                        <om:Property Name="PortName" Value="SQL_OUT" />
+                        <om:Property Name="MessageName" Value="WsResponseSQL" />
+                        <om:Property Name="OperationName" Value="Operation_1" />
+                        <om:Property Name="OperationMessageName" Value="Request" />
+                        <om:Property Name="ReportToAnalyst" Value="True" />
+                        <om:Property Name="Name" Value="Send xml out" />
+                        <om:Property Name="Signal" Value="True" />
+                    </om:Element>
+                    <om:Element Type="Catch" OID="3796f926-6e1c-4828-81a4-48c3f1f2ae7f" ParentLink="Scope_Catch" LowerBound="49.1" HigherBound="57.1">
+                        <om:Property Name="ExceptionName" Value="ex" />
+                        <om:Property Name="ExceptionType" Value="System.Exception" />
+                        <om:Property Name="IsFaultMessage" Value="False" />
+                        <om:Property Name="ReportToAnalyst" Value="True" />
+                        <om:Property Name="Name" Value="Respuesta SQL" />
+                        <om:Property Name="Signal" Value="True" />
+                        <om:Element Type="VariableAssignment" OID="b5fa29b5-ee23-4b40-8b22-6ddbdf7c516d" ParentLink="Catch_Statement" LowerBound="52.1" HigherBound="54.1">
+                            <om:Property Name="Expression" Value="System.Diagnostics.Trace.WriteLine(&quot;Respuesta SQL&quot;);" />
+                            <om:Property Name="ReportToAnalyst" Value="True" />
+                            <om:Property Name="Name" Value="Respuesta SQL" />
+                            <om:Property Name="Signal" Value="True" />
+                        </om:Element>
+                        <om:Element Type="Terminate" OID="1017ed13-5a13-44a9-a86a-39583bf6ae07" ParentLink="Catch_Statement" LowerBound="54.1" HigherBound="56.1">
+                            <om:Property Name="ErrorMessage" Value="&quot;Fin de la orquestacion Crear Orden con Error &quot; + ex.Message;" />
+                            <om:Property Name="ReportToAnalyst" Value="True" />
+                            <om:Property Name="Name" Value="Terminate" />
+                            <om:Property Name="Signal" Value="True" />
+                        </om:Element>
+                    </om:Element>
+                </om:Element>
+            </om:Element>
+            <om:Element Type="PortDeclaration" OID="a1969107-4822-4c90-a734-52a9c29a96a0" ParentLink="ServiceDeclaration_PortDeclaration" LowerBound="21.1" HigherBound="23.1">
+                <om:Property Name="PortModifier" Value="Implements" />
+                <om:Property Name="Orientation" Value="Left" />
+                <om:Property Name="PortIndex" Value="-1" />
+                <om:Property Name="IsWebPort" Value="False" />
+                <om:Property Name="OrderedDelivery" Value="False" />
+                <om:Property Name="DeliveryNotification" Value="None" />
+                <om:Property Name="Type" Value="BizTalkSai_Project.PortType_1" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="SQL_IN" />
+                <om:Property Name="Signal" Value="False" />
+                <om:Element Type="LogicalBindingAttribute" OID="f03daedf-3c77-4a48-b21e-4a2057fd5474" ParentLink="PortDeclaration_CLRAttribute" LowerBound="21.1" HigherBound="22.1">
+                    <om:Property Name="Signal" Value="False" />
+                </om:Element>
+            </om:Element>
+            <om:Element Type="PortDeclaration" OID="ed6b94f2-723b-4019-960b-4e01613ade9e" ParentLink="ServiceDeclaration_PortDeclaration" LowerBound="23.1" HigherBound="25.1">
+                <om:Property Name="PortModifier" Value="Uses" />
+                <om:Property Name="Orientation" Value="Left" />
+                <om:Property Name="PortIndex" Value="12" />
+                <om:Property Name="IsWebPort" Value="False" />
+                <om:Property Name="OrderedDelivery" Value="False" />
+                <om:Property Name="DeliveryNotification" Value="None" />
+                <om:Property Name="Type" Value="BizTalkSai_Project.PortType_2" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="SQL_OUT" />
+                <om:Property Name="Signal" Value="False" />
+                <om:Element Type="LogicalBindingAttribute" OID="2d10bdf2-cf2e-4cb3-bc96-13b3c497740c" ParentLink="PortDeclaration_CLRAttribute" LowerBound="23.1" HigherBound="24.1">
+                    <om:Property Name="Signal" Value="False" />
+                </om:Element>
+            </om:Element>
+            <om:Element Type="PortDeclaration" OID="4d70460b-cdc7-4692-beca-9af15bff3153" ParentLink="ServiceDeclaration_PortDeclaration" LowerBound="25.1" HigherBound="27.1">
+                <om:Property Name="PortModifier" Value="Uses" />
+                <om:Property Name="Orientation" Value="Right" />
+                <om:Property Name="PortIndex" Value="-1" />
+                <om:Property Name="IsWebPort" Value="False" />
+                <om:Property Name="OrderedDelivery" Value="False" />
+                <om:Property Name="DeliveryNotification" Value="None" />
+                <om:Property Name="Type" Value="BizTalkSai_Project.CAPI.WsIntegradorSoap" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="SISE" />
+                <om:Property Name="Signal" Value="False" />
+                <om:Element Type="LogicalBindingAttribute" OID="1267af8b-60ed-4510-b498-2889f2da9029" ParentLink="PortDeclaration_CLRAttribute" LowerBound="25.1" HigherBound="26.1">
+                    <om:Property Name="Signal" Value="False" />
+                </om:Element>
+            </om:Element>
+        </om:Element>
+    </om:Element>
+</om:MetaModel>
+#endif // __DESIGNER_DATA
+[Microsoft.XLANGs.BaseTypes.BPELExportable(false)]
+module BizTalkSai_Project
+{
+    internal porttype PortType_1
+    {
+        oneway Operation_1
+        {
+            CAPI.SQLSoapIn
+        };
+    };
+    internal porttype PortType_2
+    {
+        oneway Operation_1
+        {
+            CAPI.SQLSoapOut
+        };
+    };
+    [Microsoft.XLANGs.BaseTypes.BPELExportable(false)]
+    internal service WsIntegradorSISE
+    {
+        [Microsoft.XLANGs.BaseTypes.LogicalBinding()]
+        port implements PortType_1 SQL_IN;
+        [Microsoft.XLANGs.BaseTypes.LogicalBinding()]
+        port uses PortType_2 SQL_OUT;
+        [Microsoft.XLANGs.BaseTypes.LogicalBinding()]
+        port uses CAPI.WsIntegradorSoap SISE;
+        message CAPI.SQLSoapIn WsRequestSQL;
+        message CAPI.SQLSoapOut WsResponseSQL;
+        body ()
+        {
+            [Microsoft.XLANGs.BaseTypes.DesignerPosition("20c5fabb-a126-4002-8640-9eb4f3eafb8b")]
+            activate receive (SQL_IN.Operation_1, WsRequestSQL);
+            [Microsoft.XLANGs.BaseTypes.DesignerPosition("e84d81e3-6586-4e39-83d3-c953f96cb31a")]
+            scope
+            {
+                body
+                {
+                    [Microsoft.XLANGs.BaseTypes.DesignerPosition("c5cae5a2-e032-4887-a5f0-b60b221c89ad")]
+                    send (SISE.SQL, WsRequestSQL);
+                    [Microsoft.XLANGs.BaseTypes.DesignerPosition("333fe7e5-1b38-469b-bb80-0d5bc6a75e70")]
+                    System.Diagnostics.Trace.WriteLine("Inicia llamado a SQL");
+                    [Microsoft.XLANGs.BaseTypes.DesignerPosition("3205e6b4-d71d-4b93-a631-bcaa072e5060")]
+                    receive (SISE.SQL, WsResponseSQL);
+                    [Microsoft.XLANGs.BaseTypes.DesignerPosition("04a4791d-4f79-4a23-a72c-d269612c5cbb")]
+                    send (SQL_OUT.Operation_1, WsResponseSQL);
+                }
+                exceptions
+                {
+                    [Microsoft.XLANGs.BaseTypes.DesignerPosition("3796f926-6e1c-4828-81a4-48c3f1f2ae7f")]
+                    catch (System.Exception ex)
+                    {
+                        [Microsoft.XLANGs.BaseTypes.DesignerPosition("b5fa29b5-ee23-4b40-8b22-6ddbdf7c516d")]
+                        System.Diagnostics.Trace.WriteLine("Respuesta SQL");
+                        [Microsoft.XLANGs.BaseTypes.DesignerPosition("1017ed13-5a13-44a9-a86a-39583bf6ae07")]
+                        terminate "Fin de la orquestacion Crear Orden con Error " + ex.Message;;
+                    }
+                }
+            }
+        }
+    }
+}
+

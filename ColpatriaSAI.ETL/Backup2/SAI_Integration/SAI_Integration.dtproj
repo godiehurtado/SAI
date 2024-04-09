@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProductVersion>10.50.2500.0</ProductVersion>
+  <SchemaVersion>9.0.1.0</SchemaVersion>
+  <State>$base64$PFNvdXJjZUNvbnRyb2xJbmZvIHhtbG5zOnhzZD0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zOmRkbDI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yIiB4bWxuczpkZGwyXzI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yLzIiIHhtbG5zOmRkbDEwMF8xMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDA4L2VuZ2luZS8xMDAvMTAwIiB4bWxuczpkZGwyMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAiIHhtbG5zOmRkbDIwMF8yMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAvMjAwIiB4bWxuczpkd2Q9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vRGF0YVdhcmVob3VzZS9EZXNpZ25lci8xLjAiPg0KICA8RW5hYmxlZD5mYWxzZTwvRW5hYmxlZD4NCiAgPFByb2plY3ROYW1lPjwvUHJvamVjdE5hbWU+DQogIDxBdXhQYXRoPjwvQXV4UGF0aD4NCiAgPExvY2FsUGF0aD48L0xvY2FsUGF0aD4NCiAgPFByb3ZpZGVyPjwvUHJvdmlkZXI+DQo8L1NvdXJjZUNvbnRyb2xJbmZvPg==</State>
+  <Database>
+    <Name>SAI_Integration.database</Name>
+    <FullPath>SAI_Integration.database</FullPath>
+  </Database>
+  <Cubes />
+  <Dimensions />
+  <DataSources>
+    <ProjectItem>
+      <Name>SAI.ds</Name>
+      <FullPath>SAI.ds</FullPath>
+    </ProjectItem>
+  </DataSources>
+  <DataSourceViews />
+  <MiningModels />
+  <Roles />
+  <Miscellaneous />
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <OutputPath>bin</OutputPath>
+        <ConnectionMappings>
+          <ConfigurationSetting>
+            <Id>SAI</Id>
+            <Name>SAI</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI10.1;Data Source=DES-SQLUI01\DESARROLLO2008;Persist Security Info=True;Password=;User ID=;Initial Catalog=SAI</Value>
+          </ConfigurationSetting>
+        </ConnectionMappings>
+        <ConnectionProviderMappings>
+          <ConfigurationSetting>
+            <Id>SAI</Id>
+            <Name>SAI</Name>
+            <Value xsi:type="xsd:string">System.Data.SqlClient</Value>
+          </ConfigurationSetting>
+        </ConnectionProviderMappings>
+        <ConnectionSecurityMappings>
+          <ConfigurationSetting>
+            <Id>SAI</Id>
+            <Name>SAI</Name>
+            <Value xsi:type="xsd:int">1</Value>
+          </ConfigurationSetting>
+        </ConnectionSecurityMappings>
+        <DatabaseStorageLocations />
+        <RunInOptimizedMode>true</RunInOptimizedMode>
+      </Options>
+    </Configuration>
+  </Configurations>
+  <DTSPackages>
+    <DtsPackage FormatVersion="-1">
+      <Name>ARP_Negocios.dtsx</Name>
+      <FullPath>ARP_Negocios.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="-1">
+      <Name>ARP_Productos.dtsx</Name>
+      <FullPath>ARP_Productos.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="-1">
+      <Name>ARP_Recaudos.dtsx</Name>
+      <FullPath>ARP_Recaudos.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>BH_Negocios.dtsx</Name>
+      <FullPath>BH_Negocios.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>CAPI_Negocios.dtsx</Name>
+      <FullPath>CAPI_Negocios.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>CAPI_Productos.dtsx</Name>
+      <FullPath>CAPI_Productos.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>CAPI_Recaudo.dtsx</Name>
+      <FullPath>CAPI_recaudo.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>CODC01.dtsx</Name>
+      <FullPath>CODC01.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>COMJJEOMultijer.dtsx</Name>
+      <FullPath>COMJJEOMultijer.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>COMXXXF.dtsx</Name>
+      <FullPath>COMXXXF.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>CRM.dtsx</Name>
+      <FullPath>CRM.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>EMERMEDICA_Negocios.dtsx</Name>
+      <FullPath>EMERMEDICA_Negocios.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>EMERMEDICA_Recaudo.dtsx</Name>
+      <FullPath>EMERMEDICA_Recaudo.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>EXPORTARLOG_ERRORES.dtsx</Name>
+      <FullPath>EXPORTARLOG_ERRORES.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>GENERALES_Negocios.dtsx</Name>
+      <FullPath>GENERALES_Negocios.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>GENERALES_Recaudo.dtsx</Name>
+      <FullPath>GENERALES_Recaudo.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>NOM231.dtsx</Name>
+      <FullPath>NOM231.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>NOM301O.dtsx</Name>
+      <FullPath>NOM301O.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Portal.dtsx</Name>
+      <FullPath>Portal.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>PRECALCULOS.dtsx</Name>
+      <FullPath>PRECALCULOS.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>PreIntegracion.dtsx</Name>
+      <FullPath>PreIntegracion.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Recaudos_SIG.dtsx</Name>
+      <FullPath>Recaudos_SIG.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Reporte_ColquinesMinimos.dtsx</Name>
+      <FullPath>Reporte_ColquinesMinimos.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Reporte_ColquinesSegmento.dtsx</Name>
+      <FullPath>Reporte_ColquinesSegmento.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Reporte_ConsolidadoporTipoMedida.dtsx</Name>
+      <FullPath>Reporte_ConsolidadoporTipoMedida.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Reporte_InformeFabrica.dtsx</Name>
+      <FullPath>Reporte_InformeFabrica.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Reporte_IngresosAsesor.dtsx</Name>
+      <FullPath>Reporte_IngresosAsesor.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Reporte_LiquidacionFranquicias.dtsx</Name>
+      <FullPath>Reporte_LiquidacionFranquicias.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Reporte_NegociosAsesor.dtsx</Name>
+      <FullPath>Reporte_NegociosAsesor.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Reporte_NegociosAsesorCierre.dtsx</Name>
+      <FullPath>Reporte_NegociosAsesorCierre.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Reporte_NegociosConsolidado.dtsx</Name>
+      <FullPath>Reporte_NegociosConsolidado.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Reporte_NegociosporSegmentoIntermediario.dtsx</Name>
+      <FullPath>Reporte_NegociosporSegmentoIntermediario.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Reporte_PresupuestoEjecucion.dtsx</Name>
+      <FullPath>Reporte_PresupuestoEjecucion.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Reporte_PresupuestoEjecucionVistaCRM.dtsx</Name>
+      <FullPath>Reporte_PresupuestoEjecucionVistaCRM.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Reporte_RamosAsesor.dtsx</Name>
+      <FullPath>Reporte_RamosAsesor.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Reporte_RecaudosAsesorCierre.dtsx</Name>
+      <FullPath>Reporte_RecaudosAsesorCierre.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Reporte_RecaudosColquinesAsesor.dtsx</Name>
+      <FullPath>Reporte_RecaudosColquinesAsesor.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Reporte_RecaudosporSegmentoIntermediario.dtsx</Name>
+      <FullPath>Reporte_RecaudosporSegmentoIntermediario.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="-1">
+      <Name>Reportes_Neg_Rec.dtsx</Name>
+      <FullPath>Reportes_Neg_Rec.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>SALUD_EMERMEDICA.dtsx</Name>
+      <FullPath>SALUD_EMERMEDICA.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>SALUD_Productos.dtsx</Name>
+      <FullPath>SALUD_Productos.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>SALUDBH_Recaudo.dtsx</Name>
+      <FullPath>SALUDBH_Recaudo.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Siniestralidad.dtsx</Name>
+      <FullPath>Siniestralidad.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>SISE_Productos.dtsx</Name>
+      <FullPath>SISE_Productos.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>SISEVIDA_Productos.dtsx</Name>
+      <FullPath>SISEVIDA_Productos.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>VIDA_Negocios.dtsx</Name>
+      <FullPath>VIDA_Negocios.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>VIDA_Recaudo.dtsx</Name>
+      <FullPath>VIDA_Recaudo.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+  </DTSPackages>
+</Project>

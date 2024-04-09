@@ -1,0 +1,10 @@
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\DynamicProxyLibrary\src\bin\Pruebas\WcfSamples.DynamicProxy.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\DynamicProxyLibrary\src\bin\Pruebas\WcfSamples.DynamicProxy.pdb
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\DynamicProxyLibrary\src\obj\Pruebas\DynamicProxyLibrary.csprojResolveAssemblyReference.cache
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\DynamicProxyLibrary\src\obj\Pruebas\WcfSamples.DynamicProxy.dll
+\\DES-TSNETUI01\Users\jamorenoj\Desktop\SAI\Principal-Desarrollo\DynamicProxyLibrary\src\obj\Pruebas\WcfSamples.DynamicProxy.pdb
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\DynamicProxyLibrary\src\bin\Pruebas\WcfSamples.DynamicProxy.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\DynamicProxyLibrary\src\bin\Pruebas\WcfSamples.DynamicProxy.pdb
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\DynamicProxyLibrary\src\obj\Pruebas\DynamicProxyLibrary.csprojResolveAssemblyReference.cache
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\DynamicProxyLibrary\src\obj\Pruebas\WcfSamples.DynamicProxy.dll
+C:\Users\CAALBARRACINM\Documents\SAI\Principal-Desarrollo\DynamicProxyLibrary\src\obj\Pruebas\WcfSamples.DynamicProxy.pdb

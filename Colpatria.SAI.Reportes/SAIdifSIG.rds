@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>SAIdifSIG</Name>
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=PRO-SQL01\PROD2008;Initial Catalog=SAIdifSIG</ConnectString>
+    <Prompt>Specify a user name and password for data source SAIdifSIG.</Prompt>
+  </ConnectionProperties>
+  <DataSourceID>f11a629d-38fd-4481-adbe-fb875293042f</DataSourceID>
+</RptDataSource>

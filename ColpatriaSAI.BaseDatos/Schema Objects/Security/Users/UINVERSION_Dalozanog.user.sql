@@ -1,0 +1,2 @@
+﻿CREATE USER [UINVERSION\Dalozanog] FOR LOGIN [UINVERSION\Dalozanog];
+

@@ -1,0 +1,1 @@
+﻿CREATE LOGIN sai_crm WITH PASSWORD = 'CvwidV=@bfmsw,i{ystEun|jmsFT7_&#$!~<v{=bjtae._iw'

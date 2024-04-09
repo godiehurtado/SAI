@@ -1,0 +1,14 @@
+﻿CREATE TABLE [dbo].[SiteMap] (
+    [ID]          NVARCHAR (15)  NOT NULL,
+    [TITLE]       NVARCHAR (50)  NOT NULL,
+    [DESCRIPTION] NVARCHAR (255) NOT NULL,
+    [CONTROLLER]  NVARCHAR (50)  NULL,
+    [ACTION]      NVARCHAR (50)  NULL,
+    [PARAMID]     NVARCHAR (50)  NULL,
+    [URL]         NVARCHAR (255) NULL,
+    [PARENT_ID]   NVARCHAR (15)  NOT NULL,
+    [Roles]       VARCHAR (512)  NULL
+);
+
+
+

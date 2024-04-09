@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SqlCommandVariables xmlns="urn:Microsoft.VisualStudio.Data.Schema.Package.SqlCmdVars">
+  <Version>1.0</Version>
+  <Properties>
+    <Property>
+      <PropertyName>Path1</PropertyName>
+      <PropertyValue>F:\SqlLog2008\</PropertyValue>
+    </Property>
+    <Property>
+      <PropertyName>Path2</PropertyName>
+      <PropertyValue>E:\SqlData2008\</PropertyValue>
+    </Property>
+  </Properties>
+</SqlCommandVariables>
