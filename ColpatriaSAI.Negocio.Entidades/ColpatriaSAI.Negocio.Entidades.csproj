@@ -276,6 +276,7 @@
     </Compile>
     <Compile Include="CustomEntities\ComisionFijaFacturacion.cs" />
     <Compile Include="CustomEntities\ComisionFijaRecaudos.cs" />
+    <Compile Include="CustomEntities\ExtraccionComision.cs" />
     <Compile Include="CustomEntities\LogProcesoBH.cs" />
     <Compile Include="CustomEntities\ParticipacionFranquicia.cs" />
     <Compile Include="Dashboard.cs">

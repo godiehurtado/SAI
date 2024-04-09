@@ -14,6 +14,8 @@ using System.Text;
 using System.Threading;
 using System.Globalization;
 using admin = ColpatriaSAI.Negocio.Componentes.Comision.Administracion;
+using ColpatriaSAI.UI.MVC.Views.Shared;
+using ColpatriaSAI.Negocio.Entidades.Informacion;
 
 namespace ColpatriaSAI.UI.MVC.Areas.Comisiones.Controllers
 {
@@ -57,55 +59,188 @@ namespace ColpatriaSAI.UI.MVC.Areas.Comisiones.Controllers
                     Text = x.nombre
                 }));
 
+            _svcCalculosClient = new CalculosTalentosComision.CalculosClient();
+
+            Entidades.CustomEntities.ExtraccionComision extraccionComision = _svcCalculosClient.ValidarUltimaExtraccion();
+
+            PrevisualizacionExtraccionViewModel extraccionViewModel = new PrevisualizacionExtraccionViewModel();
+            extraccionViewModel.EstadoExtraccion = extraccionComision.estadoExtraccion_id;
+            extraccionViewModel.Anio = (short)extraccionComision.año;
+            extraccionViewModel.Mes = (byte)extraccionComision.mes;
+            extraccionViewModel.Dia = (byte)extraccionComision.dia;
+
+            vmmodel.Extraccion = extraccionViewModel;
 
             //Se valida que no hayan facutras generandose en segudo plano
+
+            List<int> factGenerandose = _svcCalculosClient.ValLiqPendientes().ToList();
+            if (factGenerandose != null && factGenerandose.Count > 0)
+                TempData["FACT_PEND"] = "S";
+            else
+                TempData["FACT_PEND"] = "N";
+           
+            return View(vmmodel);
+        }
+
+        //[Authorize, HttpPost]
+        //public ActionResult CalculoComision(CalculoComisionViewModel vmmodel)
+        //{
+
+        //    if (ModelState.IsValid)
+        //    {
+        //        try
+        //        {
+        //            //_svcComisionesClient = new ComisionesSVC.ComisionesClient();
+
+        //            //string username = string.Empty;
+        //            //if (HttpContext.Session["userName"] != null)
+        //            //    username = HttpContext.Session["userName"].ToString();
+
+        //            //_svcCalculosClient = new CalculosTalentosComision.CalculosClient();
+
+        //            //var strres = _svcCalculosClient.ProcesoExtraccionBeneficiarioFacturacionRecaudos("20160923SEDTR", 2016, 9);
+
+        //        }
+        //        catch (Exception ex)
+        //        {
+        //            TempData["ErrorMessage"] = "Error no controlado:" + ex.Message;
+        //            TempData["OperationSuccess"] = false;
+        //        }
+        //    }
+        //    else
+        //    {
+        //        TempData["ErrorMessage"] = "Datos inválidos";
+        //        TempData["OperationSuccess"] = false;
+        //    }
+        //    return View();
+        //}
+
+        [Authorize, HttpPost]
+        public ActionResult ConsultarExtraccion(string anio, string mes, string dia)
+        {
+
+            CalculoComisionViewModel vmmodel = new CalculoComisionViewModel();
+            _svcModelClient = new ModeloComisionSVC.ModeloComisionClient();
+            
+            vmmodel.Modelos.AddRange(_svcModelClient.ListarModeloComisionVigentes()
+                .Select(x => new SelectListItem()
+                {
+                    Value = x.id.ToString(),
+                    Text = x.nombre
+                }));
+
             _svcCalculosClient = new CalculosTalentosComision.CalculosClient();
+
+            PrevisualizacionExtraccionViewModel extraccionViewModel = new PrevisualizacionExtraccionViewModel();
+
+            Entidades.CustomEntities.ExtraccionComision extraccionComision = _svcCalculosClient.ValidarExtraccion(int.Parse(anio), int.Parse(mes), int.Parse(dia));
+
+            if(extraccionComision.id == 0)
+            {
+                Entidades.CustomEntities.ExtraccionComision ultimaExtraccionComision = _svcCalculosClient.ValidarUltimaExtraccion();
+                var fecha = DateTime.Parse(anio + "-" + mes + "-" + dia);
+                if(ultimaExtraccionComision.fecha > fecha)
+                {
+                    extraccionViewModel.EstadoExtraccion = 5;
+                    extraccionViewModel.Anio = (short)ultimaExtraccionComision.año;
+                    extraccionViewModel.Mes = (byte)ultimaExtraccionComision.mes;
+                    extraccionViewModel.Dia = (byte)ultimaExtraccionComision.dia;
+                }
+                else
+                {
+                    extraccionViewModel.EstadoExtraccion = 0;
+                    extraccionViewModel.Anio = short.Parse(anio);
+                    extraccionViewModel.Mes = byte.Parse(mes);
+                    extraccionViewModel.Dia = byte.Parse(dia);
+                }
+            }
+            else
+            {
+                extraccionViewModel.EstadoExtraccion = extraccionComision.estadoExtraccion_id;
+                extraccionViewModel.Anio = (short)extraccionComision.año;
+                extraccionViewModel.Mes = (byte)extraccionComision.mes;
+                extraccionViewModel.Dia = (byte)extraccionComision.dia;
+            }
+
+            vmmodel.Extraccion = extraccionViewModel;
+
+            //Se valida que no hayan facutras generandose en segudo plano
+
             List<int> factGenerandose = _svcCalculosClient.ValLiqPendientes().ToList();
             if (factGenerandose != null && factGenerandose.Count > 0)
                 TempData["FACT_PEND"] = "S";
             else
                 TempData["FACT_PEND"] = "N";
 
-
-        
-
-
-           
-            return View(vmmodel);
+            return Json(new { Extraccion = vmmodel.Extraccion, Modelos = vmmodel.Modelos });
         }
 
         [Authorize, HttpPost]
-        public ActionResult CalculoComision(CalculoComisionViewModel vmmodel)
+        public ActionResult ConsultarUltimaExtraccion()
         {
+            CalculoComisionViewModel vmmodel = new CalculoComisionViewModel();
+            _svcModelClient = new ModeloComisionSVC.ModeloComisionClient();
 
-            if (ModelState.IsValid)
+            vmmodel.Modelos.AddRange(_svcModelClient.ListarModeloComisionVigentes()
+                .Select(x => new SelectListItem()
+                {
+                    Value = x.id.ToString(),
+                    Text = x.nombre
+                }));
+
+            _svcCalculosClient = new CalculosTalentosComision.CalculosClient();
+
+            PrevisualizacionExtraccionViewModel extraccionViewModel = new PrevisualizacionExtraccionViewModel();
+
+            Entidades.CustomEntities.ExtraccionComision extraccionComision = _svcCalculosClient.ValidarUltimaExtraccion();
+
+            if (extraccionComision.id == 0)
             {
-                try
-                {
-                    _svcComisionesClient = new ComisionesSVC.ComisionesClient();
-
-                    string username = string.Empty;
-                    if (HttpContext.Session["userName"] != null)
-                        username = HttpContext.Session["userName"].ToString();
-
-                    _svcCalculosClient = new CalculosTalentosComision.CalculosClient();
-
-                    var strres = _svcCalculosClient.ProcesoExtraccionBeneficiarioFacturacionRecaudos("20160923SEDTR", 2016, 9);
-
-                }
-                catch (Exception ex)
-                {
-                    TempData["ErrorMessage"] = "Error no controlado:" + ex.Message;
-                    TempData["OperationSuccess"] = false;
-                }
+                extraccionViewModel.EstadoExtraccion = 0;
+                extraccionViewModel.ExtraccionId = 0;
             }
             else
             {
-                TempData["ErrorMessage"] = "Datos inválidos";
-                TempData["OperationSuccess"] = false;
+                extraccionViewModel.EstadoExtraccion = extraccionComision.estadoExtraccion_id;
+                switch (extraccionComision.estadoExtraccion_id) 
+                { 
+                    case 1:
+                        extraccionViewModel.EstadoExtraccionName = "En proceso"; 
+                        break;
+                    case 2:
+                        extraccionViewModel.EstadoExtraccionName = "Disponible";
+                        break;
+                    default:
+                        extraccionViewModel.EstadoExtraccionName = "";
+                        break;
+                }
+                extraccionViewModel.Anio = (short)extraccionComision.año;
+                extraccionViewModel.Mes = (byte)extraccionComision.mes;
+                extraccionViewModel.Dia = (byte)extraccionComision.dia;
+                extraccionViewModel.ExtraccionId = extraccionComision.id;
+                extraccionViewModel.Fecha = extraccionComision.fecha.ToString("yyyy-MM-dd");
+                extraccionViewModel.CodigoExtraccion = extraccionComision.CodigoExt;
+                extraccionViewModel.TipoLiquidacionId = (byte)extraccionComision.tipoLiquidacion;
+                switch (extraccionComision.tipoLiquidacion)
+                {
+                    case 1:
+                        extraccionViewModel.TipoLiquidacionName = "Comisiones";
+                        break;
+                    case 2:
+                        extraccionViewModel.TipoLiquidacionName = "Comisiones + Reserva";
+                        break;
+                    default:
+                        extraccionViewModel.TipoLiquidacionName = "";
+                        break;
+                }
             }
-            return RedirectToAction("Historico", new { area = "Comisiones", controller = "CalculoComision" });
+
+            vmmodel.Extraccion = extraccionViewModel;
+
+            // En lugar de devolver la vista con el modelo, devolvemos los datos en formato JSON
+            return Json(new { Extraccion = vmmodel.Extraccion, Modelos = vmmodel.Modelos });
         }
+
 
 
         [Authorize, HttpPost]
@@ -254,7 +389,7 @@ namespace ColpatriaSAI.UI.MVC.Areas.Comisiones.Controllers
         {
             try
             {
-              string miLog="1>Fecha Ejecucion "+ DateTime.Now.ToString();  
+                string miLog="1>Fecha Ejecucion "+ DateTime.Now.ToString();  
                 AsyncManager.OutstandingOperations.Increment();
                 miLog+=" 2>";
                 string username = string.Empty;
@@ -323,126 +458,16 @@ namespace ColpatriaSAI.UI.MVC.Areas.Comisiones.Controllers
             return null;
         }
 
-        public int calculoComision(string anio,string mes, string dia, string tipoLiqId, string modeloId, string usuario)
+        private int calculoComision(string anio,string mes, string dia, string tipoLiqId, string modeloId, string usuario)
         {
-            string milog = "1> metodo calculo comision ";
-
             _svcCalculosClient = new CalculosTalentosComision.CalculosClient();
-           // milog += "2> call method obetnerPeriodoCalComision("+anio +"," + mes +")";
-           // var fechaPeriodo = _svcCalculosClient.obtenerPeriodoCalcComision(Convert.ToInt32(anio), Convert.ToInt32(mes));
-           // milog += "3> resultado metodo: " + fechaPeriodo.ToString();
-           // int diaCalculoFin = 1;
-           // string diaCalculoFins = "";
-           // string diaAnioAnterior = "", mesAnioAnterior = "";
-           // DateTime fechaCalculInicial = DateTime.Now;//Seinicializa la variable, la cual cambiara cuando se lea el registro de BD
-           // milog += "5>c fechaCalculInicial: " + DateTime.Now.ToString();
-
-            //DateTime Fechacorte = Convert.ToDateTime(FechaCorte);
-            //string mes = Fechacorte.Month < 10 ? "0" + Fechacorte.Month.ToString() : Fechacorte.Month.ToString();
-            //string dia = Fechacorte.Day.ToString();
-            //string anio = Fechacorte.Year.ToString();
-
-           // milog = "2> FechaCorte " + Fechacorte.ToString(); ;
+           
             mes = Convert.ToInt32(mes) < 10 ? "0" + mes : mes;
             dia = Convert.ToInt32(dia) < 10 ? "0" + dia : dia;
-            StringBuilder parametrosEtlCF = new StringBuilder();
-            CultureInfo culture = new CultureInfo("es-ES");
-           // milog += "9>mes:"+ mes;
-            //DateTime fechaExtract = Convert.ToDateTime(DateTime.Now.ToString("dd") + "/" + mes + "/" + anio, culture);
-            //milog += "10>fechaExtract:" + fechaExtract ;
-            parametrosEtlCF.Append("/SET \\Package.Variables[User::FechaFinExtraBenef].Properties[Value];\"" + anio + "-" + mes + "-" + dia + "\"");
-            //parametrosEtlCF.Append(" /SET \\Package.Variables[User::FechaIniExtraBenef].Properties[Value];\"" + fechaCalculInicial.Year + "-" + mesAnioAnterior + "-" + diaAnioAnterior + "\"");
-            parametrosEtlCF.Append(" /SET \\Package.Variables[User::ExtInvoiceMAC].Properties[Value];\"MAC" + dia + mes + anio + "F\"");
-            parametrosEtlCF.Append(" /SET \\Package.Variables[User::ExtractCollecctMAC].Properties[Value];\"MAC" + dia + mes+ anio + "R\"");
-            parametrosEtlCF.Append(" /SET \\Package.Variables[User::Homologaciones].Properties[Value];\"EXT-" + anio.Substring(2) + mes + dia+ "\"");
-            milog += "3> parametros EtlCF: " + parametrosEtlCF.ToString();
-            //parametros de novedades - Actualización 02/12/2016
-            ComisionesSVC.ComisionesClient _svcComisiones = new ComisionesSVC.ComisionesClient();
 
-            string[] parametrosCOns = new string[4] { "17", "18", "19", "20" };//Novedades Usarios CF, CV, Usuarios Renovados, Beneficiarios Vigentes
-            List<admin.ConfigParametros> Parametros = _svcComisiones.ObtenerParametros(parametrosCOns).ToList();
-            milog += "4> ParametrosCons: "+ parametrosCOns[0]+","+parametrosCOns[1]+","+parametrosCOns[2]+","+parametrosCOns[3];
-            //Se reemplaza cada valor leido por ; debido a que el SP_EXTRACT_USERS_MAC está configurado para leer los parámetros por ;
-            string NOV_CUNCF = Parametros.Where(x => x.id == 17).FirstOrDefault().valor.Replace(',', ';');
-            string NOV_CUNCV = Parametros.Where(x => x.id == 18).FirstOrDefault().valor.Replace(',', ';');
-            string NOV_CUSRN = Parametros.Where(x => x.id == 19).FirstOrDefault().valor.Replace(',', ';');
-            string BEN_NSTATE = Parametros.Where(x => x.id == 20).FirstOrDefault().valor.Replace(',', ';');
-            milog += "5> " +"-"+ NOV_CUNCF +"-"+ NOV_CUNCV +"-"+ NOV_CUSRN +"-"+ BEN_NSTATE;
-            
-            if (!NOV_CUNCF.Contains(";"))
-                parametrosEtlCF.Append(" /SET \\Package.Variables[User::NOV_CUNCF].Properties[Value];\"" + NOV_CUNCF + "\"");
-            else
-                parametrosEtlCF.Append(" /SET \\Package.Variables[User::NOV_CUNCF].Properties[Value];\\\"" + NOV_CUNCF + "\\\"");
+            Entidades.CustomEntities.ExtraccionComision extraccionComision = _svcCalculosClient.ValidarExtraccion(int.Parse(anio), int.Parse(mes), int.Parse(dia));
 
-            if (NOV_CUNCV.Contains(";"))
-                parametrosEtlCF.Append(" /SET \\Package.Variables[User::NOV_CUNCV].Properties[Value];\\\"" + NOV_CUNCV + "\\\"");
-            else
-                parametrosEtlCF.Append(" /SET \\Package.Variables[User::NOV_CUNCV].Properties[Value];\"" + NOV_CUNCV + "\"");
-
-            if (NOV_CUSRN.Contains(";"))
-                parametrosEtlCF.Append(" /SET \\Package.Variables[User::NOV_CUSRN].Properties[Value];\\\"" + NOV_CUSRN + "\\\"");
-            else
-                parametrosEtlCF.Append(" /SET \\Package.Variables[User::NOV_CUSRN].Properties[Value];\"" + NOV_CUSRN + "\"");
-
-            if (BEN_NSTATE == "N")
-                parametrosEtlCF.Append(" /SET \\Package.Variables[User::BEN_NSTATE].Properties[Value];1");
-            else
-                parametrosEtlCF.Append(" /SET \\Package.Variables[User::BEN_NSTATE].Properties[Value];0");
-
-            milog += "6> Parametro EtlCF" + parametrosEtlCF.ToString();
-            StringBuilder parametrosEtlCV = new StringBuilder();
-            if (tipoLiqId == "2")
-            {
-                milog += "7>";
-                //parametros EtlCv Cargue de beneficiarios
-                parametrosEtlCV.Append(" /SET \\Package.Variables[User::FechaFinExtraBenef].Properties[Value];\"" + anio+ "-" + mes + "-" + dia + "\"");
-                // parametrosEtlCV.Append(" /SET \\Package.Variables[User::FechaIniExtraBenef].Properties[Value];\"" + fechaCalculInicial.Year + "-" + mesAnioAnterior + "-" + diaAnioAnterior + "\"");
-                milog += "8>";
-                if (!NOV_CUNCF.Contains(";"))
-                    parametrosEtlCV.Append(" /SET \\Package.Variables[User::NOV_CUNCF].Properties[Value];\"" + NOV_CUNCF + "\"");
-                else
-                    parametrosEtlCV.Append(" /SET \\Package.Variables[User::NOV_CUNCF].Properties[Value];\\\"" + NOV_CUNCF + "\\\"");
-
-                if (NOV_CUNCV.Contains(";"))
-                    parametrosEtlCV.Append(" /SET \\Package.Variables[User::NOV_CUNCV].Properties[Value];\\\"" + NOV_CUNCV + "\\\"");
-                else
-                    parametrosEtlCV.Append(" /SET \\Package.Variables[User::NOV_CUNCV].Properties[Value];\"" + NOV_CUNCV + "\"");
-
-                if (NOV_CUSRN.Contains(";"))
-                    parametrosEtlCV.Append(" /SET \\Package.Variables[User::NOV_CUSRN].Properties[Value];\\\"" + NOV_CUSRN + "\\\"");
-                else
-                    parametrosEtlCV.Append(" /SET \\Package.Variables[User::NOV_CUSRN].Properties[Value];\"" + NOV_CUSRN + "\"");
-
-                if (BEN_NSTATE == "N")
-                    parametrosEtlCV.Append(" /SET \\Package.Variables[User::BEN_NSTATE].Properties[Value];1");
-                else
-                    parametrosEtlCV.Append(" /SET \\Package.Variables[User::BEN_NSTATE].Properties[Value];0");
-                milog += "9>";
-                //parametro ETLcv SpHomologacion
-                parametrosEtlCV.Append(" /SET \\Package.Variables[User::CodExtrHomol].Properties[Value];\"EXT-" + anio.Substring(2) + mes + dia + "\"");
-              milog += "10>Parametros Etl ComisionVariable" + parametrosEtlCV.ToString() ;
-            }
-
-            milog += "11>";
-            var ExtracComsiones = _svcCalculosClient.ExtractCf_CV(parametrosEtlCF.ToString(), parametrosEtlCV.ToString(), Convert.ToInt32(modeloId), Convert.ToInt16(anio), Convert.ToByte(mes),
-                   0, Convert.ToByte(tipoLiqId), usuario, Convert.ToInt32(tipoLiqId));
-
-            milog += "12>";
-
-            StreamWriter log;
-            string ruta = "E:/SAI/";
-            if (System.IO.File.Exists(ruta + "logCalculoComision2.txt"))
-            {
-                log = new StreamWriter(ruta + "logCalculoComision2.txt");
-            }
-            else
-            {
-                log = System.IO.File.AppendText(ruta + "logCalculoComision2.txt");
-            }
-
-            log.WriteLine(milog);
-            log.Close();
-
+            _svcCalculosClient.LiquidarComision(extraccionComision.id,usuario,int.Parse(modeloId));
 
             return 1;
         }
@@ -501,23 +526,19 @@ namespace ColpatriaSAI.UI.MVC.Areas.Comisiones.Controllers
 
             _svcCalculosClient = new CalculosTalentosComision.CalculosClient();
 
-            StringBuilder parametrosEtlAnulacion = new StringBuilder();
+            Dictionary<string, object> parametrosEtlAnulacion = new Dictionary<string, object>();
             CultureInfo culture = new CultureInfo("es-ES");
 
-            //DateTime FechaExt = Convert.ToDateTime(Fecha);
-
               mes = Convert.ToInt32(mes) < 10 ? "0" + mes : mes;
-            //string dia = FechaExt.Day.ToString();
-            //string anio = FechaExt.Year.ToString();
 
-            parametrosEtlAnulacion.Append("/SET \\Package.Variables[User::IdLiquidacion].Properties[Value];\"" + IdLiquidacion + "\"");
-            parametrosEtlAnulacion.Append(" /SET \\Package.Variables[User::CodExt].Properties[Value];\"EXT-" + anio.Substring(2) + mes + dia + "-" + IdLiquidacion + "\"");
-            parametrosEtlAnulacion.Append(" /SET \\Package.Variables[User::CodMacBHF].Properties[Value];\"MAC-" + dia + mes + anio + "-" + IdLiquidacion + "F\"");
-            parametrosEtlAnulacion.Append(" /SET \\Package.Variables[User::CodMacBHR].Properties[Value];\"MAC-" + dia + mes + anio + "-" + IdLiquidacion + "R\"");
+            parametrosEtlAnulacion.Add("IdLiquidacion", IdLiquidacion);
+            parametrosEtlAnulacion.Add("CodExt", "EXT-" + anio.Substring(2) + mes + dia + "-" + IdLiquidacion.ToString());
+            parametrosEtlAnulacion.Add("CodMacBHF", "MAC-" + dia + mes + anio + "-" + IdLiquidacion + "F");
+            parametrosEtlAnulacion.Add("CodMacBHR", "MAC-" + dia + mes + anio + "-" + IdLiquidacion + "R");
 
             ComisionesSVC.ComisionesClient _svcComisiones = new ComisionesSVC.ComisionesClient();
 
-            var ExtractAnulacion = _svcCalculosClient.ExtractAnulacion(parametrosEtlAnulacion.ToString(), IdLiquidacion);
+            var ExtractAnulacion = _svcCalculosClient.ExtractAnulacion(parametrosEtlAnulacion, IdLiquidacion);
 
 
             return 1;
@@ -550,7 +571,165 @@ namespace ColpatriaSAI.UI.MVC.Areas.Comisiones.Controllers
         
         }
 
+        public ActionResult IniciarDescarga(string anio, string mes, string dia, string tipoLiqId)
+        {
+            try
+            {
+                AsyncManager.OutstandingOperations.Increment();
+                string username = string.Empty;
+                if (HttpContext.Session["userName"] != null)
+                {
+                    username = HttpContext.Session["userName"].ToString();
+                }
 
+                var task1 = Task<int>.Factory.StartNew(() =>
+                {
+                    return DescargaInformacion(anio, mes, dia, tipoLiqId, username);
+                });
+
+                task1.ContinueWith(t =>
+                {
+                    AsyncManager.OutstandingOperations.Decrement();
+                });
+
+            }
+            catch (Exception ex)
+            {
+                string ruta = @"E:\SAI\";
+                // string ruta = @"C:\SAI\";
+                StreamWriter log;
+
+                if (System.IO.File.Exists(ruta + "logCalculoComision1.txt"))
+                {
+                    log = new StreamWriter(ruta + "logCalculoComision1.txt");
+                }
+                else
+                {
+
+                    log = System.IO.File.AppendText(ruta + "logCalculoComision1.txt");
+                }
+
+                log.WriteLine("Excepcion name: " + ex.Message.ToString());
+                log.Close();
+
+            }
+
+            return null;
+        }
+
+        private int DescargaInformacion(string anio, string mes, string dia, string tipoLiqId, string usuario)
+        {
+            _svcCalculosClient = new CalculosTalentosComision.CalculosClient();
+
+            mes = Convert.ToInt32(mes) < 10 ? "0" + mes : mes;
+            dia = Convert.ToInt32(dia) < 10 ? "0" + dia : dia;
+            Dictionary<string, object> parametrosEtlCF = new Dictionary<string, object>();
+            CultureInfo culture = new CultureInfo("es-ES");
+
+            parametrosEtlCF.Add("FechaFinExtraBenef", anio + "-" + mes + "-" + dia);
+            parametrosEtlCF.Add("ExtInvoiceMAC", "MAC" + dia + mes + anio + "F");
+            parametrosEtlCF.Add("ExtractCollecctMAC", "MAC" + dia + mes + anio + "R");
+            parametrosEtlCF.Add("Homologaciones", "EXT-" + anio.Substring(2) + mes + dia);
+            //parametros de novedades - Actualización 02/12/2016
+            ComisionesSVC.ComisionesClient _svcComisiones = new ComisionesSVC.ComisionesClient();
+
+            string[] parametrosCOns = new string[4] { "17", "18", "19", "20" };//Novedades Usarios CF, CV, Usuarios Renovados, Beneficiarios Vigentes
+            List<admin.ConfigParametros> Parametros = _svcComisiones.ObtenerParametros(parametrosCOns).ToList();
+            //Se reemplaza cada valor leido por ; debido a que el SP_EXTRACT_USERS_MAC está configurado para leer los parámetros por ;
+            string NOV_CUNCF = Parametros.Where(x => x.id == 17).FirstOrDefault().valor.Replace(',', ';');
+            string NOV_CUNCV = Parametros.Where(x => x.id == 18).FirstOrDefault().valor.Replace(',', ';');
+            string NOV_CUSRN = Parametros.Where(x => x.id == 19).FirstOrDefault().valor.Replace(',', ';');
+            string BEN_NSTATE = Parametros.Where(x => x.id == 20).FirstOrDefault().valor.Replace(',', ';');
+
+            parametrosEtlCF.Add("NOV_CUNCF", NOV_CUNCF);
+            parametrosEtlCF.Add("NOV_CUNCV", NOV_CUNCV);
+            parametrosEtlCF.Add("NOV_CUSRN", NOV_CUSRN);
+
+            if (BEN_NSTATE == "N")
+                parametrosEtlCF.Add("BEN_NSTATE", 1);
+            else
+                parametrosEtlCF.Add("BEN_NSTATE", 0);
+
+            Dictionary<string, object> parametrosEtlCV = new Dictionary<string, object>();
+            if (tipoLiqId == "2")
+            {
+                //parametros EtlCv Cargue de beneficiarios
+                parametrosEtlCV.Add("FechaFinExtraBenef", anio + "-" + mes + "-" + dia);
+                parametrosEtlCV.Add("NOV_CUNCF", NOV_CUNCF);
+                parametrosEtlCV.Add("NOV_CUNCV", NOV_CUNCV);
+                parametrosEtlCV.Add("NOV_CUSRN", NOV_CUSRN);
+
+                if (BEN_NSTATE == "N")
+                    parametrosEtlCV.Add("BEN_NSTATE", 1);
+                else
+                    parametrosEtlCV.Add("BEN_NSTATE", 0);
+
+                //parametro ETLcv SpHomologacion
+                parametrosEtlCV.Add("CodExtrHomol", "EXT-" + anio.Substring(2) + mes + dia);
+            }
+
+
+            var ExtracComsiones = _svcCalculosClient.ExtractCf_CV(parametrosEtlCF, parametrosEtlCV, Convert.ToInt16(anio), Convert.ToByte(mes),Convert.ToByte(dia),0, Convert.ToByte(tipoLiqId), usuario, Convert.ToInt32(tipoLiqId), new InfoAplicacion());
+
+            return 1;
+        }
+
+        public ActionResult CargarHistoricoDescarga(string anio, string mes, string dia)
+        {
+            try
+            {
+                AsyncManager.OutstandingOperations.Increment();
+                string username = string.Empty;
+                if (HttpContext.Session["userName"] != null)
+                {
+                    username = HttpContext.Session["userName"].ToString();
+                }
+
+                var task1 = Task<int>.Factory.StartNew(() =>
+                {
+                    return CargarExtraccionHistorico(anio, mes, dia);
+                });
+
+                task1.ContinueWith(t =>
+                {
+                    AsyncManager.OutstandingOperations.Decrement();
+                });
+
+            }
+            catch (Exception ex)
+            {
+                string ruta = @"E:\SAI\";
+                // string ruta = @"C:\SAI\";
+                StreamWriter log;
+
+                if (System.IO.File.Exists(ruta + "logCalculoComision1.txt"))
+                {
+                    log = new StreamWriter(ruta + "logCalculoComision1.txt");
+                }
+                else
+                {
+
+                    log = System.IO.File.AppendText(ruta + "logCalculoComision1.txt");
+                }
+
+                log.WriteLine("Excepcion name: " + ex.Message.ToString());
+                log.Close();
+
+            }
+
+            return null;
+        }
+
+        private int CargarExtraccionHistorico(string anio, string mes, string dia)
+        {
+            _svcCalculosClient = new CalculosTalentosComision.CalculosClient();
+
+            Entidades.CustomEntities.ExtraccionComision extraccionComision = _svcCalculosClient.ValidarExtraccion(int.Parse(anio), int.Parse(mes), int.Parse(dia));
+
+            var ExtracComsiones = _svcCalculosClient.CargarExtraccionHistorico(extraccionComision.id);
+
+            return 1;
+        }
 
     }
 

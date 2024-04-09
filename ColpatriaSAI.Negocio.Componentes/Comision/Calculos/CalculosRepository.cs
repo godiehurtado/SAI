@@ -10,6 +10,12 @@ using Componentes = ColpatriaSAI.Negocio.Componentes;
 using System.Data.EntityClient;
 using System.Data.SqlClient;
 using ColpatriaSAI.Negocio.Entidades;
+using ColpatriaSAI.Negocio.Entidades.CustomEntities;
+using ColpatriaSAI.Negocio.Componentes.PackagesExecutionService;
+using ColpatriaSAI.Negocio.Componentes.ETLs;
+using ColpatriaSAI.Negocio.Componentes.Utilidades;
+using System.Diagnostics;
+using ColpatriaSAI.Negocio.Entidades.Informacion;
 
 namespace ColpatriaSAI.Negocio.Componentes.Comision.Calculos
 {
@@ -17,6 +23,8 @@ namespace ColpatriaSAI.Negocio.Componentes.Comision.Calculos
     {
 
         private SAI_Entities _dbcontext = new SAI_Entities();
+        private InfoAplicacion _info;
+        private int idProcesoCF, idProcesoCV;
 
         #region Calculos e Insercion Talentos
         public List<ResultadosCalculos> CalculoTalentos(int pAnio, int pMes, int pIdModelo, int pAsesor = default(int), string Username = default(string))
@@ -322,15 +330,10 @@ namespace ColpatriaSAI.Negocio.Componentes.Comision.Calculos
 
         internal List<LiquidacionComision> ObtenerHistoricoLiquidaciones()
         {
-            //int paginaActual = 2; // Cambia esto al número de página que desees
-            //int elementosPorPagina = 10; // Cambia esto al número de elementos por página que desees
-
             return _dbcontext.LiquidacionComisions.Include("ModeloComision")
                 .Include("EstadoLiquidacion")
                 .Where(x=>x.estadoliquidacion_id != 3)
                 //.OrderByDescending(x => x.fecha)
-                //.Skip((paginaActual - 1) * elementosPorPagina)
-                //.Take(elementosPorPagina)
                 .ToList();
         }
         #endregion
@@ -339,6 +342,7 @@ namespace ColpatriaSAI.Negocio.Componentes.Comision.Calculos
 
         #region levantamiento ETL CF y CV
         /// <summary>
+        /// 2023-11-26 DAHG: Se comentarea método para conservar BK de versió antigua
         /// Este metodo ejecuta la ETL de Extraccion CF para tipo ejec 1 y si el tipo de ejec es 2
         /// ejecuta etl de extraccion CV y despeus de levantar las ETL ejecuta SP PreCalcularComisionSegunModelo
         /// </summary>
@@ -351,158 +355,323 @@ namespace ColpatriaSAI.Negocio.Componentes.Comision.Calculos
         /// <param name="usuario"></param>
         /// <param name="tipoEjec">1- Ejecuta ETL CF. 2- Ejecuta ETL CF y ETL CV </param>
         /// <returns></returns>
-        internal ResultadoOperacionBD ExtractCf_CV(string parmEtlCF, string parmEtlCV, int modeloId, short anio, byte mes,
-            int liquidacionComisionId, byte tipoLiquidacionId, string usuario, int tipoEjec)
+        //internal ResultadoOperacionBD ExtractCf_CV(string idApp,Dictionary<string, object> parametrosEtlCF, Dictionary<string, object> parametrosEtlCV, int modeloId, short anio, byte mes, int liquidacionComisionId, byte tipoLiquidacionId, string usuario, int tipoEjec)
+        //{
+        //    ResultadoOperacionBD res = new ResultadoOperacionBD();
+        //    string rta01 = String.Empty;
+        //    int idliquidacion = 0;
+        //    int rta02 = 0;
+        //    string rta03 = String.Empty;
+        //    int rta04 = 0;    
+
+        //    #region PASO 01 - Inicio Liquidación
+        //    try
+        //    {                
+        //        SqlConnection sqlConn = (SqlConnection)((EntityConnection)_dbcontext.Connection).StoreConnection;
+        //        SqlConnection sqlConn2 = new SqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["IntegrationServer"].ConnectionString);
+
+        //        using (sqlConn)
+        //        using (sqlConn2)
+        //        {
+        //            string cmdtxt = "dbo.SAI_ExtraccionCFyCV_Paso01";
+        //            SqlCommand cmdReport1 = new SqlCommand(cmdtxt, sqlConn);
+        //            cmdReport1.CommandType = CommandType.StoredProcedure;
+
+        //            cmdReport1.Parameters.Add("emodelo_id", SqlDbType.Int);
+        //            cmdReport1.Parameters["emodelo_id"].Value = modeloId;
+
+        //            cmdReport1.Parameters.Add("eanio", SqlDbType.SmallInt);
+        //            cmdReport1.Parameters["eanio"].Value = anio;
+
+        //            cmdReport1.Parameters.Add("emes", SqlDbType.TinyInt);
+        //            cmdReport1.Parameters["emes"].Value = mes;
+
+        //            cmdReport1.Parameters.Add("etipoliquidacion_id", SqlDbType.TinyInt);
+        //            cmdReport1.Parameters["etipoliquidacion_id"].Value = tipoLiquidacionId;
+
+        //            cmdReport1.Parameters.Add("eusuario", SqlDbType.VarChar);
+        //            cmdReport1.Parameters["eusuario"].Value = usuario;
+
+        //            cmdReport1.Parameters.Add("codExtraccion", SqlDbType.VarChar);
+        //            cmdReport1.Parameters["codExtraccion"].Value = parametrosEtlCF["Homologaciones"];
+
+        //            cmdReport1.Parameters.Add("idLiquidacion", SqlDbType.Int);
+        //            cmdReport1.Parameters["idLiquidacion"].Direction = ParameterDirection.Output;
+
+        //            string parmEtlCF = "";
+
+        //            List<PackagesExecutionService.Variable> variablesCF = new List<PackagesExecutionService.Variable>();
+
+        //            foreach (KeyValuePair<string, object> pair in parametrosEtlCF)
+        //            {
+        //                variablesCF.Add(new PackagesExecutionService.Variable() { Key = pair.Key, Value = pair.Value });
+        //                parmEtlCF = parmEtlCF + pair.Key + ": " + pair.Value + "; ";
+        //            }
+
+        //            cmdReport1.Parameters.Add("parametrosEtlCF", SqlDbType.VarChar);
+        //            cmdReport1.Parameters["parametrosEtlCF"].Value = parmEtlCF;
+
+
+        //            cmdReport1.CommandTimeout = 0;//Timeout infinito
+        //            cmdReport1.Connection.Open();
+        //            var rta = cmdReport1.ExecuteNonQuery();
+        //            idliquidacion = int.Parse(cmdReport1.Parameters["idLiquidacion"].Value.ToString());
+        //            res.Resultado = ResultadoOperacion.Exito;
+
+        //            #endregion
+        //            #region PASO 02 - Ejecución ETL Comisión Fija
+
+        //            ETLsRemotas etlsRemotasNeg = new ETLsRemotas();
+        //            List<ETLRemota> etlsRemotas = etlsRemotasNeg.ListarETLsRemotasporTipo(4);
+        //            ETLRemota eTLRemota = etlsRemotas.Where(x => x.nombre == "ExtraccionesCF").FirstOrDefault();
+
+        //            using (PackagesExecutionServiceClient client = new PackagesExecutionServiceClient())
+        //            {
+        //                DTSResponse dtsResponse = client.ExecuteFromPackageFile(idApp, eTLRemota.packageFileName, eTLRemota.packageConfigFileName, variablesCF.ToArray());
+        //                rta02 = (!dtsResponse.Fail ? 0 : 7);
+        //            }
+
+        //            #endregion
+        //            #region PASO 02 - Respuesta Ejecución ETL Comisión Fija
+
+        //            cmdtxt = "dbo.SAI_ExtraccionCFyCV_Paso02";
+        //            cmdReport1 = new SqlCommand(cmdtxt, sqlConn);
+        //            cmdReport1.CommandType = CommandType.StoredProcedure;
+
+        //            cmdReport1.Parameters.Add("respuesta", SqlDbType.Int);
+        //            cmdReport1.Parameters["respuesta"].Value = rta02;
+
+        //            cmdReport1.Parameters.Add("idLiquidacion", SqlDbType.Int);
+        //            cmdReport1.Parameters["idLiquidacion"].Value = idliquidacion;
+
+        //            cmdReport1.Parameters.Add("tipoEjec", SqlDbType.TinyInt);
+        //            cmdReport1.Parameters["tipoEjec"].Value = tipoEjec;
+
+        //            string parmEtlCV = "";
+
+        //            List<PackagesExecutionService.Variable> variablesCV = new List<PackagesExecutionService.Variable>();
+
+        //            foreach (KeyValuePair<string, object> pair in parametrosEtlCV)
+        //            {
+        //                variablesCV.Add(new PackagesExecutionService.Variable() { Key = pair.Key, Value = pair.Value });
+        //                parmEtlCV = parmEtlCV + pair.Key + ": " + pair.Value + "; ";
+        //            }
+
+        //            cmdReport1.Parameters.Add("parametrosEtlCV", SqlDbType.VarChar);
+        //            cmdReport1.Parameters["parametrosEtlCV"].Value = parmEtlCV;
+
+        //            cmdReport1.CommandTimeout = 0;//Timeout infinito
+        //            rta = cmdReport1.ExecuteNonQuery();
+
+        //            res.Resultado = ResultadoOperacion.Exito;
+
+        //    #endregion
+        //    #region PASO 03 - Ejecución ETL Comisión Variable
+        //            if (tipoEjec == 2)
+        //            {
+        //                ETLRemota eTLRemotaCV = etlsRemotas.Where(x => x.nombre == "ExtraccionesCV").FirstOrDefault();
+
+        //                using (PackagesExecutionServiceClient client = new PackagesExecutionServiceClient())
+        //                {
+        //                    DTSResponse dtsResponse = client.ExecuteFromPackageFile(idApp, eTLRemotaCV.packageFileName, eTLRemotaCV.packageConfigFileName, variablesCV.ToArray());
+        //                    rta02 = (!dtsResponse.Fail ? 0 : 7);
+        //                }
+
+        //            }
+        //    #endregion
+        //    #region PASO 04 - Calculo Comisión
+
+        //            cmdtxt = "dbo.SAI_ExtraccionCFyCV_Paso03";
+        //            cmdReport1 = new SqlCommand(cmdtxt, sqlConn);
+        //            cmdReport1.CommandType = CommandType.StoredProcedure;
+
+        //            cmdReport1.Parameters.Add("respuesta", SqlDbType.Int);
+        //            cmdReport1.Parameters["respuesta"].Value = rta04;
+
+        //            cmdReport1.Parameters.Add("emodelo_id", SqlDbType.Int);
+        //            cmdReport1.Parameters["emodelo_id"].Value = modeloId;
+
+        //            cmdReport1.Parameters.Add("eanio", SqlDbType.SmallInt);
+        //            cmdReport1.Parameters["eanio"].Value = anio;
+
+        //            cmdReport1.Parameters.Add("emes", SqlDbType.TinyInt);
+        //            cmdReport1.Parameters["emes"].Value = mes;
+
+        //            cmdReport1.Parameters.Add("idLiquidacion", SqlDbType.Int);
+        //            cmdReport1.Parameters["idLiquidacion"].Value = idliquidacion;
+
+        //            cmdReport1.Parameters.Add("etipoliquidacion_id", SqlDbType.TinyInt);
+        //            cmdReport1.Parameters["etipoliquidacion_id"].Value = tipoLiquidacionId;
+
+        //            cmdReport1.Parameters.Add("tipoEjec", SqlDbType.TinyInt);
+        //            cmdReport1.Parameters["tipoEjec"].Value = tipoEjec;
+
+        //            cmdReport1.CommandTimeout = 0;//Timeout infinito
+        //            rta = cmdReport1.ExecuteNonQuery();
+        //            cmdReport1.Connection.Close();
+        //        }
+        //        res.Resultado = ResultadoOperacion.Exito;
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        res.RegistrosAfectados = 0;
+        //        res.MensajeError = "Error: " + ex.Message;
+        //        res.Resultado = ResultadoOperacion.Error;
+        //    }
+        //    #endregion
+        //    return res;
+        //}
+
+        /// <summary>
+        /// 2023-11-26 DAHG: Nueva versión del método para ejecutar la extracción sin modelo, y que esta pueda ser reusada por todos los modelos de liquidación
+        /// </summary>
+        /// <param name="parmEtl">Parametros para levantar la ETL</param>
+        /// <param name="anio"></param>
+        /// <param name="mes"></param>
+        /// <param name="liquidacionComisionId"></param>
+        /// <param name="tipoLiquidacionId"></param>
+        /// <param name="usuario"></param>
+        /// <param name="tipoEjec">1- Ejecuta ETL CF. 2- Ejecuta ETL CF y ETL CV </param>
+        /// <returns></returns>
+        internal ResultadoOperacionBD ExtractCf_CV(string idApp, Dictionary<string, object> parametrosEtlCF, Dictionary<string, object> parametrosEtlCV, short anio, byte mes, byte dia, int liquidacionComisionId, byte tipoLiquidacionId, string usuario, int tipoEjec, InfoAplicacion info)
         {
             ResultadoOperacionBD res = new ResultadoOperacionBD();
             string rta01 = String.Empty;
-            int idliquidacion = 0;
+            int idExtraccion = 0;
             int rta02 = 0;
             string rta03 = String.Empty;
             int rta04 = 0;
-            #region PASO 01 - Parametros Comsión Fija
+            _info = info;
+
+            #region PASO 01 - Inicio Liquidación
             try
             {
-                String cmdtxt = "dbo.SAI_ExtraccionCFyCV_Paso01";
+                ProcesoLiquidacion procesoCF = new ProcesoLiquidacion()
+                {
+                    tipo = 7,
+                    liquidacion_id = 38,
+                    fechaInicio = DateTime.Now,
+                    estadoProceso_id = 20
+                };
+                idProcesoCF = Proceso.registrarProceso(procesoCF);
+
                 SqlConnection sqlConn = (SqlConnection)((EntityConnection)_dbcontext.Connection).StoreConnection;
                 SqlConnection sqlConn2 = new SqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["IntegrationServer"].ConnectionString);
-                SqlCommand cmdReport1 = new SqlCommand(cmdtxt, sqlConn);
-                cmdReport1.CommandType = CommandType.StoredProcedure;
-
-                cmdReport1.Parameters.Add("parametrosEtlCF", SqlDbType.VarChar);
-                cmdReport1.Parameters["parametrosEtlCF"].Value = parmEtlCF;
-
-                cmdReport1.Parameters.Add("emodelo_id", SqlDbType.Int);
-                cmdReport1.Parameters["emodelo_id"].Value = modeloId;
-
-                cmdReport1.Parameters.Add("eanio", SqlDbType.SmallInt);
-                cmdReport1.Parameters["eanio"].Value = anio;
-
-                cmdReport1.Parameters.Add("emes", SqlDbType.TinyInt);
-                cmdReport1.Parameters["emes"].Value = mes;
-
-                cmdReport1.Parameters.Add("etipoliquidacion_id", SqlDbType.TinyInt);
-                cmdReport1.Parameters["etipoliquidacion_id"].Value = tipoLiquidacionId;
-
-                cmdReport1.Parameters.Add("eusuario", SqlDbType.VarChar);
-                cmdReport1.Parameters["eusuario"].Value = usuario;
-
-                cmdReport1.Parameters.Add("ComandoSO", SqlDbType.NVarChar, 1000);
-                cmdReport1.Parameters["ComandoSO"].Direction = ParameterDirection.Output;
-
-                cmdReport1.Parameters.Add("idLiquidacion", SqlDbType.Int);
-                cmdReport1.Parameters["idLiquidacion"].Direction = ParameterDirection.Output;
 
                 using (sqlConn)
                 using (sqlConn2)
                 {
+                    string cmdtxt = "dbo.SAI_ExtraccionCFyCV_Paso01";
+                    SqlCommand cmdReport1 = new SqlCommand(cmdtxt, sqlConn);
+                    cmdReport1.CommandType = CommandType.StoredProcedure;
+
+                    cmdReport1.Parameters.Add("eanio", SqlDbType.SmallInt);
+                    cmdReport1.Parameters["eanio"].Value = anio;
+
+                    cmdReport1.Parameters.Add("emes", SqlDbType.TinyInt);
+                    cmdReport1.Parameters["emes"].Value = mes;
+
+                    cmdReport1.Parameters.Add("edia", SqlDbType.TinyInt);
+                    cmdReport1.Parameters["edia"].Value = dia;
+
+                    cmdReport1.Parameters.Add("etipoliquidacion_id", SqlDbType.TinyInt);
+                    cmdReport1.Parameters["etipoliquidacion_id"].Value = tipoLiquidacionId;
+
+                    cmdReport1.Parameters.Add("eusuario", SqlDbType.VarChar);
+                    cmdReport1.Parameters["eusuario"].Value = usuario;
+
+                    cmdReport1.Parameters.Add("codExtraccion", SqlDbType.VarChar);
+                    cmdReport1.Parameters["codExtraccion"].Value = parametrosEtlCF["Homologaciones"];
+
+                    cmdReport1.Parameters.Add("idExtraccion", SqlDbType.Int);
+                    cmdReport1.Parameters["idExtraccion"].Direction = ParameterDirection.Output;
+
+                    string parmEtlCF = "";
+
+                    List<PackagesExecutionService.Variable> variablesCF = new List<PackagesExecutionService.Variable>();
+
+                    foreach (KeyValuePair<string, object> pair in parametrosEtlCF)
+                    {
+                        variablesCF.Add(new PackagesExecutionService.Variable() { Key = pair.Key, Value = pair.Value });
+                        parmEtlCF = parmEtlCF + pair.Key + ": " + pair.Value + "; ";
+                    }
+
+                    cmdReport1.Parameters.Add("parametrosEtlCF", SqlDbType.VarChar);
+                    cmdReport1.Parameters["parametrosEtlCF"].Value = parmEtlCF;
+
+
                     cmdReport1.CommandTimeout = 0;//Timeout infinito
                     cmdReport1.Connection.Open();
                     var rta = cmdReport1.ExecuteNonQuery();
-                    rta01 = cmdReport1.Parameters["ComandoSO"].Value.ToString();
-                    idliquidacion = int.Parse(cmdReport1.Parameters["idLiquidacion"].Value.ToString());
+                    idExtraccion = int.Parse(cmdReport1.Parameters["idExtraccion"].Value.ToString());
                     res.Resultado = ResultadoOperacion.Exito;
-            
-            #endregion
-            #region PASO 02 - Ejecución ETL Comisión Fija
-            
-                cmdtxt = "dbo.EjecutarInstruccionSO";                
-                SqlCommand cmdReport2 = new SqlCommand(cmdtxt, sqlConn2);
-                cmdReport2.CommandType = CommandType.StoredProcedure;
 
-                cmdReport2.Parameters.Add("ejec", SqlDbType.VarChar);
-                cmdReport2.Parameters["ejec"].Value = rta01;
+                    #endregion
+                    #region PASO 02 - Ejecución ETL Comisión Fija
 
-                cmdReport2.Parameters.Add("respuesta", SqlDbType.Int);
-                cmdReport2.Parameters["respuesta"].Direction = ParameterDirection.Output;
-               
-                    cmdReport2.CommandTimeout = 0;//Timeout infinito
-                    cmdReport2.Connection.Open();
-                    rta = cmdReport2.ExecuteNonQuery();
-                    rta02 = int.Parse(cmdReport2.Parameters["respuesta"].Value.ToString());
-                
-                res.Resultado = ResultadoOperacion.Exito;
-            
-            #endregion 
-            #region PASO 03 - Parametros Comsión Variable
-            
-                cmdtxt = "dbo.SAI_ExtraccionCFyCV_Paso02";
-                cmdReport1 = new SqlCommand(cmdtxt, sqlConn);
-                cmdReport1.CommandType = CommandType.StoredProcedure;
+                    ETLsRemotas etlsRemotasNeg = new ETLsRemotas();
+                    List<ETLRemota> etlsRemotas = etlsRemotasNeg.ListarETLsRemotasporTipo(4);
+                    ETLRemota eTLRemota = etlsRemotas.Where(x => x.nombre == "ExtraccionesCF").FirstOrDefault();
 
-                cmdReport1.Parameters.Add("respuesta", SqlDbType.Int);
-                cmdReport1.Parameters["respuesta"].Value = rta02;
+                    using (PackagesExecutionServiceClient client = new PackagesExecutionServiceClient())
+                    {
+                        client.BeginExecuteFromPackageFile(idApp, eTLRemota.packageFileName, eTLRemota.packageConfigFileName, variablesCF.ToArray(), GetDataCallback_ExtraccionesCF,client);
+                    }
 
-                cmdReport1.Parameters.Add("idLiquidacion", SqlDbType.Int);
-                cmdReport1.Parameters["idLiquidacion"].Value = idliquidacion;
+                    #endregion
+                    #region PASO 02 - Respuesta Ejecución ETL Comisión Fija
 
-                cmdReport1.Parameters.Add("tipoEjec", SqlDbType.TinyInt);
-                cmdReport1.Parameters["tipoEjec"].Value = tipoEjec;
+                    cmdtxt = "dbo.SAI_ExtraccionCFyCV_Paso02";
+                    cmdReport1 = new SqlCommand(cmdtxt, sqlConn);
+                    cmdReport1.CommandType = CommandType.StoredProcedure;
 
-                cmdReport1.Parameters.Add("parametrosEtlCV", SqlDbType.VarChar);
-                cmdReport1.Parameters["parametrosEtlCV"].Value = parmEtlCV;
+                    cmdReport1.Parameters.Add("idExtraccion", SqlDbType.Int);
+                    cmdReport1.Parameters["idExtraccion"].Value = idExtraccion;
 
-                cmdReport1.Parameters.Add("ComandoSO", SqlDbType.NVarChar, 1000);
-                cmdReport1.Parameters["ComandoSO"].Direction = ParameterDirection.Output;
+                    cmdReport1.Parameters.Add("tipoEjec", SqlDbType.TinyInt);
+                    cmdReport1.Parameters["tipoEjec"].Value = tipoEjec;
+
+                    string parmEtlCV = "";
+
+                    List<PackagesExecutionService.Variable> variablesCV = new List<PackagesExecutionService.Variable>();
+
+                    foreach (KeyValuePair<string, object> pair in parametrosEtlCV)
+                    {
+                        variablesCV.Add(new PackagesExecutionService.Variable() { Key = pair.Key, Value = pair.Value });
+                        parmEtlCV = parmEtlCV + pair.Key + ": " + pair.Value + "; ";
+                    }
+
+                    cmdReport1.Parameters.Add("parametrosEtlCV", SqlDbType.VarChar);
+                    cmdReport1.Parameters["parametrosEtlCV"].Value = parmEtlCV;
 
                     cmdReport1.CommandTimeout = 0;//Timeout infinito
                     rta = cmdReport1.ExecuteNonQuery();
-                    rta03 = cmdReport1.Parameters["ComandoSO"].Value.ToString();
-                
-                res.Resultado = ResultadoOperacion.Exito;
-            
-            #endregion
-            #region PASO 04 - Ejecución ETL Comisión Variable
-            if (!String.IsNullOrWhiteSpace(rta03))
-            {                
-                    cmdtxt = "dbo.EjecutarInstruccionSO";
-                    cmdReport2 = new SqlCommand(cmdtxt, sqlConn2);
-                    cmdReport2.CommandType = CommandType.StoredProcedure;
 
-                    cmdReport2.Parameters.Add("ejec", SqlDbType.VarChar);
-                    cmdReport2.Parameters["ejec"].Value = rta03;
-
-                    cmdReport2.Parameters.Add("respuesta", SqlDbType.Int);
-                    cmdReport2.Parameters["respuesta"].Direction = ParameterDirection.Output;
-
-                        cmdReport2.CommandTimeout = 0;//Timeout infinito
-                        rta = cmdReport2.ExecuteNonQuery();
-                        rta04 = int.Parse(cmdReport2.Parameters["respuesta"].Value.ToString());
-                        cmdReport2.Connection.Close();
-                    
                     res.Resultado = ResultadoOperacion.Exito;
-                
-            }
-            #endregion
-            #region PASO 05 - Calculo Comisión
-            
-                cmdtxt = "dbo.SAI_ExtraccionCFyCV_Paso03";
-                cmdReport1 = new SqlCommand(cmdtxt, sqlConn);
-                cmdReport1.CommandType = CommandType.StoredProcedure;
 
-                cmdReport1.Parameters.Add("respuesta", SqlDbType.Int);
-                cmdReport1.Parameters["respuesta"].Value = rta04;
+                    #endregion
+                    #region PASO 03 - Ejecución ETL Comisión Variable
+                    if (tipoEjec == 2)
+                    {
+                        ProcesoLiquidacion procesoCV = new ProcesoLiquidacion()
+                        {
+                            tipo = 7,
+                            liquidacion_id = 39,
+                            fechaInicio = DateTime.Now,
+                            estadoProceso_id = 20
+                        };
+                        idProcesoCV = Proceso.registrarProceso(procesoCV);
 
-                cmdReport1.Parameters.Add("emodelo_id", SqlDbType.Int);
-                cmdReport1.Parameters["emodelo_id"].Value = modeloId;
+                        ETLRemota eTLRemotaCV = etlsRemotas.Where(x => x.nombre == "ExtraccionesCV").FirstOrDefault();
 
-                cmdReport1.Parameters.Add("eanio", SqlDbType.SmallInt);
-                cmdReport1.Parameters["eanio"].Value = anio;
+                        using (PackagesExecutionServiceClient client = new PackagesExecutionServiceClient())
+                        {
+                            client.BeginExecuteFromPackageFile(idApp, eTLRemotaCV.packageFileName, eTLRemotaCV.packageConfigFileName, variablesCV.ToArray(), GetDataCallback_ExtraccionesCV, client);
+                        }
 
-                cmdReport1.Parameters.Add("emes", SqlDbType.TinyInt);
-                cmdReport1.Parameters["emes"].Value = mes;
-
-                cmdReport1.Parameters.Add("idLiquidacion", SqlDbType.Int);
-                cmdReport1.Parameters["idLiquidacion"].Value = idliquidacion;
-
-                cmdReport1.Parameters.Add("etipoliquidacion_id", SqlDbType.TinyInt);
-                cmdReport1.Parameters["etipoliquidacion_id"].Value = tipoLiquidacionId;
-
-                cmdReport1.Parameters.Add("tipoEjec", SqlDbType.TinyInt);
-                cmdReport1.Parameters["tipoEjec"].Value = tipoEjec;
-
-                    cmdReport1.CommandTimeout = 0;//Timeout infinito
-                    rta = cmdReport1.ExecuteNonQuery();
+                    }
+                    #endregion
+                   
                     cmdReport1.Connection.Close();
                 }
                 res.Resultado = ResultadoOperacion.Exito;
@@ -513,8 +682,280 @@ namespace ColpatriaSAI.Negocio.Componentes.Comision.Calculos
                 res.MensajeError = "Error: " + ex.Message;
                 res.Resultado = ResultadoOperacion.Error;
             }
-            #endregion
+            
             return res;
+        }
+
+        private void GetDataCallback_ExtraccionesCF(IAsyncResult asyncResult)
+        {
+            try
+            {
+                PackagesExecutionServiceClient client = (PackagesExecutionServiceClient)asyncResult.AsyncState;
+
+                DTSResponse result = client.EndExecuteFromPackageFile(asyncResult);
+
+                LoggingUtil logging = new LoggingUtil();
+
+                ETLsRemotas etlsRemotasNeg = new ETLsRemotas();
+                List<ETLRemota> etlsRemotas = etlsRemotasNeg.ListarETLsRemotasporTipo(4);
+                ETLRemota eTLRemota = etlsRemotas.Where(x => x.nombre == "ExtraccionesCF").FirstOrDefault();
+
+                if (result.Fail)
+                    logging.Error(string.Join(", ", result.DtsErrors), LoggingUtil.Prioridad.Alta, "ETLRemotasSAI", TraceEventType.Error, _info);
+                else
+                    logging.Auditoria(String.Format("La ETL {0}, se ejecutó satisfactoriamente", eTLRemota.packageFileName), LoggingUtil.Prioridad.Baja, "ETLRemotasSAI", _info);
+                Proceso.eliminarProceso(idProcesoCF);
+            }
+            catch (Exception)
+            {
+
+
+            }
+
+        }
+
+        private void GetDataCallback_ExtraccionesCV(IAsyncResult asyncResult)
+        {
+            try
+            {
+                PackagesExecutionServiceClient client = (PackagesExecutionServiceClient)asyncResult.AsyncState;
+
+                DTSResponse result = client.EndExecuteFromPackageFile(asyncResult);
+
+                LoggingUtil logging = new LoggingUtil();
+
+                ETLsRemotas etlsRemotasNeg = new ETLsRemotas();
+                List<ETLRemota> etlsRemotas = etlsRemotasNeg.ListarETLsRemotasporTipo(4);
+                ETLRemota eTLRemota = etlsRemotas.Where(x => x.nombre == "ExtraccionesCV").FirstOrDefault();
+
+                if (result.Fail)
+                    logging.Error(string.Join(", ", result.DtsErrors), LoggingUtil.Prioridad.Alta, "ETLRemotasSAI", TraceEventType.Error, _info);
+                else
+                    logging.Auditoria(String.Format("La ETL {0}, se ejecutó satisfactoriamente", eTLRemota.packageFileName), LoggingUtil.Prioridad.Baja, "ETLRemotasSAI", _info);
+                Proceso.eliminarProceso(idProcesoCV);
+            }
+            catch (Exception)
+            {
+
+
+            }
+
+        }
+
+        /// <summary>
+        /// 2023-11-26 DAHG: Método para ejecutar la liquidación de comisión por modelo
+        /// </summary>
+        /// <param name="extraccionId"></param>
+        /// <param name="usuario"></param>
+        /// <param name="modeloId"></param>
+        /// <returns></returns>
+        internal ResultadoOperacionBD LiquidarComision(int extraccionId, string usuario, int modeloId)
+        {
+            ResultadoOperacionBD res = new ResultadoOperacionBD();
+
+            try
+            {
+                SqlConnection sqlConn = (SqlConnection)((EntityConnection)_dbcontext.Connection).StoreConnection;
+                
+                using (sqlConn)
+                {
+                    string cmdtxt = "PreCalcularComisionSegunModelo";
+                    SqlCommand cmdReport1 = new SqlCommand(cmdtxt, sqlConn);
+                    cmdReport1.CommandType = CommandType.StoredProcedure;
+
+                    cmdReport1.Parameters.Add("@modelo_id", SqlDbType.Int);
+                    cmdReport1.Parameters["@modelo_id"].Value = modeloId;
+
+                    cmdReport1.Parameters.Add("@extraccion_id", SqlDbType.Int);
+                    cmdReport1.Parameters["@extraccion_id"].Value = extraccionId;
+
+                    cmdReport1.Parameters.Add("eusuario", SqlDbType.VarChar);
+                    cmdReport1.Parameters["eusuario"].Value = usuario;
+
+                    cmdReport1.CommandTimeout = 0;//Timeout infinito
+                    cmdReport1.Connection.Open();
+                    var rta = cmdReport1.ExecuteNonQuery();
+                    res.Resultado = ResultadoOperacion.Exito;
+
+                    cmdReport1.Connection.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                res.RegistrosAfectados = 0;
+                res.MensajeError = "Error: " + ex.Message;
+                res.Resultado = ResultadoOperacion.Error;
+            }
+
+            return res;
+        }
+
+        /// <summary>
+        /// 2023-11-26 DAHG: Método para cargar la información de una extracción historica ya existente
+        /// </summary>
+        /// <param name="extraccionId"></param>
+        /// <returns></returns>
+        internal ResultadoOperacionBD CargarExtraccionHistorico(int extraccionId)
+        {
+            ResultadoOperacionBD res = new ResultadoOperacionBD();
+
+            try
+            {
+                SqlConnection sqlConn = (SqlConnection)((EntityConnection)_dbcontext.Connection).StoreConnection;
+
+                using (sqlConn)
+                {
+                    string cmdtxt = "MAC_SP_CargarExtraccionHistorico";
+                    SqlCommand cmdReport1 = new SqlCommand(cmdtxt, sqlConn);
+                    cmdReport1.CommandType = CommandType.StoredProcedure;
+
+                    cmdReport1.Parameters.Add("@extraccion_id", SqlDbType.Int);
+                    cmdReport1.Parameters["@extraccion_id"].Value = extraccionId;
+
+                    cmdReport1.CommandTimeout = 0;//Timeout infinito
+                    cmdReport1.Connection.Open();
+                    var rta = cmdReport1.ExecuteNonQuery();
+                    res.Resultado = ResultadoOperacion.Exito;
+
+                    cmdReport1.Connection.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                res.RegistrosAfectados = 0;
+                res.MensajeError = "Error: " + ex.Message;
+                res.Resultado = ResultadoOperacion.Error;
+            }
+
+            return res;
+        }
+
+        /// <summary>
+        /// 2023-11-27 DAHG: Método para validar proceso de extracción por fecha
+        /// </summary>
+        /// <param name="anio"></param>
+        /// <param name="mes"></param>
+        /// <param name="dia"></param>
+        /// <returns></returns>
+        internal ExtraccionComision ValidarExtraccion(int anio, int mes, int dia)
+        {
+            ExtraccionComision extraccionComision = new ExtraccionComision()
+            {
+                id = 0,
+                usuario = "",
+                fecha = DateTime.MinValue,
+                estadoExtraccion_id = 0,
+                año = 0,
+                mes = 0,
+                dia = 0,
+                tipoLiquidacion = 0,
+                CodigoExt = ""
+            };
+            try
+            {
+                SqlConnection sqlConn = (SqlConnection)((EntityConnection)_dbcontext.Connection).StoreConnection;
+
+                using (sqlConn)
+                {
+                    string cmdtxt = "MAC_SP_CONSULTAR_EXTRACCION";
+                    SqlCommand cmdReport1 = new SqlCommand(cmdtxt, sqlConn);
+                    cmdReport1 = new SqlCommand(cmdtxt, sqlConn);
+                    cmdReport1.CommandType = CommandType.StoredProcedure;
+
+                    cmdReport1.Parameters.Add("@eanio", SqlDbType.SmallInt);
+                    cmdReport1.Parameters["@eanio"].Value = anio;
+
+                    cmdReport1.Parameters.Add("@emes", SqlDbType.TinyInt);
+                    cmdReport1.Parameters["@emes"].Value = mes;
+
+                    cmdReport1.Parameters.Add("@edia", SqlDbType.TinyInt);
+                    cmdReport1.Parameters["@edia"].Value = dia;
+
+                    cmdReport1.CommandTimeout = 0;//Timeout infinito
+                    cmdReport1.Connection.Open();
+                    SqlDataReader rta = cmdReport1.ExecuteReader();
+
+                    while (rta.Read())
+                    {
+                            extraccionComision = new ExtraccionComision()
+                            {
+                                id = int.Parse(rta["id"].ToString()),
+                                usuario = rta["usuario"].ToString(),
+                                fecha = DateTime.Parse(rta["fecha"].ToString()),
+                                estadoExtraccion_id = int.Parse(rta["estadoExtraccion_id"].ToString()),
+                                año = int.Parse(rta["año"].ToString()),
+                                mes = int.Parse(rta["mes"].ToString()),
+                                dia = int.Parse(rta["dia"].ToString()),
+                                tipoLiquidacion = int.Parse(rta["tipoLiquidacion"].ToString()),
+                                CodigoExt = rta["CodigoExt"].ToString()
+                            };
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
+
+            return extraccionComision;
+        }
+
+        /// <summary>
+        /// 2023-11-27 DAHG: Método para validar el último proceso de extracción
+        /// </summary>
+        /// <returns></returns>
+        internal ExtraccionComision ValidarUltimaExtraccion()
+        {
+            ExtraccionComision extraccionComision = new ExtraccionComision()
+            {
+                id = 0,
+                usuario = "",
+                fecha = DateTime.MinValue,
+                estadoExtraccion_id = 0,
+                año = 0,
+                mes = 0,
+                dia = 0,
+                tipoLiquidacion = 0,
+                CodigoExt = ""
+            };
+            try
+            {
+                SqlConnection sqlConn = (SqlConnection)((EntityConnection)_dbcontext.Connection).StoreConnection;
+
+                using (sqlConn)
+                {
+                    string cmdtxt = "MAC_SP_CONSULTARULTIMA_EXTRACCION";
+                    SqlCommand cmdReport1 = new SqlCommand(cmdtxt, sqlConn);
+                    cmdReport1 = new SqlCommand(cmdtxt, sqlConn);
+                    cmdReport1.CommandType = CommandType.StoredProcedure;
+
+                    cmdReport1.CommandTimeout = 0;//Timeout infinito
+                    cmdReport1.Connection.Open();
+                    SqlDataReader rta = cmdReport1.ExecuteReader();
+
+                    while (rta.Read())
+                    {
+                        extraccionComision = new ExtraccionComision()
+                        {
+                            id = int.Parse(rta["id"].ToString()),
+                            usuario = rta["usuario"].ToString(),
+                            fecha = DateTime.Parse(rta["fecha"].ToString()),
+                            estadoExtraccion_id = int.Parse(rta["estadoExtraccion_id"].ToString()),
+                            año = int.Parse(rta["año"].ToString()),
+                            mes = int.Parse(rta["mes"].ToString()),
+                            dia = int.Parse(rta["dia"].ToString()),
+                            tipoLiquidacion = int.Parse(rta["tipoLiquidacion"].ToString()),
+                            CodigoExt = rta["CodigoExt"].ToString()
+                        };
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
+
+            return extraccionComision;
         }
 
         internal List<int> ValLiqPendientes()
@@ -584,13 +1025,15 @@ namespace ColpatriaSAI.Negocio.Componentes.Comision.Calculos
         /// </summary>
         /// <param name="liquidacionComisionId"></param>
         /// <returns></returns>
-        internal ResultadoOperacionBD LiquidarComisiones(int liquidacionComisionId)
+        internal ResultadoOperacionBD LiquidarComisiones(string idApp, int liquidacionComisionId)
         {
             ResultadoOperacionBD res = new ResultadoOperacionBD();
             string rta01 = String.Empty;
             int idliquidacion = liquidacionComisionId;
             int rta02 = 0;
-            string rta03 = String.Empty;
+            string rta031 = String.Empty;
+            string rta032 = String.Empty;
+            string rta033 = String.Empty;
             int rta04 = 0;
 
             try
@@ -609,31 +1052,31 @@ namespace ColpatriaSAI.Negocio.Componentes.Comision.Calculos
                     cmdReport1.Parameters.Add("@idLiquidacion", SqlDbType.Int);
                     cmdReport1.Parameters["@idLiquidacion"].Value = liquidacionComisionId;
 
-                    cmdReport1.Parameters.Add("ComandoSO", SqlDbType.NVarChar, 1000);
-                    cmdReport1.Parameters["ComandoSO"].Direction = ParameterDirection.Output;
+                    cmdReport1.Parameters.Add("@codExtraccion", SqlDbType.NVarChar, 32);
+                    cmdReport1.Parameters["@codExtraccion"].Direction = ParameterDirection.Output;
                     
                     cmdReport1.CommandTimeout = 0;//Timeout infinito
                     cmdReport1.Connection.Open();
                     var rta = cmdReport1.ExecuteNonQuery();
-                    rta01 = cmdReport1.Parameters["ComandoSO"].Value.ToString();
+                    rta01 = cmdReport1.Parameters["@codExtraccion"].Value.ToString();
                     res.Resultado = ResultadoOperacion.Exito;
                     #endregion
 
                     #region PASO 02 - Ejecución ETL GP
-                    cmdtxt = "dbo.EjecutarInstruccionSO";
-                    SqlCommand cmdReport2 = new SqlCommand(cmdtxt, sqlConn2);
-                    cmdReport2.CommandType = CommandType.StoredProcedure;
 
-                    cmdReport2.Parameters.Add("ejec", SqlDbType.VarChar);
-                    cmdReport2.Parameters["ejec"].Value = rta01;
+                    List<PackagesExecutionService.Variable> variablesGp = new List<PackagesExecutionService.Variable>();
+                    variablesGp.Add(new PackagesExecutionService.Variable() { Key = "CODIGOEXTRACCION", Value = rta01 });
 
-                    cmdReport2.Parameters.Add("respuesta", SqlDbType.Int);
-                    cmdReport2.Parameters["respuesta"].Direction = ParameterDirection.Output;
+                    
+                    ETLsRemotas etlsRemotasNeg = new ETLsRemotas();
+                    List<ETLRemota> etlsRemotas = etlsRemotasNeg.ListarETLsRemotasporTipo(4);
+                    ETLRemota eTLRemota = etlsRemotas.Where(x => x.nombre == "EtlGp").FirstOrDefault();
 
-                    cmdReport2.CommandTimeout = 0;//Timeout infinito
-                    cmdReport2.Connection.Open();
-                    rta = cmdReport2.ExecuteNonQuery();
-                    rta02 = int.Parse(cmdReport2.Parameters["respuesta"].Value.ToString());
+                    using (PackagesExecutionServiceClient client = new PackagesExecutionServiceClient())
+                    {
+                        DTSResponse dtsResponse = client.ExecuteFromPackageFile(idApp, eTLRemota.packageFileName, eTLRemota.packageConfigFileName, variablesGp.ToArray());
+                        rta02 = (!dtsResponse.Fail ? 0 : 7);
+                    }
 
                     res.Resultado = ResultadoOperacion.Exito;
                     #endregion
@@ -649,31 +1092,38 @@ namespace ColpatriaSAI.Negocio.Componentes.Comision.Calculos
                     cmdReport1.Parameters.Add("respuesta", SqlDbType.Int);
                     cmdReport1.Parameters["respuesta"].Value = rta02;
                     
-                    cmdReport1.Parameters.Add("ComandoSO", SqlDbType.NVarChar, 1000);
-                    cmdReport1.Parameters["ComandoSO"].Direction = ParameterDirection.Output;
+                    cmdReport1.Parameters.Add("@panio", SqlDbType.Int);
+                    cmdReport1.Parameters["@panio"].Direction = ParameterDirection.Output;
+
+                    cmdReport1.Parameters.Add("@codExtraccion", SqlDbType.VarChar,32);
+                    cmdReport1.Parameters["@codExtraccion"].Direction = ParameterDirection.Output;
+
+                    cmdReport1.Parameters.Add("@pmes", SqlDbType.Int);
+                    cmdReport1.Parameters["@pmes"].Direction = ParameterDirection.Output;
 
                     cmdReport1.CommandTimeout = 0;//Timeout infinito
                     rta = cmdReport1.ExecuteNonQuery();
-                    rta03 = cmdReport1.Parameters["ComandoSO"].Value.ToString();
+                    rta031 = cmdReport1.Parameters["@panio"].Value.ToString();
+                    rta032 = cmdReport1.Parameters["@codExtraccion"].Value.ToString();
+                    rta033 = cmdReport1.Parameters["@pmes"].Value.ToString();
 
                     res.Resultado = ResultadoOperacion.Exito;
                     #endregion
 
                     #region PASO 04 - Ejecución ETL BH
-                    cmdtxt = "dbo.EjecutarInstruccionSO";
-                    cmdReport2 = new SqlCommand(cmdtxt, sqlConn2);
-                    cmdReport2.CommandType = CommandType.StoredProcedure;
 
-                    cmdReport2.Parameters.Add("ejec", SqlDbType.VarChar);
-                    cmdReport2.Parameters["ejec"].Value = rta03;
+                    List<PackagesExecutionService.Variable> variablesBh = new List<PackagesExecutionService.Variable>();
+                    variablesGp.Add(new PackagesExecutionService.Variable() { Key = "anio", Value = rta031 });
+                    variablesGp.Add(new PackagesExecutionService.Variable() { Key = "CodigoExtraccion", Value = rta032 });
+                    variablesGp.Add(new PackagesExecutionService.Variable() { Key = "mes", Value = rta033 });
 
-                    cmdReport2.Parameters.Add("respuesta", SqlDbType.Int);
-                    cmdReport2.Parameters["respuesta"].Direction = ParameterDirection.Output;
+                    ETLRemota eTLRemotaBh = etlsRemotas.Where(x => x.nombre == "EtlDatosBh").FirstOrDefault();
 
-                    cmdReport2.CommandTimeout = 0;//Timeout infinito
-                    rta = cmdReport2.ExecuteNonQuery();
-                    rta04 = int.Parse(cmdReport2.Parameters["respuesta"].Value.ToString());
-                    cmdReport2.Connection.Close();
+                    using (PackagesExecutionServiceClient client = new PackagesExecutionServiceClient())
+                    {
+                        DTSResponse dtsResponse = client.ExecuteFromPackageFile(idApp, eTLRemotaBh.packageFileName, eTLRemota.packageConfigFileName, variablesBh.ToArray());
+                        rta04 = (!dtsResponse.Fail ? 0 : 7);
+                    }
 
                     res.Resultado = ResultadoOperacion.Exito;
                     #endregion
@@ -750,7 +1200,7 @@ namespace ColpatriaSAI.Negocio.Componentes.Comision.Calculos
 
         }
 
-        internal ResultadoOperacionBD ExtractAnulacion(string ParametrosEtl, int idLiquidacion)
+        internal ResultadoOperacionBD ExtractAnulacion(string idApp, Dictionary<string, object> parametrosETLAnular, int idLiquidacion)
         {
             string rta01 = String.Empty;
             int rta02 = 0;
@@ -762,46 +1212,46 @@ namespace ColpatriaSAI.Negocio.Componentes.Comision.Calculos
                 String cmdtxt = "dbo.SAI_Anular";
                 SqlConnection sqlConn = (SqlConnection)((EntityConnection)_dbcontext.Connection).StoreConnection;
                 SqlConnection sqlConn2 = new SqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["IntegrationServer"].ConnectionString);
-                SqlCommand cmdReport1 = new SqlCommand(cmdtxt, sqlConn);
-                cmdReport1.CommandType = CommandType.StoredProcedure;
 
-                cmdReport1.Parameters.Add("parametrosEtlAnular", SqlDbType.VarChar);
-                cmdReport1.Parameters["parametrosEtlAnular"].Value = ParametrosEtl;
-
-                cmdReport1.Parameters.Add("idLiquidacion", SqlDbType.Int);
-                cmdReport1.Parameters["idLiquidacion"].Value = idLiquidacion;
-                                
-                cmdReport1.Parameters.Add("ComandoSO", SqlDbType.NVarChar, 1000);
-                cmdReport1.Parameters["ComandoSO"].Direction = ParameterDirection.Output;
-
-            
                 using (sqlConn)
                 using (sqlConn2)
                 {
+                    SqlCommand cmdReport1 = new SqlCommand(cmdtxt, sqlConn);
+                    cmdReport1.CommandType = CommandType.StoredProcedure;                
+
+                    cmdReport1.Parameters.Add("idLiquidacion", SqlDbType.Int);
+                    cmdReport1.Parameters["idLiquidacion"].Value = idLiquidacion;
+
+                    string ParametrosEtl = "";
+
+                    List<PackagesExecutionService.Variable> variablesAnular = new List<PackagesExecutionService.Variable>();
+
+                    foreach (KeyValuePair<string, object> pair in parametrosETLAnular)
+                    {
+                        variablesAnular.Add(new PackagesExecutionService.Variable() { Key = pair.Key, Value = pair.Value });
+                        ParametrosEtl = ParametrosEtl + pair.Key + ": " + pair.Value + "; ";
+                    }
+
+                    cmdReport1.Parameters.Add("parametrosEtlAnular", SqlDbType.VarChar);
+                    cmdReport1.Parameters["parametrosEtlAnular"].Value = ParametrosEtl;                
 
                     cmdReport1.CommandTimeout = 0;//Timeout infinito
                     cmdReport1.Connection.Open();
                     var rta = cmdReport1.ExecuteNonQuery();
-                    rta01 = cmdReport1.Parameters["ComandoSO"].Value.ToString();
                     res.Resultado = ResultadoOperacion.Exito;
 
-                #endregion
-               #region PASO 02 - Ejecución ETL Anular
+                    #endregion
+                    #region PASO 02 - Ejecución ETL Anular
 
-                    cmdtxt = "dbo.EjecutarInstruccionSO";
-                    SqlCommand cmdReport2 = new SqlCommand(cmdtxt, sqlConn2);
-                    cmdReport2.CommandType = CommandType.StoredProcedure;
+                    ETLsRemotas etlsRemotasNeg = new ETLsRemotas();
+                    List<ETLRemota> etlsRemotas = etlsRemotasNeg.ListarETLsRemotasporTipo(4);
+                    ETLRemota eTLRemota = etlsRemotas.Where(x => x.nombre == "Anular").FirstOrDefault();
 
-                    cmdReport2.Parameters.Add("ejec", SqlDbType.VarChar);
-                    cmdReport2.Parameters["ejec"].Value = rta01;
-
-                    cmdReport2.Parameters.Add("respuesta", SqlDbType.Int);
-                    cmdReport2.Parameters["respuesta"].Direction = ParameterDirection.Output;
-
-                    cmdReport2.CommandTimeout = 0;//Timeout infinito
-                    cmdReport2.Connection.Open();
-                    rta = cmdReport2.ExecuteNonQuery();
-                    rta02 = int.Parse(cmdReport2.Parameters["respuesta"].Value.ToString());
+                    using (PackagesExecutionServiceClient client = new PackagesExecutionServiceClient())
+                    {
+                        DTSResponse dtsResponse = client.ExecuteFromPackageFile(idApp, eTLRemota.packageFileName, eTLRemota.packageConfigFileName, variablesAnular.ToArray());
+                        rta02 = (!dtsResponse.Fail ? 0 : 7);
+                    }
 
                     res.Resultado = ResultadoOperacion.Exito;
 
@@ -823,15 +1273,14 @@ namespace ColpatriaSAI.Negocio.Componentes.Comision.Calculos
 
         # region reprocesar liquidacion
 
-        internal ResultadoOperacionBD ReprocesarLiquidacion(string parmEtlCF, string parmEtlCV,string paramEtlAnulacion, int modeloId, short anio, byte mes,
-            int liquidacionComisionId, byte tipoLiquidacionId, string usuario, int tipoEjec)
+        internal ResultadoOperacionBD ReprocesarLiquidacion(string idApp, Dictionary<string, object> parametrosEtlCF, Dictionary<string, object> parametrosEtlCV, Dictionary<string, object> parametrosEtlAnulacion, int modeloId, short anio, byte mes, int liquidacionComisionId, byte tipoLiquidacionId, string usuario, int tipoEjec, InfoAplicacion info)
         {
             ResultadoOperacionBD res = new ResultadoOperacionBD();
 
             try
             {
-                res = ExtractAnulacion(paramEtlAnulacion, liquidacionComisionId);
-                res = ExtractCf_CV(parmEtlCF, parmEtlCV, modeloId, anio, mes, liquidacionComisionId, tipoLiquidacionId, usuario, tipoEjec);
+                res = ExtractAnulacion(idApp, parametrosEtlAnulacion, liquidacionComisionId);
+                res = ExtractCf_CV(idApp, parametrosEtlCF, parametrosEtlCV, anio, mes, 1, liquidacionComisionId, tipoLiquidacionId, usuario, tipoEjec, info);
             }
             catch (Exception ex)
             {

@@ -162,7 +162,7 @@
     </Reference>
     <Reference Include="System.Web.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\SAI fuentes2023 Validar\Fuentes 27032023\SAI\ColpatriaSAI.UI.MVC\bin\System.Web.Razor.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\SAI fuentes2023 Validar\Fuentes 27032023\SAI\ColpatriaSAI.UI.MVC\bin\System.Web.Razor.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.WebPages, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -173,7 +173,7 @@
     </Reference>
     <Reference Include="System.Web.WebPages.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\SAI fuentes2023 Validar\Fuentes 27032023\SAI\ColpatriaSAI.UI.MVC\bin\System.Web.WebPages.Razor.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\SAI fuentes2023 Validar\Fuentes 27032023\SAI\ColpatriaSAI.UI.MVC\bin\System.Web.WebPages.Razor.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml.Linq">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
@@ -1299,6 +1299,12 @@
     <None Include="Service References\CalculosTalentosComision\CalculosTalentosComision6.xsd">
       <SubType>Designer</SubType>
     </None>
+    <None Include="Service References\CalculosTalentosComision\CalculosTalentosComision7.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\CalculosTalentosComision\CalculosTalentosComision8.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Service References\ComisionesSVC\Comisiones.wsdl" />
     <None Include="Service References\ComisionesSVC\Comisiones.xsd">
       <SubType>Designer</SubType>
@@ -1826,11 +1832,11 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>False</AutoAssignPort>
           <DevelopmentServerPort>62477</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:62479/</IISUrl>
+          <IISUrl>http://localhost:62477/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

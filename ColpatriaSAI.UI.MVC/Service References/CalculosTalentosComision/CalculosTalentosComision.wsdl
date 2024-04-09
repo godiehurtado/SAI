@@ -9,6 +9,8 @@
       <xsd:import schemaLocation="http://localhost:2090/CalculosTalentosComision.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" />
       <xsd:import schemaLocation="http://localhost:2090/CalculosTalentosComision.svc?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades.ResultadoProcedimientos" />
       <xsd:import schemaLocation="http://localhost:2090/CalculosTalentosComision.svc?xsd=xsd6" namespace="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Componentes.Comision" />
+      <xsd:import schemaLocation="http://localhost:2090/CalculosTalentosComision.svc?xsd=xsd7" namespace="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades.Informacion" />
+      <xsd:import schemaLocation="http://localhost:2090/CalculosTalentosComision.svc?xsd=xsd8" namespace="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades.CustomEntities" />
     </xsd:schema>
   </wsdl:types>
   <wsdl:message name="ICalculos_CalculoTalentos_InputMessage">
@@ -41,7 +43,7 @@
   <wsdl:message name="ICalculos_ObtenerComisionFijaRecaudosPorLiquidacion_OutputMessage">
     <wsdl:part name="parameters" element="tns:ObtenerComisionFijaRecaudosPorLiquidacionResponse" />
   </wsdl:message>
-	<wsdl:message name="ICalculos_ObtenerComisionFijaRecaudosPorLiquidacion604_InputMessage">
+  <wsdl:message name="ICalculos_ObtenerComisionFijaRecaudosPorLiquidacion604_InputMessage">
     <wsdl:part name="parameters" element="tns:ObtenerComisionFijaRecaudosPorLiquidacion604" />
   </wsdl:message>
   <wsdl:message name="ICalculos_ObtenerComisionFijaRecaudosPorLiquidacion604_OutputMessage">
@@ -77,6 +79,18 @@
   <wsdl:message name="ICalculos_ExtractCf_CV_OutputMessage">
     <wsdl:part name="parameters" element="tns:ExtractCf_CVResponse" />
   </wsdl:message>
+  <wsdl:message name="ICalculos_LiquidarComision_InputMessage">
+    <wsdl:part name="parameters" element="tns:LiquidarComision" />
+  </wsdl:message>
+  <wsdl:message name="ICalculos_LiquidarComision_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LiquidarComisionResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICalculos_CargarExtraccionHistorico_InputMessage">
+    <wsdl:part name="parameters" element="tns:CargarExtraccionHistorico" />
+  </wsdl:message>
+  <wsdl:message name="ICalculos_CargarExtraccionHistorico_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CargarExtraccionHistoricoResponse" />
+  </wsdl:message>
   <wsdl:message name="ICalculos_obtenerPeriodoCalcComision_InputMessage">
     <wsdl:part name="parameters" element="tns:obtenerPeriodoCalcComision" />
   </wsdl:message>
@@ -88,6 +102,18 @@
   </wsdl:message>
   <wsdl:message name="ICalculos_ValLiqPendientes_OutputMessage">
     <wsdl:part name="parameters" element="tns:ValLiqPendientesResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICalculos_ValidarExtraccion_InputMessage">
+    <wsdl:part name="parameters" element="tns:ValidarExtraccion" />
+  </wsdl:message>
+  <wsdl:message name="ICalculos_ValidarExtraccion_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ValidarExtraccionResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICalculos_ValidarUltimaExtraccion_InputMessage">
+    <wsdl:part name="parameters" element="tns:ValidarUltimaExtraccion" />
+  </wsdl:message>
+  <wsdl:message name="ICalculos_ValidarUltimaExtraccion_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ValidarUltimaExtraccionResponse" />
   </wsdl:message>
   <wsdl:message name="ICalculos_LiquidarComisiones_InputMessage">
     <wsdl:part name="parameters" element="tns:LiquidarComisiones" />
@@ -146,11 +172,10 @@
       <wsdl:input wsaw:Action="http://tempuri.org/ICalculos/ObtenerComisionFijaRecaudosPorLiquidacion" message="tns:ICalculos_ObtenerComisionFijaRecaudosPorLiquidacion_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/ICalculos/ObtenerComisionFijaRecaudosPorLiquidacionResponse" message="tns:ICalculos_ObtenerComisionFijaRecaudosPorLiquidacion_OutputMessage" />
     </wsdl:operation>
-	      <wsdl:operation name="ObtenerComisionFijaRecaudosPorLiquidacion604">
+    <wsdl:operation name="ObtenerComisionFijaRecaudosPorLiquidacion604">
       <wsdl:input wsaw:Action="http://tempuri.org/ICalculos/ObtenerComisionFijaRecaudosPorLiquidacion604" message="tns:ICalculos_ObtenerComisionFijaRecaudosPorLiquidacion604_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/ICalculos/ObtenerComisionFijaRecaudosPorLiquidacion604Response" message="tns:ICalculos_ObtenerComisionFijaRecaudosPorLiquidacion604_OutputMessage" />
     </wsdl:operation>
-		  
     <wsdl:operation name="PreCalcularComisionSegunModelo">
       <wsdl:input wsaw:Action="http://tempuri.org/ICalculos/PreCalcularComisionSegunModelo" message="tns:ICalculos_PreCalcularComisionSegunModelo_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/ICalculos/PreCalcularComisionSegunModeloResponse" message="tns:ICalculos_PreCalcularComisionSegunModelo_OutputMessage" />
@@ -171,6 +196,14 @@
       <wsdl:input wsaw:Action="http://tempuri.org/ICalculos/ExtractCf_CV" message="tns:ICalculos_ExtractCf_CV_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/ICalculos/ExtractCf_CVResponse" message="tns:ICalculos_ExtractCf_CV_OutputMessage" />
     </wsdl:operation>
+    <wsdl:operation name="LiquidarComision">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICalculos/LiquidarComision" message="tns:ICalculos_LiquidarComision_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICalculos/LiquidarComisionResponse" message="tns:ICalculos_LiquidarComision_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CargarExtraccionHistorico">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICalculos/CargarExtraccionHistorico" message="tns:ICalculos_CargarExtraccionHistorico_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICalculos/CargarExtraccionHistoricoResponse" message="tns:ICalculos_CargarExtraccionHistorico_OutputMessage" />
+    </wsdl:operation>
     <wsdl:operation name="obtenerPeriodoCalcComision">
       <wsdl:input wsaw:Action="http://tempuri.org/ICalculos/obtenerPeriodoCalcComision" message="tns:ICalculos_obtenerPeriodoCalcComision_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/ICalculos/obtenerPeriodoCalcComisionResponse" message="tns:ICalculos_obtenerPeriodoCalcComision_OutputMessage" />
@@ -178,6 +211,14 @@
     <wsdl:operation name="ValLiqPendientes">
       <wsdl:input wsaw:Action="http://tempuri.org/ICalculos/ValLiqPendientes" message="tns:ICalculos_ValLiqPendientes_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/ICalculos/ValLiqPendientesResponse" message="tns:ICalculos_ValLiqPendientes_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ValidarExtraccion">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICalculos/ValidarExtraccion" message="tns:ICalculos_ValidarExtraccion_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICalculos/ValidarExtraccionResponse" message="tns:ICalculos_ValidarExtraccion_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ValidarUltimaExtraccion">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICalculos/ValidarUltimaExtraccion" message="tns:ICalculos_ValidarUltimaExtraccion_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICalculos/ValidarUltimaExtraccionResponse" message="tns:ICalculos_ValidarUltimaExtraccion_OutputMessage" />
     </wsdl:operation>
     <wsdl:operation name="LiquidarComisiones">
       <wsdl:input wsaw:Action="http://tempuri.org/ICalculos/LiquidarComisiones" message="tns:ICalculos_LiquidarComisiones_InputMessage" />
@@ -251,7 +292,7 @@
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
-	  <wsdl:operation name="ObtenerComisionFijaRecaudosPorLiquidacion604">
+    <wsdl:operation name="ObtenerComisionFijaRecaudosPorLiquidacion604">
       <soap:operation soapAction="http://tempuri.org/ICalculos/ObtenerComisionFijaRecaudosPorLiquidacion604" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
@@ -305,6 +346,24 @@
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="LiquidarComision">
+      <soap:operation soapAction="http://tempuri.org/ICalculos/LiquidarComision" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CargarExtraccionHistorico">
+      <soap:operation soapAction="http://tempuri.org/ICalculos/CargarExtraccionHistorico" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="obtenerPeriodoCalcComision">
       <soap:operation soapAction="http://tempuri.org/ICalculos/obtenerPeriodoCalcComision" style="document" />
       <wsdl:input>
@@ -316,6 +375,24 @@
     </wsdl:operation>
     <wsdl:operation name="ValLiqPendientes">
       <soap:operation soapAction="http://tempuri.org/ICalculos/ValLiqPendientes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValidarExtraccion">
+      <soap:operation soapAction="http://tempuri.org/ICalculos/ValidarExtraccion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValidarUltimaExtraccion">
+      <soap:operation soapAction="http://tempuri.org/ICalculos/ValidarUltimaExtraccion" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>
