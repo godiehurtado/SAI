@@ -56,6 +56,9 @@ else
             <div id="mensaje2" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <h5>Existe un proceso de extracción disponible para el periodo @Model.Extraccion.Anio-@Model.Extraccion.Mes-@Model.Extraccion.Dia. Por favor realice la liquidación. Si desea reprocesar la extracción, seleccione Extraer. Si quiere liquidar otro periodo, seleccione otra fecha en el calendario.</h5>
             </div>
+            <div id="mensaje3" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <h5>No existe un proceso de extracción histórico.</h5>
+            </div>
             <div id="mensaje4" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <h5>Existe un proceso de extracción en histórico para el periodo @Model.Extraccion.Anio-@Model.Extraccion.Mes-@Model.Extraccion.Dia. Si desea liquidar con esta extracción seleccione "Usar". Si desea reprocesar la extracción, seleccione Extraer. Si quiere liquidar otro periodo, seleccione otra fecha en el calendario.</h5>
             </div>
@@ -354,6 +357,7 @@ else
                     if (res.Extraccion.EstadoExtraccion == 0) {
                         $('#mensaje1').hide();
                         $('#mensaje2').hide();
+                        $('#mensaje3').hide();
                         $('#mensaje4').hide();
                         $('#mensaje5').hide();
                         $('#lblTipoLiquidacion').show();
@@ -364,6 +368,7 @@ else
                     } else if (res.Extraccion.EstadoExtraccion == 1) {
                         $('#mensaje1').show();
                         $('#mensaje2').hide();
+                        $('#mensaje3').hide();
                         $('#mensaje4').hide();
                         $('#mensaje5').hide();
                         $('#lblTipoLiquidacion').hide();
@@ -377,6 +382,7 @@ else
                     } else if (res.Extraccion.EstadoExtraccion == 2) {
                         $('#mensaje1').hide();
                         $('#mensaje2').show();
+                        $('#mensaje3').hide();
                         $('#mensaje4').hide();
                         $('#mensaje5').hide();
                         $('#lblTipoLiquidacion').hide();
@@ -387,6 +393,7 @@ else
                     } else if (res.Extraccion.EstadoExtraccion == 4) {
                         $('#mensaje1').hide();
                         $('#mensaje2').hide();
+                        $('#mensaje3').hide();
                         $('#mensaje4').show();
                         $('#mensaje5').hide();
                         $('#lblTipoLiquidacion').hide();
@@ -397,6 +404,7 @@ else
                     } else if (res.Extraccion.EstadoExtraccion == 5) {
                         $('#mensaje1').hide();
                         $('#mensaje2').hide();
+                        $('#mensaje3').hide();
                         $('#mensaje4').hide();
                         $('#mensaje5').show();
                         $('#lblTipoLiquidacion').hide();
@@ -405,6 +413,18 @@ else
                         $('#btnHistorico').hide();
                         $('#divLiquidacion').hide();
                     }
+                }
+                else {
+                    $('#mensaje1').hide();
+                    $('#mensaje2').hide();
+                    $('#mensaje3').hide();
+                    $('#mensaje4').hide();
+                    $('#mensaje5').hide();
+                    $('#lblTipoLiquidacion').show();
+                    $('#divTipoLiquidacion').show();
+                    $('#btnDescarga').show();
+                    $('#btnHistorico').hide();
+                    $('#divLiquidacion').hide();
                 }
 
                 });
