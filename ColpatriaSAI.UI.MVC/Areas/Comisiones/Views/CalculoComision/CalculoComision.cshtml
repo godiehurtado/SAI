@@ -9,37 +9,38 @@
     <div class="row">
         @if (TempData["OperationSuccess"] != null && TempData["OperationSuccess"].ToString() == "True")
         {
-<label>
-    @TempData["SuccessMessage"]
-</label> }
-else
-{
-<label class="alert-danger">@TempData["ErrorMessage"]</label>}
+            <label>
+                @TempData["SuccessMessage"]
+            </label> }
+        else
+        {
+            <label class="alert-danger">@TempData["ErrorMessage"]</label>}
 
         @if (TempData["FACT_PEND"] != null && TempData["FACT_PEND"].ToString() == "S")
         {
-<script type="text/javascript">
-    $(document).ready(function () {
-        console.log("1");
-        $("#dialog-wait").dialog({
-            resizable: false,
-            height: "auto",
-            width: 400,
-            height: 250,
-            modal: true,
-            autoOpen: false,
-            buttons: {}
-        });
-        console.log("2");
-        $("#btnCalcular").hide();
-        console.log("3");
-        //Se muestra el mensaje
-        $("#dialog-wait").dialog('open');
-        var atributoDialog = $(".ui-dialog").attr('style') + "z-index: 100";
-        $(".ui-dialog").attr('style', atributoDialog);
-        console.log("4");
-    });
-</script>}
+            <script type="text/javascript">
+                $(document).ready(function () {
+                    console.log("1");
+                    $("#dialog-wait").dialog({
+                        resizable: false,
+                        height: "auto",
+                        width: 400,
+                        height: 250,
+                        modal: true,
+                        autoOpen: false,
+                        buttons: {}
+                    });
+                    console.log("2");
+                    $("#btnCalcular").hide();
+                    console.log("3");
+                    //Se muestra el mensaje
+                    $("#dialog-wait").dialog('open');
+                    var atributoDialog = $(".ui-dialog").attr('style') + "z-index: 100";
+                    $(".ui-dialog").attr('style', atributoDialog);
+                    console.log("4");
+                });
+            </script>
+}
     </div>
 
 
@@ -116,6 +117,59 @@ else
         </div>
     </div>
 
+    <br />
+    <br />
+    <h4>
+        Historicos extracciones
+    </h4>
+    <div>
+        <div class="dataTables_wrapper" id="tablaLista_wrapper">
+            <table id="historicos" style="width:100%">
+                <thead>
+                    <tr>
+                        <th>
+                            Código Extracción
+                        </th>
+                        <th>
+                            Estado
+                        </th>
+                        <th>
+                            Año
+                        </th>
+                        <th>
+                            Mes
+                        </th>
+                        <th>
+                            Día
+                        </th>                        
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.ListaExtracciones)
+                    {
+                        <tr>
+                            <td>
+                                @Html.Raw(item.CodigoExtraccion.ToString())
+                            </td>
+                            <td>
+                                @Html.Raw(item.EstadoExtraccionName.ToString())
+                            </td>
+                            <td>
+                                @Html.Raw(item.Anio.ToString())
+                            </td>
+                            <td>
+                                @Html.Raw(item.Mes.ToString())
+                            </td>
+                            <td>
+                                @Html.Raw(item.Dia.ToString())
+                            </td>                            
+                        </tr>
+}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
     <div id="dialog-wait" title="Proceso en Ejecución">
         <div id="mensaje-dialog-wait">
             <p>
@@ -149,6 +203,13 @@ else
                 modal: true,
                 autoOpen: false,
                 buttons: {}
+            });
+
+            $('#historicos').dataTable({
+                "aaSorting": [[0, 'desc']],
+                "bJQueryUI": true,
+                "sPaginationType": "full_numbers",
+                "bStateSave": true
             });
 
             $('#FechaCorte').datepicker({

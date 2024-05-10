@@ -140,6 +140,9 @@ namespace ColpatriaSAI.Negocio.Componentes.Comision.Calculos
         ExtraccionComision ValidarUltimaExtraccion();
 
         [OperationContract]
+        List<ExtraccionComision> ConsultarHistoricoExtraccion();
+
+        [OperationContract]
         ResultadoOperacionBD LiquidarComisiones(int liquidacionComisionId);
 
         [OperationContract]

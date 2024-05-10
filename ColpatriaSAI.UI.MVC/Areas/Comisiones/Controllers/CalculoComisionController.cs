@@ -69,7 +69,22 @@ namespace ColpatriaSAI.UI.MVC.Areas.Comisiones.Controllers
             extraccionViewModel.Mes = (byte)extraccionComision.mes;
             extraccionViewModel.Dia = (byte)extraccionComision.dia;
 
+            List<Entidades.CustomEntities.ExtraccionComision> listaExtraccionComision = _svcCalculosClient.ConsultarHistoricoExtraccion().ToList();
+            List<PrevisualizacionExtraccionViewModel> listaExtraccionViewModel = new List<PrevisualizacionExtraccionViewModel>();
+            foreach (Entidades.CustomEntities.ExtraccionComision extraccion in listaExtraccionComision)
+            {
+                PrevisualizacionExtraccionViewModel extraccionVM = new PrevisualizacionExtraccionViewModel();
+                extraccionVM.EstadoExtraccion = extraccion.estadoExtraccion_id;
+                extraccionVM.Anio = (short)extraccion.año;
+                extraccionVM.Mes = (byte)extraccion.mes;
+                extraccionVM.Dia = (byte)extraccion.dia;
+                extraccionVM.CodigoExtraccion = extraccion.CodigoExt;
+                extraccionVM.EstadoExtraccionName = extraccion.nombre;
+                listaExtraccionViewModel.Add(extraccionVM);
+            }
+
             vmmodel.Extraccion = extraccionViewModel;
+            vmmodel.ListaExtracciones = listaExtraccionViewModel;
 
             //Se valida que no hayan facutras generandose en segudo plano
 

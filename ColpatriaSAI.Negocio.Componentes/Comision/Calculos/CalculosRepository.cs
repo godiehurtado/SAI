@@ -958,6 +958,68 @@ namespace ColpatriaSAI.Negocio.Componentes.Comision.Calculos
             return extraccionComision;
         }
 
+        /// <summary>
+        /// 2024-04-16 DAHG: Método para consultar el histórico de extracciones
+        /// </summary>
+        /// <returns></returns>
+        internal List<ExtraccionComision> ConsultarHistoricoExtraccion()
+        {
+            List<ExtraccionComision> listaExtracciones = new List<ExtraccionComision>();
+            ExtraccionComision extraccionComision = new ExtraccionComision()
+            {
+                id = 0,
+                usuario = "",
+                fecha = DateTime.MinValue,
+                estadoExtraccion_id = 0,
+                año = 0,
+                mes = 0,
+                dia = 0,
+                tipoLiquidacion = 0,
+                CodigoExt = ""
+            };
+            try
+            {
+                SqlConnection sqlConn = (SqlConnection)((EntityConnection)_dbcontext.Connection).StoreConnection;
+
+                using (sqlConn)
+                {
+                    string cmdtxt = "MAC_SP_CONSULTARHISTORICO_EXTRACCION";
+                    SqlCommand cmdReport1 = new SqlCommand(cmdtxt, sqlConn);
+                    cmdReport1 = new SqlCommand(cmdtxt, sqlConn);
+                    cmdReport1.CommandType = CommandType.StoredProcedure;
+
+                    cmdReport1.CommandTimeout = 0;//Timeout infinito
+                    cmdReport1.Connection.Open();
+                    SqlDataReader rta = cmdReport1.ExecuteReader();
+
+                    while (rta.Read())
+                    {
+                        extraccionComision = new ExtraccionComision()
+                        {
+                            id = int.Parse(rta["id"].ToString()),
+                            usuario = rta["usuario"].ToString(),
+                            fecha = DateTime.Parse(rta["fecha"].ToString()),
+                            estadoExtraccion_id = int.Parse(rta["estadoExtraccion_id"].ToString()),
+                            año = int.Parse(rta["año"].ToString()),
+                            mes = int.Parse(rta["mes"].ToString()),
+                            dia = int.Parse(rta["dia"].ToString()),
+                            tipoLiquidacion = int.Parse(rta["tipoLiquidacion"].ToString()),
+                            CodigoExt = rta["CodigoExt"].ToString(),
+                            nombre = rta["nombre"].ToString()
+                        };
+
+                        listaExtracciones.Add(extraccionComision);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
+
+            return listaExtracciones;
+        }
+
         internal List<int> ValLiqPendientes()
         {
             List<int> filtEnProceso = new List<int>();

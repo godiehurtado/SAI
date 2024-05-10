@@ -262,7 +262,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="app.config" />
     <None Include="Connected Services\PackagesExecutionService\ColpatriaSAI.Negocio.Componentes.PackagesExecutionService.DTSResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>

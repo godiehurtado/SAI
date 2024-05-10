@@ -165,6 +165,15 @@ namespace ColpatriaSAI.Negocio.Componentes.Comision.Calculos
             return new Talentos.CalculosRepository().ValidarUltimaExtraccion();
         }
 
+        /// <summary>
+        /// 2024-04-16 DAHG: Método para consultar el histórico de extracciones
+        /// </summary>
+        /// <returns></returns>
+        public List<ExtraccionComision> ConsultarHistoricoExtraccion()
+        {
+            return new Talentos.CalculosRepository().ConsultarHistoricoExtraccion();
+        }
+
 
 
         /// <summary>
