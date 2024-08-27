@@ -377,6 +377,7 @@ namespace ColpatriaSAI.UI.MVC.CalculosTalentosComision {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.LiquiContratPpacionPpante[]))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.LiquidacionFranquicia[]))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.CustomEntities.ExtraccionComision))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.CustomEntities.ExtraccionComision[]))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.ResultadoProcedimientos.ComisionFijaFacturacion[]))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.ResultadoProcedimientos.ComisionFijaFacturacion))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.ResultadoProcedimientos.ComisionFijaRecaudos[]))]
@@ -693,6 +694,7 @@ namespace ColpatriaSAI.UI.MVC.CalculosTalentosComision {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.LiquiContratPpacionPpante[]))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.LiquidacionFranquicia[]))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.CustomEntities.ExtraccionComision))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.CustomEntities.ExtraccionComision[]))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.ResultadoProcedimientos.ComisionFijaFacturacion[]))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.ResultadoProcedimientos.ComisionFijaFacturacion))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.ResultadoProcedimientos.ComisionFijaRecaudos[]))]
@@ -1016,6 +1018,7 @@ namespace ColpatriaSAI.UI.MVC.CalculosTalentosComision {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.LiquiContratPpacionPpante[]))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.LiquidacionFranquicia[]))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.CustomEntities.ExtraccionComision))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.CustomEntities.ExtraccionComision[]))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.ResultadoProcedimientos.ComisionFijaFacturacion[]))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.ResultadoProcedimientos.ComisionFijaFacturacion))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.ResultadoProcedimientos.ComisionFijaRecaudos[]))]
@@ -1332,6 +1335,7 @@ namespace ColpatriaSAI.UI.MVC.CalculosTalentosComision {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.LiquiContratPpacionPpante[]))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.LiquidacionFranquicia[]))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.CustomEntities.ExtraccionComision))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.CustomEntities.ExtraccionComision[]))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.ResultadoProcedimientos.ComisionFijaFacturacion[]))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.ResultadoProcedimientos.ComisionFijaFacturacion))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.ResultadoProcedimientos.ComisionFijaRecaudos[]))]
@@ -1648,6 +1652,7 @@ namespace ColpatriaSAI.UI.MVC.CalculosTalentosComision {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.LiquiContratPpacionPpante[]))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.LiquidacionFranquicia[]))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.CustomEntities.ExtraccionComision))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.CustomEntities.ExtraccionComision[]))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.ResultadoProcedimientos.ComisionFijaFacturacion[]))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.ResultadoProcedimientos.ComisionFijaFacturacion))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.ResultadoProcedimientos.ComisionFijaRecaudos[]))]
@@ -1670,6 +1675,9 @@ namespace ColpatriaSAI.UI.MVC.CalculosTalentosComision {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICalculos/ValidarUltimaExtraccion", ReplyAction="http://tempuri.org/ICalculos/ValidarUltimaExtraccionResponse")]
         ColpatriaSAI.Negocio.Entidades.CustomEntities.ExtraccionComision ValidarUltimaExtraccion();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICalculos/ConsultarHistoricoExtraccion", ReplyAction="http://tempuri.org/ICalculos/ConsultarHistoricoExtraccionResponse")]
+        ColpatriaSAI.Negocio.Entidades.CustomEntities.ExtraccionComision[] ConsultarHistoricoExtraccion();
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICalculos/LiquidarComisiones", ReplyAction="http://tempuri.org/ICalculos/LiquidarComisionesResponse")]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Componentes.Comision.Calculos.ResultadosCalculos[]))]
@@ -1976,6 +1984,7 @@ namespace ColpatriaSAI.UI.MVC.CalculosTalentosComision {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.LiquiContratPpacionPpante[]))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.LiquidacionFranquicia[]))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.CustomEntities.ExtraccionComision))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.CustomEntities.ExtraccionComision[]))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.ResultadoProcedimientos.ComisionFijaFacturacion[]))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.ResultadoProcedimientos.ComisionFijaFacturacion))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.ResultadoProcedimientos.ComisionFijaRecaudos[]))]
@@ -2295,6 +2304,7 @@ namespace ColpatriaSAI.UI.MVC.CalculosTalentosComision {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.LiquiContratPpacionPpante[]))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.LiquidacionFranquicia[]))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.CustomEntities.ExtraccionComision))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.CustomEntities.ExtraccionComision[]))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.ResultadoProcedimientos.ComisionFijaFacturacion[]))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.ResultadoProcedimientos.ComisionFijaFacturacion))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.ResultadoProcedimientos.ComisionFijaRecaudos[]))]
@@ -2611,6 +2621,7 @@ namespace ColpatriaSAI.UI.MVC.CalculosTalentosComision {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.LiquiContratPpacionPpante[]))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.LiquidacionFranquicia[]))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.CustomEntities.ExtraccionComision))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.CustomEntities.ExtraccionComision[]))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.ResultadoProcedimientos.ComisionFijaFacturacion[]))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.ResultadoProcedimientos.ComisionFijaFacturacion))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.ResultadoProcedimientos.ComisionFijaRecaudos[]))]
@@ -2927,6 +2938,7 @@ namespace ColpatriaSAI.UI.MVC.CalculosTalentosComision {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.LiquiContratPpacionPpante[]))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.LiquidacionFranquicia[]))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.CustomEntities.ExtraccionComision))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.CustomEntities.ExtraccionComision[]))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.ResultadoProcedimientos.ComisionFijaFacturacion[]))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.ResultadoProcedimientos.ComisionFijaFacturacion))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Entidades.ResultadoProcedimientos.ComisionFijaRecaudos[]))]
@@ -3035,6 +3047,10 @@ namespace ColpatriaSAI.UI.MVC.CalculosTalentosComision {
         
         public ColpatriaSAI.Negocio.Entidades.CustomEntities.ExtraccionComision ValidarUltimaExtraccion() {
             return base.Channel.ValidarUltimaExtraccion();
+        }
+        
+        public ColpatriaSAI.Negocio.Entidades.CustomEntities.ExtraccionComision[] ConsultarHistoricoExtraccion() {
+            return base.Channel.ConsultarHistoricoExtraccion();
         }
         
         public ColpatriaSAI.Negocio.Componentes.Comision.ResultadoOperacionBD LiquidarComisiones(int liquidacionComisionId) {

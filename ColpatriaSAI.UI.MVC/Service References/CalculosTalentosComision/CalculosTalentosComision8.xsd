@@ -14,4 +14,10 @@
     </xs:sequence>
   </xs:complexType>
   <xs:element name="ExtraccionComision" nillable="true" type="tns:ExtraccionComision" />
+  <xs:complexType name="ArrayOfExtraccionComision">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ExtraccionComision" nillable="true" type="tns:ExtraccionComision" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfExtraccionComision" nillable="true" type="tns:ArrayOfExtraccionComision" />
 </xs:schema>
