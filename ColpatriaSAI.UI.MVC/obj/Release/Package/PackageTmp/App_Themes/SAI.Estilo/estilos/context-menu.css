@@ -55,3 +55,38 @@
 	margin-top:1px;
 	margin-bottom:1px;
 }
+
+/* Archivo: styles.css */
+ul.file-list {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+	ul.file-list li {
+		padding: 10px;
+		border-bottom: 1px solid #ccc;
+		cursor: pointer;
+	}
+
+		ul.file-list li:hover {
+			background-color: #f0f0f0;
+		}
+
+		ul.file-list li a {
+			text-decoration: none;
+			color: #333;
+		}
+
+			ul.file-list li a.folder {
+				font-weight: bold;
+				color: #007bff;
+			}
+
+			ul.file-list li a.file {
+				color: #28a745;
+			}
+
+			ul.file-list li a:hover {
+				text-decoration: underline;
+			}

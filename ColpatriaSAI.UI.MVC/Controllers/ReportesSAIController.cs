@@ -58,6 +58,13 @@ namespace ColpatriaSAI.UI.MVC.Controllers
                 request.UseBinary = true;
                 request.EnableSsl = false;
 
+                string[] principalFolder = path.Split(new[] { '_' }, StringSplitOptions.RemoveEmptyEntries);
+                string principalName = "";
+                if (principalFolder.Count() > 0)
+                {
+                    principalName = principalFolder[0].Replace("/", "");
+                }
+
                 List<FtpItem> items = new List<FtpItem>();
 
                 using (FtpWebResponse response = (FtpWebResponse)request.GetResponse())
@@ -69,7 +76,22 @@ namespace ColpatriaSAI.UI.MVC.Controllers
                         bool isDirectory = line.StartsWith("d");
                         string[] details = line.Split(new[] { "          " }, StringSplitOptions.RemoveEmptyEntries);
                         string[] splitname = details[details.Length - 1].Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
-                        string name = splitname[splitname.Length - 2] + " " + splitname[splitname.Length - 1];
+                        int index = Array.FindIndex(splitname, s => s.Contains(principalName));
+                        string name = "";
+                        if(principalName != "" && index != -1)
+                        {
+                            for (int i = index; i < splitname.Length; i++)
+                            {
+                                name = name + splitname[i] + " ";
+                            }
+                        }
+                        else
+                        {
+                            name = splitname[splitname.Length - 2] + " " + splitname[splitname.Length - 1];
+                        }
+
+                        name = name.TrimEnd();
+                        
                         string[] splitdate = name.Split(new[] { '_' }, StringSplitOptions.RemoveEmptyEntries);
                         string dateString = splitdate[splitdate.Length - 1].Replace(".csv", "").Replace('.',':');
                         DateTime lastModified = new DateTime();

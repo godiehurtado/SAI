@@ -151,8 +151,11 @@ namespace ColpatriaSAI.Negocio.Componentes.Comision.Calculos
         [OperationContract]
         ResultadoOperacionBD ExtractAnulacion(Dictionary<string, object> parametrosEtlAnulacion, int idLiquidacion);
 
+        //[OperationContract]
+        //ResultadoOperacionBD ReprocesarLiquidacion(Dictionary<string, object> parametrosEtlCF, Dictionary<string, object> parametrosEtlCV, Dictionary<string, object> parametrosEtlAnulacion, int modeloId, short anio, byte mes, int liquidacionComisionId, byte tipoLiquidacionId, string usuario, int tipoEjec, InfoAplicacion info);
+
         [OperationContract]
-        ResultadoOperacionBD ReprocesarLiquidacion(Dictionary<string, object> parametrosEtlCF, Dictionary<string, object> parametrosEtlCV, Dictionary<string, object> parametrosEtlAnulacion, int modeloId, short anio, byte mes, int liquidacionComisionId, byte tipoLiquidacionId, string usuario, int tipoEjec, InfoAplicacion info);
+        ResultadoOperacionBD ReprocesarLiquidacion(int idLiquidacion);
 
         [OperationContract]
         ResultadoOperacionBD ActualizaEstadoReprocesar(int idLiquidacion);

@@ -567,7 +567,7 @@ namespace ColpatriaSAI.UI.MVC.Areas.Comisiones.Controllers
                 //se actualiza el estado de liquidacion a reprocesando
                 _svcCalculosClient = new CalculosTalentosComision.CalculosClient();
 
-                _svcCalculosClient.ActualizaEstadoReprocesar( Convert.ToInt32(idliquidacion));
+                _svcCalculosClient.ReprocesarLiquidacion(Convert.ToInt32(idliquidacion));
                 
             }
             catch (Exception ex)

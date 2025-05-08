@@ -330,76 +330,81 @@
             }
 
             function consultarDescarga() {
+                var _FechaCorte = $("#FechaCorte").datepicker("getDate");
+                var year = _FechaCorte.getFullYear();
+                var month = _FechaCorte.getMonth() + 1;
+                var day = _FechaCorte.getDate();
 
+                $.ajax({
+                    type: "POST",
+                    url: '@Url.Action("ConsultarExtraccion", "CalculoComision")',
+                    timeout: 1000000,
+                    data: { anio: year, mes: month, dia: day }
+                }).done(function (res) {
+                    // Actualiza los textos con la fecha correcta del modelo
+                    $('#mensaje2 h5').text("Existe un proceso de extracción disponible para el periodo " + res.Extraccion.Anio + "-" + res.Extraccion.Mes + "-" + res.Extraccion.Dia + ". Por favor realice la liquidación. Si desea reprocesar la extracción, seleccione Extraer. Si quiere liquidar otro periodo, seleccione otra fecha en el calendario.");
+                    $('#mensaje4 h5').text("Existe un proceso de extracción en histórico para el periodo " + res.Extraccion.Anio + "-" + res.Extraccion.Mes + "-" + res.Extraccion.Dia + ". Si desea liquidar con esta extracción seleccione 'Usar'. Si desea reprocesar la extracción, seleccione Extraer. Si quiere liquidar otro periodo, seleccione otra fecha en el calendario.");
+                    $('#mensaje5 h5').text("No existe un proceso de extracción histórico para el día seleccionado. La extracción disponible actualmente para liquidación corresponde al periodo " + res.Extraccion.Anio + "-" + res.Extraccion.Mes + "-" + res.Extraccion.Dia + ". Si quiere liquidar otro periodo, seleccione otra fecha en el calendario.");
 
-            var _FechaCorte=$("#FechaCorte").datepicker("getDate");
-            var year = _FechaCorte.getFullYear();
-            var month = _FechaCorte.getMonth() + 1;
-            var day = _FechaCorte.getDate();
-
-            $.ajax({
-            type: 'POST',
-            url: '@Url.Action("ConsultarExtraccion", "CalculoComision")',
-            timeout: 1000000,
-                data: { anio: year, mes: month, dia: day },
-                type: "POST",
-            }).done(function (res) {
-                if (res.Extraccion.EstadoExtraccion == 0) {
-                    $('#mensaje1').hide();
-                    $('#mensaje2').hide();
-                    $('#mensaje4').hide();
-                    $('#mensaje5').hide();
-                    $('#lblTipoLiquidacion').show();
-                    $('#divTipoLiquidacion').show();
-                    $('#btnDescarga').show();
-                    $('#btnHistorico').hide();
-                    $('#divLiquidacion').hide();
-                } else if (res.Extraccion.EstadoExtraccion == 1) {
-                    $('#mensaje1').show();
-                    $('#mensaje2').hide();
-                    $('#mensaje4').hide();
-                    $('#mensaje5').hide();
-                    $('#lblTipoLiquidacion').hide();
-                    $('#divTipoLiquidacion').hide();
-                    $('#btnDescarga').hide();
-                    $('#btnHistorico').hide();
-                    $('#divLiquidacion').hide();
-                    $('#FechaCorte').hide();
-                    $('#btnFecha').hide();
-                    $('#lblFecha').hide();
-                } else if (res.Extraccion.EstadoExtraccion == 2) {
-                    $('#mensaje1').hide();
-                    $('#mensaje2').show();
-                    $('#mensaje4').hide();
-                    $('#mensaje5').hide();
-                    $('#lblTipoLiquidacion').hide();
-                    $('#divTipoLiquidacion').hide();
-                    $('#btnDescarga').show();
-                    $('#btnHistorico').hide();
-                    $('#divLiquidacion').show();
-                } else if (res.Extraccion.EstadoExtraccion == 4) {
-                    $('#mensaje1').hide();
-                    $('#mensaje2').hide();
-                    $('#mensaje4').show();
-                    $('#mensaje5').hide();
-                    $('#lblTipoLiquidacion').hide();
-                    $('#divTipoLiquidacion').hide();
-                    $('#btnDescarga').hide();
-                    $('#btnHistorico').show();
-                    $('#divLiquidacion').hide();
-                } else if (res.Extraccion.EstadoExtraccion == 5) {
-                    $('#mensaje1').hide();
-                    $('#mensaje2').hide();
-                    $('#mensaje4').hide();
-                    $('#mensaje5').show();
-                    $('#lblTipoLiquidacion').hide();
-                    $('#divTipoLiquidacion').hide();
-                    $('#btnDescarga').hide();
-                    $('#btnHistorico').hide();
-                    $('#divLiquidacion').hide();
-                }
+                    // Manejo de la visibilidad de los mensajes y botones
+                    if (res.Extraccion.EstadoExtraccion == 0) {
+                        $('#mensaje1').hide();
+                        $('#mensaje2').hide();
+                        $('#mensaje4').hide();
+                        $('#mensaje5').hide();
+                        $('#lblTipoLiquidacion').show();
+                        $('#divTipoLiquidacion').show();
+                        $('#btnDescarga').show();
+                        $('#btnHistorico').hide();
+                        $('#divLiquidacion').hide();
+                    } else if (res.Extraccion.EstadoExtraccion == 1) {
+                        $('#mensaje1').show();
+                        $('#mensaje2').hide();
+                        $('#mensaje4').hide();
+                        $('#mensaje5').hide();
+                        $('#lblTipoLiquidacion').hide();
+                        $('#divTipoLiquidacion').hide();
+                        $('#btnDescarga').hide();
+                        $('#btnHistorico').hide();
+                        $('#divLiquidacion').hide();
+                        $('#FechaCorte').hide();
+                        $('#btnFecha').hide();
+                        $('#lblFecha').hide();
+                    } else if (res.Extraccion.EstadoExtraccion == 2) {
+                        $('#mensaje1').hide();
+                        $('#mensaje2').show();
+                        $('#mensaje4').hide();
+                        $('#mensaje5').hide();
+                        $('#lblTipoLiquidacion').hide();
+                        $('#divTipoLiquidacion').hide();
+                        $('#btnDescarga').show();
+                        $('#btnHistorico').hide();
+                        $('#divLiquidacion').show();
+                    } else if (res.Extraccion.EstadoExtraccion == 4) {
+                        $('#mensaje1').hide();
+                        $('#mensaje2').hide();
+                        $('#mensaje4').show();
+                        $('#mensaje5').hide();
+                        $('#lblTipoLiquidacion').hide();
+                        $('#divTipoLiquidacion').hide();
+                        $('#btnDescarga').hide();
+                        $('#btnHistorico').show();
+                        $('#divLiquidacion').hide();
+                    } else if (res.Extraccion.EstadoExtraccion == 5) {
+                        $('#mensaje1').hide();
+                        $('#mensaje2').hide();
+                        $('#mensaje4').hide();
+                        $('#mensaje5').show();
+                        $('#lblTipoLiquidacion').hide();
+                        $('#divTipoLiquidacion').hide();
+                        $('#btnDescarga').hide();
+                        $('#btnHistorico').hide();
+                        $('#divLiquidacion').hide();
+                    }
                 });
             }
+
+
 
             function consultarUltimaExtraccion() {
 

@@ -2631,7 +2631,7 @@ namespace ColpatriaSAI.UI.MVC.CalculosTalentosComision {
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(System.Collections.Generic.Dictionary<string, object>))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(string[][]))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Componentes.Comision.ResultadoOperacion))]
-        ColpatriaSAI.Negocio.Componentes.Comision.ResultadoOperacionBD ReprocesarLiquidacion(System.Collections.Generic.Dictionary<string, object> parametrosEtlCF, System.Collections.Generic.Dictionary<string, object> parametrosEtlCV, System.Collections.Generic.Dictionary<string, object> parametrosEtlAnulacion, int modeloId, short anio, byte mes, int liquidacionComisionId, byte tipoLiquidacionId, string usuario, int tipoEjec, ColpatriaSAI.Negocio.Entidades.Informacion.InfoAplicacion info);
+        ColpatriaSAI.Negocio.Componentes.Comision.ResultadoOperacionBD ReprocesarLiquidacion(int idLiquidacion);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICalculos/ActualizaEstadoReprocesar", ReplyAction="http://tempuri.org/ICalculos/ActualizaEstadoReprocesarResponse")]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ColpatriaSAI.Negocio.Componentes.Comision.Calculos.ResultadosCalculos[]))]
@@ -3065,8 +3065,8 @@ namespace ColpatriaSAI.UI.MVC.CalculosTalentosComision {
             return base.Channel.ExtractAnulacion(parametrosEtlAnulacion, idLiquidacion);
         }
         
-        public ColpatriaSAI.Negocio.Componentes.Comision.ResultadoOperacionBD ReprocesarLiquidacion(System.Collections.Generic.Dictionary<string, object> parametrosEtlCF, System.Collections.Generic.Dictionary<string, object> parametrosEtlCV, System.Collections.Generic.Dictionary<string, object> parametrosEtlAnulacion, int modeloId, short anio, byte mes, int liquidacionComisionId, byte tipoLiquidacionId, string usuario, int tipoEjec, ColpatriaSAI.Negocio.Entidades.Informacion.InfoAplicacion info) {
-            return base.Channel.ReprocesarLiquidacion(parametrosEtlCF, parametrosEtlCV, parametrosEtlAnulacion, modeloId, anio, mes, liquidacionComisionId, tipoLiquidacionId, usuario, tipoEjec, info);
+        public ColpatriaSAI.Negocio.Componentes.Comision.ResultadoOperacionBD ReprocesarLiquidacion(int idLiquidacion) {
+            return base.Channel.ReprocesarLiquidacion(idLiquidacion);
         }
         
         public ColpatriaSAI.Negocio.Componentes.Comision.ResultadoOperacionBD ActualizaEstadoReprocesar(int idLiquidacion) {
