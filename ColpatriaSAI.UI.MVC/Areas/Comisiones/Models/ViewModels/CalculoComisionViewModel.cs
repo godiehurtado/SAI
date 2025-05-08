@@ -31,6 +31,9 @@ namespace ColpatriaSAI.UI.MVC.Areas.Comisiones.Models.ViewModels
         public List<SelectListItem> TipoLiquidaciones { get; set; }
 
         public int EstadoLiquidacion { get; set; }
+        public PrevisualizacionExtraccionViewModel Extraccion { get; set; }
+
+        public List<PrevisualizacionExtraccionViewModel> ListaExtracciones { get; set; }
 
         public PrevisualizacionComisionesViewModel Comisiones { get; set; }
 
@@ -101,5 +104,19 @@ namespace ColpatriaSAI.UI.MVC.Areas.Comisiones.Models.ViewModels
             this.ComisionesFijaRecaudos = new List<ComisionFijaRecaudos>();
             this.ComisionesFijasFacturacion = new List<ComisionFijaFacturacion>();
         }
+    }
+
+    public class PrevisualizacionExtraccionViewModel
+    {
+        public int ExtraccionId { get; set; }
+        public short Anio { get; set; }
+        public byte Mes { get; set; }
+        public byte Dia { get; set; }
+        public byte TipoLiquidacionId { get; set; }
+        public string TipoLiquidacionName { get; set; }
+        public int EstadoExtraccion { get; set; }
+        public string EstadoExtraccionName { get; set; }
+        public string Fecha { get; set; }
+        public string CodigoExtraccion { get; set; }
     }
 }

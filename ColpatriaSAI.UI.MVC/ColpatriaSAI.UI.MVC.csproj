@@ -109,12 +109,10 @@
     <Reference Include="Microsoft.ReportViewer.WebForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.ReportViewer.WebForms.10.0.40219.1\lib\Microsoft.ReportViewer.WebForms.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Librerias\Microsoft.Web.Infrastructure.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
     <Reference Include="MVC Foolproof Validation">
       <HintPath>..\packages\foolproof.0.9.4517\lib\MVC Foolproof Validation.dll</HintPath>
       <Private>True</Private>
@@ -162,7 +160,7 @@
     </Reference>
     <Reference Include="System.Web.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\SAI fuentes2023 Validar\Fuentes 27032023\SAI\ColpatriaSAI.UI.MVC\bin\System.Web.Razor.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\SAI fuentes2023 Validar\Fuentes 27032023\SAI\ColpatriaSAI.UI.MVC\bin\System.Web.Razor.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.WebPages, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -173,7 +171,7 @@
     </Reference>
     <Reference Include="System.Web.WebPages.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\SAI fuentes2023 Validar\Fuentes 27032023\SAI\ColpatriaSAI.UI.MVC\bin\System.Web.WebPages.Razor.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\SAI fuentes2023 Validar\Fuentes 27032023\SAI\ColpatriaSAI.UI.MVC\bin\System.Web.WebPages.Razor.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml.Linq">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
@@ -491,6 +489,13 @@
     <Compile Include="Views\ParticipacionDirector\Directores.ascx.designer.cs">
       <DependentUpon>Directores.ascx</DependentUpon>
     </Compile>
+    <Compile Include="Views\ReportesSAI\reportesftp.aspx.cs">
+      <DependentUpon>reportesftp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ReportesSAI\reportesftp.aspx.designer.cs">
+      <DependentUpon>reportesftp.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Views\Shared\ContentMenuUserControl.ascx.cs">
       <DependentUpon>ContentMenuUserControl.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -611,6 +616,9 @@
     <Content Include="App_Themes\SAI.Estilo\Imagenes\error.png" />
     <Content Include="App_Themes\SAI.Estilo\Imagenes\estadisticas.jpg" />
     <Content Include="App_Themes\SAI.Estilo\Imagenes\Exclamation.png" />
+    <Content Include="App_Themes\SAI.Estilo\Imagenes\file.png" />
+    <Content Include="App_Themes\SAI.Estilo\Imagenes\folder-up.png" />
+    <Content Include="App_Themes\SAI.Estilo\Imagenes\folder.png" />
     <Content Include="App_Themes\SAI.Estilo\Imagenes\forward_disabled.jpg" />
     <Content Include="App_Themes\SAI.Estilo\Imagenes\forward_enabled.jpg" />
     <Content Include="App_Themes\SAI.Estilo\Imagenes\im_Acordion.gif" />
@@ -1299,6 +1307,12 @@
     <None Include="Service References\CalculosTalentosComision\CalculosTalentosComision6.xsd">
       <SubType>Designer</SubType>
     </None>
+    <None Include="Service References\CalculosTalentosComision\CalculosTalentosComision7.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\CalculosTalentosComision\CalculosTalentosComision8.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Service References\ComisionesSVC\Comisiones.wsdl" />
     <None Include="Service References\ComisionesSVC\Comisiones.xsd">
       <SubType>Designer</SubType>
@@ -1660,6 +1674,7 @@
     <Content Include="Views\Regla\Index.aspx" />
     <Content Include="Views\ReportesSAI\etl.aspx" />
     <Content Include="Views\ReportesSAI\index.aspx" />
+    <Content Include="Views\ReportesSAI\reportesftp.aspx" />
     <Content Include="Views\ResumenConcurso\Index.aspx" />
     <Content Include="Views\RptFranquicias\Create.aspx" />
     <Content Include="Views\RptFranquicias\Index.aspx" />
@@ -1826,11 +1841,11 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>False</AutoAssignPort>
           <DevelopmentServerPort>62477</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:62479/</IISUrl>
+          <IISUrl>http://localhost:62477/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

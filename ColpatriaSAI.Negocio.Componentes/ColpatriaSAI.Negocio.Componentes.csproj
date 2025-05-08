@@ -93,6 +93,7 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Data.Entity" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.ServiceModel" />
     <Reference Include="System.ServiceModel.Channels" />
     <Reference Include="System.Web" />
@@ -208,6 +209,11 @@
     <Compile Include="Concursos\Reglas.cs" />
     <Compile Include="Concursos\Variables.cs" />
     <Compile Include="Admin\Combos.cs" />
+    <Compile Include="Connected Services\PackagesExecutionService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
     <Compile Include="Contratacion\LiquidacionContrats.cs" />
     <Compile Include="Contratacion\Metas.cs" />
     <Compile Include="Contratacion\Modelos.cs" />
@@ -256,9 +262,45 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Connected Services\PackagesExecutionService\ColpatriaSAI.Negocio.Componentes.PackagesExecutionService.DTSResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\PackagesExecutionService\PackagesExecutionService.wsdl" />
+    <None Include="Connected Services\PackagesExecutionService\PackagesExecutionService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\PackagesExecutionService\PackagesExecutionService1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\PackagesExecutionService\PackagesExecutionService2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\PackagesExecutionService\PackagesExecutionService3.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Connected Services\PackagesExecutionService\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\PackagesExecutionService\PackagesExecutionService.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\PackagesExecutionService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\PackagesExecutionService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\PackagesExecutionService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

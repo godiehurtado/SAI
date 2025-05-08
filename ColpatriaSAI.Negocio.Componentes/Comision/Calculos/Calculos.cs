@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using Talentos = ColpatriaSAI.Negocio.Componentes.Comision.Calculos;
 using System.Threading;
+using ColpatriaSAI.Negocio.Entidades.CustomEntities;
+using System.Configuration;
+using ColpatriaSAI.Negocio.Entidades.Informacion;
 
 namespace ColpatriaSAI.Negocio.Componentes.Comision.Calculos
 {
@@ -73,16 +76,105 @@ namespace ColpatriaSAI.Negocio.Componentes.Comision.Calculos
             return result.Data;
         }
 
-        public ResultadoOperacionBD ExtractCf_CV(string parmEtlCF, string parmEtlCV, int modeloId, short anio, byte mes,
-            int liquidacionComisionId, byte tipoLiquidacionId, string usuario, int tipoEjec)
+        /// <summary>
+        /// 2023-11-26 DAHG: Se comentarea método para conservar BK de versió antigua
+        /// </summary>
+        /// <param name="parametrosEtlCF"></param>
+        /// <param name="parametrosEtlCV"></param>
+        /// <param name="modeloId"></param>
+        /// <param name="anio"></param>
+        /// <param name="mes"></param>
+        /// <param name="liquidacionComisionId"></param>
+        /// <param name="tipoLiquidacionId"></param>
+        /// <param name="usuario"></param>
+        /// <param name="tipoEjec"></param>
+        /// <returns></returns>
+        //public ResultadoOperacionBD ExtractCf_CV(Dictionary<string, object> parametrosEtlCF, Dictionary<string, object> parametrosEtlCV, int modeloId, short anio, byte mes, int liquidacionComisionId, byte tipoLiquidacionId, string usuario, int tipoEjec)
+        //{
+        //    AppSettingsReader reader = new AppSettingsReader();
+        //    string idApp = reader.GetValue("idPackagesExecutionService", String.Empty.GetType()).ToString();
+
+        //    return new Talentos.CalculosRepository().ExtractCf_CV(idApp, parametrosEtlCF, parametrosEtlCV, modeloId, anio, mes, liquidacionComisionId, tipoLiquidacionId, usuario, tipoEjec);
+        //}
+
+        /// <summary>
+        /// 2023-11-26 DAHG: 2023-11-26 DAHG: Nueva versión del método para ejecutar la extracción sin modelo, y que esta pueda ser reusada por todos los modelos de liquidación
+        /// </summary>
+        /// <param name="parametrosEtlCF"></param>
+        /// <param name="parametrosEtlCV"></param>
+        /// <param name="anio"></param>
+        /// <param name="mes"></param>
+        /// <param name="liquidacionComisionId"></param>
+        /// <param name="tipoLiquidacionId"></param>
+        /// <param name="usuario"></param>
+        /// <param name="tipoEjec"></param>
+        /// <returns></returns>
+        public ResultadoOperacionBD ExtractCf_CV(Dictionary<string, object> parametrosEtlCF, Dictionary<string, object> parametrosEtlCV, short anio, byte mes, byte dia, int liquidacionComisionId, byte tipoLiquidacionId, string usuario, int tipoEjec, InfoAplicacion info)
         {
-            return new Talentos.CalculosRepository().ExtractCf_CV(parmEtlCF,parmEtlCV, modeloId, anio, mes, liquidacionComisionId, tipoLiquidacionId, usuario, tipoEjec);
+            AppSettingsReader reader = new AppSettingsReader();
+            string idApp = reader.GetValue("idPackagesExecutionService", String.Empty.GetType()).ToString();
+
+            return new Talentos.CalculosRepository().ExtractCf_CV(idApp, parametrosEtlCF, parametrosEtlCV, anio, mes, dia, liquidacionComisionId, tipoLiquidacionId, usuario, tipoEjec, info);
+        }
+
+        /// <summary>
+        /// 2023-11-26 DAHG: Método para ejecutar la liquidación de comisión por modelo
+        /// </summary>
+        /// <param name="extraccionId"></param>
+        /// <param name="usuario"></param>
+        /// <param name="modeloId"></param>
+        /// <returns></returns>
+        public ResultadoOperacionBD LiquidarComision(int extraccionId, string usuario, int modeloId)
+        {
+            return new Talentos.CalculosRepository().LiquidarComision(extraccionId,usuario,modeloId);
+        }
+
+        /// <summary>
+        /// 2023-11-26 DAHG: Método para cargar la información de una extracción historica ya existente
+        /// </summary>
+        /// <param name="extraccionId"></param>
+        /// <returns></returns>
+        public ResultadoOperacionBD CargarExtraccionHistorico(int extraccionId)
+        {
+            return new Talentos.CalculosRepository().CargarExtraccionHistorico(extraccionId);
         }
 
         public List<int> ValLiqPendientes()
         {
             return new Talentos.CalculosRepository().ValLiqPendientes();
         }
+
+        /// <summary>
+        /// 2023-11-27 DAHG: Método para validar proceso de extracción por fecha
+        /// </summary>
+        /// <param name="anio"></param>
+        /// <param name="mes"></param>
+        /// <param name="dia"></param>
+        /// <returns></returns>
+        public ExtraccionComision ValidarExtraccion(int anio, int mes, int dia)
+        {
+            return new Talentos.CalculosRepository().ValidarExtraccion(anio, mes, dia);
+        }
+
+        /// <summary>
+        /// 2023-11-27 DAHG: Método para validar proceso de extracción por fecha
+        /// </summary>
+        /// <returns></returns>
+        public ExtraccionComision ValidarUltimaExtraccion()
+        {
+            return new Talentos.CalculosRepository().ValidarUltimaExtraccion();
+        }
+
+        /// <summary>
+        /// 2024-04-16 DAHG: Método para consultar el histórico de extracciones
+        /// </summary>
+        /// <returns></returns>
+        public List<ExtraccionComision> ConsultarHistoricoExtraccion()
+        {
+            return new Talentos.CalculosRepository().ConsultarHistoricoExtraccion();
+        }
+
+
 
         /// <summary>
         /// Obtiene un periodo  de calculo de comisiòn basado en un año y me epsecifico
@@ -97,7 +189,9 @@ namespace ColpatriaSAI.Negocio.Componentes.Comision.Calculos
 
         public ResultadoOperacionBD LiquidarComisiones(int liquidacionComisionId)
         {
-            return new Talentos.CalculosRepository().LiquidarComisiones(liquidacionComisionId);
+            AppSettingsReader reader = new AppSettingsReader();
+            string idApp = reader.GetValue("idPackagesExecutionService", String.Empty.GetType()).ToString();
+            return new Talentos.CalculosRepository().LiquidarComisiones(idApp,liquidacionComisionId);
         }
 
         
@@ -107,16 +201,19 @@ namespace ColpatriaSAI.Negocio.Componentes.Comision.Calculos
         }
 
 
-        public ResultadoOperacionBD ExtractAnulacion(string parametrosEtl, int idLiquidacion)
+        public ResultadoOperacionBD ExtractAnulacion(Dictionary<string, object> parametrosEtlAnulacion, int idLiquidacion)
         {
-            return new Talentos.CalculosRepository().ExtractAnulacion(parametrosEtl, idLiquidacion);
+            AppSettingsReader reader = new AppSettingsReader();
+            string idApp = reader.GetValue("idPackagesExecutionService", String.Empty.GetType()).ToString();
+            return new Talentos.CalculosRepository().ExtractAnulacion(idApp, parametrosEtlAnulacion, idLiquidacion);
         }
 
 
-        public ResultadoOperacionBD ReprocesarLiquidacion(string parmEtlCF, string parmEtlCV, string paramEtlAnulacion, int modeloId, short anio, byte mes, int liquidacionComisionId, byte tipoLiquidacionId, string usuario, int tipoEjec)
+        public ResultadoOperacionBD ReprocesarLiquidacion(Dictionary<string, object> parametrosEtlCF, Dictionary<string, object> parametrosEtlCV, Dictionary<string, object> parametrosEtlAnulacion, int modeloId, short anio, byte mes, int liquidacionComisionId, byte tipoLiquidacionId, string usuario, int tipoEjec, InfoAplicacion info)
         {
-            return new Talentos.CalculosRepository().ReprocesarLiquidacion(parmEtlCF,parmEtlCV,paramEtlAnulacion,
-                modeloId,anio,mes,liquidacionComisionId,tipoLiquidacionId, usuario,tipoEjec);
+            AppSettingsReader reader = new AppSettingsReader();
+            string idApp = reader.GetValue("idPackagesExecutionService", String.Empty.GetType()).ToString();
+            return new Talentos.CalculosRepository().ReprocesarLiquidacion(idApp, parametrosEtlCF, parametrosEtlCV, parametrosEtlAnulacion, modeloId, anio, mes, liquidacionComisionId, tipoLiquidacionId, usuario, tipoEjec, info);
          }
 
 

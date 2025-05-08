@@ -173,7 +173,7 @@ namespace ColpatriaSAI.UI.MVC.Controllers
                 programacion.fecha_hora_inicio_ejecucion = fecha;
                 web.AdministracionClient.InsertarProgramacion(programacion);
             }
-            
+
             List<AUT_Programacion_Proceso> programas = web.AdministracionClient.TraerFechasProgramacion();
             string estadoProcesoAutomatico = String.Empty;
             string ultimaFechaEjecucion = String.Empty;
@@ -241,7 +241,7 @@ namespace ColpatriaSAI.UI.MVC.Controllers
                 programacion.fecha_hora_inicio_ejecucion = fecha;
                 web.AdministracionClient.InsertarProgramacion(programacion);
             }
-            
+
             programas = web.AdministracionClient.TraerFechasProgramacion();
             string estadoProcesoAutomatico = String.Empty;
             string ultimaFechaEjecucion = String.Empty;
@@ -372,6 +372,9 @@ namespace ColpatriaSAI.UI.MVC.Controllers
             List<AUT_Proceso> procesos = web.AdministracionClient.TraerProcesos();
             string htmlresult = string.Empty;
             bool procesohabilidato = false;
+            string estadoProcesoAutomatico = String.Empty;
+            string ultimaFechaEjecucion = String.Empty;
+            string proximafechaejecucion = String.Empty;
             foreach (AUT_Proceso pro in procesos)
             {
                 htmlresult += "<tr><td class=\"col-lg-6\">"
@@ -405,9 +408,37 @@ namespace ColpatriaSAI.UI.MVC.Controllers
             {
                 List<AUT_Programacion_Proceso> programas = web.AdministracionClient.TraerUltimasFechasProgramacion();
                 bool resultado = true;
-                resultado = web.AdministracionClient.EliminarProgramacion(programas[0]);
+                if (programas[0].fecha_hora_inicio_ejecucion > DateTime.Now)
+                {
+                    resultado = web.AdministracionClient.EliminarProgramacion(programas[0]);
+                    estadoProcesoAutomatico = "<div class=\"col-lg-6\" style=\"text-align: center\">"
+                            + "<h1 class=\" uppercase title\">PROCESO AUTOMÁTICO</h1>"
+                            + "<h5 style=\"color: Red\">(Se encuentra apagado)</h5></div>"
+                            + "<div class=\"col-lg-3\" style=\"text-align: center\">"
+                            + "<h5 style=\"color: Green\">Encender</h5>"
+                            + "<a href=\"javascript:encenderProceso()\">"
+                            + "<i class=\"glyphicon glyphicon-off\" data-toggle=\"tooltip\" data-placement=\"right\" style=\"color: Green;font-size: xx-large\"></i></a></div>"
+                            + "<div class=\"col-lg-3\" style=\"text-align: center\"><h5 style=\"color: Blue\">Activar</h5><a href=\"javascript:activarProceso()\">"
+                            + "<i class=\"glyphicon glyphicon-off\" data-toggle=\"tooltip\" data-placement=\"right\" style=\"color: Blue;font-size: xx-large\"></i></a></div>";
+                    ultimaFechaEjecucion = "<h4>" + programas[1].fecha_hora_inicio_ejecucion.ToString() + "</h4>";
+                    proximafechaejecucion = "<h4>" + "NO APLICA" + "</h4>";
+                }
+                else
+                {
+                    estadoProcesoAutomatico = "<div class=\"col-lg-6\" style=\"text-align: center\">"
+                            + "<h1 class=\" uppercase title\">PROCESO AUTOMÁTICO</h1>"
+                            + "<h5 style=\"color: Red\">(Se encuentra apagado)</h5></div>"
+                            + "<div class=\"col-lg-3\" style=\"text-align: center\">"
+                            + "<h5 style=\"color: Green\">Encender</h5>"
+                            + "<a href=\"javascript:encenderProceso()\">"
+                            + "<i class=\"glyphicon glyphicon-off\" data-toggle=\"tooltip\" data-placement=\"right\" style=\"color: Green;font-size: xx-large\"></i></a></div>"
+                            + "<div class=\"col-lg-3\" style=\"text-align: center\"><h5 style=\"color: Blue\">Activar</h5><a href=\"javascript:activarProceso()\">"
+                            + "<i class=\"glyphicon glyphicon-off\" data-toggle=\"tooltip\" data-placement=\"right\" style=\"color: Blue;font-size: xx-large\"></i></a></div>";
+                    ultimaFechaEjecucion = "<h4>" + programas[0].fecha_hora_inicio_ejecucion.ToString() + "</h4>";
+                    proximafechaejecucion = "<h4>" + "NO APLICA" + "</h4>";
+                }
             }
-            return Json(new { Success = true, htmlresult = htmlresult });
+            return Json(new { Success = true, htmlresult = htmlresult, estadoProcesoAutomatico = estadoProcesoAutomatico, ultimaFechaEjecucion = ultimaFechaEjecucion, proximafechaejecucion = proximafechaejecucion });
         }
 
         public JsonResult ActualizarDependencias()
