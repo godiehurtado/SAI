@@ -5,10 +5,25 @@
   <xs:import schemaLocation="http://localhost:2090/Administracion.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
   <xs:import schemaLocation="http://localhost:2090/Administracion.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades.Informacion" />
   <xs:import schemaLocation="http://localhost:2090/Administracion.svc?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Componentes.Utilidades" />
-  <xs:element name="EliminarSegmentodeUsuario">
+  <xs:element name="InsertarSegmentodeUsuario">
     <xs:complexType>
       <xs:sequence>
         <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="usuarioxsegmento" nillable="true" type="q1:UsuarioxSegmento" />
+        <xs:element minOccurs="0" name="Username" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertarSegmentodeUsuarioResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="InsertarSegmentodeUsuarioResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EliminarSegmentodeUsuario">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="usuarioxsegmento" nillable="true" type="q2:UsuarioxSegmento" />
         <xs:element minOccurs="0" name="Username" nillable="true" type="xs:string" />
       </xs:sequence>
     </xs:complexType>
@@ -28,7 +43,7 @@
   <xs:element name="TraerUltimaEjecucionResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="TraerUltimaEjecucionResult" nillable="true" type="q2:ArrayOfEjecuciones" />
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="TraerUltimaEjecucionResult" nillable="true" type="q3:ArrayOfEjecuciones" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -42,7 +57,7 @@
   <xs:element name="TraerEjecucionResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="TraerEjecucionResult" nillable="true" type="q3:ArrayOfEjecuciones" />
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="TraerEjecucionResult" nillable="true" type="q4:ArrayOfEjecuciones" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -54,7 +69,7 @@
   <xs:element name="TraerUltimasFechasProgramacionResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="TraerUltimasFechasProgramacionResult" nillable="true" type="q4:ArrayOfAUT_Programacion_Proceso" />
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="TraerUltimasFechasProgramacionResult" nillable="true" type="q5:ArrayOfAUT_Programacion_Proceso" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -66,28 +81,28 @@
   <xs:element name="TraerFechasProgramacionResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="TraerFechasProgramacionResult" nillable="true" type="q5:ArrayOfAUT_Programacion_Proceso" />
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="TraerFechasProgramacionResult" nillable="true" type="q6:ArrayOfAUT_Programacion_Proceso" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
   <xs:element name="InsertarProgramacion">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="programacion" nillable="true" type="q6:AUT_Programacion_Proceso" />
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="programacion" nillable="true" type="q7:AUT_Programacion_Proceso" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
   <xs:element name="InsertarProgramacionResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="InsertarProgramacionResult" nillable="true" type="q7:AUT_Programacion_Proceso" />
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="InsertarProgramacionResult" nillable="true" type="q8:AUT_Programacion_Proceso" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
   <xs:element name="EliminarProgramacion">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="programacion" nillable="true" type="q8:AUT_Programacion_Proceso" />
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="programacion" nillable="true" type="q9:AUT_Programacion_Proceso" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -106,21 +121,21 @@
   <xs:element name="TraerProcesosResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="TraerProcesosResult" nillable="true" type="q9:ArrayOfAUT_Proceso" />
+        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="TraerProcesosResult" nillable="true" type="q10:ArrayOfAUT_Proceso" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
   <xs:element name="ActualizarProceso">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="procesoold" nillable="true" type="q10:AUT_Proceso" />
+        <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="procesoold" nillable="true" type="q11:AUT_Proceso" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
   <xs:element name="ActualizarProcesoResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="ActualizarProcesoResult" nillable="true" type="q11:AUT_Proceso" />
+        <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="ActualizarProcesoResult" nillable="true" type="q12:AUT_Proceso" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -134,7 +149,7 @@
   <xs:element name="TraerDependenciaPorProcesoResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="TraerDependenciaPorProcesoResult" nillable="true" type="q12:ArrayOfAUT_Proceso_Dependencia" />
+        <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="TraerDependenciaPorProcesoResult" nillable="true" type="q13:ArrayOfAUT_Proceso_Dependencia" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -146,43 +161,43 @@
   <xs:element name="TraerAccionesEnErrorResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="TraerAccionesEnErrorResult" nillable="true" type="q13:ArrayOfAUT_Tipo_Accion_En_Error" />
+        <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="TraerAccionesEnErrorResult" nillable="true" type="q14:ArrayOfAUT_Tipo_Accion_En_Error" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
   <xs:element name="InsertarProcesoDependencia">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="procesoDependencia" nillable="true" type="q14:AUT_Proceso_Dependencia" />
+        <xs:element xmlns:q15="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="procesoDependencia" nillable="true" type="q15:AUT_Proceso_Dependencia" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
   <xs:element name="InsertarProcesoDependenciaResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q15="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="InsertarProcesoDependenciaResult" nillable="true" type="q15:AUT_Proceso_Dependencia" />
+        <xs:element xmlns:q16="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="InsertarProcesoDependenciaResult" nillable="true" type="q16:AUT_Proceso_Dependencia" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
   <xs:element name="ActualizarProcesoDependencia">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q16="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="procesoold" nillable="true" type="q16:AUT_Proceso_Dependencia" />
-        <xs:element xmlns:q17="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="procesonew" nillable="true" type="q17:AUT_Proceso_Dependencia" />
+        <xs:element xmlns:q17="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="procesoold" nillable="true" type="q17:AUT_Proceso_Dependencia" />
+        <xs:element xmlns:q18="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="procesonew" nillable="true" type="q18:AUT_Proceso_Dependencia" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
   <xs:element name="ActualizarProcesoDependenciaResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q18="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="ActualizarProcesoDependenciaResult" nillable="true" type="q18:AUT_Proceso_Dependencia" />
+        <xs:element xmlns:q19="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="ActualizarProcesoDependenciaResult" nillable="true" type="q19:AUT_Proceso_Dependencia" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
   <xs:element name="EliminarProcesoDependencia">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q19="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="procesoDependencia" nillable="true" type="q19:AUT_Proceso_Dependencia" />
+        <xs:element xmlns:q20="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="procesoDependencia" nillable="true" type="q20:AUT_Proceso_Dependencia" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -204,7 +219,7 @@
   <xs:element name="TraerValoresRecaudosMesPromedioResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q20="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="TraerValoresRecaudosMesPromedioResult" nillable="true" type="q20:ArrayOfReporteValores" />
+        <xs:element xmlns:q21="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="TraerValoresRecaudosMesPromedioResult" nillable="true" type="q21:ArrayOfReporteValores" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -219,7 +234,7 @@
   <xs:element name="TraerRegistrosRecaudosMesPromedioResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q21="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="TraerRegistrosRecaudosMesPromedioResult" nillable="true" type="q21:ArrayOfReporteRegistros" />
+        <xs:element xmlns:q22="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="TraerRegistrosRecaudosMesPromedioResult" nillable="true" type="q22:ArrayOfReporteRegistros" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -234,7 +249,7 @@
   <xs:element name="TraerValoresPrimasMesPromedioResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q22="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="TraerValoresPrimasMesPromedioResult" nillable="true" type="q22:ArrayOfReporteValores" />
+        <xs:element xmlns:q23="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="TraerValoresPrimasMesPromedioResult" nillable="true" type="q23:ArrayOfReporteValores" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -249,7 +264,7 @@
   <xs:element name="TraerRegistrosPrimasMesPromedioResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q23="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="TraerRegistrosPrimasMesPromedioResult" nillable="true" type="q23:ArrayOfReporteRegistros" />
+        <xs:element xmlns:q24="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="TraerRegistrosPrimasMesPromedioResult" nillable="true" type="q24:ArrayOfReporteRegistros" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -263,14 +278,14 @@
   <xs:element name="TraerExceptionJerarquiaporIdResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q24="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="TraerExceptionJerarquiaporIdResult" nillable="true" type="q24:ExcepcionJerarquiaDetalle" />
+        <xs:element xmlns:q25="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="TraerExceptionJerarquiaporIdResult" nillable="true" type="q25:ExcepcionJerarquiaDetalle" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
   <xs:element name="ActualizarExcepcionJerarquia">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q25="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="exception" nillable="true" type="q25:ExcepcionJerarquiaDetalle" />
+        <xs:element xmlns:q26="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="exception" nillable="true" type="q26:ExcepcionJerarquiaDetalle" />
         <xs:element minOccurs="0" name="Username" nillable="true" type="xs:string" />
       </xs:sequence>
     </xs:complexType>
@@ -292,14 +307,14 @@
   <xs:element name="ListarLiquidacionesMonedaResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q26="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="ListarLiquidacionesMonedaResult" nillable="true" type="q26:ArrayOfLiquidacionMoneda" />
+        <xs:element xmlns:q27="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="ListarLiquidacionesMonedaResult" nillable="true" type="q27:ArrayOfLiquidacionMoneda" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
   <xs:element name="GuardarLiquidacionMoneda">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q27="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="liquidacionMoneda" nillable="true" type="q27:LiquidacionMoneda" />
+        <xs:element xmlns:q28="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="liquidacionMoneda" nillable="true" type="q28:LiquidacionMoneda" />
         <xs:element minOccurs="0" name="Username" nillable="true" type="xs:string" />
       </xs:sequence>
     </xs:complexType>
@@ -334,7 +349,7 @@
   <xs:element name="ListarTipoMedidasResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q28="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="ListarTipoMedidasResult" nillable="true" type="q28:ArrayOfTipoMedida" />
+        <xs:element xmlns:q29="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="ListarTipoMedidasResult" nillable="true" type="q29:ArrayOfTipoMedida" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -346,7 +361,7 @@
   <xs:element name="ListarTipoContratosResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q29="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="ListarTipoContratosResult" nillable="true" type="q29:ArrayOfTipoContrato" />
+        <xs:element xmlns:q30="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="ListarTipoContratosResult" nillable="true" type="q30:ArrayOfTipoContrato" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -360,14 +375,14 @@
   <xs:element name="ListarMetasxJerarquiaIdResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q30="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="ListarMetasxJerarquiaIdResult" nillable="true" type="q30:ArrayOfMetaxNodo" />
+        <xs:element xmlns:q31="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="ListarMetasxJerarquiaIdResult" nillable="true" type="q31:ArrayOfMetaxNodo" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
   <xs:element name="InsertarMetaNodo">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q31="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="metaNodo" nillable="true" type="q31:MetaxNodo" />
+        <xs:element xmlns:q32="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="metaNodo" nillable="true" type="q32:MetaxNodo" />
         <xs:element minOccurs="0" name="Username" nillable="true" type="xs:string" />
       </xs:sequence>
     </xs:complexType>
@@ -402,14 +417,14 @@
   <xs:element name="ListarMetasNodosResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q32="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="ListarMetasNodosResult" nillable="true" type="q32:ArrayOfMetaxNodo" />
+        <xs:element xmlns:q33="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="ListarMetasNodosResult" nillable="true" type="q33:ArrayOfMetaxNodo" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
   <xs:element name="GuardarEjecucionDetalle">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q33="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="ejecucionDetalle" nillable="true" type="q33:EjecucionDetalle" />
+        <xs:element xmlns:q34="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="ejecucionDetalle" nillable="true" type="q34:EjecucionDetalle" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -444,7 +459,7 @@
   <xs:element name="TraerEjecucionPorPresupuestoResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q34="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="TraerEjecucionPorPresupuestoResult" nillable="true" type="q34:Ejecucion" />
+        <xs:element xmlns:q35="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="TraerEjecucionPorPresupuestoResult" nillable="true" type="q35:Ejecucion" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -462,7 +477,7 @@
   <xs:element name="TraerEjecucionDetalleResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q35="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="TraerEjecucionDetalleResult" nillable="true" type="q35:EjecucionDetalle" />
+        <xs:element xmlns:q36="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="TraerEjecucionDetalleResult" nillable="true" type="q36:EjecucionDetalle" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -490,14 +505,14 @@
   <xs:element name="TraerEjecucionDetallePorIdResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q36="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="TraerEjecucionDetallePorIdResult" nillable="true" type="q36:EjecucionDetalle" />
+        <xs:element xmlns:q37="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="TraerEjecucionDetallePorIdResult" nillable="true" type="q37:EjecucionDetalle" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
   <xs:element name="ActualizarEjecucionDetalle">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q37="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="ejecucionDetalle" nillable="true" type="q37:EjecucionDetalle" />
+        <xs:element xmlns:q38="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="ejecucionDetalle" nillable="true" type="q38:EjecucionDetalle" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -529,7 +544,7 @@
   <xs:element name="ListarLiquidacionContratacionResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q38="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="ListarLiquidacionContratacionResult" nillable="true" type="q38:ArrayOfLiquidacionContratacion" />
+        <xs:element xmlns:q39="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="ListarLiquidacionContratacionResult" nillable="true" type="q39:ArrayOfLiquidacionContratacion" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -543,14 +558,14 @@
   <xs:element name="TraerLiquidacionContratacionResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q39="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="TraerLiquidacionContratacionResult" nillable="true" type="q39:LiquidacionContratacion" />
+        <xs:element xmlns:q40="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="TraerLiquidacionContratacionResult" nillable="true" type="q40:LiquidacionContratacion" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
   <xs:element name="LiquidarContratacion">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q40="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="liquidacionContratacion" nillable="true" type="q40:LiquidacionContratacion" />
+        <xs:element xmlns:q41="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="liquidacionContratacion" nillable="true" type="q41:LiquidacionContratacion" />
         <xs:element minOccurs="0" name="idSegmento" type="xs:int" />
       </xs:sequence>
     </xs:complexType>
@@ -601,7 +616,7 @@
   <xs:element name="ObtenerProcesosEnCursoResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q41="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="ObtenerProcesosEnCursoResult" nillable="true" type="q41:ArrayOfNotificacionProceso" />
+        <xs:element xmlns:q42="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="ObtenerProcesosEnCursoResult" nillable="true" type="q42:ArrayOfNotificacionProceso" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -654,7 +669,7 @@
   <xs:element name="TraerDashboardResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q42="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="TraerDashboardResult" nillable="true" type="q42:ArrayOfDashboard" />
+        <xs:element xmlns:q43="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="TraerDashboardResult" nillable="true" type="q43:ArrayOfDashboard" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -666,7 +681,7 @@
   <xs:element name="TraerDashboardxPanelResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q43="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="TraerDashboardxPanelResult" nillable="true" type="q43:ArrayOfTipoPanel" />
+        <xs:element xmlns:q44="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="TraerDashboardxPanelResult" nillable="true" type="q44:ArrayOfTipoPanel" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -678,7 +693,7 @@
   <xs:element name="ListarPeriodosResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q44="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="ListarPeriodosResult" nillable="true" type="q44:ArrayOfPeriodoCierre" />
+        <xs:element xmlns:q45="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="ListarPeriodosResult" nillable="true" type="q45:ArrayOfPeriodoCierre" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -692,14 +707,14 @@
   <xs:element name="ListarPeriodosPorCompaniaResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q45="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="ListarPeriodosPorCompaniaResult" nillable="true" type="q45:ArrayOfPeriodoCierre" />
+        <xs:element xmlns:q46="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="ListarPeriodosPorCompaniaResult" nillable="true" type="q46:ArrayOfPeriodoCierre" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
   <xs:element name="InsertarPeriodoCierre">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q46="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="periodo" nillable="true" type="q46:PeriodoCierre" />
+        <xs:element xmlns:q47="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="periodo" nillable="true" type="q47:PeriodoCierre" />
         <xs:element minOccurs="0" name="Username" nillable="true" type="xs:string" />
       </xs:sequence>
     </xs:complexType>
@@ -736,14 +751,14 @@
   <xs:element name="TraerPeriodoCierrePorIdResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q47="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="TraerPeriodoCierrePorIdResult" nillable="true" type="q47:ArrayOfPeriodoCierre" />
+        <xs:element xmlns:q48="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="TraerPeriodoCierrePorIdResult" nillable="true" type="q48:ArrayOfPeriodoCierre" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
   <xs:element name="ActualizarPeriodoCierre">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q48="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="periodo" nillable="true" type="q48:PeriodoCierre" />
+        <xs:element xmlns:q49="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="periodo" nillable="true" type="q49:PeriodoCierre" />
         <xs:element minOccurs="0" name="Username" nillable="true" type="xs:string" />
       </xs:sequence>
     </xs:complexType>
@@ -787,6 +802,22 @@
       </xs:sequence>
     </xs:complexType>
   </xs:element>
+  <xs:element name="CerrarMesAbierto">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="companiaId" type="xs:int" />
+        <xs:element minOccurs="0" name="mesCierre" type="xs:int" />
+        <xs:element minOccurs="0" name="anioCierre" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CerrarMesAbiertoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CerrarMesAbiertoResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
   <xs:element name="DeleteReprocesos">
     <xs:complexType>
       <xs:sequence>
@@ -812,7 +843,7 @@
   <xs:element name="ListarPagosConcursoResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q49="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="ListarPagosConcursoResult" nillable="true" type="q49:ArrayOfDetallePagosRegla" />
+        <xs:element xmlns:q50="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="ListarPagosConcursoResult" nillable="true" type="q50:ArrayOfDetallePagosRegla" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -820,7 +851,7 @@
     <xs:complexType>
       <xs:sequence>
         <xs:element minOccurs="0" name="usuario" nillable="true" type="xs:string" />
-        <xs:element xmlns:q50="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="listaPagosConcurso" nillable="true" type="q50:ArrayOfDetallePagosRegla" />
+        <xs:element xmlns:q51="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="listaPagosConcurso" nillable="true" type="q51:ArrayOfDetallePagosRegla" />
         <xs:element minOccurs="0" name="Username" nillable="true" type="xs:string" />
       </xs:sequence>
     </xs:complexType>
@@ -842,7 +873,7 @@
   <xs:element name="ListarPagosContratosResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q51="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="ListarPagosContratosResult" nillable="true" type="q51:ArrayOfLiquiContratFactorParticipante" />
+        <xs:element xmlns:q52="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="ListarPagosContratosResult" nillable="true" type="q52:ArrayOfLiquiContratFactorParticipante" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -850,7 +881,7 @@
     <xs:complexType>
       <xs:sequence>
         <xs:element minOccurs="0" name="usuario" nillable="true" type="xs:string" />
-        <xs:element xmlns:q52="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="listaPagosContratos" nillable="true" type="q52:ArrayOfLiquiContratFactorParticipante" />
+        <xs:element xmlns:q53="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="listaPagosContratos" nillable="true" type="q53:ArrayOfLiquiContratFactorParticipante" />
         <xs:element minOccurs="0" name="Username" nillable="true" type="xs:string" />
       </xs:sequence>
     </xs:complexType>
@@ -872,7 +903,7 @@
   <xs:element name="ListarPagosFranquiciaResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q53="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="ListarPagosFranquiciaResult" nillable="true" type="q53:ArrayOfDetallePagosFranquicia" />
+        <xs:element xmlns:q54="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="ListarPagosFranquiciaResult" nillable="true" type="q54:ArrayOfDetallePagosFranquicia" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -880,7 +911,7 @@
     <xs:complexType>
       <xs:sequence>
         <xs:element minOccurs="0" name="usuario" nillable="true" type="xs:string" />
-        <xs:element xmlns:q54="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="listaPagosFranquicia" nillable="true" type="q54:ArrayOfDetallePagosFranquicia" />
+        <xs:element xmlns:q55="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="listaPagosFranquicia" nillable="true" type="q55:ArrayOfDetallePagosFranquicia" />
         <xs:element minOccurs="0" name="Username" nillable="true" type="xs:string" />
       </xs:sequence>
     </xs:complexType>
@@ -900,7 +931,7 @@
   <xs:element name="ListarCombosResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q55="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="ListarCombosResult" nillable="true" type="q55:ArrayOfCombo" />
+        <xs:element xmlns:q56="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="ListarCombosResult" nillable="true" type="q56:ArrayOfCombo" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -914,14 +945,14 @@
   <xs:element name="ListarCombosPorIdResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q56="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="ListarCombosPorIdResult" nillable="true" type="q56:ArrayOfCombo" />
+        <xs:element xmlns:q57="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="ListarCombosPorIdResult" nillable="true" type="q57:ArrayOfCombo" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
   <xs:element name="InsertarCombo">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q57="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="combo" nillable="true" type="q57:Combo" />
+        <xs:element xmlns:q58="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="combo" nillable="true" type="q58:Combo" />
         <xs:element minOccurs="0" name="Username" nillable="true" type="xs:string" />
       </xs:sequence>
     </xs:complexType>
@@ -937,7 +968,7 @@
     <xs:complexType>
       <xs:sequence>
         <xs:element minOccurs="0" name="id" type="xs:int" />
-        <xs:element xmlns:q58="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="combo" nillable="true" type="q58:Combo" />
+        <xs:element xmlns:q59="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="combo" nillable="true" type="q59:Combo" />
         <xs:element minOccurs="0" name="Username" nillable="true" type="xs:string" />
       </xs:sequence>
     </xs:complexType>
@@ -990,14 +1021,14 @@
   <xs:element name="ListarProductosComboPorIdResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q59="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="ListarProductosComboPorIdResult" nillable="true" type="q59:ArrayOfProductoCombo" />
+        <xs:element xmlns:q60="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="ListarProductosComboPorIdResult" nillable="true" type="q60:ArrayOfProductoCombo" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
   <xs:element name="InsertarProductoCombo">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q60="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="productocombo" nillable="true" type="q60:ProductoCombo" />
+        <xs:element xmlns:q61="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="productocombo" nillable="true" type="q61:ProductoCombo" />
         <xs:element minOccurs="0" name="Username" nillable="true" type="xs:string" />
       </xs:sequence>
     </xs:complexType>
@@ -1013,7 +1044,7 @@
     <xs:complexType>
       <xs:sequence>
         <xs:element minOccurs="0" name="id" type="xs:int" />
-        <xs:element xmlns:q61="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="productocombo" nillable="true" type="q61:ProductoCombo" />
+        <xs:element xmlns:q62="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="productocombo" nillable="true" type="q62:ProductoCombo" />
         <xs:element minOccurs="0" name="Username" nillable="true" type="xs:string" />
       </xs:sequence>
     </xs:complexType>
@@ -1048,7 +1079,7 @@
   <xs:element name="ListarExcepcionesGeneralesXcompanyXTipoMedidaResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q62="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="ListarExcepcionesGeneralesXcompanyXTipoMedidaResult" nillable="true" type="q62:ArrayOfExcepcionesGenerale" />
+        <xs:element xmlns:q63="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="ListarExcepcionesGeneralesXcompanyXTipoMedidaResult" nillable="true" type="q63:ArrayOfExcepcionesGenerale" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -1060,7 +1091,7 @@
   <xs:element name="ListarExcepcionesGeneralesXTipoMedidaResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q63="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="ListarExcepcionesGeneralesXTipoMedidaResult" nillable="true" type="q63:ArrayOfExcepcionesGenerale" />
+        <xs:element xmlns:q64="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="ListarExcepcionesGeneralesXTipoMedidaResult" nillable="true" type="q64:ArrayOfExcepcionesGenerale" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -1072,14 +1103,14 @@
   <xs:element name="ListarExcepcionesGeneralesResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q64="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="ListarExcepcionesGeneralesResult" nillable="true" type="q64:ArrayOfExcepcionesGenerale" />
+        <xs:element xmlns:q65="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="ListarExcepcionesGeneralesResult" nillable="true" type="q65:ArrayOfExcepcionesGenerale" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
   <xs:element name="validarExcepcionesGenerales">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q65="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="excepcionG" nillable="true" type="q65:ExcepcionesGenerale" />
+        <xs:element xmlns:q66="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="excepcionG" nillable="true" type="q66:ExcepcionesGenerale" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -1093,7 +1124,7 @@
   <xs:element name="CrearExcepcionesGenerales">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q66="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="excepcionG" nillable="true" type="q66:ExcepcionesGenerale" />
+        <xs:element xmlns:q67="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="excepcionG" nillable="true" type="q67:ExcepcionesGenerale" />
         <xs:element minOccurs="0" name="Username" nillable="true" type="xs:string" />
       </xs:sequence>
     </xs:complexType>
@@ -1108,7 +1139,7 @@
   <xs:element name="ActualizarExcepcionesGenerales">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q67="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="excepcionG" nillable="true" type="q67:ExcepcionesGenerale" />
+        <xs:element xmlns:q68="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="excepcionG" nillable="true" type="q68:ExcepcionesGenerale" />
         <xs:element minOccurs="0" name="Username" nillable="true" type="xs:string" />
       </xs:sequence>
     </xs:complexType>
@@ -1152,21 +1183,6 @@
     <xs:complexType>
       <xs:sequence>
         <xs:element minOccurs="0" name="CrearUsuarioResult" type="xs:int" />
-      </xs:sequence>
-    </xs:complexType>
-  </xs:element>
-  <xs:element name="InsertarSegmentodeUsuario">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element xmlns:q68="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Entidades" minOccurs="0" name="usuarioxsegmento" nillable="true" type="q68:UsuarioxSegmento" />
-        <xs:element minOccurs="0" name="Username" nillable="true" type="xs:string" />
-      </xs:sequence>
-    </xs:complexType>
-  </xs:element>
-  <xs:element name="InsertarSegmentodeUsuarioResponse">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element minOccurs="0" name="InsertarSegmentodeUsuarioResult" type="xs:int" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>

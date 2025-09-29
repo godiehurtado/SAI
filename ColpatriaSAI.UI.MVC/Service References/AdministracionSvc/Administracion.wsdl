@@ -10,6 +10,12 @@
       <xsd:import schemaLocation="http://localhost:2090/Administracion.svc?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/ColpatriaSAI.Negocio.Componentes.Utilidades" />
     </xsd:schema>
   </wsdl:types>
+  <wsdl:message name="IAdministracion_InsertarSegmentodeUsuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertarSegmentodeUsuario" />
+  </wsdl:message>
+  <wsdl:message name="IAdministracion_InsertarSegmentodeUsuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertarSegmentodeUsuarioResponse" />
+  </wsdl:message>
   <wsdl:message name="IAdministracion_EliminarSegmentodeUsuario_InputMessage">
     <wsdl:part name="parameters" element="tns:EliminarSegmentodeUsuario" />
   </wsdl:message>
@@ -346,6 +352,12 @@
   <wsdl:message name="IAdministracion_SPPeriodoCierre_OutputMessage">
     <wsdl:part name="parameters" element="tns:SPPeriodoCierreResponse" />
   </wsdl:message>
+  <wsdl:message name="IAdministracion_CerrarMesAbierto_InputMessage">
+    <wsdl:part name="parameters" element="tns:CerrarMesAbierto" />
+  </wsdl:message>
+  <wsdl:message name="IAdministracion_CerrarMesAbierto_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CerrarMesAbiertoResponse" />
+  </wsdl:message>
   <wsdl:message name="IAdministracion_DeleteReprocesos_InputMessage">
     <wsdl:part name="parameters" element="tns:DeleteReprocesos" />
   </wsdl:message>
@@ -495,12 +507,6 @@
   </wsdl:message>
   <wsdl:message name="IAdministracion_CrearUsuario_OutputMessage">
     <wsdl:part name="parameters" element="tns:CrearUsuarioResponse" />
-  </wsdl:message>
-  <wsdl:message name="IAdministracion_InsertarSegmentodeUsuario_InputMessage">
-    <wsdl:part name="parameters" element="tns:InsertarSegmentodeUsuario" />
-  </wsdl:message>
-  <wsdl:message name="IAdministracion_InsertarSegmentodeUsuario_OutputMessage">
-    <wsdl:part name="parameters" element="tns:InsertarSegmentodeUsuarioResponse" />
   </wsdl:message>
   <wsdl:message name="IAdministracion_InsertarDetallePresupuesto_InputMessage">
     <wsdl:part name="parameters" element="tns:InsertarDetallePresupuesto" />
@@ -3575,6 +3581,10 @@
     <wsdl:part name="parameters" element="tns:ListarTipovariablesResponse" />
   </wsdl:message>
   <wsdl:portType name="IAdministracion">
+    <wsdl:operation name="InsertarSegmentodeUsuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAdministracion/InsertarSegmentodeUsuario" message="tns:IAdministracion_InsertarSegmentodeUsuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAdministracion/InsertarSegmentodeUsuarioResponse" message="tns:IAdministracion_InsertarSegmentodeUsuario_OutputMessage" />
+    </wsdl:operation>
     <wsdl:operation name="EliminarSegmentodeUsuario">
       <wsdl:input wsaw:Action="http://tempuri.org/IAdministracion/EliminarSegmentodeUsuario" message="tns:IAdministracion_EliminarSegmentodeUsuario_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/IAdministracion/EliminarSegmentodeUsuarioResponse" message="tns:IAdministracion_EliminarSegmentodeUsuario_OutputMessage" />
@@ -3799,6 +3809,10 @@
       <wsdl:input wsaw:Action="http://tempuri.org/IAdministracion/SPPeriodoCierre" message="tns:IAdministracion_SPPeriodoCierre_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/IAdministracion/SPPeriodoCierreResponse" message="tns:IAdministracion_SPPeriodoCierre_OutputMessage" />
     </wsdl:operation>
+    <wsdl:operation name="CerrarMesAbierto">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAdministracion/CerrarMesAbierto" message="tns:IAdministracion_CerrarMesAbierto_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAdministracion/CerrarMesAbiertoResponse" message="tns:IAdministracion_CerrarMesAbierto_OutputMessage" />
+    </wsdl:operation>
     <wsdl:operation name="DeleteReprocesos">
       <wsdl:input wsaw:Action="http://tempuri.org/IAdministracion/DeleteReprocesos" message="tns:IAdministracion_DeleteReprocesos_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/IAdministracion/DeleteReprocesosResponse" message="tns:IAdministracion_DeleteReprocesos_OutputMessage" />
@@ -3898,10 +3912,6 @@
     <wsdl:operation name="CrearUsuario">
       <wsdl:input wsaw:Action="http://tempuri.org/IAdministracion/CrearUsuario" message="tns:IAdministracion_CrearUsuario_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/IAdministracion/CrearUsuarioResponse" message="tns:IAdministracion_CrearUsuario_OutputMessage" />
-    </wsdl:operation>
-    <wsdl:operation name="InsertarSegmentodeUsuario">
-      <wsdl:input wsaw:Action="http://tempuri.org/IAdministracion/InsertarSegmentodeUsuario" message="tns:IAdministracion_InsertarSegmentodeUsuario_InputMessage" />
-      <wsdl:output wsaw:Action="http://tempuri.org/IAdministracion/InsertarSegmentodeUsuarioResponse" message="tns:IAdministracion_InsertarSegmentodeUsuario_OutputMessage" />
     </wsdl:operation>
     <wsdl:operation name="InsertarDetallePresupuesto">
       <wsdl:input wsaw:Action="http://tempuri.org/IAdministracion/InsertarDetallePresupuesto" message="tns:IAdministracion_InsertarDetallePresupuesto_InputMessage" />
@@ -5954,6 +5964,15 @@
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_IAdministracion" type="tns:IAdministracion">
     <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="InsertarSegmentodeUsuario">
+      <soap:operation soapAction="http://tempuri.org/IAdministracion/InsertarSegmentodeUsuario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="EliminarSegmentodeUsuario">
       <soap:operation soapAction="http://tempuri.org/IAdministracion/EliminarSegmentodeUsuario" style="document" />
       <wsdl:input>
@@ -6458,6 +6477,15 @@
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="CerrarMesAbierto">
+      <soap:operation soapAction="http://tempuri.org/IAdministracion/CerrarMesAbierto" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="DeleteReprocesos">
       <soap:operation soapAction="http://tempuri.org/IAdministracion/DeleteReprocesos" style="document" />
       <wsdl:input>
@@ -6676,15 +6704,6 @@
     </wsdl:operation>
     <wsdl:operation name="CrearUsuario">
       <soap:operation soapAction="http://tempuri.org/IAdministracion/CrearUsuario" style="document" />
-      <wsdl:input>
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output>
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="InsertarSegmentodeUsuario">
-      <soap:operation soapAction="http://tempuri.org/IAdministracion/InsertarSegmentodeUsuario" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>

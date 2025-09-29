@@ -52,6 +52,14 @@ namespace ColpatriaSAI.UI.MVC.AdministracionSvc {
     [System.ServiceModel.ServiceContractAttribute(ConfigurationName="AdministracionSvc.IAdministracion")]
     public interface IAdministracion {
         
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAdministracion/InsertarSegmentodeUsuario", ReplyAction="http://tempuri.org/IAdministracion/InsertarSegmentodeUsuarioResponse")]
+        int InsertarSegmentodeUsuario(ColpatriaSAI.Negocio.Entidades.UsuarioxSegmento usuarioxsegmento, string Username);
+        
+        [System.ServiceModel.OperationContractAttribute(AsyncPattern=true, Action="http://tempuri.org/IAdministracion/InsertarSegmentodeUsuario", ReplyAction="http://tempuri.org/IAdministracion/InsertarSegmentodeUsuarioResponse")]
+        System.IAsyncResult BeginInsertarSegmentodeUsuario(ColpatriaSAI.Negocio.Entidades.UsuarioxSegmento usuarioxsegmento, string Username, System.AsyncCallback callback, object asyncState);
+        
+        int EndInsertarSegmentodeUsuario(System.IAsyncResult result);
+        
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAdministracion/EliminarSegmentodeUsuario", ReplyAction="http://tempuri.org/IAdministracion/EliminarSegmentodeUsuarioResponse")]
         int EliminarSegmentodeUsuario(ColpatriaSAI.Negocio.Entidades.UsuarioxSegmento usuarioxsegmento, string Username);
         
@@ -504,6 +512,14 @@ namespace ColpatriaSAI.UI.MVC.AdministracionSvc {
         
         int EndSPPeriodoCierre(System.IAsyncResult result);
         
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAdministracion/CerrarMesAbierto", ReplyAction="http://tempuri.org/IAdministracion/CerrarMesAbiertoResponse")]
+        int CerrarMesAbierto(int companiaId, int mesCierre, int anioCierre);
+        
+        [System.ServiceModel.OperationContractAttribute(AsyncPattern=true, Action="http://tempuri.org/IAdministracion/CerrarMesAbierto", ReplyAction="http://tempuri.org/IAdministracion/CerrarMesAbiertoResponse")]
+        System.IAsyncResult BeginCerrarMesAbierto(int companiaId, int mesCierre, int anioCierre, System.AsyncCallback callback, object asyncState);
+        
+        int EndCerrarMesAbierto(System.IAsyncResult result);
+        
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAdministracion/DeleteReprocesos", ReplyAction="http://tempuri.org/IAdministracion/DeleteReprocesosResponse")]
         int DeleteReprocesos(int mesCierre, int añoCierre);
         
@@ -705,14 +721,6 @@ namespace ColpatriaSAI.UI.MVC.AdministracionSvc {
         System.IAsyncResult BeginCrearUsuario(string nombreUsuario, string tipoDocumento, string numeroDocumento, string email, string rol, int segmento, string Username, System.AsyncCallback callback, object asyncState);
         
         int EndCrearUsuario(System.IAsyncResult result);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAdministracion/InsertarSegmentodeUsuario", ReplyAction="http://tempuri.org/IAdministracion/InsertarSegmentodeUsuarioResponse")]
-        int InsertarSegmentodeUsuario(ColpatriaSAI.Negocio.Entidades.UsuarioxSegmento usuarioxsegmento, string Username);
-        
-        [System.ServiceModel.OperationContractAttribute(AsyncPattern=true, Action="http://tempuri.org/IAdministracion/InsertarSegmentodeUsuario", ReplyAction="http://tempuri.org/IAdministracion/InsertarSegmentodeUsuarioResponse")]
-        System.IAsyncResult BeginInsertarSegmentodeUsuario(ColpatriaSAI.Negocio.Entidades.UsuarioxSegmento usuarioxsegmento, string Username, System.AsyncCallback callback, object asyncState);
-        
-        int EndInsertarSegmentodeUsuario(System.IAsyncResult result);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IAdministracion/InsertarDetallePresupuesto", ReplyAction="http://tempuri.org/IAdministracion/InsertarDetallePresupuestoResponse")]
         int InsertarDetallePresupuesto(System.Collections.Generic.List<ColpatriaSAI.Negocio.Entidades.PresupuestoDetalles> detalle, int idPresupuesto, int anio, string hojaActual, int esUltimaHoja, int fila, string Username);
@@ -5239,6 +5247,25 @@ namespace ColpatriaSAI.UI.MVC.AdministracionSvc {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    public partial class InsertarSegmentodeUsuarioCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
+        
+        private object[] results;
+        
+        public InsertarSegmentodeUsuarioCompletedEventArgs(object[] results, System.Exception exception, bool cancelled, object userState) : 
+                base(exception, cancelled, userState) {
+            this.results = results;
+        }
+        
+        public int Result {
+            get {
+                base.RaiseExceptionIfNecessary();
+                return ((int)(this.results[0]));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
     public partial class EliminarSegmentodeUsuarioCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
         
         private object[] results;
@@ -6284,6 +6311,25 @@ namespace ColpatriaSAI.UI.MVC.AdministracionSvc {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    public partial class CerrarMesAbiertoCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
+        
+        private object[] results;
+        
+        public CerrarMesAbiertoCompletedEventArgs(object[] results, System.Exception exception, bool cancelled, object userState) : 
+                base(exception, cancelled, userState) {
+            this.results = results;
+        }
+        
+        public int Result {
+            get {
+                base.RaiseExceptionIfNecessary();
+                return ((int)(this.results[0]));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
     public partial class DeleteReprocesosCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
         
         private object[] results;
@@ -6745,25 +6791,6 @@ namespace ColpatriaSAI.UI.MVC.AdministracionSvc {
         private object[] results;
         
         public CrearUsuarioCompletedEventArgs(object[] results, System.Exception exception, bool cancelled, object userState) : 
-                base(exception, cancelled, userState) {
-            this.results = results;
-        }
-        
-        public int Result {
-            get {
-                base.RaiseExceptionIfNecessary();
-                return ((int)(this.results[0]));
-            }
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class InsertarSegmentodeUsuarioCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
-        
-        private object[] results;
-        
-        public InsertarSegmentodeUsuarioCompletedEventArgs(object[] results, System.Exception exception, bool cancelled, object userState) : 
                 base(exception, cancelled, userState) {
             this.results = results;
         }
@@ -16446,6 +16473,12 @@ namespace ColpatriaSAI.UI.MVC.AdministracionSvc {
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
     public partial class AdministracionClient : System.ServiceModel.ClientBase<ColpatriaSAI.UI.MVC.AdministracionSvc.IAdministracion>, ColpatriaSAI.UI.MVC.AdministracionSvc.IAdministracion {
         
+        private BeginOperationDelegate onBeginInsertarSegmentodeUsuarioDelegate;
+        
+        private EndOperationDelegate onEndInsertarSegmentodeUsuarioDelegate;
+        
+        private System.Threading.SendOrPostCallback onInsertarSegmentodeUsuarioCompletedDelegate;
+        
         private BeginOperationDelegate onBeginEliminarSegmentodeUsuarioDelegate;
         
         private EndOperationDelegate onEndEliminarSegmentodeUsuarioDelegate;
@@ -16782,6 +16815,12 @@ namespace ColpatriaSAI.UI.MVC.AdministracionSvc {
         
         private System.Threading.SendOrPostCallback onSPPeriodoCierreCompletedDelegate;
         
+        private BeginOperationDelegate onBeginCerrarMesAbiertoDelegate;
+        
+        private EndOperationDelegate onEndCerrarMesAbiertoDelegate;
+        
+        private System.Threading.SendOrPostCallback onCerrarMesAbiertoCompletedDelegate;
+        
         private BeginOperationDelegate onBeginDeleteReprocesosDelegate;
         
         private EndOperationDelegate onEndDeleteReprocesosDelegate;
@@ -16931,12 +16970,6 @@ namespace ColpatriaSAI.UI.MVC.AdministracionSvc {
         private EndOperationDelegate onEndCrearUsuarioDelegate;
         
         private System.Threading.SendOrPostCallback onCrearUsuarioCompletedDelegate;
-        
-        private BeginOperationDelegate onBeginInsertarSegmentodeUsuarioDelegate;
-        
-        private EndOperationDelegate onEndInsertarSegmentodeUsuarioDelegate;
-        
-        private System.Threading.SendOrPostCallback onInsertarSegmentodeUsuarioCompletedDelegate;
         
         private BeginOperationDelegate onBeginInsertarDetallePresupuestoDelegate;
         
@@ -20029,6 +20062,8 @@ namespace ColpatriaSAI.UI.MVC.AdministracionSvc {
                 base(binding, remoteAddress) {
         }
         
+        public event System.EventHandler<InsertarSegmentodeUsuarioCompletedEventArgs> InsertarSegmentodeUsuarioCompleted;
+        
         public event System.EventHandler<EliminarSegmentodeUsuarioCompletedEventArgs> EliminarSegmentodeUsuarioCompleted;
         
         public event System.EventHandler<TraerUltimaEjecucionCompletedEventArgs> TraerUltimaEjecucionCompleted;
@@ -20141,6 +20176,8 @@ namespace ColpatriaSAI.UI.MVC.AdministracionSvc {
         
         public event System.EventHandler<SPPeriodoCierreCompletedEventArgs> SPPeriodoCierreCompleted;
         
+        public event System.EventHandler<CerrarMesAbiertoCompletedEventArgs> CerrarMesAbiertoCompleted;
+        
         public event System.EventHandler<DeleteReprocesosCompletedEventArgs> DeleteReprocesosCompleted;
         
         public event System.EventHandler<ListarPagosConcursoCompletedEventArgs> ListarPagosConcursoCompleted;
@@ -20190,8 +20227,6 @@ namespace ColpatriaSAI.UI.MVC.AdministracionSvc {
         public event System.EventHandler<EliminarExcepcionGeneralesCompletedEventArgs> EliminarExcepcionGeneralesCompleted;
         
         public event System.EventHandler<CrearUsuarioCompletedEventArgs> CrearUsuarioCompleted;
-        
-        public event System.EventHandler<InsertarSegmentodeUsuarioCompletedEventArgs> InsertarSegmentodeUsuarioCompleted;
         
         public event System.EventHandler<InsertarDetallePresupuestoCompletedEventArgs> InsertarDetallePresupuestoCompleted;
         
@@ -21216,6 +21251,58 @@ namespace ColpatriaSAI.UI.MVC.AdministracionSvc {
         public event System.EventHandler<ListarTablasCompletedEventArgs> ListarTablasCompleted;
         
         public event System.EventHandler<ListarTipovariablesCompletedEventArgs> ListarTipovariablesCompleted;
+        
+        public int InsertarSegmentodeUsuario(ColpatriaSAI.Negocio.Entidades.UsuarioxSegmento usuarioxsegmento, string Username) {
+            return base.Channel.InsertarSegmentodeUsuario(usuarioxsegmento, Username);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        public System.IAsyncResult BeginInsertarSegmentodeUsuario(ColpatriaSAI.Negocio.Entidades.UsuarioxSegmento usuarioxsegmento, string Username, System.AsyncCallback callback, object asyncState) {
+            return base.Channel.BeginInsertarSegmentodeUsuario(usuarioxsegmento, Username, callback, asyncState);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        public int EndInsertarSegmentodeUsuario(System.IAsyncResult result) {
+            return base.Channel.EndInsertarSegmentodeUsuario(result);
+        }
+        
+        private System.IAsyncResult OnBeginInsertarSegmentodeUsuario(object[] inValues, System.AsyncCallback callback, object asyncState) {
+            ColpatriaSAI.Negocio.Entidades.UsuarioxSegmento usuarioxsegmento = ((ColpatriaSAI.Negocio.Entidades.UsuarioxSegmento)(inValues[0]));
+            string Username = ((string)(inValues[1]));
+            return this.BeginInsertarSegmentodeUsuario(usuarioxsegmento, Username, callback, asyncState);
+        }
+        
+        private object[] OnEndInsertarSegmentodeUsuario(System.IAsyncResult result) {
+            int retVal = this.EndInsertarSegmentodeUsuario(result);
+            return new object[] {
+                    retVal};
+        }
+        
+        private void OnInsertarSegmentodeUsuarioCompleted(object state) {
+            if ((this.InsertarSegmentodeUsuarioCompleted != null)) {
+                InvokeAsyncCompletedEventArgs e = ((InvokeAsyncCompletedEventArgs)(state));
+                this.InsertarSegmentodeUsuarioCompleted(this, new InsertarSegmentodeUsuarioCompletedEventArgs(e.Results, e.Error, e.Cancelled, e.UserState));
+            }
+        }
+        
+        public void InsertarSegmentodeUsuarioAsync(ColpatriaSAI.Negocio.Entidades.UsuarioxSegmento usuarioxsegmento, string Username) {
+            this.InsertarSegmentodeUsuarioAsync(usuarioxsegmento, Username, null);
+        }
+        
+        public void InsertarSegmentodeUsuarioAsync(ColpatriaSAI.Negocio.Entidades.UsuarioxSegmento usuarioxsegmento, string Username, object userState) {
+            if ((this.onBeginInsertarSegmentodeUsuarioDelegate == null)) {
+                this.onBeginInsertarSegmentodeUsuarioDelegate = new BeginOperationDelegate(this.OnBeginInsertarSegmentodeUsuario);
+            }
+            if ((this.onEndInsertarSegmentodeUsuarioDelegate == null)) {
+                this.onEndInsertarSegmentodeUsuarioDelegate = new EndOperationDelegate(this.OnEndInsertarSegmentodeUsuario);
+            }
+            if ((this.onInsertarSegmentodeUsuarioCompletedDelegate == null)) {
+                this.onInsertarSegmentodeUsuarioCompletedDelegate = new System.Threading.SendOrPostCallback(this.OnInsertarSegmentodeUsuarioCompleted);
+            }
+            base.InvokeAsync(this.onBeginInsertarSegmentodeUsuarioDelegate, new object[] {
+                        usuarioxsegmento,
+                        Username}, this.onEndInsertarSegmentodeUsuarioDelegate, this.onInsertarSegmentodeUsuarioCompletedDelegate, userState);
+        }
         
         public int EliminarSegmentodeUsuario(ColpatriaSAI.Negocio.Entidades.UsuarioxSegmento usuarioxsegmento, string Username) {
             return base.Channel.EliminarSegmentodeUsuario(usuarioxsegmento, Username);
@@ -24044,6 +24131,60 @@ namespace ColpatriaSAI.UI.MVC.AdministracionSvc {
                         anioCierre}, this.onEndSPPeriodoCierreDelegate, this.onSPPeriodoCierreCompletedDelegate, userState);
         }
         
+        public int CerrarMesAbierto(int companiaId, int mesCierre, int anioCierre) {
+            return base.Channel.CerrarMesAbierto(companiaId, mesCierre, anioCierre);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        public System.IAsyncResult BeginCerrarMesAbierto(int companiaId, int mesCierre, int anioCierre, System.AsyncCallback callback, object asyncState) {
+            return base.Channel.BeginCerrarMesAbierto(companiaId, mesCierre, anioCierre, callback, asyncState);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        public int EndCerrarMesAbierto(System.IAsyncResult result) {
+            return base.Channel.EndCerrarMesAbierto(result);
+        }
+        
+        private System.IAsyncResult OnBeginCerrarMesAbierto(object[] inValues, System.AsyncCallback callback, object asyncState) {
+            int companiaId = ((int)(inValues[0]));
+            int mesCierre = ((int)(inValues[1]));
+            int anioCierre = ((int)(inValues[2]));
+            return this.BeginCerrarMesAbierto(companiaId, mesCierre, anioCierre, callback, asyncState);
+        }
+        
+        private object[] OnEndCerrarMesAbierto(System.IAsyncResult result) {
+            int retVal = this.EndCerrarMesAbierto(result);
+            return new object[] {
+                    retVal};
+        }
+        
+        private void OnCerrarMesAbiertoCompleted(object state) {
+            if ((this.CerrarMesAbiertoCompleted != null)) {
+                InvokeAsyncCompletedEventArgs e = ((InvokeAsyncCompletedEventArgs)(state));
+                this.CerrarMesAbiertoCompleted(this, new CerrarMesAbiertoCompletedEventArgs(e.Results, e.Error, e.Cancelled, e.UserState));
+            }
+        }
+        
+        public void CerrarMesAbiertoAsync(int companiaId, int mesCierre, int anioCierre) {
+            this.CerrarMesAbiertoAsync(companiaId, mesCierre, anioCierre, null);
+        }
+        
+        public void CerrarMesAbiertoAsync(int companiaId, int mesCierre, int anioCierre, object userState) {
+            if ((this.onBeginCerrarMesAbiertoDelegate == null)) {
+                this.onBeginCerrarMesAbiertoDelegate = new BeginOperationDelegate(this.OnBeginCerrarMesAbierto);
+            }
+            if ((this.onEndCerrarMesAbiertoDelegate == null)) {
+                this.onEndCerrarMesAbiertoDelegate = new EndOperationDelegate(this.OnEndCerrarMesAbierto);
+            }
+            if ((this.onCerrarMesAbiertoCompletedDelegate == null)) {
+                this.onCerrarMesAbiertoCompletedDelegate = new System.Threading.SendOrPostCallback(this.OnCerrarMesAbiertoCompleted);
+            }
+            base.InvokeAsync(this.onBeginCerrarMesAbiertoDelegate, new object[] {
+                        companiaId,
+                        mesCierre,
+                        anioCierre}, this.onEndCerrarMesAbiertoDelegate, this.onCerrarMesAbiertoCompletedDelegate, userState);
+        }
+        
         public int DeleteReprocesos(int mesCierre, int añoCierre) {
             return base.Channel.DeleteReprocesos(mesCierre, añoCierre);
         }
@@ -25336,58 +25477,6 @@ namespace ColpatriaSAI.UI.MVC.AdministracionSvc {
                         rol,
                         segmento,
                         Username}, this.onEndCrearUsuarioDelegate, this.onCrearUsuarioCompletedDelegate, userState);
-        }
-        
-        public int InsertarSegmentodeUsuario(ColpatriaSAI.Negocio.Entidades.UsuarioxSegmento usuarioxsegmento, string Username) {
-            return base.Channel.InsertarSegmentodeUsuario(usuarioxsegmento, Username);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        public System.IAsyncResult BeginInsertarSegmentodeUsuario(ColpatriaSAI.Negocio.Entidades.UsuarioxSegmento usuarioxsegmento, string Username, System.AsyncCallback callback, object asyncState) {
-            return base.Channel.BeginInsertarSegmentodeUsuario(usuarioxsegmento, Username, callback, asyncState);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        public int EndInsertarSegmentodeUsuario(System.IAsyncResult result) {
-            return base.Channel.EndInsertarSegmentodeUsuario(result);
-        }
-        
-        private System.IAsyncResult OnBeginInsertarSegmentodeUsuario(object[] inValues, System.AsyncCallback callback, object asyncState) {
-            ColpatriaSAI.Negocio.Entidades.UsuarioxSegmento usuarioxsegmento = ((ColpatriaSAI.Negocio.Entidades.UsuarioxSegmento)(inValues[0]));
-            string Username = ((string)(inValues[1]));
-            return this.BeginInsertarSegmentodeUsuario(usuarioxsegmento, Username, callback, asyncState);
-        }
-        
-        private object[] OnEndInsertarSegmentodeUsuario(System.IAsyncResult result) {
-            int retVal = this.EndInsertarSegmentodeUsuario(result);
-            return new object[] {
-                    retVal};
-        }
-        
-        private void OnInsertarSegmentodeUsuarioCompleted(object state) {
-            if ((this.InsertarSegmentodeUsuarioCompleted != null)) {
-                InvokeAsyncCompletedEventArgs e = ((InvokeAsyncCompletedEventArgs)(state));
-                this.InsertarSegmentodeUsuarioCompleted(this, new InsertarSegmentodeUsuarioCompletedEventArgs(e.Results, e.Error, e.Cancelled, e.UserState));
-            }
-        }
-        
-        public void InsertarSegmentodeUsuarioAsync(ColpatriaSAI.Negocio.Entidades.UsuarioxSegmento usuarioxsegmento, string Username) {
-            this.InsertarSegmentodeUsuarioAsync(usuarioxsegmento, Username, null);
-        }
-        
-        public void InsertarSegmentodeUsuarioAsync(ColpatriaSAI.Negocio.Entidades.UsuarioxSegmento usuarioxsegmento, string Username, object userState) {
-            if ((this.onBeginInsertarSegmentodeUsuarioDelegate == null)) {
-                this.onBeginInsertarSegmentodeUsuarioDelegate = new BeginOperationDelegate(this.OnBeginInsertarSegmentodeUsuario);
-            }
-            if ((this.onEndInsertarSegmentodeUsuarioDelegate == null)) {
-                this.onEndInsertarSegmentodeUsuarioDelegate = new EndOperationDelegate(this.OnEndInsertarSegmentodeUsuario);
-            }
-            if ((this.onInsertarSegmentodeUsuarioCompletedDelegate == null)) {
-                this.onInsertarSegmentodeUsuarioCompletedDelegate = new System.Threading.SendOrPostCallback(this.OnInsertarSegmentodeUsuarioCompleted);
-            }
-            base.InvokeAsync(this.onBeginInsertarSegmentodeUsuarioDelegate, new object[] {
-                        usuarioxsegmento,
-                        Username}, this.onEndInsertarSegmentodeUsuarioDelegate, this.onInsertarSegmentodeUsuarioCompletedDelegate, userState);
         }
         
         public int InsertarDetallePresupuesto(System.Collections.Generic.List<ColpatriaSAI.Negocio.Entidades.PresupuestoDetalles> detalle, int idPresupuesto, int anio, string hojaActual, int esUltimaHoja, int fila, string Username) {

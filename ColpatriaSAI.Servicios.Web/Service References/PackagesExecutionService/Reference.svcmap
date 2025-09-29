@@ -18,15 +18,15 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://pru-etlrptui01:3077/PackagesExecutionService.svc" Protocol="http" SourceId="1" />
+    <MetadataSource Address="http://localhost:65522/PackagesExecutionService.svc" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="PackagesExecutionService.xsd" MetadataType="Schema" ID="81871776-f37a-411e-a0df-e3218df17318" SourceId="1" SourceUrl="http://pru-etlrptui01:3077/PackagesExecutionService.svc?xsd=xsd3" />
-    <MetadataFile FileName="PackagesExecutionService1.xsd" MetadataType="Schema" ID="df482e43-63db-4eee-b67b-4ad9491b79f5" SourceId="1" SourceUrl="http://pru-etlrptui01:3077/PackagesExecutionService.svc?xsd=xsd2" />
-    <MetadataFile FileName="PackagesExecutionService2.xsd" MetadataType="Schema" ID="b6e1c7fc-1e33-482c-a464-6d3c9d8a17b4" SourceId="1" SourceUrl="http://pru-etlrptui01:3077/PackagesExecutionService.svc?xsd=xsd0" />
-    <MetadataFile FileName="PackagesExecutionService.wsdl" MetadataType="Wsdl" ID="39f178d0-c137-4837-b48e-2626f071ee49" SourceId="1" SourceUrl="http://pru-etlrptui01:3077/PackagesExecutionService.svc?wsdl" />
-    <MetadataFile FileName="PackagesExecutionService.disco" MetadataType="Disco" ID="00361192-2a08-4a1a-932f-c5893d5c0267" SourceId="1" SourceUrl="http://pru-etlrptui01:3077/PackagesExecutionService.svc?disco" />
-    <MetadataFile FileName="PackagesExecutionService3.xsd" MetadataType="Schema" ID="2acc9e1f-3bba-482a-b002-545ba32abfd5" SourceId="1" SourceUrl="http://pru-etlrptui01:3077/PackagesExecutionService.svc?xsd=xsd1" />
+    <MetadataFile FileName="PackagesExecutionService1.wsdl" MetadataType="Wsdl" ID="8373cabf-6953-45c6-b129-e7ae4873018c" SourceId="1" SourceUrl="http://localhost:65522/PackagesExecutionService.svc?wsdl" />
+    <MetadataFile FileName="PackagesExecutionService4.xsd" MetadataType="Schema" ID="2b06f2c7-b86c-4412-a9b0-2551b6d8e2c0" SourceId="1" SourceUrl="http://localhost:65522/PackagesExecutionService.svc?xsd=xsd2" />
+    <MetadataFile FileName="PackagesExecutionService41.xsd" MetadataType="Schema" ID="af070242-7b0d-4197-9b9d-24d3efa599b3" SourceId="1" SourceUrl="http://localhost:65522/PackagesExecutionService.svc?xsd=xsd0" />
+    <MetadataFile FileName="PackagesExecutionService1.disco" MetadataType="Disco" ID="0095c3d8-6c93-4903-a1a0-dc721186b3e9" SourceId="1" SourceUrl="http://localhost:65522/PackagesExecutionService.svc?disco" />
+    <MetadataFile FileName="PackagesExecutionService42.xsd" MetadataType="Schema" ID="738121e3-e5b3-4f5f-9bb9-2d0abd0ea228" SourceId="1" SourceUrl="http://localhost:65522/PackagesExecutionService.svc?xsd=xsd3" />
+    <MetadataFile FileName="PackagesExecutionService43.xsd" MetadataType="Schema" ID="282e457e-d5f2-46c5-a5d4-4bbe33a65ec8" SourceId="1" SourceUrl="http://localhost:65522/PackagesExecutionService.svc?xsd=xsd1" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

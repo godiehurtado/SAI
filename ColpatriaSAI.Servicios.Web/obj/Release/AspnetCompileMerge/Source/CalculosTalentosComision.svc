@@ -1,1 +1,0 @@
-﻿<%@ ServiceHost Language="C#" Debug="true" Service="ColpatriaSAI.Servicios.Web.CalculosTalentosComision" CodeBehind="CalculosTalentosComision.svc.cs" %>

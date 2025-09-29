@@ -1,5 +1,44 @@
-﻿################################################################################
-# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
-################################################################################
+# --- Visual Studio ---
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
 
-/ColpatriaSAI.ServidorDB/ColpatriaSAI.ServidorDB.dbmdl
+# --- Compilados / artefactos ---
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+app.publish/
+**/Properties/PublishProfiles/*
+
+# --- Test ---
+[Tt]est[Rr]esults/
+*.trx
+*.coverage*
+*.coveragexml
+
+# --- NuGet ---
+packages/
+*.nupkg
+# Si usas packages.config y quieres conservar repositories.config, descomenta:
+# !packages/repositories.config
+
+# --- Resharper / Rider / JetBrains ---
+_ReSharper*/
+*.DotSettings.user
+.idea/
+
+# --- Otros temporales ---
+*.db
+*.dbmdl
+*.pdb
+*.cache
+*.tmp
+*.svclog
+*.scc
+*.rdl.data
+
+# --- OS ---
+.DS_Store
+Thumbs.db

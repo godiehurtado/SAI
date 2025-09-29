@@ -615,7 +615,7 @@ namespace ColpatriaSAI.Negocio.Componentes.Comision.Calculos
 
                     using (PackagesExecutionServiceClient client = new PackagesExecutionServiceClient())
                     {
-                        client.BeginExecuteFromPackageFile(idApp, eTLRemota.packageFileName, eTLRemota.packageConfigFileName, variablesCF.ToArray(), GetDataCallback_ExtraccionesCF,client);
+                        client.BeginExecuteFromCatalog(idApp, eTLRemota.packageFileName, eTLRemota.projectName, variablesCF.ToArray(), GetDataCallback_ExtraccionesCF, client);
                     }
 
                     #endregion
@@ -681,6 +681,10 @@ namespace ColpatriaSAI.Negocio.Componentes.Comision.Calculos
                 res.RegistrosAfectados = 0;
                 res.MensajeError = "Error: " + ex.Message;
                 res.Resultado = ResultadoOperacion.Error;
+                if (idProcesoCF > 0)
+                    Proceso.eliminarProceso(idProcesoCF);
+                if (idProcesoCV > 0)
+                    Proceso.eliminarProceso(idProcesoCV);
             }
             
             return res;
@@ -692,7 +696,7 @@ namespace ColpatriaSAI.Negocio.Componentes.Comision.Calculos
             {
                 PackagesExecutionServiceClient client = (PackagesExecutionServiceClient)asyncResult.AsyncState;
 
-                DTSResponse result = client.EndExecuteFromPackageFile(asyncResult);
+                DTSResponse result = client.EndExecuteFromCatalog(asyncResult);
 
                 LoggingUtil logging = new LoggingUtil();
 
@@ -706,9 +710,10 @@ namespace ColpatriaSAI.Negocio.Componentes.Comision.Calculos
                     logging.Auditoria(String.Format("La ETL {0}, se ejecutó satisfactoriamente", eTLRemota.packageFileName), LoggingUtil.Prioridad.Baja, "ETLRemotasSAI", _info);
                 Proceso.eliminarProceso(idProcesoCF);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-
+                if (idProcesoCF > 0)
+                    Proceso.eliminarProceso(idProcesoCF);
 
             }
 
@@ -736,7 +741,8 @@ namespace ColpatriaSAI.Negocio.Componentes.Comision.Calculos
             }
             catch (Exception)
             {
-
+                if (idProcesoCV > 0)
+                    Proceso.eliminarProceso(idProcesoCV);
 
             }
 
