@@ -879,7 +879,6 @@
     <Content Include="Content\toolkit\js\ie\css3-mediaqueries.js" />
     <Content Include="Content\toolkit\js\ie\html5shiv.min.js" />
     <Content Include="Content\toolkit\js\ie\ie7.js" />
-    <Content Include="Content\toolkit\js\jquery\jquery-1.11.3.js" />
     <Content Include="Content\toolkit\js\jquery\jquery-ui.js" />
     <Content Include="Content\toolkit\js\modernizr.js" />
     <Content Include="Content\toolkit\js\site\autos.js" />
@@ -1098,8 +1097,6 @@
     <Content Include="Rutas.config">
       <SubType>Designer</SubType>
     </Content>
-    <None Include="Scripts\jquery-1.11.2.min.map" />
-    <None Include="Scripts\jquery-2.1.3.min.map" />
     <None Include="Service References\AdministracionSvc\Administracion.wsdl" />
     <None Include="Service References\AdministracionSvc\Administracion.xsd">
       <SubType>Designer</SubType>
@@ -1155,13 +1152,11 @@
     <Content Include="Scripts\DataTables-1.8.1\extras\Edit\jquery.dataTables.editable.js" />
     <Content Include="Scripts\DataTables-1.8.1\extras\Edit\jquery.jeditable.js" />
     <Content Include="Scripts\DataTables-1.8.1\extras\FixedColumns\docs\media\js\doc.js" />
-    <Content Include="Scripts\DataTables-1.8.1\extras\FixedColumns\docs\media\js\jquery.js" />
     <Content Include="Scripts\DataTables-1.8.1\extras\FixedColumns\docs\media\js\shBrushJScript.js" />
     <Content Include="Scripts\DataTables-1.8.1\extras\FixedColumns\docs\media\js\shCore.js" />
     <Content Include="Scripts\DataTables-1.8.1\extras\FixedColumns\media\js\FixedColumns.js" />
     <Content Include="Scripts\DataTables-1.8.1\extras\FixedColumns\media\js\FixedColumns.min.js" />
     <Content Include="Scripts\DataTables-1.8.1\extras\Scroller\media\docs\media\js\doc.js" />
-    <Content Include="Scripts\DataTables-1.8.1\extras\Scroller\media\docs\media\js\jquery.js" />
     <Content Include="Scripts\DataTables-1.8.1\extras\Scroller\media\docs\media\js\shBrushJScript.js" />
     <Content Include="Scripts\DataTables-1.8.1\extras\Scroller\media\docs\media\js\shCore.js" />
     <Content Include="Scripts\DataTables-1.8.1\extras\Scroller\media\js\Scroller.js" />
@@ -1171,7 +1166,6 @@
     <Content Include="Scripts\DataTables-1.8.1\extras\TableTools\media\js\ZeroClipboard.js" />
     <Content Include="Scripts\DataTables-1.8.1\media\js\jquery.dataTables.js" />
     <Content Include="Scripts\DataTables-1.8.1\media\js\jquery.dataTables.min.js" />
-    <Content Include="Scripts\DataTables-1.8.1\media\js\jquery.js" />
     <Content Include="Scripts\drag-drop-folder-tree.js" />
     <Content Include="Scripts\home\img\buttons.gif" />
     <Content Include="Scripts\home\img\column-bg-left.png" />
@@ -1247,19 +1241,6 @@
     <Content Include="Scripts\jqGrid\trirand\jquery.jqGrid.min.js" />
     <Content Include="Scripts\jqGrid\trirand\jquery.jqMultiSelect.min.js" />
     <Content Include="Scripts\jqGrid\trirand\jquery.jqTreeView.min.js" />
-    <Content Include="Scripts\jquery-1.11.2.js" />
-    <Content Include="Scripts\jquery-1.11.2.min.js" />
-    <Content Include="Scripts\jquery-1.3.2.js" />
-    <Content Include="Scripts\jquery-1.4.1.min.js" />
-    <Content Include="Scripts\jquery-1.4.4.min.js" />
-    <Content Include="Scripts\jquery-1.5.1-vsdoc.js" />
-    <Content Include="Scripts\jquery-1.5.1.js" />
-    <Content Include="Scripts\jquery-1.5.1.min.js" />
-    <Content Include="Scripts\jquery-2.1.3-vsdoc.js" />
-    <Content Include="Scripts\jquery-2.1.3.js" />
-    <Content Include="Scripts\jquery-2.1.3.min.js" />
-    <Content Include="Scripts\jquery-3.0.0.js" />
-    <Content Include="Scripts\jquery-3.0.0.min.js" />
     <Content Include="Scripts\jquery-3.7.1.min.js" />
     <Content Include="Scripts\jquery-migrate-3.5.2.min.js" />
     <Content Include="Scripts\jquery-ui-1.8.11.js" />
@@ -1273,8 +1254,6 @@
     <Content Include="Scripts\jquery.dataTables.js" />
     <Content Include="Scripts\jquery.fmatter.js" />
     <Content Include="Scripts\jquery.jqGrid.min.js" />
-    <Content Include="Scripts\jquery.js" />
-    <Content Include="Scripts\jquery-2.2.4.min.js" />
     <Content Include="Scripts\jquery.multiselect.js" />
     <Content Include="Scripts\jquery.toChecklist.min.js" />
     <Content Include="Scripts\jquery.validate.js" />
@@ -1729,8 +1708,6 @@
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
-    <Content Include="Scripts\jquery-1.4.1.js" />
-    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
     <Content Include="Scripts\jquery.validate-vsdoc.js" />
     <Content Include="Scripts\MicrosoftAjax.js" />
     <Content Include="Scripts\MicrosoftAjax.debug.js" />
