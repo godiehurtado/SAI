@@ -245,8 +245,7 @@
             %>
         </ul>
     </div>
-    <script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.2.6.min.js"></script>
-    <script src="/Scripts/home/jquery-ui-personalized-1.6rc2.min.js" type="text/javascript"></script>
+    <%-- jQuery/UI heredados de Site2.Master (3.7.1 + Migrate + UI 1.11.4). CDN 1.2.6 y UI 1.6rc2 eliminados (vuln 002). --%>
     <script src="/Scripts/home/panels.js" type="text/javascript"></script>
 
 </asp:Content>
