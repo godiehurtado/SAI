@@ -232,20 +232,12 @@
                         </tr>
                     </thead>
                     <tbody>
-                      <%  string ruta = Request.Url.ToString().Split('?')[0].ToString(); 
-					 // Corrige error con un Substring que daña opciones de Editar/Eliminar/Duplicar etc..
-                    // Se deben eliminar la palabra Index, causa raiz del error. 
-					// Adicionalmente se debe agregar el https debido a que esta haciendo el request 
-					// de la Url de servidor y no del balanceador CAAM 17.05.2019
-                     if (ruta.EndsWith("x")) { ruta = "https"+ ruta.Substring(4, ruta.Length - 10).Trim(); }
-					 else { ruta = "https"+ ruta.Substring(4, ruta.Length-4).Trim(); }
-					  if (!ruta.EndsWith("/")) { ruta = ruta + "/"; }					 %>
                     <% Random random = new Random(); int num = random.Next(1, 10000);  %>
                     <% if (ViewData["Participantes"] != null) { %>
                         <% foreach (var item in ((IEnumerable<Participante>)ViewData["Participantes"])) { %>
                         <tr>
-                            <td align="center"><a href="javascript:mostrarDialog('<%: ruta %>Editar/<%: item.id %>?r=<%: num %>', 'Editar Participante', 'dialogEditar');" title='Editar Participante'><span class='ui-icon ui-icon-pencil'></span></a></td >
-                            <td align="center"><a href="javascript:mostrarDialog1('<%: ruta %>Eliminar/<%: item.id %>?r=<%: num %>', 'Eliminar Participante', 'dialogEliminar');" title='Eliminar Participante'><span class='ui-icon ui-icon-trash'></span></a></td>
+                            <td align="center"><a href="javascript:mostrarDialog('<%: Url.Action("Editar", "Participante", new { id = item.id, r = num }) %>', 'Editar Participante', 'dialogEditar');" title='Editar Participante'><span class='ui-icon ui-icon-pencil'></span></a></td >
+                            <td align="center"><a href="javascript:mostrarDialog1('<%: Url.Action("Eliminar", "Participante", new { id = item.id, r = num }) %>', 'Eliminar Participante', 'dialogEliminar');" title='Eliminar Participante'><span class='ui-icon ui-icon-trash'></span></a></td>
                             <td align="center"><%: item.TipoDocumento.nombre %></td>
                             <td align="center"><%: item.documento %></td>
                             <td align="center"><%: item.nombre %></td>
