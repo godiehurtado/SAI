@@ -6,6 +6,11 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+    <style type="text/css">
+        /* jQuery UI 1.11 apila dialogo y overlay a partir de .ui-front, que el tema 1.8.2 no define.
+           1001 reproduce el apilamiento de jQuery UI 1.8 (overlay 1001, dialogo 1002). */
+        .ui-front { z-index: 1001; }
+    </style>
     <script type="text/javascript">
         function mostrarDialog(pagina, titulo, dialog) {
             $("#" + dialog).dialog({
