@@ -6,6 +6,13 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+    <style type="text/css">
+        /* jQuery UI 1.11 apila dialogo y overlay a partir de .ui-front, que el tema 1.8.2 no define.
+           1001 reproduce el apilamiento de jQuery UI 1.8 (overlay 1001, dialogo 1002). */
+        .ui-front {
+            z-index: 1001;
+        }
+    </style>
     <link href="/Content/JsTree/themes/default/style.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="/Content/JsTree/jquery.jstree.js"></script>
     <script type="text/javascript" src="/Content/JsTree/_lib/jquery.hotkeys.js"></script>
@@ -256,7 +263,7 @@
                     open: function (event, ui) {
                     },
                     close: function (event, ui) {
-                        $(this).dialog('destroy'); $(this).dialog("close");
+                        $(this).dialog('destroy');
                         $.jstree.rollback(datosNodo.rlbk);
                     }
                 });
@@ -319,7 +326,7 @@
                                     $(datosNodo.rslt.obj).attr("cod", nodo.codJerarquia);
                                     $(datosNodo.rslt.obj).attr("rel", $("#nivel_id option:selected").text().toLowerCase().replace(' de ', ' ').replace(' ', '_'));
                                     $("#" + nodo.id + " > a ").html("<ins class='jstree-icon'>&nbsp;</ins>" + $('#nombre').val());
-                                    mostrarExito(Exito_Insert); $("#dialog").dialog('destroy'); $("#dialog").dialog("close");
+                                    mostrarExito(Exito_Insert); $("#dialog").dialog('destroy');
                                 } else {
                                     mostrarError("Imposible completar el proceso. El código de nivel ya existe o El participante ya este creado para el canal seleccionado.");
                                 }
@@ -330,7 +337,7 @@
                                 if (nodo.id) {
                                     $("#" + nodo.id + " > a ").html("<ins class='jstree-icon'>&nbsp;</ins>" + $('#nombre').val());
                                     $(datosNodo.rslt.obj).attr("rel", $("#nivel_id option:selected").text().toLowerCase().replace(' de ', ' ').replace(' ', '_'));
-                                    mostrarExito(Exito_Edit); $("#dialog").dialog('destroy'); $("#dialog").dialog("close");
+                                    mostrarExito(Exito_Edit); $("#dialog").dialog('destroy');
                                 } else {
                                     mostrarError("Imposible completar el proceso. El código de nivel ya existe o El participante ya este creado para el canal seleccionado.");
                                 }
@@ -400,7 +407,7 @@
                 height: 630, width: 650, modal: true, title: titulo,
                 buttons: { Cerrar: function () { $(this).dialog("close"); } },
                 open: function (event, ui) { $(this).load(pagina); },
-                close: function (event, ui) { $(this).dialog('destroy'); $(this).dialog("close"); }
+                close: function (event, ui) { $(this).dialog('destroy'); }
             });
         }
 
@@ -421,7 +428,11 @@
                 width:600,
                 minHeight:350,
                 title: 'Excepciones',
-                position: 'center',
+                position: {
+                    my: "center",
+                    at: "center",
+                    of: window
+                },
                 close: function (ev, ui) {
                     $("#contentExcepcionHidden").val(0);
                 }                                            
@@ -576,7 +587,11 @@
                 width: 600,
                 minHeight: 350,
                 title: 'Metas',
-                position: 'center',
+                position: {
+                    my: "center",
+                    at: "center",
+                    of: window
+                },
                 modal:true
             });
 
